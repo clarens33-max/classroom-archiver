@@ -214,6 +214,14 @@ def build_data():
                 continue
             url_links = parse_urls_text(read_text(folder / "resources_urls.txt"))
             files = [f for f in scan_files(folder) if f["ext"] not in ("txt",)]
+            if not files:
+                folder_prefix = str(folder.relative_to(OUTPUT_DIR)).replace("\\", "/") + "/"
+                for gdrive_path in _gdrive_map:
+                    if gdrive_path.startswith(folder_prefix):
+                        fname = gdrive_path.split("/")[-1]
+                        ext = Path(fname).suffix.lower().lstrip(".")
+                        if ext not in ("txt",):
+                            files.append({"name": fname, "path": gdrive_path, "ext": ext, "size": ""})
             assignments.append({
                 "number": num,
                 "folder": name,
@@ -256,6 +264,14 @@ def build_data():
             if target is None:
                 # Special / pre-course content
                 files = [f for f in scan_files(folder) if f["ext"] not in ("txt",)]
+                if not files:
+                    folder_prefix = str(folder.relative_to(OUTPUT_DIR)).replace("\\", "/") + "/"
+                    for gdrive_path in _gdrive_map:
+                        if gdrive_path.startswith(folder_prefix):
+                            fname = gdrive_path.split("/")[-1]
+                            ext = Path(fname).suffix.lower().lstrip(".")
+                            if ext not in ("txt",):
+                                files.append({"name": fname, "path": gdrive_path, "ext": ext, "size": ""})
                 if files or url_links:
                     special.append({
                         "folder": name,
@@ -270,6 +286,14 @@ def build_data():
             if "Slides" in name:
                 files = scan_files(folder, skip_dirs={"resources"})
                 pdfs = [f for f in files if f["ext"] == "pdf"]
+                # Fallback: find PDFs for this folder in gdrive_map (Railway has no local files)
+                if not pdfs:
+                    folder_prefix = str(folder.relative_to(OUTPUT_DIR)).replace("\\", "/") + "/"
+                    for gdrive_path in _gdrive_map:
+                        if gdrive_path.startswith(folder_prefix) and gdrive_path.endswith(".pdf"):
+                            fname = gdrive_path.split("/")[-1]
+                            pdfs = [{"name": fname, "path": gdrive_path, "ext": "pdf", "size": ""}]
+                            break
                 if pdfs:
                     pdf_stem = pdfs[0]["name"].replace(".pdf", "")
                     sub = re.sub(r"^(Lesson_\d+\._?|Welcome_Lesson\._?|\d+\._?)", "", pdf_stem)
@@ -278,6 +302,15 @@ def build_data():
 
             elif "Resources" in name or "Resource" in name:
                 files = scan_files(folder)
+                # Fallback: find resource files in gdrive_map
+                if not files:
+                    folder_prefix = str(folder.relative_to(OUTPUT_DIR)).replace("\\", "/") + "/"
+                    for gdrive_path in _gdrive_map:
+                        if gdrive_path.startswith(folder_prefix):
+                            fname = gdrive_path.split("/")[-1]
+                            ext = Path(fname).suffix.lower().lstrip(".")
+                            if ext not in ("txt",):
+                                files.append({"name": fname, "path": gdrive_path, "ext": ext, "size": ""})
                 lessons[target]["resource_files"].extend(
                     f for f in files if f["ext"] not in ("txt",)
                 )
@@ -288,6 +321,14 @@ def build_data():
 
             else:
                 files = scan_files(folder)
+                if not files:
+                    folder_prefix = str(folder.relative_to(OUTPUT_DIR)).replace("\\", "/") + "/"
+                    for gdrive_path in _gdrive_map:
+                        if gdrive_path.startswith(folder_prefix):
+                            fname = gdrive_path.split("/")[-1]
+                            ext = Path(fname).suffix.lower().lstrip(".")
+                            if ext not in ("txt",):
+                                files.append({"name": fname, "path": gdrive_path, "ext": ext, "size": ""})
                 lessons[target]["resource_files"].extend(
                     f for f in files if f["ext"] not in ("txt",)
                 )
