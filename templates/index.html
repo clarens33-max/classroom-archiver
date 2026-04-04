@@ -9,6 +9,26 @@
   </div>
 </div>
 
+<!-- Exercises repo banner -->
+<div class="card mb-4" style="border-left:4px solid #1d4ed8;background:#eff6ff;">
+  <div class="card-body py-3 d-flex align-items-center justify-content-between flex-wrap gap-3">
+    <div>
+      <div style="font-size:0.78rem;font-weight:700;color:#1d4ed8;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.2rem">
+        <i class="bi bi-github me-1"></i>Start here — Course Exercises Repository
+      </div>
+      <div style="font-size:0.85rem;color:#374151">
+        All hands-on exercises for this course live on GitHub. Clone the repo before working through the lessons.
+      </div>
+      <code style="font-size:0.78rem;color:#1e40af;background:#dbeafe;padding:0.2rem 0.5rem;border-radius:4px;display:inline-block;margin-top:0.4rem">
+        git clone {{ exercises_repo }}.git
+      </code>
+    </div>
+    <a href="{{ exercises_repo }}" target="_blank" rel="noopener" class="btn btn-primary btn-sm" style="white-space:nowrap">
+      <i class="bi bi-github me-1"></i>Open on GitHub
+    </a>
+  </div>
+</div>
+
 <!-- Stats row -->
 {% set transcript_count = lessons | selectattr('transcripts') | list | length %}
 {% set slides_count = lessons | selectattr('slides_pdf') | list | length %}

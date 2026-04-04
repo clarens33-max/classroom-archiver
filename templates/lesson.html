@@ -285,6 +285,24 @@
   {% set a = lesson.assignment %}
   <div class="tab-pane fade {% if first_tab == 'assignment' %}show active{% endif %}" id="tab-assignment">
 
+    <!-- Exercises repo callout -->
+    <div class="card mb-4" style="border-left:4px solid #1d4ed8;background:#eff6ff;">
+      <div class="card-body py-3 d-flex align-items-center justify-content-between flex-wrap gap-3">
+        <div>
+          <div style="font-size:0.75rem;font-weight:700;color:#1d4ed8;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.2rem">
+            <i class="bi bi-github me-1"></i>Exercises Repository
+          </div>
+          <div style="font-size:0.82rem;color:#374151">The hands-on exercises for this assignment are in the course GitHub repo.</div>
+          <code style="font-size:0.75rem;color:#1e40af;background:#dbeafe;padding:0.15rem 0.45rem;border-radius:4px;display:inline-block;margin-top:0.3rem">
+            git clone {{ exercises_repo }}.git
+          </code>
+        </div>
+        <a href="{{ exercises_repo }}" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+          <i class="bi bi-github me-1"></i>Open on GitHub
+        </a>
+      </div>
+    </div>
+
     <h6 style="font-size:0.75rem;font-weight:700;color:#374151;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.75rem">
       {{ a.title }}
     </h6>

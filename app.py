@@ -110,6 +110,8 @@ def is_office_hours(name):
 
 EXCLUDED_DOMAINS = {"zoom.us", "vimeo.com", "player.vimeo.com"}
 
+EXERCISES_REPO = "https://github.com/clarens33-max/elvtr-ai-solution-architect"
+
 
 def parse_urls_text(content):
     """Parse resources_urls.txt → list of {title, url}. Zoom and Vimeo links are excluded."""
@@ -364,6 +366,43 @@ def build_data():
                 })
             continue
 
+    # ── Second pass: fill gaps from gdrive_map for folders missing on Railway ──
+    # Parse every gdrive_map key and extract lesson/folder info from the path
+    SLIDE_FOLDER_RE = re.compile(r"M\d+_((?:Lesson_(\d+)|Welcome_Lesson|Class_(\d+)).*_Slides)")
+    RESOURCE_FOLDER_RE = re.compile(r"M\d+_((?:Lesson_(\d+)|Welcome_Lesson|Class_(\d+)).*_Resources?)")
+    course_prefix = course_dir.name + "/"
+
+    for gdrive_path, fid in _gdrive_map.items():
+        if not gdrive_path.startswith(course_prefix):
+            continue
+        rel_to_course = gdrive_path[len(course_prefix):]
+        parts = rel_to_course.split("/")
+        folder_name = parts[0]
+        fname = parts[-1]
+        ext = Path(fname).suffix.lower().lstrip(".")
+        file_entry = {"name": fname, "path": gdrive_path, "ext": ext, "size": ""}
+
+        # Slides folders
+        ms = SLIDE_FOLDER_RE.search(folder_name)
+        if ms:
+            lesson_num = int(ms.group(2) or ms.group(3) or 0)
+            if lessons[lesson_num]["slides_pdf"] is None and ext == "pdf":
+                pdf_stem = fname.replace(".pdf", "")
+                sub = re.sub(r"^(Lesson_\d+\._?|Welcome_Lesson\._?|\d+\._?)", "", pdf_stem)
+                lessons[lesson_num]["number"] = lesson_num
+                lessons[lesson_num]["subtitle"] = nice_name(sub)
+                lessons[lesson_num]["slides_pdf"] = gdrive_path
+            continue
+
+        # Resource folders
+        mr = RESOURCE_FOLDER_RE.search(folder_name)
+        if mr:
+            lesson_num = int(mr.group(2) or mr.group(3) or 0)
+            if ext not in ("txt",) and file_entry not in lessons[lesson_num]["resource_files"]:
+                lessons[lesson_num]["number"] = lesson_num
+                lessons[lesson_num]["resource_files"].append(file_entry)
+            continue
+
     # Sort and label lessons
     sorted_lessons = sorted(
         (v for v in lessons.values() if v["number"] is not None),
@@ -397,6 +436,7 @@ def build_data():
         "lessons": sorted_lessons,
         "office_hours": office_hours_items,
         "special": special,
+        "exercises_repo": EXERCISES_REPO,
     }
 
 
