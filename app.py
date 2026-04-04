@@ -10,6 +10,7 @@ from pathlib import Path
 from collections import defaultdict
 import markupsafe
 import anthropic
+from rank_bm25 import BM25Okapi
 from flask import Flask, render_template, send_file, abort, url_for, request, Response, stream_with_context
 
 app = Flask(__name__)
@@ -464,25 +465,31 @@ def view_transcript(rel):
     return render_template("transcript.html", content=content, filepath=rel, **data)
 
 
-# ── AI Chat ───────────────────────────────────────────────────────────────────
+# ── AI Chat (RAG with BM25) ───────────────────────────────────────────────────
 
-TRANSCRIPT_CHAR_BUDGET = 750_000  # ~188k tokens, leaves headroom in 200k window
+CHUNK_SIZE = 1500       # characters per chunk
+CHUNK_OVERLAP = 200     # overlap between consecutive chunks
+TOP_K = 8               # chunks to retrieve per query
 
-_transcript_context_cache = None
+_rag_index = None       # {"chunks": [...], "labels": [...], "bm25": BM25Okapi}
 
 
-def load_transcript_context():
-    """Load all unique (latest) transcripts into a labelled string, within budget."""
-    global _transcript_context_cache
-    if _transcript_context_cache is not None:
-        return _transcript_context_cache
+def _tokenize(text):
+    return re.findall(r"\w+", text.lower())
+
+
+def build_rag_index():
+    """Chunk all transcripts and build a BM25 index. Called once at startup."""
+    global _rag_index
+    if _rag_index is not None:
+        return _rag_index
 
     course_dir = get_course_dir()
     if not course_dir:
-        _transcript_context_cache = ("", 0)
-        return _transcript_context_cache
+        _rag_index = None
+        return None
 
-    entries = []
+    chunks, labels = [], []
     for folder in sorted(course_dir.iterdir()):
         if not folder.is_dir():
             continue
@@ -493,47 +500,68 @@ def load_transcript_context():
         if not subs:
             continue
         tf = subs[-1] / "transcript.txt"
-        if tf.exists():
-            label = nice_name(re.sub(r"\([Pp]assword[^)]*\)", "", folder.name))
-            text = read_text(tf) or ""
-            entries.append((label, text))
+        if not tf.exists():
+            continue
+        label = nice_name(re.sub(r"\([Pp]assword[^)]*\)", "", folder.name))
+        text = read_text(tf) or ""
+        # Slide through the transcript in overlapping windows
+        start = 0
+        while start < len(text):
+            end = start + CHUNK_SIZE
+            chunks.append(text[start:end])
+            labels.append(label)
+            if end >= len(text):
+                break
+            start = end - CHUNK_OVERLAP
 
-    if not entries:
-        _transcript_context_cache = ("", 0)
-        return _transcript_context_cache
+    if not chunks:
+        _rag_index = None
+        return None
 
-    total_chars = sum(len(t) for _, t in entries)
-    ratio = min(1.0, TRANSCRIPT_CHAR_BUDGET / total_chars)
-
-    parts = []
-    for label, text in entries:
-        budget = int(len(text) * ratio)
-        chunk = text[:budget]
-        if budget < len(text):
-            chunk += "\n[transcript trimmed to fit context window]"
-        parts.append(f"## {label}\n\n{chunk}")
-
-    context = "\n\n---\n\n".join(parts)
-    _transcript_context_cache = (context, len(entries))
-    return _transcript_context_cache
+    tokenized = [_tokenize(c) for c in chunks]
+    _rag_index = {"chunks": chunks, "labels": labels, "bm25": BM25Okapi(tokenized), "count": len(set(labels))}
+    return _rag_index
 
 
-def build_system_prompt():
-    context, count = load_transcript_context()
+def retrieve_chunks(query):
+    """Return the top-K most relevant (label, chunk) pairs for a query string."""
+    idx = build_rag_index()
+    if not idx:
+        return []
+    scores = idx["bm25"].get_scores(_tokenize(query))
+    top_indices = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)[:TOP_K]
+    return [(idx["labels"][i], idx["chunks"][i]) for i in top_indices]
+
+
+def build_system_prompt(query):
+    idx = build_rag_index()
+    count = idx["count"] if idx else 0
+    relevant = retrieve_chunks(query)
+
+    if relevant:
+        context_parts = []
+        for label, chunk in relevant:
+            context_parts.append(f"## {label}\n\n{chunk}")
+        context = "\n\n---\n\n".join(context_parts)
+        context_block = f"RELEVANT TRANSCRIPT EXCERPTS:\n\n{context}"
+    else:
+        context_block = "No transcripts are available."
+
     return (
         f"You are an AI study assistant helping Clara review the archived "
-        f"\"AI Solutions Architecture\" course taught by Toby Fotherby.\n\n"
-        f"You have full transcripts from {count} recorded sessions (lessons and office hours). "
-        f"Answer questions accurately, cite which lesson or session the information comes from, "
-        f"and highlight Toby's key points and examples. "
-        f"If something isn't covered in the transcripts, say so clearly.\n\n"
-        f"COURSE TRANSCRIPTS:\n\n{context}"
+        f"\"AI Solutions Architecture\" course taught by Toby Fotherby. "
+        f"The course has {count} recorded sessions.\n\n"
+        f"Answer questions accurately based on the excerpts below, cite which lesson or session "
+        f"the information comes from, and highlight Toby's key points and examples. "
+        f"If the answer isn't in the excerpts, say so clearly.\n\n"
+        f"{context_block}"
     )
 
 
 @app.route("/chat")
 def chat():
-    _, count = load_transcript_context()
+    idx = build_rag_index()
+    count = idx["count"] if idx else 0
     return render_template("chat.html", transcript_count=count, **get_data())
 
 
@@ -553,7 +581,9 @@ def chat_stream():
             mimetype="text/event-stream",
         )
 
-    system = build_system_prompt()
+    # Use the latest user message as the retrieval query
+    query = next((m["content"] for m in reversed(messages) if m.get("role") == "user"), "")
+    system = build_system_prompt(query)
 
     def generate():
         try:
