@@ -1,0 +1,14 @@
+Objective
+Enhance your understanding of machine learning model development by evaluating and improving the model's performance, adapt the notebook for different datasets, and optionally experiment with additional models to further explore and refine predictive capabilities.
+
+Instructions
+Running the Lab
+Run the lab that was presented during the class that trains a regression model to predict performance of startups
+The Notebook
+Open the notebook and review the questions
+Answer questions around how you might adapt the processing in the notebook 
+How the notebook would be adapted to work for a different data set
+Submission
+Please add your answers to the notebook and submit the link to the notebook as your submission
+Due date: December 17th, 11:59 pm GMT
+Grade: 10 points

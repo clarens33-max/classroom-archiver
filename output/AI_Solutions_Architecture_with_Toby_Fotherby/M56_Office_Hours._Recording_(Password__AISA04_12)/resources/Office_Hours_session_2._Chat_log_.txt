@@ -1,0 +1,6 @@
+00:05:43	Toby Fotherby:	https://www.kaggle.com/learn/feature-engineering
+00:06:15	Frank:	Reacted to "https://www.kaggle.c..." with 👍
+00:12:33	Kaushik:	Reacted to https://www.kaggle.c... with "👍"
+00:21:52	ivanodwyer:	I couldn’t get to the Canvas Console.  My single user Sagemaker Domain set up is showing “ pending “
+00:58:22	Josep Alvarez-Perez:	thanks for today's call. I have to drop to meeting. See you tomorrow.
+01:02:30	Nishant Pithia:	Thank you!

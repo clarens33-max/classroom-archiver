@@ -1,0 +1,8 @@
+External resources
+============================================================
+
+[YouTube] Advanced RAG by Jay Alammar (Cohere) + Parameter-Efficient Fine-Tuning (PEFT)  →  https://youtu.be/sfTYAajGkyk
+AI Agents – Amazon Bedrock Agents – AWS  →  https://aws.amazon.com/bedrock/agents/
+Generative AI Data Governance – Amazon Bedrock Guardrails – AWS  →  https://aws.amazon.com/bedrock/guardrails/
+Customer support agent - Claude API Docs  →  https://docs.anthropic.com/en/docs/about-claude/use-case-guides/customer-support-chat
+Contextual Retrieval in AI Systems \ Anthropic  →  https://www.anthropic.com/news/contextual-retrieval

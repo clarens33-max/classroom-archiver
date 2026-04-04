@@ -1,0 +1,17 @@
+00:01:28	Nick Haddock:	This not happening. Jordon?
+00:01:49	Jordan Smith - elvtr:	Replying to "This not happening. ..."
+
+He is just joining now 🙂
+00:02:26	Nick Haddock:	Reacted to "He is just joining n..." with 👍
+00:03:10	davidpage:	I’m just joining as I’ve not been able to make an office hours before so just curious.
+00:03:26	Jordan Smith - elvtr:	Reacted to "I’m just joining as ..." with 👋🏻
+00:03:37	Jordan Smith - elvtr:	Replying to "I’m just joining as ..."
+
+no worries David! Welcome 🙂
+00:05:23	Vijay Dafal:	Questions are not related to Capstone assignment, but general ones:
+1. How to ensure in-house sensitive data which is on premise does not go outside but LLM is still trained.
+2. Can we continue reaching out for technical support on ELVTR email or Discord
+3. how to keep AWS budget in control...I created Zero budget alarming
+00:11:22	Jordan Smith - elvtr:	1 Year :)
+00:27:16	Jordan Smith - elvtr:	Yeah 2nd March is fine 😎
+00:44:48	Nasser:	Is our cert worth anything in the industry?

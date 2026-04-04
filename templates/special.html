@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% block title %}Special Materials — {{ course_name }}{% endblock %}
+
+{% block content %}
+<div class="mb-4">
+  <h1 class="page-heading">Special Materials</h1>
+  <p class="page-subtitle">Course programme, FAQ, pre-course resources, and other supplementary content</p>
+</div>
+
+{% if not special %}
+<div class="text-center py-5" style="color:#94a3b8">
+  <i class="bi bi-folder2-open" style="font-size:2.5rem"></i>
+  <p class="mt-2">No special materials found.</p>
+</div>
+{% endif %}
+
+<div class="d-flex flex-column gap-3">
+{% for item in special %}
+<div class="card">
+  <div class="card-header">
+    <i class="bi bi-folder2 me-2 text-primary"></i>{{ item.title }}
+  </div>
+  <div class="card-body">
+
+    {% if item.description %}
+    <div class="mb-3" style="font-size:0.85rem;color:#374151;white-space:pre-line;line-height:1.7">{{ item.description }}</div>
+    {% endif %}
+
+    {% if item.files %}
+    <div class="mb-3">
+      {% for f in item.files %}
+      <div class="file-row">
+        {% if f.ext == 'pdf' %}
+          <i class="bi bi-file-earmark-pdf file-icon text-danger"></i>
+        {% elif f.ext in ('pptx', 'ppt') %}
+          <i class="bi bi-file-earmark-slides file-icon text-warning"></i>
+        {% elif f.ext == 'png' %}
+          <i class="bi bi-file-earmark-image file-icon text-info"></i>
+        {% else %}
+          <i class="bi bi-file-earmark file-icon"></i>
+        {% endif %}
+        <span class="file-name">{{ f.name }}</span>
+        <span class="file-size">{{ f.size }}</span>
+        {% if f.ext == 'pdf' %}
+        <a href="{{ url_for('serve_file', rel=f.path) }}" target="_blank" class="btn btn-sm btn-outline-secondary">
+          <i class="bi bi-eye"></i>
+        </a>
+        {% endif %}
+        <a href="{{ url_for('download_file', rel=f.path) }}" class="btn btn-sm btn-outline-primary">
+          <i class="bi bi-download"></i>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if item.links %}
+    <div>
+      {% for link in item.links %}
+      <a href="{{ link.url }}" target="_blank" rel="noopener" class="link-row">
+        <i class="bi bi-box-arrow-up-right"></i> {{ link.title }}
+      </a>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if not item.files and not item.links %}
+    <p style="font-size:0.82rem;color:#94a3b8;margin:0">No files or links available for this section.</p>
+    {% endif %}
+
+  </div>
+</div>
+{% endfor %}
+</div>
+{% endblock %}

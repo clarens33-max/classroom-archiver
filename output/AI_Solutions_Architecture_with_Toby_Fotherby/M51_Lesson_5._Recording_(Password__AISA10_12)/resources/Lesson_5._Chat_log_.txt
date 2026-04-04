@@ -1,0 +1,44 @@
+00:14:35	surjeet_singh:	Google gemini and image interpretation by google search engine not an example of image processing?
+00:34:05	Nick Haddock:	Burt?
+00:34:35	Vinoth Asaithambi:	BERT https://en.wikipedia.org/wiki/BERT_(language_model)
+00:35:36	Luis Aveiro:	Reacted to "BERT https://en.wi..." with 👍
+00:36:00	Nick Haddock:	Reacted to "BERT https://en.wiki..." with 👍
+00:59:02	Ismail Mayat:	There is very good study with NLP and graph database for the how panama papers were analysed to find relationships https://www.youtube.com/watch?v=C9NozZ9LsVM
+00:59:10	Luis Aveiro:	Reacted to "There is very good..." with 👍
+00:59:13	Josep Alvarez-Perez:	Reacted to "There is very good s..." with 👍
+01:00:31	Nick Haddock:	Reacted to "There is very good s..." with 👍
+01:00:56	Samira Khodai:	Reacted to "There is very good s..." with 👍
+01:02:47	Matt Cannon:	Reacted to "There is very good s..." with 👍
+01:03:15	surjeet_singh:	Reacted to "There is very good s..." with 👍
+01:04:34	Samira Khodai:	Replying to "There is very good s..."
+
+Neo4j is basically open source graph database. AWS has graph database called Neptune.
+01:04:48	Ismail Mayat:	Reacted to "Neo4j is basically o..." with 👍
+01:04:53	Nick Haddock:	Reacted to "Neo4j is basically o..." with 👍
+01:05:15	Nasser:	Reacted to "There is very good s..." with 👍
+01:06:16	Ismail Mayat:	Replying to "There is very good s..."
+
+The tooling they used to churn through TB of docs to pull out entities and then using neo4j to build relationships between front companies etc was fascinating
+01:06:23	Vinoth Asaithambi:	Replying to "There is very good s..."
+
+Neo4j has a community edition which is open source but the enterprise version is quite expensive. AWS Neptune is alright even supports RDF/Cypher/tinkerpop stack.
+01:06:54	Samira Khodai:	Reacted to "Neo4j has a communit..." with 👍
+01:07:47	Luis Aveiro:	Replying to "There is very good..."
+
+I have a GitHub repo that allows you to run Neo4j in Docker container.
+
+https://github.com/luisaveiro/localhost-databases/tree/main/databases/neo4j
+
+There are simple instructions provided to get you started.
+01:08:07	Chima:	Reacted to "Neo4j is basically..." with 👍
+01:08:22	Josep Alvarez-Perez:	Reacted to "I have a GitHub repo..." with 👍
+01:09:29	Samira Khodai:	Reacted to "I have a GitHub repo..." with 👍
+01:09:51	Thaddeus Okafor:	Reacted to "I have a GitHub repo..." with 👍
+01:09:57	Nasser:	Reacted to "I have a GitHub repo..." with 👍
+01:12:38	Vinoth Asaithambi:	dropping now. thank you all!
+01:13:04	Nick Haddock:	Reacted to "I have a GitHub repo..." with 👍
+01:19:45	Ivan Georgiev:	On the 01-doc …  when I run I’m getting AccessDeniedException error - it seams you need to add permissions to your  SageMaker Execution Role.
+Have a look at ReadMe.md to setup additional permissions
+01:20:17	Nasser:	Reacted to "On the 01-doc …  whe..." with 👍
+01:20:58	Samira Khodai:	Reacted to "On the 01-doc …  whe..." with 👍
+01:29:51	Ismail Mayat:	Have to drop bye all

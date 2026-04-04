@@ -1,0 +1,103 @@
+AI00:02:58	Jamie Lawrence-Jenner:	good evening!
+00:03:13	Jakub Korczowski:	Reacted to "good evening!" with 👋
+00:03:56	Azaam:	Reacted to "good evening!" with 👍
+00:04:42	Ismail Mayat:	Reacted to "good evening!" with 👋
+00:05:27	michaelstewart:	Evening.  Toby I can’t hear you
+00:05:51	Josep Alvarez:	We can hear you now, Toby
+00:06:35	Rangamannar Tammana:	It is ok for me too
+00:06:49	Azaam:	Can we get AI to sort out the audio?
+00:06:55	Nasser Ali:	Can hear Loud and clear
+00:10:25	Jordan Smith - elvtr:	Here is the link to the server:https://discord.gg/8rrzCrav
+00:16:38	michaelstewart:	Is there another screen that it might be displaying to?
+00:24:34	michaelstewart:	Effectively fuzzy logic
+00:24:38	Clara Sanchez:	Do you see the AI solution architect as also defining the solution in the Business layer of an organisation, or just the technology or application layer?
+00:37:29	michaelstewart:	It all comes under quality of use.  As long as the customer understands the payoff of between processing and time/money then it is about informing
+00:37:41	Sharn B:	Reacted to "It all comes under q..." with 👍
+00:37:52	Samira Khodai:	I've seen explainability and transparency part of AISA as well.
+00:38:11	puneet:	the golden triangle, cost, time, quality
+00:38:47	Azaam:	Reacted to "the golden triangle,..." with 👏
+00:38:50	ivanodwyer:	Reacted to "the golden triangle,..." with 👏
+00:39:01	Sharn B:	Reacted to "the golden triangle,..." with 👍
+00:39:08	Sharn B:	Reacted to "I've seen explainabi..." with 👍
+00:39:10	Mustaa Ali Hussain:	Reacted to "the golden triangl..." with 👍
+00:40:22	vinoth:	@Samira Khodai  I agree, explainability and testability are unique challenges of AI solutions.
+00:40:24	vinoth:	Reacted to "I've seen explainabi..." with 👍
+00:40:41	Sumit Sharma:	AI is more of an orchestrator..
+00:40:55	Ismail Mayat:	Reacted to "AI is more of an orc..." with 👍
+00:41:00	ivanodwyer:	What about Product managers and leaders ?  Client Product Owners ?
+00:41:13	Samira Khodai:	Reacted to "@Samira Khodai  I ag..." with 👍
+00:41:25	Sumit Sharma:	Reacted to "the golden triangle,..." with 👍
+00:41:35	puneet:	I think the negative scenarios are the bigger challenges re testing. unhappy path.
+00:42:04	Adrien Biencourt:	Reacted to "the golden triangl..." with 👍
+00:50:17	Phil Jefferies:	Reacted to "AI is more of an orc..." with 👍
+00:50:48	michaelstewart:	That’s because it is where the new territory exists and everyone is looking beyond the horizon
+00:50:50	Nasser Ali:	Cant we just ask AI the questions we need answering for AI solutions? eg the framework we need? So that we don't need an 'AI Architect'
+00:51:33	Nick Haddock:	Reacted to "Cant we just ask AI ..." with 😂
+00:51:42	Nishant Pithia:	Reacted to "Cant we just ask AI ..." with 🤪
+00:51:45	shubindervirk:	An AI answering solution is only going to give you vague responses, an AI solutions architect gathers customer requirements and gets specific answers. 
+
+Its your responsibility to put those guard rails to get the most effective solution for a few specific  uses cases.
+00:52:02	Nick Haddock:	Reacted to "An AI answering solu..." with 👍
+00:52:05	Yoemy Waller:	Reacted to "Cant we just ask AI …" with 😂
+00:52:12	Kole Olagbaiye:	Reacted to "An AI answering solu..." with 👍🏼
+00:52:43	Nasser Ali:	Yeah but cant a functional Business lead just ask an existing AI the question they need responses to?
+00:52:55	puneet:	often see it used in power automate flows. like to make a decision in a specific scenario based on context. narrowing the scope tends to be the way to control this.
+00:53:00	puneet:	Reacted to "An AI answering solu..." with 👍
+00:53:00	Samira Khodai:	Replying to "Cant we just ask AI ..."
+
+There will be no creativity then.
+00:53:06	puneet:	Reacted to "An AI answering solu..." with 👏
+00:53:21	Sharn B:	Reacted to "Cant we just ask AI ..." with 😂
+00:53:40	shubindervirk:	Reacted to "often see it used in..." with 👍
+00:54:39	Nishant Pithia:	Replying to "Cant we just ask AI ..."
+
+Something that we do not want it to happen but it will happen in few years. However, we still need to be creative, map user requirements to what we are going to build to generate value. AI will be an assistant eg. Building like a boilerplate content to start with. Most importantly we still have to build it and get it correct.
+00:55:11	Sukh Sohal:	@Nasser Ali would probably need to use RAG for this to be somewhat effective, and ironically probably an AI Architect to set this up
+00:55:31	Nick Haddock:	Reacted to "@Nasser Ali would pr..." with 👍
+00:55:39	Nasser Ali:	Replying to "@Nasser Ali would pr..."
+
+RAG?
+00:55:43	shubindervirk:	Replying to "Cant we just ask AI ..."
+
+AI pipelines are still structured by humans and effectively tested to capture edge cases
+00:55:45	puneet:	to generate some sort of rule engine?
+00:55:52	Nishant Pithia:	Reacted to "AI pipelines are sti..." with 👍
+00:56:20	Matt Cannon:	Replying to "@Nasser Ali would pr..."
+
+https://aws.amazon.com/what-is/retrieval-augmented-generation/
+00:56:20	shubindervirk:	Reacted to "Something that we do..." with 👍
+00:56:36	Nasser Ali:	Reacted to "https://aws.amazon.c..." with 👍🏽
+00:56:36	shubindervirk:	Reacted to "to generate some sor..." with 👍
+00:56:49	puneet:	Replying to "@Nasser Ali would pr..."
+
+I thought Red amber Green... :D
+00:57:12	Nasser Ali:	Reacted to "I thought Red amber ..." with 😂
+00:57:19	Matt Cannon:	Reacted to "I thought Red amber ..." with 😂
+00:58:08	Nasser Ali:	Reacted to "@Nasser Ali would pr..." with 👍🏽
+00:58:24	Nasser Ali:	Reacted to "There will be no cre..." with 👍🏽
+00:58:34	Nasser Ali:	Reacted to "Something that we do..." with 👍🏽
+00:58:43	Nasser Ali:	Reacted to "AI pipelines are sti..." with 👍🏽
+00:58:49	Nick Haddock:	Replying to "@Nasser Ali would pr..."
+
+Basically a highly specific set of data that you can apply to a Standard model - loading specific company data for instance.
+00:59:02	Nick Haddock:	Reacted to "I thought Red amber ..." with 😂
+00:59:49	Nasser Ali:	Reacted to "Basically a highly s..." with 👍🏽
+01:00:03	ifeanyi onyia:	Reacted to "Basically a highly s..." with 👍🏽
+01:00:13	michaelstewart:	The more generalised the knowledge, the thinner it will be by definition.  It is a tension between silos who dont know about other areas and overviews who dont know the nuance.  In education it is known as holists and analytics
+01:00:20	Nasser Ali:	Thankyou @all for your responses.
+01:00:33	Adrien Biencourt:	Reacted to "Something that we ..." with 👍
+01:00:35	Nasser Ali:	Reacted to "The more generalised..." with 👍🏽
+01:01:13	Nick Haddock:	Is anyone else working with Ollama? I’m interested in what machine sizes you are using.
+01:01:40	Nick Haddock:	Looking at getting a new Mac mini to cope with the bigger parameter sized models
+01:01:54	shubindervirk:	I wonder how much of this course will help you identify systems and build them for SMB’s
+01:03:08	Adrien Biencourt:	Reacted to "I wonder how much ..." with 👍
+01:09:10	Serhii Pererva:	Replying to "Is anyone else worki..."
+
+I am using Ollama on 64GB M1 Max MacBook Pro. The biggest model I’ve run is codellama:70b, which worked fine but was a bit slow. The only bigger model I’ve run is 300b model which did not work at all (failed to load the model into memory)
+01:12:07	Nishant Pithia:	Reacted to "Looking at getting a..." with 👍
+01:12:33	Nick Haddock:	Reacted to "I am using Ollama on..." with 👍
+01:15:42	michaelstewart:	So the job of an AISA is to describe what AI cannot do as much as what it can
+01:16:08	Ismail Mayat:	Reacted to "So the job of an AIS..." with 👍
+01:22:09	Nasser Ali:	Reacted to "So the job of an AIS..." with 👍🏽
+01:22:36	Sri Gorlla:	Reacted to "So the job of an AIS..." with 👍
+01:33:44	Luis Aveiro:	Thank you

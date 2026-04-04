@@ -1,0 +1,19 @@
+00:24:24	Damian Piesse:	sh-4.2$ git clone https://github.com/toby-fotherby/elvtr-ai-solution-architect
+00:25:25	Surjeet Singh:	Document processing url top level - https://github.com/aws-samples/aws-ai-intelligent-document-processing/blob/main/README.md
+00:25:56	Surjeet Singh:	Assignments are here - https://github.com/aws-samples/aws-ai-intelligent-document-processing/tree/main/industry/insurance
+00:28:04	Jamie:	mine kernel crashed to
+00:30:55	Damian Piesse:	I have a few issues too…but changing location (and remembering to shut down your old location) has seemed to have fixed it every time.  It does mean cloning the GitHub each time though, but I just use this every time:
+
+pwd
+cd SageMaker 
+git clone https://github.com/toby-fotherby/elvtr-ai-solution-architect
+00:33:37	Jamie:	Reacted to "I have a few issues ..." with 👍
+00:35:59	Kole Olagbaiye:	Reacted to "I have a few issues ..." with 👍🏼
+00:40:52	Dimitri Yiannakis:	React button has “raise hand in it” (not pressing arrow to the right)
+00:41:35	Nick Haddock:	Reacted to "mine kernel crashed ..." with 👍
+00:42:17	Surjeet Singh:	Raise your hand under the React (heart) icon.
+00:42:55	Jordan Smith - elvtr:	Reacted to "Screenshot 2025-01-08 at 15.41.09.png" with ⭐
+00:44:21	Jordan Smith - elvtr:	it might also end up under the more section too (usually if it hasn't been used before):
+00:49:59	Nishant Pithia:	Some really good resources on https://www.deeplearning.ai/
+00:59:34	Nishant Pithia:	Thank you! Nice chat, have to jump on another call.
+00:59:45	Nick Haddock:	Reacted to "Thank you! Nice chat..." with 👍

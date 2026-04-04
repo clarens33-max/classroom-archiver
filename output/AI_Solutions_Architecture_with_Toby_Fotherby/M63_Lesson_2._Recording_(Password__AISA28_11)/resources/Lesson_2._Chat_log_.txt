@@ -1,0 +1,129 @@
+00:07:15	uchennaonyia:	Will we be guided on how to set up these environment for those not use to AWS
+00:08:10	Nabil:	Replying to "Will we be guided on..."
+
+There is a step by step guide in the slide deck
+00:08:24	Giles:	Reacted to "There is a step by s..." with 👍
+00:08:29	Chima:	Reacted to "There is a step by..." with 👍
+00:14:58	surjeet_singh:	Are slides moving? Yes, I noticed slide deck were already provided but Toby’s slides should be moving, isn’t?
+00:22:38	michaelstewart:	So once you gather some data you can start to refine the model…
+00:22:51	Thaddeus Okafor:	How I like to see a model is like a brain. It learns from information passed into it. Some are better than others at learning, some are faster, while some are slower, some produce more accurate outputs than others even when you train them with same data. Just a casual way of looking at it
+00:23:17	Nasser Ali:	What is Labeled Data? | DataCamp
+00:23:19	vinoth:	Reacted to "How I like to see a ..." with 👍
+00:23:34	michaelstewart:	How the brain extracts meaning from the data and extrapolates that would be a model
+00:23:38	Luis Aveiro:	Reacted to "What is Labeled Da..." with 👍
+00:23:41	Ismail Mayat:	Reacted to "What is Labeled Data..." with 👍
+00:23:55	Luis Aveiro:	Reacted to "How the brain extr..." with 👍
+00:24:17	Nelson Gull:	Replying to "What is Labeled Data..."
+
+Thank you ! I was indeed searching for this
+00:24:35	Chima:	Reacted to "What is Labeled Da..." with 👍
+00:24:48	Adrien Biencourt:	Reacted to "What is Labeled Da..." with 👍
+00:25:34	vinoth:	A brain is good analogy for a model, another way to think about it is like a (complicated) mathematical formula. If you plug in the data to this formula it gives you an output/behaviour.
+00:25:57	David Parsons:	Reacted to "What is Labeled Data..." with 👍
+00:26:15	Thaddeus Okafor:	Reacted to "A brain is good anal..." with 👍
+00:27:32	ivanodwyer:	Replying to "A brain is good anal..."
+
+That’s essentially what an algorithm is  input to math in a black box produces output.
+00:28:00	vinoth:	Reacted to "That’s essentially w..." with 👍
+00:28:07	ivanodwyer:	Replying to "A brain is good anal..."
+
+Not always black box but …basically
+00:28:38	vinoth:	Replying to "A brain is good anal..."
+
+Exactly.
+00:29:18	Nasser Ali:	Replying to "What is Labeled Data..."
+
+The other one I have looked at isWhat is Data Labeling? - Data Labeling Explained - AWS
+00:30:16	michaelstewart:	There is a project called the 100,000 genome project that gathers data from 100,000 people with rare genetic issues.  The genomes from this would be an example of supervised learning
+00:30:44	Sharn B:	Reacted to "There is a project c..." with 👍
+00:32:49	Nishant Pithia:	What time does class starts as it says in my calendar at 5:00 PM UK time but second time I see I am joining in the middle
+00:33:03	Rohithan:	Replying to "What time does class..."
+
+4.30pm UK time
+00:33:21	Phil Jefferies:	Replying to "What time does class..."
+
+I got caught out by that in the last lesson
+00:33:30	Nishant Pithia:	Replying to "What time does class..."
+
+Oh!
+00:33:52	Senthil Kumar:	Reacted to "I got caught out by ..." with 👍
+00:34:21	Nishant Pithia:	Replying to "What time does class..."
+
+Thanks
+00:34:53	Sharn B:	Replying to "What time does class..."
+
+@Phil Jefferies me 2
+00:34:53	Samira Khodai:	here is the source for open source models in python: https://scikit-learn.org/stable/
+00:35:19	ivanodwyer:	Reacted to "here is the source f..." with 👍
+00:35:29	Phil Jefferies:	Reacted to "@Phil Jefferies me 2" with 👍
+00:35:35	Munir M:	Reacted to "here is the source f..." with 👍
+00:35:53	Adrien Biencourt:	Replying to "What time does cla..."
+
+The time of the classes is accurate on the shared calendar: https://calendar.google.com/calendar/u/0/embed?src=c_classroom5ae3dd24@group.calendar.google.com
+00:35:59	Nasser Ali:	Reacted to "here is the source f..." with 👍🏽
+00:36:12	Ivan Georgiev:	Reacted to "here is the source f..." with 👍
+00:36:21	michaelstewart:	Reacted to "here is the source f..." with 👍
+00:36:23	Nishant Pithia:	Replying to "What time does class..."
+
+Yes my bad! I have two calendars and did it manually. Thank you for your response.
+00:36:28	Luis Aveiro:	Reacted to "here is the source..." with 👍
+00:36:48	Giles:	Reacted to "here is the source f..." with 👍
+00:37:29	Shilpa:	Reacted to "here is the source f..." with 👍
+00:38:56	michaelstewart:	Most of the time you will need a method of classifying text based data to a score based criteria.  So at least you have some sort of number
+00:39:11	Thaddeus Okafor:	Reacted to "here is the source f..." with 👍
+00:39:57	michaelstewart:	Like a pain score
+00:39:59	Phil Jefferies:	there was an early version of the syllabus which stated the classes were at 5pm BST.  I then asked by email whether it was 5pm GMT or BST and was told 5pm GMT so put all my calendar slots in my diary accordingly.  Anyway all clear now!
+00:40:17	Nishant Pithia:	Replying to "What time does class..."
+
+exactly!
+00:40:48	Nishant Pithia:	Replying to "What time does class..."
+
+Same here
+00:43:00	shubindervirk:	Reacted to "here is the source f..." with 👍
+00:43:01	shubindervirk:	Reacted to "here is the source f..." with 👍🏽
+00:44:35	Jordan Smith - elvtr:	Replying to "What time does class..."
+
+So here we did have slight last minute change in the schedule here for the lessons, this was made to make sure Toby can dedicate as much time as possible in the live sessions. But we do apologise for this short notice here!We do have our course calendar too, which is connected to our classroom with assignments too. Here is the link to it:https://calendar.google.com/calendar/u/1?cid=Y19jbGFzc3Jvb201YWUzZGQyNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t
+00:45:32	Nishant Pithia:	Replying to "What time does class..."
+
+Also the classes were meant to be 2 Horus but now I see 90 minutes.
+00:46:20	Nishant Pithia:	Replying to "What time does class..."
+
+I dont finish my work till 5PM
+00:46:43	David Parsons:	Reacted to "here is the source f..." with 👍
+00:46:44	vijay:	Replying to "What time does class..."
+
+@Toby Fotherby is there information available that can provide kind of table to show the recommendation for different requirements of model that are already evaluate for performance, metrics. Such recommendations based a lot of evaluation for new bees in AI world.
+00:49:45	Jordan Smith - elvtr:	Replying to "What time does class..."
+
+@Nishant Pithia Hi 🙂 So our main live sessions have always been scheduled at 90 minutes in total, the extra 30 minutes will have most likely been the office hours sessions. These have been combined to an hour block that takes place every Wednesday.
+00:50:42	Ivan Georgiev:	https://www.datacamp.com/blog/classification-machine-learning
+00:50:57	Nishant Pithia:	add 👍
+00:53:06	Phil Jefferies:	Reacted to "@Nishant Pithia Hi �..." with 👍
+00:56:27	Paul Mills:	Reacted to "https://www.datacamp..." with 👍
+01:02:24	michaelstewart:	A good early example I heard about was a photo recognition exercise.  The system was trained on data that just showed the eyes, nose and mouth of a person and asked to identify male or female.  Eventually the system could do this better than human volunteers
+01:02:54	Micah Ajayi-Smith:	Reacted to "A good early example..." with 👍
+01:05:37	Sharn B:	Reacted to "A good early example..." with 👍
+01:08:34	Kaushik:	Reacted to "A good early example..." with 👍
+01:13:01	vijay:	should it be AWS type or IAM account to use sagemaker?
+01:23:58	michaelstewart:	AWS.  Just set one up and can see it
+01:24:51	David Parsons:	Open question as i'm used to Azure rather than AWS- Does Region matter when it comes to the free account? i.e. I'm UK based, so selected London (EU-West2), but the notebook Toby's showing referred to US-East. If it's executed will costs be incurred?
+01:25:42	michaelstewart:	UK was free
+01:27:16	vinoth:	@David Parsons  It doesn’t, however you don’t have to select London because you’re from UK as well.
+01:28:06	Nishant Pithia:	Replying to "@David Parsons  It d..."
+
+Agree unless you are on a production server
+01:28:17	Adrien Biencourt:	Replying to "Open question as i..."
+
+Free tier is across all regions. So you can pick whichever region you'd like
+01:28:33	David Parsons:	Reacted to "@David Parsons  It d..." with 👍
+01:28:54	David Parsons:	Replying to "@David Parsons  It d..."
+
+Thank you 😃
+01:29:56	vinoth:	Replying to "@David Parsons  It d..."
+
+No worries.
+01:31:19	vinoth:	Also, if you are worried about cost accidentally creeping up you can set budget and alerts based on that so that you can shutdown machines that you might have accidentally turned on —> https://repost.aws/questions/QUZMaZQIRZTLyPZ6dtsF4-4w/how-do-i-set-up-a-simplified-or-zero-cost-aws-budget  Just FYI @David Parsons
+01:32:56	David Parsons:	Reacted to "Also, if you are wor..." with 👍
+01:33:04	Nasser Ali:	Reacted to "Also, if you are wor..." with 👍🏽
+01:34:00	michaelstewart:	Reacted to "Also, if you are wor..." with 👍

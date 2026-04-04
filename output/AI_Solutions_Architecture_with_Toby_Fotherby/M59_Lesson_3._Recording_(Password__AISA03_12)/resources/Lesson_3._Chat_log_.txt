@@ -1,0 +1,164 @@
+00:00:42	Josep Alvarez-Perez:	Hi @all
+00:00:56	Luis Aveiro:	Hi everyone.
+00:02:16	Phil Jefferies:	Hi.  Quick question.  A combination of work pressure + man flu has resulted in me becoming behind with assignments though I have attended all zoom classes.  Am I ok to catchup on assignemnts later this week?
+00:02:48	Jordan Smith - elvtr:	Reacted to "Hi.  Quick question...." with 👍🏻
+00:03:49	Jordan Smith - elvtr:	Replying to "Hi.  Quick question...."
+
+Hi Phil, sorry to hear you have been under the weather! We can for sure provide a little extra time to catch-up
+00:04:11	Phil Jefferies:	Reacted to "Hi Phil, sorry to he..." with 👍
+00:07:28	ivanodwyer:	Has anyone else had problems signing onto the discord? I keep getting an error message “ Unable to accept Invite “ ?
+00:07:47	Peter Cashen:	Replying to "Has anyone else had ..."
+
+Nope, working well for me
+00:09:30	Jordan Smith - elvtr:	Replying to "Has anyone else had ..."
+
+Hi Ivan 🙂 make sure to quickly create an account prior to accessing the link, sometimes the directory to do so from accessing the link can cause this problem. Here is the joining link again if needed:https://discord.gg/qn2H2YXE
+00:12:53	davidpage:	Replying to "Has anyone else had ..."
+
+I did the one hour end to end ML lab
+00:13:46	Nishant Pithia:	Yes
+00:15:13	ivanodwyer:	Replying to "Has anyone else had ..."
+
+@Jordan Smith - elvtr thanks ..I need to create a new discord account and try again later ..its still not working
+00:16:36	Jordan Smith - elvtr:	Replying to "Has anyone else had ..."
+
+Keep me posted here @ivanodwyer, I can look into this further if the problem persists 🙂
+00:17:49	Nasser:	can I have an extension for my assignment 2 please I am mega busy with work deadlines working day and evenings. I can submit for the end of the weekend.
+00:18:09	Jordan Smith - elvtr:	Reacted to "can I have an extens..." with 👍🏻
+00:18:25	Jordan Smith - elvtr:	Replying to "can I have an extens..."
+
+Yes of course no worries at all here 🙂
+00:19:17	ivanodwyer:	Reacted to "Keep me posted here ..." with 👍
+00:20:19	Nasser:	Reacted to "Yes of course no wor..." with ❤️
+00:20:26	Nasser:	Replying to "can I have an extens..."
+
+thankyou
+00:23:38	michaelstewart:	Would people find it worthwhile for a definition list to be compiled?  I use an electronic flashcard system called quizlet
+00:24:49	davidpage:	Reacted to "Would people find it..." with 👍
+00:25:04	Luis Aveiro:	Reacted to "Would people find ..." with 👍
+00:26:09	Samira Khodai:	Here is a good source for definitions and practice: https://roadmap.sh/ai-data-scientist
+00:26:31	Nishant Pithia:	Reacted to "Here is a good sourc..." with ❤️
+00:26:32	michaelstewart:	Reacted to "Here is a good sourc..." with 👍
+00:26:38	Luis Aveiro:	Reacted to "Here is a good sou..." with 👍
+00:26:38	Dave Sacca:	Reacted to "Here is a good sourc..." with ❤️
+00:26:43	Ismail Mayat:	Reacted to "Here is a good sourc..." with 👍
+00:27:17	Chaitanya Kuppa:	Reacted to "Here is a good sourc..." with ❤️
+00:29:07	David Parsons:	Reacted to "Here is a good sourc..." with ❤️
+00:29:13	ifeanyi onyia:	Reacted to "Here is a good sourc..." with 👍
+00:29:35	Josep Alvarez-Perez:	Reacted to "Here is a good sourc..." with 👍
+00:31:28	Nasser:	Reacted to "Would people find it..." with 👍
+00:32:01	Phil Jefferies:	stock market price predictions based on price history
+00:32:15	Nasser:	Reacted to "Here is a good sourc..." with 👍
+00:32:50	Dimitri Yiannakis:	weather prediction
+tube delay prediction
+00:33:15	paul.mills:	Reacted to "weather prediction
+t..." with 👍
+00:33:44	Samira Khodai:	ARIMA: It’s like regression, but instead of using external predictors, it uses its own historical data.
+00:33:50	Peter Cashen:	Is this the same as before the football season starts and a ‘super computer’ predicts the league positions at end of season..
+00:34:00	Nasser:	would predicting Football league winners count?
+00:34:18	Peter Cashen:	Replying to "would predicting Foo..."
+
+Great minds think alike…
+00:34:35	Nasser:	Reacted to "Great minds think al..." with 😂
+00:38:21	Peter Cashen:	Regression to me means going backwards, or looking back….
+
+Yet a regression model is about predicting the future or outputs…
+
+Why is it called regression then? ha
+00:38:24	Nishant Pithia:	Replying to "would predicting Foo..."
+
+Anytime spurs is going to win ? 😄
+00:39:47	Nasser:	Reacted to "Is this the same as ..." with 👍
+00:39:59	michaelstewart:	Replying to "would predicting Foo..."
+
+@Nishant Pithia It can’t be that good surely… ;-)
+00:40:04	Puneet:	So PACTEO?
+00:40:45	Nasser:	Replying to "would predicting Foo..."
+
+Spurs doing spursy things = No chance. Predicted position = 10th ;)
+00:41:21	Nasser:	Reacted to "@Nishant Pithia It c..." with 😂
+00:41:21	Olabisi Akin Fawole:	Reacted to "Spurs doing spursy t..." with 😂
+00:42:51	Nishant Pithia:	Reacted to "Spurs doing spursy t..." with 😂
+00:43:25	Nishant Pithia:	I can do feature engineering and I will make it biased 😄. What is spursy?
+00:44:00	Nasser:	Replying to "would predicting Foo..."
+
+win against the best and then losing against very poor teams = Spursy.
+00:44:15	Nick Haddock:	Reacted to "Regression to me mea..." with 👍
+00:45:05	Nishant Pithia:	Replying to "would predicting Foo..."
+
+Just an anomaly 😂
+00:46:04	Nasser:	great question @Dimitri Yiannakis.
+00:46:14	Dimitri Yiannakis:	Reacted to "great question @Dimi..." with 👍
+00:46:19	ivanodwyer:	Reacted to "great question @Dimi..." with 👍
+00:47:39	michaelstewart:	https://quizlet.com/test-questions/aws-solutions-architect-practice-test-6c4c0c82-1808-499f-9c65-8af845b4b52b
+00:48:31	Samira Khodai:	Replying to "Regression to me mea..."
+
+I believe it means "regress" or (move closer) to minimize Error between predictions and actual values.
+00:48:37	Dimitri Yiannakis:	Reacted to "https://quizlet.com/..." with 🎉
+00:49:08	Samira Khodai:	Reacted to "https://quizlet.com/..." with 👍
+00:49:48	terrance thomas:	Replying to "https://quizlet.com/..."
+
+Guess this isn’t for an AI Solutions Architect just AWS solutions Architect
+00:49:58	Nishant Pithia:	Reacted to "Guess this isn’t for..." with 👍
+00:50:33	Samira Khodai:	Reacted to "Guess this isn’t for..." with 👍
+00:51:57	Olabisi Akin Fawole:	Replying to "Regression to me mea..."
+
+This is regression in statistics and dealing with relationships between variables
+00:52:05	Nasser:	Is there is a delineation of duties of BA v Data Scientist v Architect ? I am in a noisey env so don't want to ask the question on video.
+
+Who decides that the model should be? or is it a joint decision?
+00:53:27	David Parsons:	@surjeet_singh Great question - I asked something similar in the "office hours" last week, and the data platform/pre-requisites for firing off notebooks on top of a clean dataset is a critical point for me
+00:53:59	Dimitri Yiannakis:	so i suppose that if the predictability percentage is low based on the model, would we go back to the data scientist to mine / provide updated data until we reach the minimum requirement of the project while we perhaps also select another model?
+00:54:18	Nasser:	Reacted to "so i suppose that if..." with 👍
+00:54:53	Dimitri Yiannakis:	Ah this is feature engineering
+00:56:07	Nick Haddock:	Reacted to "I believe it means "..." with 👍
+00:57:28	Sam:	Replying to "Is there is a deline..."
+
+In my opinion - Business Analyst refines the question and the value of the problem to be solved. Data Scientist will do the nitty gritty of the implementation, sometimes with support from Data Engineers and other Data Roles. The Architect is there to enable the Data Scientists and other roles with the tools and infrastructure that is required. If the Architect is knowledgeable on AI they might support some decision making on the Machine Learning approach a bit.
+00:57:46	David Parsons:	Reacted to "In my opinion - Busi..." with 👍
+01:05:58	Luis Aveiro:	https://tedai-sanfrancisco.ted.com/glossary/parameters/
+01:06:47	Luis Aveiro:	https://ourworldindata.org/grapher/artificial-intelligence-parameter-count
+01:06:54	Nasser:	Do we need to learn the mathematical models?
+01:07:40	Samira Khodai:	Reacted to "https://tedai-sanfra..." with 👍
+01:07:42	Nick Haddock:	Reacted to "In my opinion - Busi..." with 👍
+01:07:56	Samira Khodai:	Reacted to "https://ourworldinda..." with 👍
+01:08:04	Peter Cashen:	Replying to "https://tedai-sanfra..."
+
+Great site!
+01:08:17	Puneet:	https://youtu.be/R9OHn5ZF4Uo?si=E1_hpILtCLRTFRPM
+01:08:28	Puneet:	This helped me
+01:08:29	Nishant Pithia:	What Makes It a Regression Problem?
+In a regression problem, you predict a continuous value (like a number). House prices are continuous values—they can be any number, like $250,000, $300,000, or $500,000.
+
+How It Works for House Pricing
+Imagine you're trying to predict how much a house will sell for. The price of the house depends on several factors, like:
+Size of the house (e.g., 1,500 square feet or 2,000 square feet).
+Number of bedrooms.
+Location (e.g., city center or suburbs).
+Age of the house.
+Nearby schools or amenities.
+A regression model takes these factors (called features or independent variables) and tries to predict the house price (the dependent variable).
+01:08:30	Sam:	@Peter Cashen Parameters are internal intermediate number variables that help with the training process. In the end, the parameters become the model itself. Different model types have different structures of parameters, some have more or less, some have multiple layers.
+01:08:34	terrance thomas:	Reacted to "https://tedai-sanfra..." with 👍
+01:08:57	Azaam:	Do all of these links go straight on to the Discord chat?
+01:09:13	Dimitri Yiannakis:	Is it that the model becomes statistically valid with a certain amount of data, and then adding data doesnt increase validity (predictability) that much, so is not useful
+01:09:15	Peter Cashen:	Reacted to "@Peter Cashen Parame..." with 👍
+01:12:34	Puneet:	https://youtu.be/LJHQXmOpkUE?si=7o5OyHlLQotsWkBr this also helped me.
+01:12:43	Jordan Smith - elvtr:	Replying to "Do all of these link..."
+
+Hi @Azaam 🙂 so any links on this chat will not go straight to the discord server no, feel free to share any now to the resource channel on the server. After the call I can take a look back and add any possibly too.
+01:14:36	Peter Cashen:	Need to drop sorry. Will catch up with the last 20 mins from recording.
+01:16:16	Ivan Georgiev:	https://github.com/toby-fotherby/elvtr-ai-solution-architect/tree/main/class-03/assignment
+01:22:25	sinasanu:	I had issues cloning the GitHub repro for assignment 2, might need some assistance with this
+01:29:34	Nishant Pithia:	Update the file using Git and then find the file in Class-03. No need to copy and paste
+01:30:33	Nishant Pithia:	I have setup Jupyter labs on my local machine which works for me. I think its better than running on AWS, but its a personal preference
+01:31:26	Nishant Pithia:	Answer: when you run the cell you will see on top right there is a dot, when it is full black it means the code is running. Otherwise it is done
+01:31:42	Ismail Mayat:	I need to drop bye all
+01:32:42	Samira Khodai:	Replying to "I had issues cloning..."
+
+Make sure you are in the correct directory
+01:34:12	Clara Sanchez:	Anyone knows how to share the notebooks so the instructor can open them? The URL seems to be private to me
+01:34:34	Tim Onyia:	File and download
+01:34:39	Tim Onyia:	But remember to save first
+01:34:53	Tim Onyia:	@Clara Sanchez
+01:38:43	Adrien Biencourt:	Reacted to "File and download" with 👍

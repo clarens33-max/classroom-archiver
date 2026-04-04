@@ -1,0 +1,14 @@
+The scenario overview (details are in GitHub as a PDF):
+
+Your customer has some knowledge of Generative AI and Retrieval Augmented Generation (RAG). 
+Imagine that they have given you a set of documents they want users to interact with using natural language for question-and-answer functionality. 
+(For this task, use a small set of documents that are meaningful to you or your real-life customer somehow.)
+They are seeking a best-in-class RAG solution and want you to explore and systematically evaluate options to provide the best solution for their data.
+As you know that quality of RAG is limited by the accuracy of Retrieval, you will concentrate on this first.
+This requires experimenting with data preprocessing options, different embedding models, and the number of elements to returned from the retriever, to see how these impact retrieval accuracy.
+
+Your deliverable will be a short, structured, write-up of the results of your experimentation for each aspect noted above. 
+Specifics for the write-up will be included in the Capstone 2 notebook that will be published to the course Github folder.
+
+Due date: February 13th, 11:59 pm GMT
+Grade: 20 points

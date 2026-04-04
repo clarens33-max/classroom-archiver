@@ -1,0 +1,9 @@
+Run the Lab in your own environment
+https://github.com/aws-samples/aws-ai-intelligent-document-processing/blob/main/industry/mortgage/01-document-classification.ipynb
+
+Run the following, next step lab in your own environment
+https://github.com/aws-samples/aws-ai-intelligent-document-processing/blob/main/industry/mortgage/02-document-extraction.ipynb
+
+Answer the questions in the following notebook, and submit your completed notebook
+Due date: December 24th, 11:59 pm GMT
+Grade: 10 Bonus points

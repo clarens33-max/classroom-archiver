@@ -1,0 +1,41 @@
+00:30:54	Ismail Mayat:	Re updates, I’m guessing if it’s s3 then on updates you could capture events and trigger some process to update?
+00:32:12	Ismail Mayat:	https://github.com/run-llama/llama_index/discussions/13881
+00:32:46	Samira Khodai:	Reacted to "https://github.com/r..." with 👍
+00:32:51	terrance thomas:	Reacted to "https://github.com/r..." with 👍
+00:35:14	terrance thomas:	Guess you could have a chatbot RAG for Confluence data as well?
+00:37:39	Thaddeus Okafor:	Replying to "Guess you could have..."
+
+Yep, you have to find a way to get/scrape the data into your Vector storage.
+00:38:43	Samira Khodai:	Can RAG effectively play the role of a subject matter expert (SME)?
+00:39:17	terrance thomas:	Reacted to "Yep, you have to fin..." with 👍
+00:39:27	Damian Piesse:	Can RAG effectively play the role of a subject matter expert (SME)?
+…what a great question
+00:40:00	Thaddeus Okafor:	Replying to "Can RAG effectively ..."
+
+I think so. That’s one of the strong use cases
+00:40:00	Nishant Pithia:	Replying to "Can RAG effectively ..."
+
+I guess if you have sufficient information, why not?
+00:40:40	Samira Khodai:	Reacted to "I think so. That’s o..." with 👍
+00:40:43	Samira Khodai:	Reacted to "I guess if you have ..." with 👍
+00:40:43	Ismail Mayat:	Replying to "Can RAG effectively ..."
+
+I have seen glean do it https://www.glean.com/
+00:40:52	Samira Khodai:	Reacted to "Can RAG effectively ..." with ❤️
+00:41:14	Damian Piesse:	Replying to "Can RAG effectively ..."
+
+The barrier will always be how much your client trusts you with their data I guess.
+00:41:53	Nishant Pithia:	Replying to "Can RAG effectively ..."
+
+We just build a system recently using RAG to respond to RFP/RFIs. This cut down our time to respond and consistent answers. I would say that system is a SME in one way or another
+00:42:12	Thaddeus Okafor:	Reacted to "We just build a syst..." with 👍
+00:42:17	Ismail Mayat:	Reacted to "We just build a syst..." with 👏
+00:42:34	Samira Khodai:	Reacted to "We just build a syst..." with 👍
+00:43:03	Nishant Pithia:	I built Rag system using no code using https://www.stack-ai.com/
+00:43:09	Nishant Pithia:	Its really good tool
+00:45:32	michaelstewart:	It should be able to pull the data.  The issue is wheteher it could gather all of the context to be able evaluate the quality of the data.  Can AI tell you if a paper is any good as opposed to just retrieve the data from the paper
+00:52:07	Samira Khodai:	Reacted to "It should be able to..." with 👍
+00:52:41	Nishant Pithia:	Replying to "Can RAG effectively ..."
+
+Ha as I said it’s limited to knowledge or knowledge that we supply. If it can do reasoning that would be perfect. My question is how do we know how good is the foundational knowledge on a specific domain?
+01:06:11	Ismail Mayat:	Reacted to "Its really good tool" with 👍

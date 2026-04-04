@@ -1,0 +1,378 @@
+# Office Hours. Recording (Password: AISA04/12)
+# Source: https://player.vimeo.com/video/1036428108
+
+Speaker A: Hey. So how's everyone doing today?
+
+Speaker B: All good?
+
+Speaker A: Yeah excellent, excellent. Well let's see. I think we just got a few people on to get started with. You know very much kind of keep these, keep this pretty open in terms of what topics we cover. What try to cover things fairly quickly as you know as to allow the everyone to participate as much as they can and I can encourage particularly people who haven't spoken before in the class to speak and you know but I see we've got a mix here of people who I recognize from our classes so far and others but yeah I think Joseph, I haven't seen you before so when you're on screen. Yeah. How are you doing today?
+
+Speaker B: Good. Oh good, thank you Toby. Enjoying the course? Definitely. It's interesting because in my background I was working more with Azure platform, the AI student hub so it's interesting to see perspective where you are sharing with us with aws. So yeah handy to have a different background and yeah and the case studies that you're providing to us are quite good actually. I have a small question Toby is, is with a new assignment I think there's a small issue that with what we have in Google class is talking about to do an assessment for forecasting of house prices while the document. Yeah well the document that you publish with and I was doing that segment in GitHub so I cloned the assignment 3 in GitHub and then I found out that that one is around startups performance so yeah, I don't know how to.
+
+Speaker A: Yeah so the thing what's in Google classroom is incorrect and what you loaded
+
+Speaker B: but yeah, yeah you made my day.
+
+Speaker C: Thank God.
+
+Speaker A: Good good. Yeah yeah and apologies for that I think yeah one of the things is, is actually updated the, the notebook that we're doing actually last last course time we did the course we actually did judging the age of Abalone which which is you know, abstract at best. Right. Yeah and actually didn't do particularly well but anyway yeah so I, so I actually yeah I improved that for this go around and I wanted to make it that we had something that runs purely you create the model, you don't have to deploy it, etc. Etc. But but anyways it's the right content and I, I think that will get fixed in the next, the next couple of days but yeah I don't I must say, you know how it goes. There's so many things.
+
+Speaker B: Yeah classy.
+
+Speaker A: There's the classes, there's the actual work in this Google classroom.
+
+Speaker B: So yeah that's fine thank you To.
+
+Speaker A: Yeah, no thanks for raising that.
+
+Speaker B: Thank you.
+
+Speaker A: Good stuff. And yeah, welcome to the class too. So let's see. I think I'm going to go over to Tim because I'm not sure. Tim, have you spoken on class before?
+
+Speaker D: Yes, yes. Yes I have high grasped in.
+
+Speaker A: You sneaked in anyway. Yeah, let's.
+
+Speaker E: I have.
+
+Speaker D: I have spoken on the class before. I think my, my. My name was showing. Azuchena. You're struggling to pronounce it.
+
+Speaker B: Okay.
+
+Speaker D: So I just decided to use my museum name for everyone.
+
+Speaker A: Oh okay. Great. Great.
+
+Speaker D: Sorry. I had a question on feature engineering because I tried my hard. I have, I tried my hands out on the assignment and I wanted to find out when I ran wrote the code for to. To do some feature engineering I did like I did a number of different things at the same time and I just want to find out do you have to do them individually and run the code to see the result or can you combine a number of feature feature engineering abilities at once and see how all of them work together to improve your predictions?
+
+Speaker A: Yeah.
+
+Speaker D: How do they work?
+
+Speaker A: Yeah, so commonly people will do multiple at a time and that one of the things which you can do. So I mean this kind of gets us more into that data science arena and actually one of the things I was just looking up while you're talking one of the things I once wanted to do and I'll share it, I'll share it on the link here but it will also remind me to post it to the class. So let's see, I'm going to put it into the chat here and you should use the chat too much. But this is, this is a link to the Kaggle feature engineering. You know, so it's a short, it's a short course that you can do anytime. I think there's, you know it's, there's, it's, you know, there's. It's not video based or anything. It's more notebook based with some, with some writing, you know, kind of explaining what's going on. But. And it's. I think it's actually really, it's really well constructed and it goes quickly you know if there's a floor it's that it goes quite quickly from simple to fairly complex. But it's, it's a great, it's. It really is a very good example. But going back specifically to your question. So what will typically happen is. Is like let's imagine that you have a date in your. As one of your fields. That's, that's something that you might be using, right. You know, as part of your input. Well, you can imagine that you might break that date down into many different things. You know, there's obviously there's a month, there's a year, there's, you know, there's day of week, there's, is that a holiday, is that something else? You know, is it a working day, etc. Etc. Right. So often for even just for one feature, what starts off as one input may end up being multiple features. So that, that kind of splitting or processing will generally happen and you'll put all of those features in. So that's one way. But also. Yeah, that if you have a hunch for a number of different features, you know, things like scaling you, like you put all those in, you may keep the original features plus put in the, put in the new features and then actually have a look and you know, have a look and actually see which ones have the most information value. And there are, so in the way you might assess the information value, there's one is by running, you know, some of the models give you information back in terms of which features have highest priority. And then there are also some methods which you can use. It's kind of like 7 o' clock in the morning here. So I'm trying to think of those particular methods. But there's, there's some methods, statistical methods, where you can actually look through your data and see which has the most variance across each feature. And you can kind of use that as a guide as well. So the simple answer is it's kind of up to you. As you're doing your learning, initially, you might be adding one feature at a time and just, and getting a sense of that or that feature engineering, you know, applying feature engineering one field, two fields at a time. But then sure enough, as you get more familiar, you're more likely to do batches of that.
+
+Speaker D: Okay, so I guess, I guess the second part of that question will be, is it possible to be detrimental to your model if you do too many, apply too many feature engineering capabilities or it's just a case of at some point it doesn't affect the outcome anymore. The effects of the outcome of the results will be negligible because.
+
+Speaker A: Yeah, yeah, I know, and it's a good question. It depends on the model which you're using. So that, you know, and it is a very good question for a lot of models, like let's say, you know, for the more powerful models, generally having more features is not going to be an issue. So that they will, you Know, as you add features and let's say some aren't really very useful at all with the more powerful models they'll just ignore those features. But with some of these smaller, weaker models that can actually wash things out and does have a negative effect. So things like the statistical models will tend to, you know, there will, there can be a negative effect by you putting too many features in. And so, and, and that's fairly well documented in terms of again, if you looked at sort of linear regression models that there's actually some things which, you know, there's some calculations related to that. As you add features, you should effectively lower. What's the word I'm looking for is you've kind of, you are. You sort of have to almost increase your threshold of success as you inc. As you add a larger number of features just because as I said, it's kind of really related that these are weaker models and as you can imagine, you're, you're swamping them a bit and that there's, there can be a higher risk of overfitting. So yeah, so we're really kind of getting into some sort of more esoteric data science pieces. But the answer is yes for smaller models. For larger models, you know, when I'm talking large models, if you're using neural network based models and such, it's unlikely to be the case. But often what happens is if it does appear to be the case that maybe you're having too many features, it's generally fairly easy to determine which of those features are really adding value and which aren't. And you just start dropping those features which aren't.
+
+Speaker D: Okay, thank you.
+
+Speaker A: Great. Now, Dmitry, I know last, last meeting, I think you had a question and I couldn't take it at the time because I was taking others and then I think you had to drop off by the time I got to you. Do you have a question today?
+
+Speaker C: Yeah. So I'm struggling a little bit just on the assignment too.
+
+Speaker A: Okay.
+
+Speaker C: Yeah. So can I share my screen?
+
+Speaker A: Yeah, please. Yeah,
+
+Speaker C: sure.
+
+Speaker A: I know sharing can be a little bit of a challenge sometimes. Thing happening.
+
+Speaker B: Yeah, yeah, yeah.
+
+Speaker A: Okay, good. Great. Okay.
+
+Speaker C: Yeah. So I, I launched and then. Well, I copied the. I cloned the. Gets the GitHub.
+
+Speaker A: Yep.
+
+Speaker C: And then I ran this. So I pressed the play button and then it generated all the data. But then I don't see any of the files that you had, so I
+
+Speaker A: don't know what it was. Yeah, that's curious. Yeah. If we go up to the top, I mean it must have had. It because you have the right. So, because as you. Yeah. I think in the early stage of this notebook. So if we go to, if you click on number three or we can scroll down a little bit like where it says data here it. I think it, it gets the content. Here we go. Like here it downloads. It downloads the content from S3 and then let's see. So it downloads the file. I would expect to see that here. I'm not sure why that's not refreshing. You know, there's a little refresh button over, over here underneath the word kernel. Maybe if you select that. So you see the kernel menu item on the. Yeah. And then. Yeah, I'm wondering if you hit that. Is that going to bring it up?
+
+Speaker C: No, it's not bringing it up. Yeah, it's really strange, isn't it? Because it's putting in the data, but then the data is not here.
+
+Speaker A: Yeah, that is strange. Yeah, I would expect to see that there. But. Okay.
+
+Speaker C: I wasn't sure if I was doing anything wrong.
+
+Speaker A: No, no, I'll pull up mine and have a look as well. But that looks kind of like a glitch, but.
+
+Speaker C: Okay, the second question, you used like other data sources in the video, but I don't know how to load those data sources to go through the same process.
+
+Speaker A: Right, right, right. And now. Yeah, let me. I'm just, just logging in just to see about that issue. Give me a second. What I want to do is launch my. Just going to launch my notebook instance and then I can come back to it a second. Great. Because. Yeah, I'm pretty sure I stopped mine, which I had. Okay. But yeah, so you're saying. Right. So that's, that's now starting up. So you're saying about the other content. Oh, okay, so we're in here. All right, so this is in the SageMaker canvas. Right. So one of the things. Right. That I was doing, one of the things that I did, and I think this relates to your question. Right. Was what I put in the GitHub was for class 2 and I, I didn't really talk about it, but you see here, like I have. Yeah, I have that bank marketing data.
+
+Speaker F: So.
+
+Speaker A: So you. This would be ready to use, for instance, with the canvas and then how
+
+Speaker C: do I load these files?
+
+Speaker A: Oh, sure. Yeah. Yeah, great, great question. So what you can do is if we go back to your, if we go back to your other tab here, actually, I guess this.
+
+Speaker C: Right.
+
+Speaker A: You uploaded these from GitHub. But anyway, you can do, if you select on these, you can download any one of these.
+
+Speaker C: Right.
+
+Speaker A: And so, you know, and of course, yeah, you probably have these already on your local file system. Well, actually, no, you don't necessarily. But, but yeah, so now you've downloaded that file. Right, so that. Well, let's see, we've got the inference one and then you see that obviously I've got the bank training, training and validation, which would actually be the one that I would do the training with first. Yeah, exactly. So if you download that one, then what would happen is, is now you're in SageMaker Canvas. Exactly. Import data and then you're. Right, like change this. Yeah, exactly. That's perfect. And now, now we'll upload from local file and then that file will be there and then, then you can move forward. So I didn't really get round to kind of explaining all of that, but yeah, that, you know, that's, that's what I, that's what I was intending.
+
+Speaker C: Okay, amazing. Thanks. That was. I think that answers my questions for now.
+
+Speaker A: Excellent, excellent. Well, good, good stuff. Yeah. And as you see there, there's that inference data set. What it is, is there's with that lab that I was highlighting for Canvas, where it goes the end to end lab, which you do in your own environment, it's. It goes through and has these files in it. But figure, right, the ones which I, you know, which I kind of already have on GitHub and it's just kind of saving you the trouble of going through that.
+
+Speaker C: So, so where's the lab? I think I missed.
+
+Speaker A: Oh yeah. Okay, well, yeah, maybe like I'll see. I'll bring mine on screen in a second. Yeah, I'll show you the lab. But yeah, it's, it's. Let's just see, let's see mine. Let me just do this. So share my screen. Yeah, this one. Okay, so we're looking at this, right? This is just my setup so that if I went to Canvas here and I'm just going to move that around. Yeah, if I went to Canvas here. So let's say I'll open. Yeah, number one is I have to open Canvas. This is for the paid version, you know, the paid version lab, you know, because it's running in your own environment. So that's one, that's. That one I said is completely free that I put the link on now with this one. Okay. This probably going to take two minutes or something for, for this to fire up. When it, when this fires up on the lower left hand side, it's going to have. Hey, do you want to do the End to end lab. And that's. Yeah, just. I can just show us that briefly. So there isn't it. There is a problem with the free one in that I've been trying to look at it today is it won't allow you to upload the files that it needs to go through the lab because you don't have permissions to load from local into the data thing. So you. No, no, no, no, no, no, no, no, no. I mean it's. You don't have to upload from local. So I understand what you're saying is. What it is is you would upload from S3 for that. That the content's already in S3 but they don't marry up. The names don't marry. It's asking for banking details and I've been through every single file on the S3 bucket. Yeah, so. So the one. So the one that's free is about. Let me just, let me just check this again. I'm going to kind of check in my mind. I, I think the one that's free is. You know, anyway, I managed to do it. Yeah, I'll have a look at that maybe in a minute. But I, I did that just recently and it works just fine. And the content's in S3 and if the data doesn't marry up, well, you know, take. There is. The content is on S3. Yeah, you're right that it doesn't allow you to upload your data with that free lab. This is the end.
+
+Speaker D: I did, I did the lab as well and there were no issues I was able to exclude from S3.
+
+Speaker A: So. Great, great. Maybe Nick, if you could reach out to Tim and just you know, kind of like share, share with him your, your issue. Seeing as Tim did it even more recently than I did. Does that sound like a good idea, Nick? And then this is the end to end lab. Right. Where we see. Learn how to use Sagemaker Canvas end to end ML lab. It says 60 minutes. I think if it's the lab that I'm familiar with. Yeah, exactly. This typically what it is is this very first one, this end to end machine learning. This might take about 60 minutes. And as you see here though they've got. There's a fair amount of options. Right. Different content that's here. Albeit that for the, for the first lab. I think this is that banking data one which I just shared the information for. But it kind of goes through. Yeah, you know, do a little bit of feature, you know, do the. Create some data insights, look through that. So it really is quite a good guide, you know, kind of helps you understand the way the tool's working. Yeah. This is the bank marketing data for that. There's a time series forecasting here it says takes around 60 plus. If you do a quick run on this. This actually only takes about 15 minutes. Unless. Yeah, I think, I think when I did it recently I was doing the consumer electronics. Maybe if I did all three then it would take a bit longer that.
+
+Speaker F: What.
+
+Speaker A: What's here as well is the generative AI and computer vision ones. Really. Not, not personally, I don't find these particularly interesting or you know, kind of seem to be a bit of a dead end the way they are integrated into Canvas right now. But, but there's these use case labs and this is where, you know there's some good stuff here. Right. This was where I was going like okay, if you want to get more intuition about how, how this all works and looking at the metrics, right, we've got customer churn, house prices. So that's customer churns, classification, house prices, regression, demand forecasting, which is forecasting, loan prediction, default prediction, that's classification, diabetes patient, that's classification, predicting failure types, classification supply chain, that is forecasting, etc. Right.
+
+Speaker C: So essentially if we just go through these labs, should get a good understanding to be able to complete the assignment.
+
+Speaker A: It will give you a good understanding of classification and regression and getting familiar with those with the metrics around classification and regression. Yeah, you know, and yeah, I guess it would help, it would help with assignment three as well. Absolutely. Because it's giving you that, that bit of extra information. I mean broadly, this is a great introduction to AIML without coding essentially. I think the bad news with, with this and where I, you know, I kind of prefer a notebook in a sense is there's a lot of clicking around. Right. And that, that's the bad news. The good news is for people who aren't familiar with the code, you know, during coding way, there's very little code that. And then actually, you know, it's. It does. Yeah. And I actually think the visualizations associated with this are another upside that the, the visualizations you get within Canvas are really quite good and getting that the sort of things that you would do if you were doing it yourself in a notebook. But let's see how we're doing here now. Maybe.
+
+Speaker E: Okay.
+
+Speaker A: But anyway, so we, so we kind of get all that. So yeah, hopefully that's some additional information that kind of explains to you why I was saying. Yeah, do the end. End to end ML lab if you have the time. That's really going to help your knowledge. And. Yeah, think. I think it's a good introduction.
+
+Speaker C: Yeah, I guess there's like an anomaly with my version of the notepad. It's missing those files but still putting them through somehow. Yeah, yeah, well, I like, I deleted it then like re.
+
+Speaker B: Re.
+
+Speaker C: Imported it, but I'll do it again and, and see if it's still getting the same results.
+
+Speaker A: Yeah, yeah, I mean, I wouldn't, Yeah, I wouldn't stress too much about it, you know, in terms of the. Let's. Let's have a look and see what, what mine is. I think. I think I refreshed everything just the other day, so mine will be starting from scratch. But you know, I mean, the reason why I say, you know, from a learning outcome point of view, the real learning outcome is actually we're going to go through that notebook at tomorrow's class and talk about that. So let's see. So what I'm going to do here, I'm not really interested in, you know, I'm going to stop it before the train. So like, this is one of the things you can do is I can say for instance, run up to. I want to run everything above this particular cell. Let's see. Run selected cells. Run selected cells. Do not advance. Run all above selected cell. Yeah, that's what I want to do. So just running the first few cells
+
+Speaker F: here,
+
+Speaker A: You know, it's possible that this is writing this file to somewhere else. So that's. You know, I expected it to write to the local folder, but. But it's not, you know, given that it's. It's exhaust almost. In this particular example, say the, you know, the. The real learning that I'm looking for everyone to get from this really relates to, you know, the, the overall structure. Right. Data preparation, training, evaluation.
+
+Speaker C: Do you understand all the contents?
+
+Speaker A: Yeah, yeah. That's where. See, this is. Yeah, this is doing all these imports. This will get to this in a minute. Okay. Well, we can kind of see how that kind of cooks along. That should finish and should get past this cell pretty soon.
+
+Speaker B: But.
+
+Speaker A: Yeah. Okay, so other questions? Yeah, let's see. I see. Samira, your hand.
+
+Speaker G: Yes. Hi. I wasn't sure what was the assignment
+
+Speaker A: goal,
+
+Speaker G: so I submitted my assignment two days ago. Then I was thinking maybe I did wrong or I don't know. So in elevator AI solution architect, there is a class 2, and in class 2 there is XG boot example.
+
+Speaker A: Right? That's right.
+
+Speaker G: And I ran it and Downloaded and submitted it. Is that, is that a goal of assignment or should I something extra?
+
+Speaker A: No, that's it. It. It's, you know, so the idea is, is it's. There's a couple of things is one, it's a system test that, that you manage to, you know, set up your account. Set up the notebook. Run. Run it in the notebook. So that's, that's where. So yeah, it's a low bar. Right.
+
+Speaker G: And then.
+
+Speaker A: So that, that's probably what confused you. But yeah, that, that's all the intention is there. And then. Okay, and then what's, what's happening is, is, you know, said this then for your curiosity as it were then to go through the notebook, but I'm not requesting things.
+
+Speaker G: Yeah, right.
+
+Speaker A: And yeah, we'll go through the notebook. You know, one of the things which, you know, just while we're talking is. Yeah. What I'm going to do is to. Tomorrow again. You know, it's like this is where these things kind of come together is that what's happening in this notebook is largely what's happening in SageMaker Canvas that we were just talking about. But. But it's all in code. And then similarly. And then similarly, actually what we were doing with the regression use case, these are really doing the same thing. But you know, so. But these are, these are code based instead of, instead of click based. Yeah.
+
+Speaker G: Just running a code without writing code. However, I have two questions. Instances. Some of. Sometimes there's like default instance size which is bigger than. Sometimes bigger than what we expect. I was just thinking I hope they don't charge extra for this.
+
+Speaker A: No, no. Okay, so now are you saying that you chose to have a bigger instance?
+
+Speaker G: No, I just use the default.
+
+Speaker A: Oh, okay, great, great, great. Yeah. And what it is, is, is. Yeah. So let's go back here. Right. And let's just talk about this a second. So like when we create the notebook instance, the defaults this T3 medium, which is a free T3 one. You know, we get so many hours on the free tier. So you know, what I tend to do is I will shut mine down in between me working on it. Because. Yeah, because you know, it's. It's in my personal account that with these many different other options which we might do. And this is where I just kind of go here for some extra information. Like you see how, you know, we could have.
+
+Speaker G: It gets really large.
+
+Speaker A: Yeah. We could have a GPU backed instance and then have that running there. And now we've got like a GPU we can Bring in some larger models and do some training within the notebook. So that. But you know, it would be more expensive.
+
+Speaker G: Yeah. The second question I have is there's a magic command that sometimes we use in each cell. I was thinking is there any magic command that I can sa training cell so I don't run it again by mistake?
+
+Speaker A: No, there isn't really. But like typically what we do. Oh and by the way, just, just while I. I'm just going to close this out. So just as. As a reminder for everyone, which is why we're talking about costs. So when you use SageMaker Canvas, like you saw that there was that slowness in starting up. So it's putting it basically is an instance backing this and that when we're done, you want to log out of this so that you don't incur costs of this just running in the background waiting for you to come back. I think there may be a way. I'm pretty certain there's a way to configure it to auto log out. But, but just like I'm going to hit that logout button now and this is where, you know, we'll see that just something to, to be aware of. But yeah. Okay, so going back to your question. I'm sorry, what. Yeah, what was, what was that?
+
+Speaker G: So there's this magic, magic command. Yeah, it's like. Yeah, the, the magic that sometimes it. You. You in each cell you do a magic command and then it does things and one of them, I was thinking is it possible to run training and then save the output and then not running it again?
+
+Speaker B: That's right.
+
+Speaker A: Yeah. That's where I was going to go to here. So. And this is one of the things that's different, you know and I'll talk about this on Thursday. So I just mention it right now, but is that when we train it. So here's the training portion of this and essentially you know, in this particular notebook, the XG boost. And what's going to happen here is, you know, kind of setting up, you know, we've prepared the data. This is where we're saying this is going to be. You know, we've saved that data in this case to AWS S3 or Amazon S3 that then we're going to run the training and that actually when you do it within this is using a SageMaker based training training function, you know, an API call that this will actually save this to. To S3 so that this model is saved automatically and that, you know, this is be referenced here so that if I went to S3 right now, which I will do is we can see where that model saved.
+
+Speaker G: Yeah, the artifacts, maybe they're there.
+
+Speaker A: That's right. That's right. So this saves the artifacts to S3. There is actually. This is the output path here. Although. Yeah. Okay, so there's the buffet and there's the prefix. That's where I actually saved it to. And again, because of the learning outcomes of this, I. I wasn't really focused on that in terms of explaining to people what's going on. But like, let's have a look at S3. I know I don't have very many buckets here because. Right. That, you know, this will be my SageMaker bucket. So, you know, I know it's going to be in here, that it's going to be under SageMaker. There's my demo XGBoost. In this particular case, I will have set that up in that notebook. Here's my output, my training, my validation going to be in the output. And here I expect I'm going to get a model TAR gz. That's all the model artifacts. So that could then be used, you know, this is what you would save, you know, would be saved as the primary artifact for what we, what we've got. But as you saw there, there's a lot of other outputs here as well in terms of, yeah, the training data, et cetera, et cetera. So we all have information saved. But, you know, so it all depends. Like, typically though, what you do is that you'll train your model, you know, because you might be using a different framework and. But it is as you say, you train that model, then you likely want to save those, your model, your model parameters, the model artifacts and such, such that then you can rehydrate that at a later time for evaluation or maybe a model. So, yeah, that's what's going on now.
+
+Speaker G: Thank you.
+
+Speaker B: Great.
+
+Speaker A: Yeah, thank you. Good question. And let's see. I think it's cena, right? I think it is. Am I correct?
+
+Speaker B: Yeah, yeah, just a really quick one. I managed to do assignment too.
+
+Speaker A: How do I submit it? Oh, sure, yeah. Super easy. So, yeah, it's hoping we'd get something in the, you know, can the blog around that or, you know, on Discord. But essentially all it is is download. You know, what I really saying is, is download the notebook, which is a good thing for everyone to know how to do, you know, you know, it's one of those things easy when you know how, but you just download the notebook, as I did and then post the notebook to the, to Google classroom and then drop down. Oh, cool. So that, that's, it's as simple as that.
+
+Speaker E: Yeah.
+
+Speaker A: Anything else? Okay, great, great. And then I think, Frank.
+
+Speaker F: Yeah, Actually I think Ivan has been waiting a little bit longer than me. Do you want to just. Ivan, in case you're in a hurry,
+
+Speaker E: You go ahead. Go ahead, Frank. No problem. Go ahead.
+
+Speaker D: Sure.
+
+Speaker F: Excellent. Thanks everyone for being so polite. Toby, I've got a bit of a more general question. I come from a non technical background and, and I'm looking to apply to get into AI jobs just now. So I've got a bit of a background in data privacy ethics, that kind of side of things, management of people and systems. So more of that kind of side rather than the coding side. Obviously when you look at a lot of jobs generally, you know, they're asking for very high level coding. For me that's probably not going to. I'm practicing via Data Camp. But it's going to be a long journey, right. To get to being proficient, certainly from my point of view. And I'm sort of looking at the course a little bit and thinking, so where do I want to be in three months? Well, I want to be in a different job. I want to be in a job gaining skills. And one of the things I've been looking at is this is almost a sense check. It would seem to me strategically a good move for me would be to focus on the models. If we think about an 80, 20 kind of model, you know, for how I allocate my time focusing on the models and understanding the theory, therefore being able to hold your own in a conversation versus you know, technical skills of being a great coder but not being able to maybe necessarily explain. Does that ring true from your experiences? I don't know if you're involved in recruitment aws, but you know, just thinking about some of the broader organizations that I might look to apply to, how can I strengthen my application if that makes sense.
+
+Speaker A: Yeah, you know, I mean, so definitely, you know. Well, so you start off by saying, you know, you're not doing, you know, you're not familiar with, with coding and such, which you know, isn't necess. You know, I do recommend that you get some familiarity with that, particularly being able to use Python and such. Right. And there's some good free Python classes online, you know, in terms of just, you know, go at your own pace, etc. Etc. I think in terms, you know, and it isn't necessarily the case that one needs to be A great coder. It's more that, you know, it's having some, you know, it's having some coding knowledge. You know, as I mentioned before, certainly being able to read code is, is important and one of the things that we're kind of doing here is kind of showing you how to do some of that. But you can gradually immerse yourself in that in terms of, you know, jobs in, you know, work related to say, something like ethics, you know, responsible A, etc. That will tend to be work which has less, you know, less of the code face and more about evaluation.
+
+Speaker F: Right.
+
+Speaker A: You know, a lot of that is about evaluation and sort of risk management in a sense. You know, kind of like where, where kind of put that as risk management is there's evaluation about how the model behaves, but it's also then related to that evaluation what risk that exposes the organization to or the risk that exposes the, you know, end users to, etc. So that will tend to be less code heavy as, as well. Right. It's more business domain directed. So absolutely, you know, that something like that is, is likely a better direction. I also think, you know, we do have a number, you know, I think a large number of non coders on. In. In the program and part of that too is, is, you know, perhaps, you know, being a, you know, either a project manager in this space or a product manager in this space or, or otherwise are things where it's like learning the overall, you know, the kind of things that we're teaching in terms of, hey, get. Getting a deeper understanding of how machine learning works. Some of the key aspects like we're talking about, about evaluation, et cetera, et cetera, that can help. You know, those, those are kind of like the fundamental things that you need to know to move forward.
+
+Speaker F: Very helpful, thanks.
+
+Speaker A: Yeah, you're very welcome. Yeah, let's see. And I don't know who's next anymore. Maybe, maybe, maybe people are keeping a better eye on it than I am, I think. Okay. Suggesting. Ivan, I think you're likely you're next.
+
+Speaker E: Yeah, thanks. Just some very basic stuff. I'm a bit behind on the assignments, but I'm. I can't get to your, the Canvas console.
+
+Speaker A: Okay.
+
+Speaker E: Because I'm following the steps.
+
+Speaker B: Yeah.
+
+Speaker E: If there's no. When I try and create the default profile, I get red error messages saying, no, I can't create it.
+
+Speaker A: Now, are you using your own account or are you using a work account?
+
+Speaker E: I move my own, my own personal Amazon account.
+
+Speaker A: Okay. Do you want to share Your screen. And you know, the reason why I asked if it's your, you know, if it was a work account, I could understand that maybe not wanting to create that, but if it's your own account, you know, because what happens is, is if, if it's your own account, that. So. Okay, so you're in North Virginia.
+
+Speaker E: Yeah.
+
+Speaker A: Are you. Are you based in the U.S. no, I'm not.
+
+Speaker E: I changed it because I couldn't. I was having problems, but it, it seems to be defaulting to Stockholm the whole time. And when I created my notebook. Yeah, I created my notebook, it was in. It was in
+
+Speaker B: north.
+
+Speaker E: I was in north Virginia. And now it only appear, obviously it only maps. It's mapped to that instance or it only appears there. Yeah, sure, I've done that bit. But when I, when I'm trying to get into Canvas, then like there's no user profile. I try and create a profile and I follow the. I just use the default settings, right?
+
+Speaker A: Yeah, yeah.
+
+Speaker E: And then when I do that, you get to there again. I'm just clicking through this to get it set up.
+
+Speaker A: Yeah, exactly.
+
+Speaker E: And then again, I'm don't know what any of that is about, really go there.
+
+Speaker A: True.
+
+Speaker E: And then at this point it'll probably make a lot. Make a liar of me now and work.
+
+Speaker A: But yeah, sure.
+
+Speaker E: Not red. And I can't. It just stops me.
+
+Speaker A: Yeah, sure.
+
+Speaker B: Yeah.
+
+Speaker A: Well. Well, yeah, let's click on that. Let's see what happens.
+
+Speaker F: Right.
+
+Speaker A: And I think this would be the one where it fails, right?
+
+Speaker E: Yeah.
+
+Speaker A: Or. Or it's going to work now. Okay. So unable to create this. It's really curious, right? Says domain is not in service. So there's an issue here with the domain, you know, like some. Somehow this has got corrupted here in terms of your domains. So now maybe what we do,
+
+Speaker G: you
+
+Speaker A: know, and I know this is a bit of a pain. I don't think this is necessary. We're in the right place to do this right now. But if we go back, if you go Back to the SageMaker space, this is something that Ranger can probably help. Help you with too. But if we go back. Yeah, I suggest you get his help. But like. So if we go back to here. Right, Good, good, good. And you see there's admin configurations and then there's domains here on the left side. Yeah, if you click on that, what we want to do is we want to delete this domain. And I think try, try clicking on it and let's. I think. Yeah, exactly. I think this will. I'm Wondering why we've got this box at the bottom here. I think maybe you want to get rid of, you know this. There's an X box here down lower. But anyway, what we want to do is you wanted to delete that domain. Essentially that's some. For some reason this domain, this quick domain setup piece, whatever here is not healthy and that you need to delete them, I suspect.
+
+Speaker E: How do I delete that?
+
+Speaker A: I. Hey, I can't go through that right now. Okay. You get what I'm saying is, is it's this. You know, this isn't exactly a help desk, but one of the things is. Yeah, so, so just what you'll need to click around and do that, that Ranga can also help you. So kind of reach out to him on Discord. Yeah.
+
+Speaker E: But basically saying that what I was doing there, that should have worked, right?
+
+Speaker A: What you're doing should have worked. One of the things you could do as well, maybe this would be a quicker route is try Create domain. Like you see this, you've got a Create domain button here, big orange thing, right hand side is create a new domain. It looks like for some reason that your initial domain is not healthy. So click on that and then where it says setup right on the right hand side. Yeah, just follow that. So that then you know, this may be the quicker route.
+
+Speaker F: Yeah.
+
+Speaker A: That you set up this domain.
+
+Speaker E: Curious that it's preparing the new. I guess that's preparing the new one. The one that didn't fail. Maybe.
+
+Speaker A: I think, I think there seems to be something set up. Did you set up some kms?
+
+Speaker F: No.
+
+Speaker A: That you see this because KMS key is null etc. Etc. You know there's something. There's something wrong with your setup and I, I don't know. I can't say exactly what it is, but this, this kind of looks a little bit suspicious.
+
+Speaker C: Okay.
+
+Speaker A: You know, this new domain might work. One of the things is you'll see that. You see there's a timestamp here on your domain. Likely the only way you'll be able to tell the difference between the two is the difference in timestamp. But if this succeeds, you know, like try this. If it doesn't, you know. So I'm a little concerned about this. The error that's in red there, I'm not sure if that's into the other one. But you know, you, you. Your account seems to be in some unusual state and I'm. I can't say by.
+
+Speaker E: Well, I only created my. This account day before yesterday and I just Created a normal personal account, single user account.
+
+Speaker A: But okay. Yeah. And I, I'd say again, hopefully that will work for you. Otherwise it be. You know, I think you probably do well to use not North Virginia that may. That may assist you as well. But yeah, you know, I think you. It may be for you to, you know, if. That. If this doesn't work, maybe creating a new account, deleting this one overall, your. Your entire AWS account may be the. The way to go.
+
+Speaker E: And that's possible too either. Okay.
+
+Speaker A: But yeah, you know, and again, it's just that you can imagine is we. We don't really have the capacity to spend an hour on.
+
+Speaker E: Yeah, I'm gonna appreciate that but obviously I need to get to the canvas.
+
+Speaker F: Yeah, yeah.
+
+Speaker A: So you're doing. You're doing everything. You're doing everything right here. Seems like something strange is.
+
+Speaker E: Okay, thank you.
+
+Speaker D: No worries.
+
+Speaker A: Yeah, sorry I can't close that one out, but okay, so yeah, we can still see your screen, so you might want to. No, no, it's fine. So. Yeah, who's next? Let's see, it's my turn now. Okay, go ahead.
+
+Speaker B: Now actually my question was different but even as you are showing the error, one of the question which I wanted to ask last week, I couldn't get chance to ask. Whenever you do this kind of exercise, should it be AWS user. AWS user as a root user or should we create from the root user admin as a IAM user and give policy based all trust policy to access the Sage and other things. So it allows to do DOM to create domain and to play with the domain. So this is my experience that works fine.
+
+Speaker A: Yeah. Yeah. And the thing is you don't need to do that for this program. So that generally. Right. I think you know, you probably based on your question is you have some background with AWS and that.
+
+Speaker B: I don't have a background. There was a prerequisite of ELVHR document. I go through all the 18 labs. Then I learned out of it.
+
+Speaker A: Good, good. Yeah. So the thing is, is we're just keeping it simple so you can just use the root user, don't have to set up anything else. And that really what we're doing here is. Well, you know, we're primarily. Well again it's, you know, the overall emphasis is on training you as an AI solution architect, not as an AWS solution architect. So we just try to keep things as simple as we. As we possibly can. So just use the root user. It's the simpler.
+
+Speaker B: Another question which primarily I Want to pass yesterday's assignment? Actually, I cleaned up, cleaned up everything. But when I uploaded is a binary file that we need to upload as a handy.
+
+Speaker A: So, so what you'll be doing is just the same as what I showed on screen a minute ago is you'll be downloading the Python notebook, right? Which, you know. So you download the Python notebook, the, you know, the Jupyter notebook, and that you'll post that just as what I was sharing a moment ago. So, you know, just to make clear, I will show on screen. So for instance, you know, just how I was showing with this that I would download it locally. But similarly, what I would be doing is with class three, you know, for yesterday's assignment. Let's see, we've done this, you know, you've kind of worked your way through it that you're, you know, that you've put in your answers at the end. Where. Okay, yeah, I guess that's from me yesterday. So I put in that, you know, so I put in my answers that then I would do file save, you know, I'd likely just do, you know, control S, Apple S, whatever. But anyway, save the notebook and then I can download the notebook from here.
+
+Speaker F: Right.
+
+Speaker A: That will download it to, you know, if you're on Windows, you do the equivalent and then that's. That's the artifact that gets posted to the classroom. Okay, so that hopefully answers your question.
+
+Speaker B: Yeah, thank you.
+
+Speaker A: Very great. Thanks. And then Tunde. Is that right. The right way to pronounce your name? Yes, yes, thank you. Great. How are you doing?
+
+Speaker D: So I was able to go through the, the Assignment 2 and I was able to run the Class 02 assignments on Jupyter Lab. I just wanted. I copied the link and I submitted it for the assignment. I just wanted to be sure if I've done the correct thing or there's still something missing.
+
+Speaker A: Yeah, yeah, yeah, yeah. And I understand. Yeah, don't. Yeah, don't copy the link because actually you can't. We can't see that link. You know, like this. This is in your private area. So maybe you can click on that link and see, you know, and bring you back to where you were. But. But I can't and you know, no one else can. So. Yeah, this copy. Shareable link, unfortunately is not. This would be shareable for people within your account and, and we're not in your account. So this is where you just need to just download the file. You know, it's kind of like. Think of it as, as traditional. You know, it's the snail mail route as it were, of, of sharing. So yeah, just, just download, just download that and then, then post that. That, that would be the right thing to do. Thank you. Yeah, you're welcome.
+
+Speaker H: Any.
+
+Speaker A: Anything else? Nothing else.
+
+Speaker B: Thank you.
+
+Speaker A: Okay, great, great, great. And then I think, let's see. Ivan, I think you're. Yes. So one of the. So when I'm run. Running the assignment, I've got most of the points run and got results but some of them, they, they still got the asterisks in front of it. Oh, that's expected. Or you know, occasionally that happens. Now is that with Assignment 2 or Assignment. With Assignment 2? Yeah, some of the. Yeah, latest steps. Oh, now I've got, I've got something. It seems it takes a long time to run them. Okay. Yeah, yeah. It could just be that it's taking a while. Like occasionally I see, you know, definitely that you get the asterisk and then you know, you, you'll get that and then what should happen is it should change to a number once it's completed and that occasionally I do see, you know, if I have something long running that I'll. It's quite common that I'll do just run all cells if I know that it's the kind of notebook that I can do that with. You know, oftentimes, you know, you have to read the notebook typically before you do run all cells because you might have something like. Let's say I'm trying to create. Actually this is, this is my regression example. Yeah. Which is just fine. I could run all cells on this, like no problem. Whereas if I do run all cells with this one, maybe if I wanted to, you see, the last one is I create an endpoint. You know, create, create the model. Then I deploy the model and hey, if I wanted that endpoint to play with, well, the very last cell deletes the endpoint. Yep. So you know, this is where you kind of read the. Is it just commented out the last step and run all. Actually, you know what I'm saying though is. No, just you can still run all of them for this example. But if I wanted to keep the endpoint and I wanted. And I ran all cells, well, obviously this is going to run through and by the time I get, you know, and then it's going to delete the endpoint. So maybe just giving you an example there sometimes there's state that's happening within the notebook that you want to preserve perhaps, but broadly. Yeah. With the endpoints as well. When you deploy an endpoint you're paying for that while that's in service. So that's why, you know, in. For this example and for the learning, you want to delete the endpoint when this is done, but broadly anyway. Yeah. So I think the issue you're having was just a delay in processing. Sometimes I see a delay in processing that's so long that they, that that will remain an asterisk and you don't actually get the output from that, even though it's done the processing. Is there a way we can see what's running at the moment? I mean, typically, you know, typically the lot. The most recent one with the asterisks. Right. In. In 99 times out of 100, the most recent one, if there was an asterisk here, right. Nothing's running, you can see because there's no asterisks. That's kind of like the way it works. All right. And if there's an asterisk there, then it's pro, then it's either processing or it's awaiting processing. One of the things with Jupiter notebooks, which is an intended capability, is you don't have to run the cells in order that, you know, potentially. And this is because, hey, I might be doing something and then I want to work on something else and come back and you can nest things in the notebook. These notebooks are very sequential that oftentimes when people are doing real data science, it isn't necessarily sequential. And maybe it'll be like, oh, hey, I've run this and now I want to come back to here and I'm going to work on it. And so I've run all of the cells and then I'll say, okay, I want to come back to this cell, right? So I may be like, oh, I didn't like the output here, that I didn't expect to get 100 columns. So I'm going to go start going and do some work here and I can create a cell and start, you know, doing whatever I want to do and run that. So this is why, you know, it's strengths and weaknesses of different tooling. Right? This is intended so you can easily go back. So which, which cell last run, which cells currently running can actually get to be a little challenging to work out. But typically if there's an asterisk, you know, that will tell you what's going on. Okay. But yeah, so you think, you know, it's good to get used to the notebooks and how they work. That is, you know, your. I would expect in the future that Likely you'll be using notebooks. You know, we, we use notebooks to train. You know, we're fine tuning a model from a service. We may well be using a notebook as well. You know, this combination of having being able to put documentation in with your code can be very helpful for yourself and others. And then also doing some data preparation, preparing that data and then calling that. Yeah, let's see. So we're coming up time. I'll just take Nishant's question as the last question, then we'll wrap up for today. So, yeah, Nishant, what's on our mind?
+
+Speaker H: Yeah, I don't know if you can see me. It's just a blank screen. But I have downloaded the Jupyter notebook on my local machine. So I'm using it. I believe that it shouldn't be a problem using the local machine and I'm running it through local host. But I will try and see how it goes. I haven't started my assignment. The question that I have is more around the application. So I, I work for Adobe and I lead the Adobe Experience platform business, which is in marketing, the marketing technology. And we are working very closely with aws. And one of the use case that I'm trying to work is real time machine learning personalization, essentially getting data from or a score from machine learning. And when I saw Sagemaker, which I played around with Azure more rather than aws, so it's just a similar sort of a thing. But I believe I'm going to get an endpoint and what I'm trying to work out on the architecture is how can I build functions within AWS that essentially will allow me to pull that information and it can make a call to our Edge server. So imagine that I have a profile, I go to the website, I exhibit some behaviors. These behaviors are going in real time into the system and the system will say, oh yeah, this person is going to Churn. Now what I want is the Churn score to be pushed into Edge. And once it's pushed into Edge, we have technology that essentially creates segments in Edge in real time under 250 milliseconds. That essentially helps us to activate and build different type of personalization. So my question was, first of all is, am I right to think that this is possible?
+
+Speaker A: Yeah, it sounds. Sounds very possible. Yeah, absolutely. You know, broadly, broadly that should be very possible. I mean, I know Adobe is, you know, you know, has actually, you know, I work with strategic accounts. I think Adobe is also, you know, kind of is one of those strategic accounts. But certainly as a, a large customer of aws, I would expect that you should be able to contact an aws, you know, your, through your AWS rep or whatever. You could also get guidance specifically on that from, from someone such as myself who would kind of like help you walk through that architecture and kind of explain that more. So that's more, you know. So broadly though, the answer is yes. From this, from the outline that you gave, going back to what you were saying about running the class in your local environment, I would generally recommend for, actually I recommend for everyone in the class is to actually use the environment the way in which we're saying with a brand new environment on aws, as we go through, we're going to be using different services. So we'll be using the Bedrock service, we'll be using Intelligent Document Processing, we'll be using other, you know, other aspects quite possibly, you know. Yeah, definitely going to be using some other aspects. So I'd recommend that you do that as you saw as well, is just for supportability. If you run into an issue and you're running it in your local environment, we won't be able to help you because you're perfect.
+
+Speaker H: No, that's, that's a great, that's a great point. And yeah, I'll keep that in mind and I will use AWS account for, for this exercise. Thank you.
+
+Speaker A: Yeah, yeah. Or equally, you know, use your own. But if you run into problems, be, be like, okay, yeah, I'll switch. Right. You know, it's like I, I use pycharm in my own environment and then I have my AWS keys. You know, this is for my personal stuff, so I, I can do things that way. But I'm not recommending it for everyone in class because it would just be more challenging for, for people. Perfect. Great, great, great. Okay, good stuff. Yeah. And things like what I was talking about with Canvas just now, you wouldn't be able to do in your local environment. But so, so yeah, so we're going to wrap up there. I'll hopefully see many of you tomorrow and this will kind of. We'll be wrapping up our sort of like say we're kind of starting off with fundamentals here with machine learning and such. So these fundamentals should help, you know, kind of build that foundation for what we do next. But yeah, so thanks for joining today and I'll see you. See you tomorrow.

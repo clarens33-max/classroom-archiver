@@ -1,0 +1,350 @@
+# Office Hours. Recording (Password: AISA12/11)
+# Source: https://player.vimeo.com/video/1038580070
+
+Speaker A: Hey. Good I guess. Good day, right? It's good morning here it's like 7am So I was working till late last night as well. So how's it going today? The life of a solutions architect is a lot of long days in front of the computer it seems. Yeah.
+
+Speaker B: It's damn cold here. Where are you based, Toby?
+
+Speaker A: San Francisco. Oh you're lucky thing.
+
+Speaker B: But the weather's quite nice there, isn't.
+
+Speaker A: It's. Yeah. This time of year it's usually pretty good. It's a little windy out right now but yeah, some sun's just starting to come up but yeah, it's pretty good this time of year I guess compared to a lot of places. It doesn't get too cold, right? Doesn't get too. It's kind of pretty moderate.
+
+Speaker B: Yeah. It's pretty freezing here in Europe.
+
+Speaker A: Yeah.
+
+Speaker C: You lived in Britain, haven't Toby. So you grew up here if I'm right.
+
+Speaker A: Yeah, yeah I grew up in. In London. So.
+
+Speaker C: Okay.
+
+Speaker A: So yeah. So you. I'm used to the UK winter.
+
+Speaker C: Yeah. So you very much.
+
+Speaker D: It's.
+
+Speaker C: Dislike the British weather. Like all of us.
+
+Speaker E: Yeah.
+
+Speaker C: Ours is even worse. We cannot escape it. And you have managed to.
+
+Speaker A: Yeah, yeah, yeah. Well that's right. You have to do your best. Right. But. But yeah it's. It's still. I do like a mild climate.
+
+Speaker D: Right.
+
+Speaker A: It's nice. Cool is. Is pretty good. You can always put on more clothes. So.
+
+Speaker B: Yeah, yeah.
+
+Speaker F: I couldn't handle the. The cold in London so I came to Athens.
+
+Speaker C: Wow.
+
+Speaker A: Yeah. Athens is hot in summer. Right? That's. Yeah, yeah, yeah.
+
+Speaker F: I mean it's kind of mild now. It's like 17 degrees in the day so. Yeah, it's not too bad.
+
+Speaker A: Oh no, that's really nice. Perfect time to be in Athens I guess.
+
+Speaker G: Right?
+
+Speaker A: Yeah, absolutely.
+
+Speaker B: Minus one in France so you can all gloat.
+
+Speaker C: Okay. Yeah.
+
+Speaker A: That's cold.
+
+Speaker C: It's depending on where you are in France. You know southern France is not too bad which is.
+
+Speaker B: Yeah they.
+
+Speaker C: They. They get proper weather. Proper summers. Whereas in whole of UK you don't get proper summers. So.
+
+Speaker A: True.
+
+Speaker C: I don't want to get too tangent. The fact is if, if, if you go.
+
+Speaker A: Yeah.
+
+Speaker C: If you. If you desire a. If you desire discreet weathers then you'll get a proper summer. Proper winters. But if you don't desire that then you get warmer winters and cooler summers, which is even worse.
+
+Speaker A: Yeah, exactly. Yeah.
+
+Speaker B: I have a. A quick question for you Toby with regards to the third assignment. Not the one you gave us last night, the One before you were going through the Python code and changing some of the parameters. So we could change the type of model that we wanted to use. Yeah. So to go from regressive to linear regression and all that, and you typed in some code showing us. But is there a resource anywhere we can go to, to see how we can change if this is. If there's a place we could look at a Python place that could show us how we could change that? Or is it just guesstimate?
+
+Speaker A: Yeah, yeah. I mean, you know. Well, the idea is it was left a little bit as a challenge, but it shouldn't really be that hard.
+
+Speaker B: So.
+
+Speaker A: So just procedurally, right, you, you could plug in, you could plug in there almost any model, any regression model from that same family very easily. So. So for instance, like, what we're using there is, we're using the Psychic Learn library and in the links that, that I have in that, you know, for, for the class that we did at that time as well is in the Psychic Learn library. Yeah. There are many different regression types. So. So that's like the easy button. Okay, it's. And literally you could change, you know, that's where I was showing is you could change from. Currently it's doing a linear regression, you could change to doing a ridge regression or something like that, and it would be straightforward. Now you know that. So that's the easy button. And then, you know, for people who want to go a bit further, they might go, hey, you know what, I want to actually branch out and use maybe a more powerful model like XGBoost. I think I have an XG boost. You know, I would then go online and look for an XG Boost example. I think I used to, I used to include, you know, anyway, yeah, so that's kind of how it is, you know, the point is, once you've prepared your data and you've got your X and your Y and your training sets, it does become quite easy to plug in different models at that point. But yeah, it's super easy to, to do another one from that family. So that, that's the starting point. And then. Yeah, then, then you can look and then to choose something else.
+
+Speaker B: Yeah, I was going to say, do you recommend, obviously, when you're iterating over development of these notebooks, to run each code segment individually, because in the first assignment with the XGBOOST one, I just ran it all and then examined what had come out. But with the third exercise, do you recommend just going through it one at a time to have a Look at what's going on. Yeah.
+
+Speaker A: I mean, in general, I recommend for. For the students to go through step, you know, step by step, mean it. And then it really depends on whether or not you feel like you're going to be a coder in the long term, you know, or how much coding you're going to do, how much investment you put in to understanding what's going on. Because there are different levels of understanding. And I think at a minimum, if you just like, hey, yeah, okay, this is doing this, this is doing that. The conceptually, what's going on, that's generally is enough.
+
+Speaker B: Okay, cool. Thank you.
+
+Speaker A: Let's see. Yeah, Dimitri. Yeah, let's.
+
+Speaker F: Yeah, just like on that. On that thought. I. I was doing the examples and I wanted to know if the. That R squared number higher, obviously what one is like a perfect match. Um, do. Do we do like multiple regressions and then we see which one is higher, and then is it necessarily that the higher one is the better regression model?
+
+Speaker A: Yeah, you know, that. That would be a good indication. You know, like the. Yeah. The R squared is. Is saying that you've covered the variance in the data. Well. Right. You know, the models capturing that variance. And frankly that, you know, this is where I was saying as well, is we're actually getting a fairly high score on that data, and it will be tough. You know, I'm not sure actually how much more we can squeeze out of that. I do think we might be able to squeeze a little bit more out of the ridge regression maybe or some other type of regression, but this is. Oh, yeah. So just straight to your question, though. Is the root mean squared error would be more important to us as a metric than the R squared. So, yeah, that. That's the important part of the answer here. So. And the reason why is you're not going to the R. I mean, the R squared is a good guide. You know, it's kind of like a.
+
+Speaker C: It's.
+
+Speaker A: It's an. It's a nice. I. I like that value of like. Oh, you know what? We. We've managed to capture this much of the variance. But the thing is, is you. You can't use that in practice. If, if you see what I'm saying, that's more of you as a. As a data scientist in. In this particular role. Right. Rather than your end user, can't use that. Whereas your root mean squared error, that's like, this is indicating how close you are to the. To the right answer. And that's. So that's. That's a More interesting error score. So I think if you know, if I recall, you know, so because you can think about that as, as being, you know, and this is where you also get the mean absolute error, right? So if we consider the mean absolute error just it. The nice thing about that immediately is you can think, well, it is what it says, right? So it's the absolute error, you know, how far away we were from each prediction as an absolute number, not positive or negative. And then getting the mean of that, right. So, you know, and so that's telling you essentially your average error. And so that's maybe much more meaningful to your end user, you get what I'm saying, than the R squared, you know, because it's like R squared says, well, this is how much variance. Well, that's great. But hey, this is how much on average we make a mistake, you know, this is how much on average that this is incorrect. That's really meaningful to your user. And then the, there's a subtle difference between the root mean squared error or you know, and the, and the mean absolute error. What happens is the root mean squared error actually amplifies the differences. When you're, when it's more inaccurate, you'll end up getting a bigger root mean squared arrow. Like if you had a lot of small errors when you do root mean squared error, that's going to keep them small, but as they get larger because it's going to square them.
+
+Speaker F: Amplify.
+
+Speaker A: Yeah, it amplifies it a bit, which often is. Is what you want to do for again for your end user is that the, the risk with the mean absolute error is that it somewhat suppresses in your messaging back to your user the, you know, like the bad cases, you know, so anyway, so it's just a little bit of, you know, you can find some good, you know, there's some good example information on that on the web. But you know, that's a relative subtlety. But again, yeah, we would go to those error scores because that's something that your user could really understand because it's as much part in communication with your user as well. Right. You know, whoever your customer is. And that's where you could imagine they could really understand mean absolute error. They'd be like, oh yeah, I get that you can show them that on a, on a visual. This is where also you might have a graph where you show, you know, you might show a scatter plot or some sort of diagramming where this is the actual value and this is, this is the value that we got. Right. That's where those visualizations help. And I bring this up because it is a challenge, you know, not just when we're doing things like this simple regression. You know, the simple regression problem broadly. Let's say you're tuning a vision model or you're tuning a classifier that's using a large language model, you'll still be left with this. You're often left with this challenge of how do I communicate this to my customer? How do I communicate progress? How do I communicate status? Because they know even less than you do. That's the good news. You do, but you still. But you need to educate them and bring them forward and be like, okay, look, here's, here's a way of looking at this. Here's where we're succeeding. Here's where we need to do better. And, you know, oftentimes you want to do that qualitatively and that's where, you know, qualitative would be showing them examples, showing them a graph, that sort of thing. And then the quantitative, quantitative where when we're showing things like the, the error and sure enough, if we're reducing the mean squared error, if we're reducing the absolute opposite that mean absolute error, then we're doing. Then we're definitely going in the right direction.
+
+Speaker F: Okay, that makes sense. I. I think I probably need to do some research into how to interpret the rmse because obviously interpreting the, the R squared is like quite easy. It's like 1, 1 is 100%, 0 is 0%.
+
+Speaker A: Yeah, yeah. Well, what happens is. Yeah, yeah, yeah. I think that's a, that's a good thing to do. Yeah, I'll see if I can find, you know, a reference or something. But yeah, I think in the, also in the, in the links, I did say I included a link related to the evaluations, but I think, I think your intuition there about getting more information on the different metrics is a really good idea and I'd recommend that to the whole class. And it's, it's, you know, both for classification and regression and particularly, yeah, both of the. That you'll get a lot of value out of that as, as we go forward. You know, it's. It's a bit like the evaluations that we run on our models are like there are antennae in terms of determining what's going on right there are there. That's our vision. So getting good, getting good intuition about the various metrics for your. For the models that you're using will really, really help you. And classifications are the classifications. The MO still is the most common thing that we end up doing. Because you'll find, you know, just in practice, you know, if you're doing, you know, there's oftentimes you end up doing classification related division. It might be classification, you know, as I was saying before, where we do things like sentiment analysis, it's really classification. If we're doing customer churn, you know, depending upon how you're doing it, it's classification, you know, says customer leaving or not, is this customer going to buy this or not? Classification, etc. Etc. So so many things end up being classification that, that's a really good one to ground it, you know, to ground your initial knowledge on. Regression is very common as well. But like, we'll also, I think we'll, we'll touch on just, just for example though is like forecasting has slightly different metrics around that and then if we were doing object detection that there are different metrics around that. But as you dig in, it makes sense as you get there, you know that it will still be this like, oh, I need to know the. I need to learn the evaluation tools around this particular problem. And that's frankly, that's, that's so much of what everyone in the class needs to do because that, that's what really, really helps. And then, then there's the concept for natural. Yeah. Large language models. But yeah, great, great. So let's see who is next? I think Michael, it looks like, looks like you are like you next. I've got that right. Actually, I'm sorry, I think it's. Oh yeah, Michael, go ahead. Well, I think it's Sajit. I don't know if Mike.
+
+Speaker C: No, never mind.
+
+Speaker A: In the right order or not. Kind of confusing to me. Yeah. Sajit, why don't you go first?
+
+Speaker C: Yeah, yeah. So yeah, this is based upon. Next question about what I did. Am I allowed to share my screen? Because what I did I. Yeah, so I just wanted to show you application entire screen here. It is not allowing me for some reason. It says open system settings. Never mind.
+
+Speaker A: Maybe briefly describe your.
+
+Speaker C: Yeah, exactly. So the challenge here is, you know, I tried. There is a accompanying document which elevator system gave which has got different Python libraries that we can run. So I did a table using the mean squared error, the root mean square and then I tried linear regression, ridge, lasso, neural, all of that and the ridge gave me slightly better result. But I think the lower the root mean square is the better and the mean absolute error is the better the result is. Am I right?
+
+Speaker A: What we need is now Just the first part, you. The second part, you were right. So the lower mean absolute squared error. Lower root mean squared error.
+
+Speaker H: Good.
+
+Speaker A: Oh, and then did you say. But then the first part. Oh, maybe I'm researching the first part. We were saying the R squared or the root mean squared error.
+
+Speaker C: So what the first one is model square, you know, which was slightly higher than linear regression, whereas root mean and mean absolute error was slightly lower than linear regressions. So it has given me a slightly better result than linear regression. I just wanted to show you, because I created a Word document for that, the table on it.
+
+Speaker B: But.
+
+Speaker A: But you don't need to show me right now. But. But that is. That is good. That's the result I wanted to see. You know what, that's kind of essentially what I expected. I don't expect. I don't expect to get a great improvement out of this. As I saying, it's. Oh, yeah, and I was going to talk about that, but yeah, so that's the right result. Right. So what we, what we see is we see R squared going up and we see root mean squared error and. Or mean absolute error going down. That. And, you know, that's. That's a good direction. Now, one of the reasons why I don't expect, even if we put a really powerful model on this data, for it to get much better, is we don't have a lot of data here, right. We've only got just a small number of columns, that we've only got a small number of rows and that we're already getting a fairly high score. So that, you know, but. But that's good. You know, what you've done is kind of what I was expecting would. Would happen. And I think to get more out of it, you know, there may be a little bit more juice left in the lemon by doing some feature. Feature engineering to scale a couple of the input values might get, you know, might get some additional benefit, but it's difficult to say. You know, it likely will, but. But it's not going to be that great. So just.
+
+Speaker C: Yeah, so what I needed to restart zoom because now I've changed settings on my Mac, but when I was trying the classification model, it gave me compilation error. I did not. I ran after time. I did not get too much of time fixing the compilation error. This wasn't the objective of the task, is. It is. I was more keen to understand, you know, first, getting, getting the terminology right, you know, how to assess a model, secondly, depending upon the situation, how to select the right model, because everything is done through this ski kit API that we are using. All we needed to do is to make sure the import is compiled and coming down. When we apply the transformer, when we instantiate the transformer and then run the fit on it, then we just need to run two pieces of code and change some. Change the import, run it, come into straight into that area rather than running everything in between. Come straight into that area where we needed to execute the model and then start running the. The thing. So it is getting the right. Understanding the right model was bit of a challenge. It was completely new learning then, you know, it depends upon, you know, for me it is because I've tends to work more on the ETL side using Amazon, whereas this is a completely different learning that I needed to go through. The terminology was new, so it's just that, you know, it is. Although things are abstracted. But there is a thing that if you don't understand, you know, why you're applying this, then it leaves a gap. And that gap is I don't know how to fill that in. So my question is how to understand a input data and then to be able to figure out the right model that we should be using then analyzing the results. Just like there are three things that we have used here. But not necessarily that, you know, you've
+
+Speaker A: got to stop talking and.
+
+Speaker C: Yeah, okay, sorry.
+
+Speaker A: Like you gotta like keep a question nice and simple, right? And think about this also, you know, anyways, you just.
+
+Speaker C: I get it from it. Yeah, anyway, sorry about that.
+
+Speaker A: So, so, but look briefly, you know, I already covered evaluation right when we talked about evaluation in in depth just, just a few moments ago that you need, you know, but think, think about it like this way is that you know, your learning is iterative, right. Right now you're just starting at the beginning of something so that the learning, the learning objectives of, of what you're doing right now, let's just think about it in those terms. So one, I'd like you to get familiar when I say you, okay like everyone to get familiar with Jupiter notebooks and that style of stepping through things. As you get more familiar with that, that's going to help you and how you're going to get familiar with it is by using it, right? And by and large you've got to get familiar with the. How that works as an overall flow. So and you're doing that right right now by you working with it, you're getting familiar with it. It's going to take a while before you feel comfortable with it because it's not the same as just running a script or otherwise, but anyway, so that's, that's one of the learning objectives. Another learning objective is to get you engaged with the. Yeah, so that's, number one, is to get you engaged with the evaluation metrics. So the idea would be, is you go online, you research what is root mean squared error. You know, you look at some YouTube videos, look at r squared gain, maybe some YouTube videos, you know, whatever you prefer. Some, some documentation around that to help you with that, that you also learn a little bit about different regression models. So this is a regression problem, as I've mentioned. You know that, you know that regression is, is a whole class of problems, right? You know, there's a whole class of problems which are solved by regression style models. So we're starting with intentionally a fairly simple, you know, this can be applied to fairly simple models. But the idea is, is at a minimum that you want that also you're understanding the overall process which is, you know, there's some data preparation, right. You need to prepare your data for your model, that you split that between your training and your test data, that we fit that. Then we run an evaluation to see how, how well that model is before we proceed. So that's another learning outcome here. And then in terms of the, you know, then we're getting on to, and I did make this an optional part for the exercise is. Yeah, when you're changing, you know, by changing that model, the, you know, the algorithm that we're using here from say linear regression to some other form of regression is hopefully it's piquing your interest to read a little bit about why, you know, what the first one is and what its difference is from the second one or from the third one. So those, those are all the outcomes. So you know, frankly, you're on the right path and just keep doing what you're doing. And it's like, you know, it takes, you know, it's, it's a three year program or so to learn how to be a scientist. Right. And the idea here is we're kind of giving you, giving you enough so that you're starting to understand that if you were working with a data scientist, you'd have a better understanding of what they're doing and the process there. And should, should you need to build a, you know, a, you know, quickly build a small model or if you want to develop further in this area, this is a starting point. So think about it that way.
+
+Speaker B: All right.
+
+Speaker A: But you're doing just great.
+
+Speaker C: So I get it yeah. You know, let's come back to it towards the end when everyone has spoken. So you know, if you have time, we'll just share screen.
+
+Speaker A: Yeah, I don't think we need to. I've already said that you're, you're actually on track. Okay. So. So don't worry about that. And the way what you need to do is build your learning just with practice. Okay. But from what you shared the. Those numbers are direction. Correct. Well, thank you. Great, great. So Tim. Yeah. I think you're next.
+
+Speaker E: Yeah, I'll try to be quick and I hope my questions will be able to benefit everyone in the. In the group. First, the first. Firstly, I started looking at the latest assignment that you gave us and I am working through it but I want. Sorry, it's been a long day.
+
+Speaker C: I'm trying to.
+
+Speaker E: In my head but it's spinning around at the moment. So what did I want to say? So I was looking at the, the, the assignments that. You know what, let's want to go forward. My head is just spinning at the moment. I'll come back.
+
+Speaker A: Yeah, we can come back to you. Yeah. How about Ivan? Yeah, let's, let's take your question.
+
+Speaker D: Thanks, Toby. Yeah, I just raised a very simple question and it's also come across a very stupid question, but I'm very new to Amazon cloud platform. I spent some time in Bedrock before, which is a bit different, but it's my first time using SageMaker. And I know this is not. Should be an obvious one, but I received an email early this morning warning me that I'd used up 85% of my free tier resources. When I go into my domains, it looks like I have three active domains. Am I right? I should only have one domain. Right? One. One thing.
+
+Speaker A: Yeah. And, and it's essentially what I do as well. You know, I, I thought, you know, one of the things I do is I shut them down. Well, I mean, I think maybe what I would do is I'd shut down all of those just for right now if I was you.
+
+Speaker B: I did post something to. To on the Discord Channel. Help Ivan.
+
+Speaker D: I saw that, Nick, thank you very much. Actually, I saw that. I've just kind of found. I've basically the region. First of all, the region doesn't matter. Right. We should. Are we all working from Stockholm? The region. Are we. Where are we working?
+
+Speaker B: No, I, I started with Stockholm. It. It had a problem with the, the increased ML ami so I then switched to London. Ireland I think would work as well, but Stockholm has a problem. So that's why I switched out of it. And that's where I had the problem, because it was still running the domain in Stockholm and it was charging. So you've got to be mindful of that.
+
+Speaker A: I want.
+
+Speaker D: I don't want to shut down the domain that contains the notebooks I've already done. So I need to figure that out, if that makes sense.
+
+Speaker B: Yeah, yeah.
+
+Speaker D: So I'm going to remove. I'm going to. I'm going to try and remove the rest of the domains following the instructions you put this morning, Nick.
+
+Speaker B: Yeah, they're pretty good. I. Because it was, it was a. It was new to me and I got it then.
+
+Speaker D: Cheers.
+
+Speaker A: Yeah. And I'll just show you something in a second. Let's. Let's say I'm just trying to get things on the same screen. Let's see where is. Okay, there we go. All right. So, yeah, let me just share this form. You know, we'll just kind of COVID it briefly. And thanks, Nick, for doing, for sharing online your thinking. Yeah, broadly, I'd say, you know, like people, you know, the team supporting each other in. In Discord, that, you know, that's. That's a great way to, to sharpen some of your skills anyway and share some of your knowledge. So, like, here I am, I went to the SageMaker console here, right. So if I, If I close this, we're. We're looking like that. I'm going to open that up, I'm going to go to notebooks. So this is the way I've been encouraging people to do what they're doing, right, is that you have a notebook instance and you know that you, you know how to set up this notebook instance. Yeah. Well, the thing is, is, you see, mine has stopped, right. When I'm not using them, I stop them. And that was something, you know, I think I said everyone in class should do, but that when you stop it, what happens is it will save it will basically put it into, you know, like into the free zone. Right? Yeah. So that the state that I had when I left is still there when I started up. It's still there. All right. So, yeah. And if I kept it running, I'm going to be burning this MLT3 medium, you know, that's going to be burning my free tier. But if I stop it, it's not doing anything.
+
+Speaker D: Yeah, I think I must have. I stopped my notebook some time ago. Yes. And then like a week ago after the last class, basically. And. But I still got this email. If you go into domains on the left there. Toby, what shows up under your domain? So just up to,
+
+Speaker A: so this is a thing is possibly, you know, it's possible you're running the canvas thing. I'm not going to go into the domains because frankly it's not particularly relevant to me. Okay, okay. But that, you know, maybe did you use canvas and you didn't exit out of that. That could be another thing.
+
+Speaker D: Quite possibly. Yeah, yeah.
+
+Speaker A: So, so when you use Canvas, if you recall when it will tell you as well is there'll be a button, you know, I don't want to launch it.
+
+Speaker D: Yeah, fair enough.
+
+Speaker A: Yeah. Okay, but, but there'll be a button down here, you know, or shop here to exit canvas. So do that.
+
+Speaker D: I'll try those measures anyway first.
+
+Speaker C: No problem.
+
+Speaker D: Okay, cool.
+
+Speaker A: But that, that should be enough for you. But you know, if that doesn't work yet, you also reach out further on, on the discord. Okay, yeah, good stuff. But yeah, I mean these things happen. Again, it's all part of your learning.
+
+Speaker I: Right.
+
+Speaker A: It's learning how to. How the cloud platform works. Other, other cloud platforms will be similar. But yeah, so Tim. Yeah, let's go back to you.
+
+Speaker E: Yeah, quick one. Yeah. So I was looking at the, the textract documentation and I said they have some pre built, should I call them models that you can use to analyzing voices, analyze identity documents, analyze lending documents and stuff like that. If your use case doesn't include any of those, what happens if you want to analyze something? How does it work? Would you have to build it from
+
+Speaker A: scratch or you, you have. Yeah, you have to do more work and I think if you go through the examples, actually one of them sort of takes you through that when there's less of a match. So yeah, I think. Have you been through the example notebooks yet?
+
+Speaker E: The example notebooks?
+
+Speaker A: Yeah, yeah. The ones that I, that are, that we put out, that I put out for the class, the assignments.
+
+Speaker E: The last assignment. Yeah, I'm still working on those ones.
+
+Speaker A: Yeah, yeah. That if you go through those notebooks there's at least one example where, if I recall correctly where we don't have, you know, where there isn't a match as such. And that is kind of more free form. But yeah, so the, and the short answer is is yes, you can do it, but it's, it's, it's more work. Right. And so because you're not getting advantage of that templating. Right. So definitely it's understood. And yeah, I think if you work through the examples that it's what will happen Is is you would typically choose something that's close towards maybe what you're doing to get some, some assistance from it. You know, like is it. What kind of originating form might it be? You know, but you don't have to, you know, the more you're, the more you're straying away from any template, the more that you're having to, to do that from scratch, which you definitely can do. And I'd say one, one thing. So, but yeah, so, so that's the short answer is you can do that one. One interesting thing, Tim, if you're, if you're, you know, sounds like you're interested in this area, which is great. And I think, if I recall, I think you said you've used textract before, right? Is, you know, literally last week at Re Invent, they, they announced that they're doing some, you know, they're essentially, they're doing some textract like behavior with, with Bedrock now. Like they added a new Bedrock capability as part of the Bedrock service. And so and that's in public preview as of, you know, just, just the end of last week. So that might be, you know, I actually think that could be a very good place for you to, to go and to experiment, particularly if you're looking to say, do something that, that, that a template doesn't already exist.
+
+Speaker B: And what is Bedrock, Toby?
+
+Speaker A: It's, it's a, it's a generative A, you know, it's the primary generative AI service on aws. So fully managed, it's a fully managed capability. And yeah, so, so with that, so yeah, they, they're calling it. Well actually it's so new. I, I don't actually remember what they're calling it, but I, I haven't had a chance to kick the tires on it. But
+
+Speaker D: there's a human evaluation. It's a place where you can evaluate a given. You get a menu of models and you can have, you have a playground like a sandbox and you choose a model you want to have in that sandbox and then you run some queries against it and you can test it and you can create some criteria that you can then test the model again. So it's quite useful.
+
+Speaker A: Well, yeah, I mean, you know, that's definitely one of the things that you can do, but broadly it's an overall platform for generating, for creating generative AI solutions. So sure enough, you can do what you just said, that you can actually build full scale enterprise scale applications using the, you know, basically using the hosted models, et cetera. Et cetera. But anyway, so, yeah, it looks like we lost two. So. Okay, so I think. Michael. Yeah, please, go ahead. Hi.
+
+Speaker J: I just wanted to ask some questions about the relationships between the, the various algorithms, their variants, and the engineering part of it. That was, I forget what that was, what that was termed as feature engineering. That was it. On the third exercise, I was using some, I used some different versions of the, the X core, some of the, I think it was a Kendall method. But there was also. What I was thinking is if you've got a business and you, you haven't got the profit margin, you haven't got the turnover, then the, the ad, the admin cost is going to be related to the size of the company. So if you're looking at the, the advertising revenue, that's something that's more optional. Company companies will cut down on their advertising when they're running short of money. They can't cut down on their admin costs, not as easily. So I wanted to use that as a method of what I thought was, and that's part of the question, what feature engineering actually is, that if I linked the, the advertising revenue as a function of the, of the administration, that that would be a better measure of which companies are profitable and which ones aren't.
+
+Speaker A: Okay. Yeah, yeah, yeah. No, it's a, it's an interesting idea. So, yeah, so feature engineering. So feature engineering has, you know, there are multiple reasons for doing it, right? There's minimal feature engineering that you have to do to get data from, you know, how it comes to you from
+
+Speaker J: the customer in a format that can be used mathematically.
+
+Speaker A: Yeah, sure, exactly. So, so that's that minimal feature engineering. And you know, that, that includes things like as it was kind of spoken of, and this is where, you know, everyone could get a lot more experience at it. But you know, you can get experience as you work through examples and such. But you know, that includes things like, you know, techniques. You have to have techniques for how you're going to deal with missing values. Right. That would be one aspect that there are techniques for how you need to deal with columns which are not numeric. Right. Different classes, you know, and I think if you've done a little bit of research, you've also found that it's recognition that even if you've got different types of classes, there are different classes of different types of classes. Is it an orbital scale, is it just a name, set of classes, etc. Okay, so that's, that's that fundamental data engineering that has happened the next level up from that, which is fairly fundamental, is doing things like standardization and scaling of your floating point numbers that you're giving to the model for some values. And this kind of relates to. You can get better performance of some models if you do that. Actually, also what I meant to throw in there is dealing with outliers as well. That's another aspect. And when you do feature engineering, part of what you're doing is your is you might be. When I talk about things like scaling and standardization, this can actually help deal with outliers. And this is where we get more into the data science of things too, where it's, you know, part of the skills, skill set of a data scientist is how they're dealing with those outliers, et cetera. But then, so then what you're talking about is creating a new feature essentially by bringing two existing features together. And at least this is the way I'm understanding what you're saying. Bringing two features together, you know, relate and kind of like their relationship together to create a new feature which can then help the model, which is another aspect of feature engineering. And is, is kind of, is actually, you know, can be very useful. And in part because what you're saying is, or if, again, if I'm hearing you right, is you're saying your business knowledge tells you that there's a relationship here. And again, this is something that a data scientist or a business analyst would be doing as well, if they're in discussion, is that. Yeah, it's like seeing some of these relationships and then building a feature from that which will then help the model because the model isn't. Even if it's a powerful model, it would have to learn that relationship and then apply that. But if you're doing that and applying your domain knowledge. Yes, that. That's a really good thing to do. And that's. And that's. Yeah, that, that's just really good. You know, that, that a good direction.
+
+Speaker J: Great.
+
+Speaker C: Because.
+
+Speaker J: Well, and this is just like an overall description in my head. And so I thought it might be useful to, to people as they were going through stuff. This process is looking for the relationship between numbers to be able to predict others.
+
+Speaker A: Okay.
+
+Speaker J: We don't know when we start off what that, what that relationship might be or anything else. And obviously there are different circumstances that can arise that can, that can change things and throw the outliers and that sort of thing. The different models may give us that relationship. It may, it may find them. So trying different models may well find, find that relationship. And if you Can Feature engineering is how you refine your data to be able to get closer to reality in order for that relationship to be easier to find. Is that a fair way of expressing it?
+
+Speaker A: Yeah, I think that's a pretty good way of expressing it. Yeah. And broadly, what we're doing with feature engineering is making it easier for the model to take advantage of that data. And sometimes, you know, and that's, that's why, you know, we talked about these different things. And the last part is, is what you're doing, which is again, you know, sort of advanced feature engineering where it's recognizing that there may be a relationship and that it could be useful for the model and then preparing the data, essentially creating a new column to do that. And, and then that helps, by the way. I mean, you know, in similar things, you know, that's. There, there's a good example of this and I, I think I shared it as a link in, you know, for one of the classes, but is there's a kaggle. There's a Kaggle free mini class on feature engineering. I'm not sure. Did anyone see that? If you haven't seen it, I'll share it on the. I'll put it on the. Let's say I'm just looking for. And I, I'm making notes myself, but I'll post the Kaggle. Feature engineering, it's like a little, you know, it's a short, you know, kind of like do. Do it in your own time sort of course, you know, you can do it in just a, in just a, you know, an hour or a few hours, depending upon your level of experience before. And that kind of takes. Takes you through some of what we're discussing as well. But, yeah, you're on the right track. So that's very good.
+
+Speaker D: Okay.
+
+Speaker A: Yeah, thanks for that. And then let's see who is next. I think it looks like Nishant, if I've got the correct order. So, yeah. Nishant, do you have a question? Or maybe you're on mute or not talking. You're very quiet. All right, I. I have a. I have a question.
+
+Speaker G: So my. I'm trying to build a model using financial stock market, but in this case I'm using technical indicators. And somehow I managed to figure out data sets where it can give me history of two years worth of any ticker technical indicators. And the indicators at any given day, it will give me a signal saying buy, sell or hold a stock. Now what I want to do is I want to predict models based on finding a pattern so for example, if three of the technical indicators always indicate that the price is going up, then I, and, and the three appears in the future, then obviously you expect that the price will go up with, with a higher confidence level. My, my question is I figured out the data sets and where I can get it and that's all good. My question, my question is my target in this case is not. Is moving target because I have price can go up next day, price can go up a week after or price can go after a month. So if you have multiple targets in your model, how do you, how do you build a model based on multiple targets? Because ultimately I want system to figure out a way to, you know, take multiple combination of technical indicators and tell you maybe you should hold this for a week or a month to get that return back.
+
+Speaker A: Yeah. I mean, and there's no simple answer towards what you're saying, right? In general, you know, I think, I think models which predict the stock market are largely doomed to failure because you know, but, but let's say I'm wrong on that. You know, I'm prepared to suspend belief for the sake of this discussion that, that what you, what you would do well to look at is a, is more of a forecasting based model might be much better for, towards what you're doing. And there's. With that canvas, with the canvas model or canvas solution that we were talking about in class at the beginning, they actually have. There's an example there for forecasting. And one of the reasons why I bring you towards forecasting here is, is it helps in terms of looking out into the future. You can kind of say okay, what does a bit like when you see those hurricane maps and where the hurricane is going to go and you've got like, hey, the lightning path is this and it could be this or it could be that. Is it, it helps. It will. You can get visualizations of where that predicted value is going to be over time based upon the data that you input and that you could also input multiple data sets. But so the, yeah, the forecasting example that's there. So usually the forecasting models are done for doing things like stock inventory, right. So that you're predicting how much people are going to buy of a particular item so that you can keep your shelf stocked. Right. So that you're not understocked when you're not overstocked. And so you could. Hopefully you can see how this kind of goes to be a somewhat parallel with what you're looking at in terms of instead, instead of stock that you have, you know, stock which would be physical stock. You could be thinking here in terms of the, you know, and people buying that physical stock and how much inventory you have. This can be. Instead your measure can move towards what is the price of that particular value which is, you know, that price of that particular market stock, which is itself is an indicator of demand. Right? Yeah. So I think if you look at that there's actually a good related to that. So I think if you, if you think in terms of again this just to move you forward, I think if you think in terms of canvas because it will give you a good example of how to, how to do this, if you think in terms of forecasting algorithms because that also gets you in the right direction or at least a good direction and that there's actually a very good. This is another thing that I, Kate was at Reinvent was last week is I saw a good video yesterday that's just kind of catching up on things and there was a video from Reinvent last week where they were showing using canvas for forecasting. And I think, I think if you watch that there, that may again give you some indications of like, ah, okay, this is, this is something that I might be able to leverage. I think, you know, it's definitely worthwhile you're exploring.
+
+Speaker G: Okay, I'll try to do that. Thank you.
+
+Speaker A: Yeah, yeah, yeah, you're welcome. Yeah, good luck with that. But yeah, generally the, the reason why I'm against models for the stock market one is I worked in finance for a few years like ages back and then broadly, you know, and I saw very large companies have problems repeatedly even with very well trained people. And in part because the market doesn't behave in a predictable way.
+
+Speaker D: Right.
+
+Speaker A: You get times of being predictable, times of it being very unpredictable. And when it's unpredictable and it suddenly changes, that's when automated models generally end up burning their masters. So that happen.
+
+Speaker G: My goal is to, my goal is to put this into practice. I, I don't want to. It's not like I'm going to make money out of this, but just to get, get an idea. But also my multimodals, I have knowledge around sentiments, news, financial market. I look into everything before. But this is just one clue.
+
+Speaker A: Yeah, yeah. Excellent, excellent. Okay. No, fabulous, good stuff. So let's see. So yeah, we've kind of only got 10 minutes left. So I'll try to be quicker. Let's try to be quicker with the questions and I'll try to be quicker with the answers. So Damian, please go Ahead.
+
+Speaker K: Hi, Toby.
+
+Speaker A: Hi, everyone.
+
+Speaker K: Just a quick question about exercise three. I came in just as you were talking about R2 and root mean square. So did I hear you say correctly that R2 isn't a great way to monitor the success and the root mean square and root mean absolute error is a better way to judge it. And my second part to that one is the reason I was worried about that is because I'm getting very high numbers. For root mean square. I'm getting like 82 million. Is that. Am I doing something wrong or.
+
+Speaker A: Probably. Yeah. I mean, if it's, if it's that big. I mean, I think I recall it. It's. It's in about the. It's a pretty low root mean squared error that we start off with. So. But that, that's okay, you know. So the idea is it's a learning exercise. Right. So, you know, it might be that you're using a different algorithm if you're getting a number that's that large. Or maybe, or maybe the data set got wonky somehow. My temptation would be to. To reload, you know, kind of reload the original notebook and stuff. Just regarding that because. Yeah, something's gone wrong.
+
+Speaker K: Yeah, I thought so. That didn't look good to me. 8.35 to power seven is like. Oh, that's high.
+
+Speaker A: That's right. I would expect, I would expect small changes up or down.
+
+Speaker C: Yeah.
+
+Speaker A: As you change the model. What I was saying is that the root mean squared error and the mean absolute error are good. The reason why those are better metrics. Is there something that you could communicate with your customer about that they. And they really relate to the value of what you have there. That, that. So that there's real world meaning. Whereas the, for your, for your customer and, and essentially for you. Whereas with the R squared value. It's an interesting value. It kind of is telling you how. I kind of think about it as. As how much. How much juice we're squeezing out of the lemon, let's just say. Right. And the more juice. So that's why the higher the numbers, the better with that. Like one is we've squeezed all the juice out of it and you.
+
+Speaker K: 0.94, 0.97.
+
+Speaker H: You know.
+
+Speaker K: Yeah, it's going up every time I use a different model. But the.
+
+Speaker A: Right.
+
+Speaker K: I'm getting 7,500 for routing absolute error.
+
+Speaker A: Yeah, yeah, exactly. So. But my point is, is, is, you know, knowing how much juice you squeezed out of the lemon isn't very interesting to your end user because it's like, well, how well does the model predict? Right, right. So that's, that's why that's not helping. It's more telling us how much data juice we're squeezing out.
+
+Speaker D: Right.
+
+Speaker A: So.
+
+Speaker K: So what should be the sort of number I should be seeing that would make me comfortable. That you'd be comfortable to see for root mean square.
+
+Speaker A: Right. So it should just be slightly better than what we had before. Right. Okay. So. And, and root mean squared error should be reducing. And mean absolute error should be reducing. So I put in like 1%, 1% reduced would be. Consider that success. Okay, so that, that's, that's small. Great stuff. Well, good luck with that. Thank you. And then. Yeah, I think, Ivan, it looks like you're. You're next.
+
+Speaker I: Yes. So I've got two things. One of the things just to the other guys, so managed to get them over my free tier as well. So seems I had another instance running on the North Virginia and I'm in Europe, so, yeah, I managed to miss that and got over the limit. Yeah. So it's worth checking the other regions
+
+Speaker A: if there is something learning.
+
+Speaker I: My question is for the exercise from yesterday, on the second document. So the second notebook document extraction. So there was one thing missing, which was the image magic at the top when it's setting up the notebook. Is that needed at all?
+
+Speaker B: Yeah, that's.
+
+Speaker A: That's funny. Yeah, I don't, I don't, I don't get that with mine. But, you know, if you, you know, hey, you encounter, you know, it must be that you're. Your kernel is slightly different than mine, but, you know, it is an indicator that maybe something else is wrong, because I don't get that issue. But you know, I would say straight away, the easy button is just add image magic.
+
+Speaker I: Yeah, that's what I did. I just was wondering if it's. If it's needed or not. And then the other thing on the. There is a. On the next one, which is step three, it's restart the kernel.
+
+Speaker A: That's right.
+
+Speaker I: Yeah, that's correct.
+
+Speaker A: Yeah, that's correct. It's annoying. But, you know, this is one of these things that happens regularly, you know, with a number of Python modules, is that. And it varies, but that sometimes you'll need to restart the kernel to get the benefit. You know, that is basically, it's loading that right when we do PIP installation, it's loading that into the kernel and that for some modules, and I'm not sure exactly why is that. You'll need to restart the kernel to then be able to use them a lot of the time. A lot of the time you can just install and then import and you're off and running. But for some you need to install, restart and then you're off and running. And generally what we do as a practice is you oftentimes is we'll do those installations. It's kind of, it's a one time thing for that particular kernel. And what I'll do is this, after I've run the install, if I'm planning on using that notebook a fair bit, I'll then turn that into that cell, into raw. Because you don't need to install it again, right? Yeah, it's installed, it's there. It would only be if I started a new kernel or otherwise that I'd need to install that again. So then you just turn that off and then it's like, okay, I'll get going again. But yeah, with that notebook too. It annoys me. But in the short term I kind of had to live with that.
+
+Speaker I: How do I turn that off? Is it something easier?
+
+Speaker A: We can.
+
+Speaker I: Oh yeah, just comment out.
+
+Speaker A: For each cell in the notebook, it is either markdown or it's code or it's raw. And so when you select on that cell you can convert it to RAW and then that won't run again. You'll see how to do it. But yeah, just in the interest you can take one more, I think take one more question and I'm gonna, gonna take NASA's question just because he is. Yeah, he hasn't asked a question. So. So NASA, what's your question?
+
+Speaker H: Very quick one. I've got. I'm just going to share a screen and I just wonder whether you can help me. Am I supposed to delete what I've got on screen here? So it's this SageMaker.
+
+Speaker A: Okay. That's an end point, right? Yeah, probably at this point you can, you could delete this. Right? You see there's a delete button here. But. Yeah, what's your question?
+
+Speaker H: Yeah, that is the question. Should I delete this or do I need it for assignments or in the future?
+
+Speaker A: No, no, no, no. Just delete it. Yeah, yeah. So what it is is this got created when maybe when you ran the, the notebook related to your installation. I see it. That's right, on Sunday. Right. So this running about three days. So. So the last cell in that notebook would have deleted this. But anyway, just press, press the delete button up, up top there. That will remove it and. Okay, thank you very much. Yep, sure. You're welcome. Yeah, just broadly, what that is, is that is a. You know, when we create a model, right, say in your notebook, it's there and, you know, depending upon how you create it, you can run it in the notebook by itself, or if you created it such that you created it with a training job, you need to deploy it so you can use it. And this is a deployed instance. So. And the reason why we deploy it is, well, to run a model, it needs to be backed by CPU, you know, have some memory, etc. And so, yeah, so you definitely should. I can still see your screen. You should just delete. Hit the delete button at the top. In fact, actually, if you go to your, if you go to the menu item. Yeah. If you click on endpoints. Let's just see, like the endpoints from the second right here. Yeah, there you go. Click on that. So, yeah, this shows me that you have one endpoint. You see, it's in service, it's selected. You should be. Oh, you probably. I'm surprised that you cannot delete it from here. I would expect you'd have Actions delete. Did you. I think it does something. Yeah, maybe could you do the refresh over. Over here, like the little refresh icon. So, okay, yeah, now you can do Actions delete. Yeah, great. Do that. And then it will ask you, do you really want to delete it? Yeah. And again, so that what it is, is we create it in that notebook so we can then run some inference against that. And then later on in the notebook, we shut that down and it just looks like you didn't shut that down in the notebook.
+
+Speaker H: Okay, thank you very much.
+
+Speaker A: Yeah, Sean, you're welcome. And broadly, this is the thing, though, that, you know, it's good for everyone to be aware of when you run things in the notebook. A lot of the time those things are just living in the notebook. But you can do things like create an, you know, create an endpoint. You know, this is intentional. You can create things that will live for a long time. Just like you can create. You can create a model that will end up living on disk, you know, living on S3, whatever the problem is
+
+Speaker H: following it through on, does it show across all your regions? So you might have created something in one region and then create something different in a different region. Does it show all regions in one page or dashboard?
+
+Speaker A: No, you. You generally don't. So that, that's, you know, that's a challenge as well. Like, generally people tend to work in one region and if you switch regions, you remember. So again, you know, this is training, right? You know, kind of learning how it is if, if you were in a work environment, likely it is, hey, we work out of this region. We do deployments into this region and that region. You know, there's some, you know, whereas right here we're kind of freestyling.
+
+Speaker H: I think I'd logged into something like, I think it was Ohio to start with and then when I logged in the next time it logged me automatically into Virginia and I started working there. So I'd forgotten about the Ohio one. And then I got cost of $0.87 or something. So I just wondered what had happened there.
+
+Speaker A: So. Yeah, okay, well, look, anyway, I've got to go, but hope you guys have a great rest of the day. I know it's kind of a little later in the day for you than it is for me and hopefully I'll see you all tomorrow.

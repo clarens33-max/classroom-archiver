@@ -1,0 +1,36 @@
+00:49:07	Adrien Biencourt:	Do you also get the message "Access to models in DUB region is currently gated. Please contact your account manager to request model access in this region." ?
+I can only select Claude 3.5 Sonnet right now.
+00:51:00	Luis Aveiro:	You need to select "Claude 3 Haiku" for Bedrock Model access. That is the Model used in the SageMaker assignment
+00:51:55	Uche Onyia:	Replying to "Do you also get the ..."
+
+I think it depends on the region you are working out of.  I am working from London region and the Model is on there
+00:53:13	Luis Aveiro:	Replying to "Do you also get th..."
+
+I'm using us-east-1
+00:53:35	Adrien Biencourt:	Replying to "Do you also get the ..."
+
+Toby just answered too. Seems like some models are "region-locked" and need to be granted through support.
+I will switch to "us-east-1" as he just mentioned
+00:54:39	Adrien Biencourt:	Reacted to "I think it depends o..." with 👍
+00:59:28	Nabil:	Is anyone else also still seeing the first slide only ?
+00:59:29	Samira Khodai:	Good article: What is Prompt Engineering? A Detailed Guide For 2025: https://www.datacamp.com/blog/what-is-prompt-engineering-the-future-of-ai-communicationhopefully this article is accessible for everyone.
+00:59:39	Ismail Mayat:	Reacted to "Is anyone else also ..." with 👍
+00:59:43	ivanodwyer:	Reacted to "Is anyone else also ..." with 👍
+00:59:44	Samira Khodai:	Reacted to "Is anyone else also ..." with 👍
+00:59:56	michaelstewart:	Reacted to "Good article: What i..." with 👍
+01:00:01	Adrien Biencourt:	Reacted to "Is anyone else also ..." with 👍
+01:00:16	Ismail Mayat:	Reacted to "Good article: What i..." with 👍
+01:00:21	Luis Aveiro:	Reacted to "Is anyone else als..." with 👍
+01:00:23	Luis Aveiro:	Reacted to "Good article: What..." with 👍
+01:00:54	Nabil:	Reacted to "Good article: What i..." with 👍
+01:16:11	Adrien Biencourt:	DId screen froze again?
+01:16:29	Nabil:	Reacted to "DId screen froze aga..." with 👍
+01:21:13	Ivan Georgiev:	RAG 
+https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/
+01:21:21	Samira Khodai:	Reacted to "RAG 
+https://blogs.n..." with 👍
+01:21:28	Nishant Pithia:	Reacted to "Good article: What i..." with 👍
+01:22:03	Luis Aveiro:	Reacted to "RAG 
+https://blogs..." with 👍
+01:28:21	Surjeet Singh:	Reacted to "RAG 
+https://blogs.n..." with 👍

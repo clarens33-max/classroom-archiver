@@ -1,0 +1,7 @@
+External resources
+============================================================
+
+BERT (language model) - Wikipedia  →  https://en.wikipedia.org/wiki/BERT_(language_model)#
+Generative pre-trained transformer - Wikipedia  →  https://en.wikipedia.org/wiki/Generative_pre-trained_transformer
+Convolutional neural network - Wikipedia  →  https://en.wikipedia.org/wiki/Convolutional_neural_network
+What is Intelligent Document Processing? - IDP Explained - AWS  →  https://aws.amazon.com/what-is/intelligent-document-processing/

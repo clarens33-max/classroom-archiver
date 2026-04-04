@@ -1,0 +1,8 @@
+The scenario overview (details are in GitHub as a PDF):
+
+A large technology company wants to develop a state-of-the-art generative AI system capable of producing high-quality, coherent, and factual content on a wide range of topics on its products. The system, which will replace the search capability on the corporate homepage, should leverage AI retrieval-based methods to gather relevant information from various sources and produce human-like outputs.
+
+Your task is to consider the details of the requirement and create an initial set of solution artifacts, which are detailed in the assignment brief.
+
+Due date: January 28, 11:59 pm GMT
+Grade: 20 points

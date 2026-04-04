@@ -1,0 +1,12 @@
+00:06:30	davidpage:	Just to confirm, there is only 1 class this week (tonight)?
+00:06:53	Nick Haddock:	No that was last week is my understanding
+00:08:25	davidpage:	OK, I think I must have got confused watching previous recordings
+00:09:24	Nick Haddock:	Reacted to "OK, I think I must h..." with 👍
+00:31:07	Keith Branch:	I've had a crack at that notebook.  Works well.  My tip is to remember to grant access for BOTH the LLM model and the embeddings model.  Took me a while to see where I was going wrong as I only granted one.
+00:31:33	Ismail Mayat:	Reacted to "I've had a crack at ..." with 👍
+00:32:16	Nick Haddock:	Reacted to "I've had a crack at ..." with 👍
+00:32:35	Eddy Eddy:	https://www.wordware.ai/
+00:32:51	Nishant Pithia:	Reacted to "I've had a crack at ..." with 👍
+00:40:42	Surjeet Singh:	GraphQL API can be configured via AppSync to retrieve data from various sources @michaelstewart
+00:41:21	michaelstewart:	Reacted to "GraphQL API can be c..." with 👍
+00:52:56	michaelstewart:	Is this the equivalent to reusable code in using agents?

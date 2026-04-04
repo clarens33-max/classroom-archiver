@@ -1,0 +1,352 @@
+{% extends "base.html" %}
+{% block title %}{{ lesson.display_title }}{% if lesson.subtitle %} — {{ lesson.subtitle }}{% endif %}{% endblock %}
+
+{% block content %}
+
+<!-- Breadcrumb -->
+<nav aria-label="breadcrumb" style="margin-bottom:1rem">
+  <ol class="breadcrumb" style="font-size:0.8rem">
+    <li class="breadcrumb-item"><a href="{{ url_for('index') }}">Lessons</a></li>
+    <li class="breadcrumb-item active">{{ lesson.display_title }}</li>
+  </ol>
+</nav>
+
+<!-- Header -->
+<div class="mb-4">
+  <div style="font-size:0.72rem;font-weight:700;color:#94a3b8;text-transform:uppercase;letter-spacing:0.08em">
+    {{ lesson.display_title }}
+  </div>
+  <h1 class="page-heading mt-1">{{ lesson.subtitle or lesson.display_title }}</h1>
+
+  <!-- Prev / Next navigation -->
+  <div class="d-flex gap-2 mt-2">
+    {% set ns = namespace(prev=None, next=None) %}
+    {% for i in range(lessons|length) %}
+      {% if lessons[i].number == lesson.number %}
+        {% if i > 0 %}{% set ns.prev = lessons[i-1] %}{% endif %}
+        {% if i < lessons|length - 1 %}{% set ns.next = lessons[i+1] %}{% endif %}
+      {% endif %}
+    {% endfor %}
+    {% if ns.prev %}
+    <a href="{{ url_for('lesson', num=ns.prev.number) }}" class="btn btn-sm btn-outline-secondary">
+      <i class="bi bi-arrow-left"></i> {{ ns.prev.display_title }}
+    </a>
+    {% endif %}
+    {% if ns.next %}
+    <a href="{{ url_for('lesson', num=ns.next.number) }}" class="btn btn-sm btn-outline-secondary">
+      {{ ns.next.display_title }} <i class="bi bi-arrow-right"></i>
+    </a>
+    {% endif %}
+  </div>
+</div>
+
+<!-- Tabs -->
+{% set first_tab = 'slides' if lesson.slides_pdf else ('transcript' if lesson.transcripts else ('resources' if lesson.resource_files or lesson.resource_links else 'assignment')) %}
+<ul class="nav nav-tabs mb-3" id="lessonTabs" role="tablist">
+  {% if lesson.slides_pdf %}
+  <li class="nav-item">
+    <button class="nav-link {% if first_tab == 'slides' %}active{% endif %}" data-bs-toggle="tab" data-bs-target="#tab-slides" type="button">
+      <i class="bi bi-file-earmark-slides me-1"></i>Slides
+    </button>
+  </li>
+  {% endif %}
+  {% if lesson.transcripts %}
+  <li class="nav-item">
+    <button class="nav-link {% if first_tab == 'transcript' %}active{% endif %}" data-bs-toggle="tab" data-bs-target="#tab-transcript" type="button">
+      <i class="bi bi-mic me-1"></i>Recording &amp; Transcript
+    </button>
+  </li>
+  {% endif %}
+  {% if lesson.resource_files or lesson.resource_links %}
+  <li class="nav-item">
+    <button class="nav-link {% if first_tab == 'resources' %}active{% endif %}"
+            data-bs-toggle="tab" data-bs-target="#tab-resources" type="button">
+      <i class="bi bi-folder2-open me-1"></i>Resources
+      {% set total = (lesson.resource_files|length) + (lesson.resource_links|length) %}
+      {% if total %}<span class="badge bg-secondary ms-1" style="font-size:0.65rem">{{ total }}</span>{% endif %}
+    </button>
+  </li>
+  {% endif %}
+  {% if lesson.assignment %}
+  <li class="nav-item">
+    <button class="nav-link {% if first_tab == 'assignment' %}active{% endif %}" data-bs-toggle="tab" data-bs-target="#tab-assignment" type="button">
+      <i class="bi bi-pencil-square me-1"></i>Assignment
+    </button>
+  </li>
+  {% endif %}
+</ul>
+
+<div class="tab-content">
+
+  <!-- ── Slides tab ── -->
+  {% if lesson.slides_pdf %}
+  <div class="tab-pane fade show active" id="tab-slides">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <span style="font-size:0.82rem;color:#64748b">
+        <i class="bi bi-file-earmark-pdf text-danger me-1"></i>
+        {{ lesson.slides_pdf.split('/')[-1] }}
+      </span>
+      <div class="d-flex gap-2">
+        <a href="{{ url_for('serve_file', rel=lesson.slides_pdf) }}" target="_blank" class="btn btn-sm btn-outline-primary">
+          <i class="bi bi-eye me-1"></i>Open
+        </a>
+        <a href="{{ url_for('download_file', rel=lesson.slides_pdf) }}" class="btn btn-sm btn-primary">
+          <i class="bi bi-download me-1"></i>Download PDF
+        </a>
+      </div>
+    </div>
+
+    <!-- PDF embed -->
+    <div style="border:1px solid #e2e8f0;border-radius:10px;overflow:hidden;background:#525659;">
+      <iframe
+        src="{{ url_for('serve_file', rel=lesson.slides_pdf) }}"
+        style="width:100%;height:75vh;border:none;"
+        title="Slides PDF">
+        <p style="color:#fff;padding:1rem">
+          Your browser cannot embed PDFs.
+          <a href="{{ url_for('serve_file', rel=lesson.slides_pdf) }}" style="color:#93c5fd">Open the PDF</a> or
+          <a href="{{ url_for('download_file', rel=lesson.slides_pdf) }}" style="color:#93c5fd">download it</a>.
+        </p>
+      </iframe>
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- ── Transcript tab ── -->
+  {% if lesson.transcripts %}
+  {% set t = lesson.transcripts[0] %}
+  <div class="tab-pane fade {% if not lesson.slides_pdf %}show active{% endif %}" id="tab-transcript">
+
+    <!-- Action buttons -->
+    <div class="d-flex flex-wrap gap-2 mb-4">
+      {% if t.summary_pdf %}
+      <a href="{{ url_for('serve_file', rel=t.summary_pdf) }}" target="_blank" class="btn btn-sm btn-outline-primary">
+        <i class="bi bi-file-earmark-text me-1"></i>Open Summary PDF
+      </a>
+      <a href="{{ url_for('download_file', rel=t.summary_pdf) }}" class="btn btn-sm btn-primary">
+        <i class="bi bi-download me-1"></i>Download Summary
+      </a>
+      {% endif %}
+      {% if t.transcript %}
+      <a href="{{ url_for('view_transcript', rel=t.transcript) }}" target="_blank" class="btn btn-sm btn-outline-secondary">
+        <i class="bi bi-card-text me-1"></i>Full Transcript
+      </a>
+      <a href="{{ url_for('download_file', rel=t.transcript) }}" class="btn btn-sm btn-outline-secondary">
+        <i class="bi bi-download me-1"></i>Download .txt
+      </a>
+      {% endif %}
+    </div>
+
+    <div class="row g-4">
+      <!-- Concept map -->
+      {% if t.concept_map %}
+      <div class="col-12 col-lg-5">
+        <div class="card">
+          <div class="card-header d-flex align-items-center gap-2">
+            <i class="bi bi-diagram-3"></i> Concept Map
+          </div>
+          <div class="card-body text-center p-2">
+            <a href="{{ url_for('serve_file', rel=t.concept_map) }}" target="_blank">
+              <img src="{{ url_for('serve_file', rel=t.concept_map) }}"
+                   alt="Concept map" class="concept-map-img">
+            </a>
+            <div style="font-size:0.72rem;color:#94a3b8;margin-top:0.4rem">Click to open full size</div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
+      <!-- Transcript preview -->
+      {% if t.transcript %}
+      <div class="col-12 {% if t.concept_map %}col-lg-7{% endif %}">
+        <div class="card h-100">
+          <div class="card-header d-flex align-items-center justify-content-between">
+            <span><i class="bi bi-chat-square-text me-1"></i>Transcript Preview</span>
+            <a href="{{ url_for('view_transcript', rel=t.transcript) }}" target="_blank"
+               style="font-size:0.75rem;color:#3b82f6">View full <i class="bi bi-box-arrow-up-right"></i></a>
+          </div>
+          <div class="card-body p-0">
+            <div class="transcript-box" style="border-radius:0 0 10px 10px" id="transcriptPreview">
+              <span style="color:#475569">Loading…</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+
+    {% if t.summary_pdf %}
+    <div class="mt-4">
+      <div class="card">
+        <div class="card-header"><i class="bi bi-file-earmark-richtext me-1"></i>Summary PDF</div>
+        <div class="card-body p-0" style="border-radius:0 0 10px 10px;overflow:hidden;background:#525659;">
+          <iframe src="{{ url_for('serve_file', rel=t.summary_pdf) }}"
+                  style="width:100%;height:70vh;border:none;"
+                  title="Summary PDF"></iframe>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+
+  <script>
+    (function() {
+      var box = document.getElementById('transcriptPreview');
+      if (!box) return;
+
+      function formatTranscript(text) {
+        var lines = text.split('\n').slice(0, 150);
+        var truncated = text.split('\n').length > 150;
+        var html = lines.map(function(line) {
+          var s = line.trim();
+          if (!s) return '<div class="tr-gap"></div>';
+          if (s.startsWith('#')) return '<div class="tr-meta">' + escHtml(s) + '</div>';
+          var m = s.match(/^(Speaker\s+\w+):\s*(.*)/);
+          if (m) {
+            var spk = m[1].trim().toUpperCase() === 'SPEAKER A' ? 'Toby Fotherby' : m[1];
+            return '<div class="tr-turn"><span class="tr-speaker">' + escHtml(spk) + '</span><span class="tr-text">' + escHtml(m[2]) + '</span></div>';
+          }
+          return '<div class="tr-line">' + escHtml(s) + '</div>';
+        }).join('\n');
+        if (truncated) html += '<div class="tr-meta" style="margin-top:0.5rem">[… truncated — click "View full" to read all]</div>';
+        return html;
+      }
+
+      function escHtml(s) {
+        return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+      }
+
+      fetch("{{ url_for('serve_file', rel=t.transcript) }}")
+        .then(function(r) { return r.text(); })
+        .then(function(text) { box.innerHTML = formatTranscript(text); })
+        .catch(function() { box.innerHTML = '<div class="tr-meta">Could not load transcript preview.</div>'; });
+    })();
+  </script>
+  {% endif %}
+
+  <!-- ── Resources tab ── -->
+  {% if lesson.resource_files or lesson.resource_links %}
+  <div class="tab-pane fade {% if not lesson.slides_pdf and not lesson.transcripts %}show active{% endif %}"
+       id="tab-resources">
+
+    {% if lesson.resource_links %}
+    <div class="mb-4">
+      <h6 style="font-size:0.75rem;font-weight:700;color:#374151;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.6rem">
+        External Links
+      </h6>
+      {% for link in lesson.resource_links %}
+      <a href="{{ link.url }}" target="_blank" rel="noopener" class="link-row">
+        <i class="bi bi-box-arrow-up-right"></i>
+        <span>{{ link.title }}</span>
+      </a>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if lesson.resource_files %}
+    <div class="mb-4">
+      <h6 style="font-size:0.75rem;font-weight:700;color:#374151;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.6rem">
+        Downloadable Files
+      </h6>
+      {% for f in lesson.resource_files %}
+      <div class="file-row">
+        {% if f.ext == 'pdf' %}
+          <i class="bi bi-file-earmark-pdf file-icon text-danger"></i>
+        {% elif f.ext in ('pptx', 'ppt') %}
+          <i class="bi bi-file-earmark-slides file-icon text-warning"></i>
+        {% elif f.ext in ('xlsx', 'xls') %}
+          <i class="bi bi-file-earmark-spreadsheet file-icon text-success"></i>
+        {% elif f.ext == 'png' %}
+          <i class="bi bi-file-earmark-image file-icon text-info"></i>
+        {% else %}
+          <i class="bi bi-file-earmark file-icon"></i>
+        {% endif %}
+        <span class="file-name">{{ f.name }}</span>
+        <span class="file-size">{{ f.size }}</span>
+        {% if f.ext == 'pdf' %}
+        <a href="{{ url_for('serve_file', rel=f.path) }}" target="_blank" class="btn btn-sm btn-outline-secondary">
+          <i class="bi bi-eye"></i>
+        </a>
+        {% endif %}
+        <a href="{{ url_for('download_file', rel=f.path) }}" class="btn btn-sm btn-outline-primary">
+          <i class="bi bi-download"></i>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+
+  </div>
+  {% endif %}
+
+  <!-- ── Assignment tab ── -->
+  {% if lesson.assignment %}
+  {% set a = lesson.assignment %}
+  <div class="tab-pane fade {% if first_tab == 'assignment' %}show active{% endif %}" id="tab-assignment">
+
+    <h6 style="font-size:0.75rem;font-weight:700;color:#374151;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.75rem">
+      {{ a.title }}
+    </h6>
+
+    {% if a.description %}
+    <div class="card mb-3">
+      <div class="card-header"><i class="bi bi-card-text me-1"></i>Brief</div>
+      <div class="card-body" style="font-size:0.85rem;color:#374151;white-space:pre-line;line-height:1.7">{{ a.description }}</div>
+    </div>
+    {% endif %}
+
+    {% if a.files %}
+    <div class="mb-3">
+      <div style="font-size:0.72rem;font-weight:600;color:#64748b;margin-bottom:0.5rem">TEMPLATES &amp; FILES</div>
+      {% for f in a.files %}
+      <div class="file-row">
+        {% if f.ext == 'pdf' %}
+          <i class="bi bi-file-earmark-pdf file-icon text-danger"></i>
+        {% elif f.ext in ('pptx', 'ppt') %}
+          <i class="bi bi-file-earmark-slides file-icon text-warning"></i>
+        {% elif f.ext in ('xlsx', 'xls') %}
+          <i class="bi bi-file-earmark-spreadsheet file-icon text-success"></i>
+        {% else %}
+          <i class="bi bi-file-earmark file-icon"></i>
+        {% endif %}
+        <span class="file-name">{{ f.name }}</span>
+        <span class="file-size">{{ f.size }}</span>
+        {% if f.ext == 'pdf' %}
+        <a href="{{ url_for('serve_file', rel=f.path) }}" target="_blank" class="btn btn-sm btn-outline-secondary">
+          <i class="bi bi-eye"></i>
+        </a>
+        {% endif %}
+        <a href="{{ url_for('download_file', rel=f.path) }}" class="btn btn-sm btn-outline-primary">
+          <i class="bi bi-download"></i>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if a.links %}
+    <div>
+      <div style="font-size:0.72rem;font-weight:600;color:#64748b;margin-bottom:0.5rem">LINKS</div>
+      {% for link in a.links %}
+      <a href="{{ link.url }}" target="_blank" rel="noopener" class="link-row">
+        <i class="bi bi-box-arrow-up-right"></i> {{ link.title }}
+      </a>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+  </div>
+  {% endif %}
+
+</div><!-- /tab-content -->
+
+<!-- Empty state -->
+{% if not lesson.slides_pdf and not lesson.transcripts and not lesson.resource_files and not lesson.resource_links and not lesson.assignment %}
+<div class="text-center py-5" style="color:#94a3b8">
+  <i class="bi bi-folder2-open" style="font-size:2.5rem"></i>
+  <p class="mt-2">No archived content found for this lesson yet.</p>
+</div>
+{% endif %}
+
+{% endblock %}

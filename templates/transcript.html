@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}Transcript — {{ course_name }}{% endblock %}
+
+{% block content %}
+<div class="d-flex align-items-center justify-content-between mb-3 flex-wrap gap-2">
+  <div>
+    <h1 class="page-heading" style="font-size:1.1rem">Transcript</h1>
+    <div style="font-size:0.72rem;color:#94a3b8">{{ filepath.split('/')[-1] }}</div>
+  </div>
+  <div class="d-flex gap-2">
+    <a href="{{ url_for('download_file', rel=filepath) }}" class="btn btn-sm btn-primary">
+      <i class="bi bi-download me-1"></i>Download .txt
+    </a>
+    <button class="btn btn-sm btn-outline-secondary" onclick="window.history.back()">
+      <i class="bi bi-arrow-left me-1"></i>Back
+    </button>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-body p-0">
+    <div class="transcript-box" style="max-height:none;border-radius:10px;">
+      {{ content | format_transcript }}
+    </div>
+  </div>
+</div>
+{% endblock %}

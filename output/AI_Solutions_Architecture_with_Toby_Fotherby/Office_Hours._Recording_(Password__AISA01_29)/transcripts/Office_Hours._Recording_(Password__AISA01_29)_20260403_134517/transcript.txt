@@ -1,0 +1,238 @@
+# Office Hours. Recording (Password: AISA01/29)
+# Source: https://player.vimeo.com/video/1051893197
+
+Speaker A: Hi, Toby.
+
+Speaker B: Hey, Nick. How you doing today?
+
+Speaker A: Not so bad. Bit cold.
+
+Speaker B: Yeah. Really? Huh. What's. What's a bit cold where you are?
+
+Speaker A: I think it's about 7 degrees today.
+
+Speaker B: Oh, that's not too bad, like. So. Yeah, like plus seven centigrade.
+
+Speaker A: Yeah, yeah, yeah, yeah, yeah. What about. What's it like with you?
+
+Speaker B: Oh, this time of year, it's. It's often pretty nice, but it'll be down to. It's probably below 7 right now. It's, you know, in the early morning. But it will pick up. Actually, I'm gonna check because.
+
+Speaker A: To make me jealous.
+
+Speaker B: Oh, no, yeah, it's. It, it's. I mean, the high will be, well. Well, like maybe higher than your high, but the lows. The lows about the same. But yeah. I think I'm likely going to go for a cycle ride once we've done here, so I just need to see. I know I'll need to dress up warmly. Yeah.
+
+Speaker A: I had one quick question and.
+
+Speaker B: Yeah, what's your question?
+
+Speaker A: Bloody phone going. Hang on a second, let me take this.
+
+Speaker B: Yeah. Good morning, everyone. Let's see. Anyone?
+
+Speaker C: Hi, Toby. Can I ask a quick question whilst we're waiting for Nick?
+
+Speaker B: Yeah, yeah, yeah, absolutely.
+
+Speaker C: I've got a problem with my Bedrock. So I've done assignment five yesterday, completed that. I'm gonna move on to assignment six, but I'm having trouble understanding the pricing. Not the pricing, but the consequences of having Bedrock and how you can switch it off. Do we unsubscribe after the assignment's done?
+
+Speaker B: Okay, so. So I think there's. There's likely some good news here. So what happens with Bedrock is by default you're using it as an on demand service, so that if you're not using it, you know, if you're not putting requests to one of those models, there's no charge. So, so it's Right. So think, Think about it as it's on demand that you're paying, you're effectively paying per request that you make to. Or you're charged per request that you make to one of the models that are in Bedrock and when you're not making that, so it's an on demand service, there is provision capacity and that when, let's say you had, you developed an application for your customer and it's. It's using Bedrock and it's using, you know, you like, typically you would maybe keep it using on demand capacity while you're doing your alpha testing and such. Right. You know, and then as you start to scale out and you're saying, hey, you want to get a certain level of support for that, like a committed level of.
+
+Speaker C: I'll just tell you what my. Tell you what my problem is.
+
+Speaker B: Yeah. To.
+
+Speaker C: To get the Claude and the Sunet LLM models, you click on subscription and it's. And it's a SAF subscription, isn't it? Here you go.
+
+Speaker B: It's not. No. Okay.
+
+Speaker C: That's the email that I received. If I just. Can I share my screen?
+
+Speaker B: Well, no, don't bother. You know, you'd just be wasting my time. So. So look, you need to listen a bit, right? And that, that will kind of help. But when. If we're talking about when you go to the Bedrock console and you go into Settings and you say, enable this model, right, for use, that's what you're doing. You're enabling it. Okay? That. You know that subscript. If there's subscription terminology, that's just terminology. Okay?
+
+Speaker D: All right.
+
+Speaker B: You know the things I've told you are true. So why don't you ingest those, look at the documentation and you'll see that you're paying on demand based upon the request that you make. You make no requests, there's no charge. Okay? That's. That's the way it works. So I suggest you research that and then you can come back with another question, because I think I answered your question. All right?
+
+Speaker C: Yes. I've just got an email that's come there as a subscription model to my inbox to say that subscribing to the models, when I've got to look at the pricing, it's quite confusing what the pricing is.
+
+Speaker B: Yeah, but, but, but that's. Yeah, go and have a look on the website. I've told you, right? Conceptually, I've told you what it is, right? I work with customers every day, right? And so go and have a look at it. I'm 100 certain of what I said. So maybe you just need to look at another couple of sources, then you'll be in a. Then you'll be in a good position. Okay. All right, so let's, let's leave that there. You know, you can check. Why don't you check with people on the Discord Channel as well if you want to get more confirmation. Well, I've said there's nothing else I can say.
+
+Speaker A: Can I. I was asking my question before my bloody telephone went off. Very quickly. You mentioned yesterday about being able to use models in. I think it was US West 1 or US East 2 from my AWS account in the UK.
+
+Speaker B: Yes.
+
+Speaker A: Is there a setting that you have to say? Is there something very simple you have to do to say, use that model or.
+
+Speaker B: Right, there is, and it's in the Notebook. So in. In the Notebook, it's, you know, essentially when you're connecting to the Bedrock service.
+
+Speaker A: Yeah.
+
+Speaker B: Or actually, I think it's. It's even when I'm setting up those. Those particular models, but it's, you know, but essentially when you're connecting your model to Llama Index, then you're actually, with your settings, you're configuring the model, you know, and where you're going to call that in Bedrock. So. But typically, you know, with most of the AWS services, you can see which region you want to work with, so you can. Right. And so you have the region. In this case, what's happening with the Notebooks is there's a region where you're running the Notebook, which may be, you know, like maybe in the UK or, you know, whatever is that region. And then, you know, you could be reaching out to S3 in any location right around the world. You could similarly be reaching out to Bedrock in any location around that doesn't have the same. Hasn't. Doesn't have to be the same location. So. Which is why. Yeah. And that generally the US is much better served on Bedrock, which is why I have everyone just go ahead and use that. And the difference in latency is going to be negligible because, you know.
+
+Speaker C: Can I ask a separate question again regarding billing? I'm getting charged for Sage Maker, but even though I've got all the notebooks switched off, so it's about the GP3, I think. Is it the storage that I'm getting charged for?
+
+Speaker B: Maybe. I mean, are we talking how many dollars or. Or pounds are we talking?
+
+Speaker C: It's only five or ten dollars so far.
+
+Speaker B: Yeah.
+
+Speaker C: So it's not a lot.
+
+Speaker B: Yeah. So, you know, I really don't have time to go into that. Right. Again, I expect, you know, go and have a look and. And. And see what you're doing. Maybe you left something running, whatever, but, you know, I expect you to manage that. $5.
+
+Speaker A: Yeah, we. We did. We did have a discussion about this on Discord, and we went through all the things that you should be turning off. By all means, drop me a note and I can. I can point you in the right direction.
+
+Speaker C: Oh, yeah, I could do with some help on that one.
+
+Speaker D: Thank you.
+
+Speaker C: Yeah, it's just I've never used AWS before this course, so all of it's a bit of a minefield. Let's wait for switch on and switch up.
+
+Speaker B: Yeah, sure, sure enough. But yeah, unfortunately it just isn't a good use of our time here to, to talk about that. Particularly, you know, if you had something, if you're talking about some large dollar figure, you know, then maybe, you know, I'd love to help you, but at $5 for, okay, you've been on the program for, you know, your account's running for three months. You know, that's, that's not a good use of our Chinese.
+
+Speaker C: Yeah, I didn't know it until I got a big bill before I contacted you, Toby. I want to avoid it.
+
+Speaker B: $5. Again, do, do some research. Broadly. What happens too guys, is, you know, in the area that we work with is you've got to continually learn, I'm continually learning all the time. The, you know, and you know, you come across things. You've got to learn about the cloud platforms, you've got to learn about various tooling. You, you know, you have to kind of get up and do your own research. So, you know, that's kind of often the way these things are with these subtle things. And it can, can be a little challenging to find out where you're getting small dollar figures and small, small usage figures in the, in the cloud. That can be a challenge.
+
+Speaker A: I tell you one thing I came across doing some research for the rag stuff is some, one of the AI guys I follow was talking about context documents whereby you can just load a document. So it's not really a rag setup, it's kind of like an in between where you can literally just load a document in. Now I don't know whether we covered that in the course, but I thought that, that I found that very useful for just testing because you've, you've constantly said about test testing and going through things to quickly develop something, and that's really handy for just sucking in data. I don't know whether other people would find that useful.
+
+Speaker B: Yeah, you know what, what happens with that is, you know, there's, there's a pattern. I don't really bring it up because it's not, it's not really a particularly scalable pattern. In, in a sense it's, you know, that we would, the kind of thing that we would necessarily design in. But what you can do is basically it's, it's, it is similar to retrieval, augmented generation. But yeah, what, what it is, is let's, let's say that what you can do is you can bring in your document, you know, a Single document, or it even could be a couple of documents. But you bring in a document and you're just like, I'm going to query this document and then, then it will. You basically it's provided by the service that you can essentially cache that. So what's going to happen is that document is going to be read, it's going to become part of that context and then you're going to run queries against that. And some of the model providers, you know, as you can imagine, if you're anthropic, you quite like that model because someone brings that in, it's a large document and then they're querying that repeatedly. And you know, it's, it's, it's a good simple solution. As you could imagine if you were scanning an RFP or something like that or some sort of complex contract documentation or legal documentation. That, that, that really is that use case where it's like uploaded. Query it. Query it some more. Query it some more. But yeah, that's, let's say I don't bring it up because it's not really an application pattern as such, but it can be useful for people who want to go through a document repeatedly.
+
+Speaker A: Yeah, yeah, that's what I thought you'd probably say. RAG is the proper solution. This is just a temporary thing to enable you to do something quickly.
+
+Speaker B: Well, yeah, exactly. Or with just one of these larger documents. But yeah, exactly. Typically what you get for a larger organization is if they had a lot of contract docs they'd like to use solution, break that up because it's more than one people work more than one person working on the document. Yeah, as well.
+
+Speaker A: Exactly.
+
+Speaker B: And then if you, if you need to look at it today, you probably have to look at it in a week's time, etc. Etc. But yeah, so, yeah, so not, not exactly a pattern, but yeah. Any other questions about. Yeah, application stuff, you know, architectures, that sort of thing.
+
+Speaker A: I was going to say, have you sold all your Nvidia shares after that Deep Sea Car one launch?
+
+Speaker B: Yeah, you know, I thought that was, you know, it's just a usual, you know, guess goes to show how kind of ignorant the market is.
+
+Speaker D: I know.
+
+Speaker B: In terms of hitting Nvidia for that. Yeah, that with the whole deep seat thing. That really should have been. Know if, if I was selling anything, it would have been, you know, it would be anthropic and cohere and you know, basically the, the LLM providers.
+
+Speaker D: Yeah.
+
+Speaker B: Because it's not like we've reached saturation of AI models. And then, you know, if you scratch onto the surface, the deep seat models, they, they're still pretty hungry, right? Think the se. You know, it's great that they're, that they have achieved what they have achieved. I think it kind of goes to show how, you know, necessity is the mother of invention, right. So that they had less chips, less money. They did it. They did it. You know, what they've done is, is developed a new technique which allows training to happen quicker. But, but when they, when it comes to inference time, it still is a, you know, kind of fairly expensive inference and, but yeah, what we would expect to see, you know, broadly what we've seen over the last couple of years as well is actually, yeah, if we went back before, kind of like even before the sort of GPT sort of revolution or just around that time, what you had is you had Google particularly and, and to some extent, I guess OpenAI but particular, I guess. Yeah, but particularly Google. You were hearing about models just getting bigger and bigger and bigger and it's almost as if they were trying to discourage people from even getting into the game. Right. And then as things got open source, we got smaller models and smaller models and now instead of, you know, Google was kind of going on about their 400 billion odd model back two years ago. And now really a lot of the talk of the town is models that are in the 1 billion range or. Yeah, certainly we do a lot with models in the 7 billion range and those 7 billion parameter models are better than the 400 billion models of two or three years ago. Yeah, yeah, which, which is pretty awesome. Right, we like that.
+
+Speaker A: Oh, the arch is here.
+
+Speaker B: So some of the problems that they. So yeah, so I think when we kind of considered that and that and how things are going. Yeah, there's a lot of, there's a lot of opportunity for us to move, move, you know, kind of provide generative AI for a large number of solutions. And broadly what we want is more capabilities. Right. It's like O1 and O3 models brought, brought some really good capabilities. So, you know, we can kind of keep looping from there.
+
+Speaker A: Yeah, yes, yes, it is, it did work. I run it up. I ran R1 up 14 billion parameters on my Mac M4 and it worked really well. Getting good, good times. Getting good times out of it.
+
+Speaker B: Excellent, excellent. But yeah, what we see with models like deep speed, you know, the deep speed is a kind of like an O1 like model in the sense that it's, you know, more focused on reasoning and such and they, they tend to be a bit slower, you know, like, so that it's kind of part of their nature. So that just like everything else, different tools for different purposes. So when we were talking about agents yesterday. Was it yesterday? I don't know. You know. Yeah, yeah, this all kind of blends in. Yeah, but, but when we're talking about. There is oftentimes, you know, this is where we kind of see potential power of, you know, great usage of say the 01 models or that style is using that as your. Maybe as your coordinating agent can be very good in terms of creating the initial plan and then tracking how that's going once the cost comes down a bit. That's still, you know, already the, you know, some. Something like an anthropic Claude model. I mean, yeah, the anthropic Claude haiku or sonnet often is enough, but if you're dealing with something more challenging that, you know, some of those O1 models, etc. And then the fact that they take more time to do the processing has to be balanced and they cost more is balanced by that. The task has to be more complex such that you couldn't do it with a smaller model. So that's, that's kind of how this, how this works.
+
+Speaker A: Yeah, but.
+
+Speaker B: Yeah, so, yeah. Any. Any other questions? I see. I think we've got a couple of people I don't normally see on office hours. Do you have questions today?
+
+Speaker E: Hi, Toby. No, I don't. I don't.
+
+Speaker B: Thank you. Yeah, yeah, yeah, yeah. Do you have any questions? How. How are you getting along with things? Oh, you're on. Me? Yeah. You're back.
+
+Speaker E: Yeah, yeah. I think I've just started on the assignment from yesterday, so I did hit somewhere, but I'll check it out myself first.
+
+Speaker B: Yeah, yeah, okay.
+
+Speaker E: Yeah. But I'm up to date in the other ones, so.
+
+Speaker B: Yeah, up to date is a good thing. Right. Yeah. I think that the next assignment's going to be roughly about the same amount work probably, I think, actually a little bit less. So, you know, with this, with this piece of work, there's quite a lot of iterations. Right. To be done with the next. With the next assignment will be one of the things which we're going to do is we'll vary the large language model that's used for the generation. I think that's going to be a good insight for everyone to get to see a different flavor of those and then also have you change the prompt for that large language model again for the generation and maybe, you know, so you can see also some. It'll help you see some of the impact that happens just by making a small change to your prompt. So things may get better or may get worse. So, yeah, so I think that that would be part of the. Part of what we're doing and then we're. And then coupled with that is we'll be. We'll have evaluations for the end to end. For the end. Wow.
+
+Speaker E: Yeah, that'd be great.
+
+Speaker B: Yeah. So, yeah, that's what that's. We've got planned next and I've got it kind of largely lined up. I need to. Actually need to. What I. What I did for the last course was actually a little too challenging for most people. So I've got. I'm redoing it for this course. So make it. Make it a little easier. But some of it actually is as well is the technology moved on. So that the approach I took for the last course was, you know, well, it was. It was good, but it was. Yeah, this, this is going to be a bit easier. So that's good news. But yeah, hopefully. Hopefully everyone's up to date. But yeah, that's good. Thank you. Yeah, great, Great. Nishan, do you have a question today? I see you come on camera.
+
+Speaker D: Yes, always. Always a lot of questions. I. I was asking you. I haven't started the exercise normally I do it on over the weekend. So I will start. I can use. I think the exercise entails that I need to use my own documents.
+
+Speaker B: Right.
+
+Speaker D: And I can. I actually have a use case from work where I have. Like we are building an enablement program for platform and I want to train with that data. So the data is. I managed to get it on a git. So all the MD files are. Are with me now. So I'll try to work out maybe I'll need to export it into document or convert into PDF or something like that.
+
+Speaker B: Yeah. Yeah. So. So. So you're saying is it markdown content
+
+Speaker D: or It's a markdown.
+
+Speaker B: I think that reader will actually accept markdown. I think it just have a check, but I think it may, you know, like I'm talking about the reader. This is what imports those, the documents. Now I guess the downside is though is maybe it will choke. I'm not sure, you know, I know you can have custom parsers as well to, you know, to process things. You. You might try with. With one or two markdown documents first and see if it. If it does just fine and filters, you know, some of the. Some in some of the Formatting elements and such. But yeah, you. You may find that you don't need to do anything, but if you. Otherwise, yeah, you would. You could definitely use that framework and have raw markdown documents with. But it may be more work and it will definitely work with the PDF.
+
+Speaker D: I'll need to look also on a Python code to see if there's a possibility of like saying that, hey, the content is within this folder because I've got folder in files in a structure like module one folder, module two folder. So I figured out whether I need to chuck everything in one folder or I can just say this is a. This is, you know, the, the parent folder and then you have child folders.
+
+Speaker B: So. Absolutely. And what I'd say, I mean, this is, this is really for everyone in, in the class is that, you know, I mentioned start off with, you know, just, just a small amount of documents, you know, like probably, you know, like somewhere between like 2 and 6 or something like that. What happens is, is the slowest part of this is the question generation. So, you know, it's great that it has the automated question generation capability that we can use for the evaluation, but that tends to be the slowest part and that the way we have it right now in this simple setting is it will look to create one question per chunk. So, and a chunk, you know, the chunk will be the size that you've specified. You know, that's specified in the parser. So like straight away, by the way I've got that set up by default is around 250 tokens. So you can think there in terms of around, you know, approximately 200 words. It is a chunk. And so for. So it will look to generate a question for each one of those. And yeah, I'm fairly impatient. So, you know, that that probably takes. It takes maybe around two minutes to create those 40 questions or something like that. Depending upon how you run the notebook for your iterations and such, you can make it so you don't have to generate the questions so much. But broadly, if I was doing this at scale. Right, so, but yeah, so actually, yeah, so before I go there is. So what I'm saying is. So, you know, I'd say do your testing initially with a smaller number of docs to kind of get that sense of which embeddings model to use and how you're, you know, that a small number should be enough to give you a large amount of that insight. And then maybe then you'll scale up a bit, you know, to, you know, maybe 20 docs. Or so possibly towards the end, if you have more to get a better sense of. Yeah, this is the accuracy that I'm getting here. And yeah, what I was going to say is what I do, if I had more time, I would more think about sampling the documents and generating the questions so that if I had 100 documents, I would, you know, instead of creating a question per chunk for each of those hundred, is, is more say, sample some of those documents and then create questions for some of those. You get what I'm saying? And that, that way then I be still be confident that I've got a good population of questions and it's accurate but without it linearly growing. Because that's just an unnecessary expense right now.
+
+Speaker D: Yeah, I think the next question, which I didn't want it to ask yesterday because you are in the flow and I don't like to disturb, is that you showed the Bedrock chatbot. Is that also part of the exercise or it was just additional?
+
+Speaker B: Yeah, yeah, just, yeah, just. Just showing you, you know. So, you know, the important part there being is, is that you can, you can switch between these things and it actually kind of makes it useful tooling in the sense that, you know, you've created that and say in the notebook.
+
+Speaker C: Right.
+
+Speaker B: You know, like, say you might create it in a notebook or you might create that just directly in Python. You know, you get to that stage where you've created in Python. Now let's say, you know, sure enough, you could put a simple user interface onto it, but equally you can just drop into the console and exercise it there and also make, make tweaks there if you want to. So that's, that's really what I was showing that for, in terms of that just being a useful tool.
+
+Speaker D: Yeah. I actually followed up with my alliance partner for AWS and I asked if there was any credits that we can use for training. You know, AWS got the training specifically and there are so many great bedrock training and you can do labs and all that great stuff. So I'm just waiting to see if I can get some credits which I can use because I believe that would be the continuation of my journey after finishing to make sure how I can be more practical and how I can leverage it. So thank you.
+
+Speaker B: Excellent. Oh, that's good. That sounds like a really good path. But yeah, and you should. Yeah, hopefully get those credits, which I'm sure you will.
+
+Speaker D: They will, they will definitely give it to me and otherwise I'll just tell Adobe to give it to me.
+
+Speaker C: So.
+
+Speaker D: And they will certainly we Are. We are working very heavily on AWS right now and hopefully, you know, we want to do a lot more on, on, on the AI side of it.
+
+Speaker B: That's, that's great. But. Yeah, exactly. It's like the workshop, the workshop that I shared yesterday is something that we do give, you know, like we'll, we'll either do that oftentimes this will walk through that whole workshop for you know, for a company like Adobe and be like, hey, you know, for Team X or you know, three or four teams together, take them through that. We've got a similar workshop, you know, a similar, well, a kind of, you know, similar level of complexity and such for multi agent collaboration. So it's kind of too advanced for where we are with the program, but it's a natural progression point for, for people on the program as well. Just because, you know, you can only have a single agent do so much and then you start, you know, then you kind of like okay, how do, how do I get this to, to handle more? And that oftentimes what you do is, you know, is you'll actually create a small set of agents which collaborate together a bit like how microservices would collaborate together such that you have, you can again have your coordinating agent and then that distributing out amongst others. Which I think, you know, that's probably, I think that this is where as well is, you know, there's a broader vision that's been, I think, you know, Salesforce is actually doing a pretty good job with starting to put this out there in terms that they're encouraged. You know, what a number of people see as the next evolution is an agent's marketplace. So a bit like how we have app stores today and such is to sort of have that agent marketplace such that then they can plug in and start working together that you might develop an agent, you know, let's say Adobe. One of the things going on there is a lot of content creation and ideally, you know, if you had, and I'll just pick on content creation just for right now is if you have a really good set of agents that work together doing content creation that then could be plugged in to a broader architecture, right? So someone's doing this and that and it's like, hey, now go and take my content and make it beautiful. And it's like, hey, you know, you've got certain parameters and do that. That's, you know, that's a vision that's starting to emerge with the idea being, yeah, that, that, that's, that should be really powerful. But one of the challenges with that is working through what does that API look like, you know, like how would you containerize it so you protect your ip? So if you were Adobe in this situation, how does Dopey continue to protect its ip? Where does that run? Because, you know, is it, you know, is it, you know. But this is where an organization like Salesforce, which already has, you know, already has a sort of compute environment and everything else, okay, come and run on our container, we'll secure that, etc. Etc. You know, I'm sure AWS is going to do something similar, but I think, but I think, you know, Salesforce are very well positioned to make that a success. But like similar, I would think in other business domains, other organizations are in a great place to make that a success, potentially. Adobe for the, you know, in the content space, for instance, where it's like, hey, here's, here's our framework and hey, creators come in and bring your agents such that that can interleave into your, your network of agents that you already have. So that's something that we're starting to see.
+
+Speaker D: Yeah, it's a, it's, it's fascinating where we're going right now we are focused on data and the customer data platform that's been built on Azure in the first place. We are giving opportunities to clients to then build also on AWS as well. So again, that business have turned up like a $1 billion business in last five years. And now also we are powering the Amazon.com site for personalization. So that's the reason why everything is now going to be on aws. Because the ma, their deal, they said, well, you can't be on Azure which is good for our clients because we are giving it to options to client to choose whatever platform that they would like to have. I have last question, if nobody has one question is around the orchestration tools. So the bedrock that you showed it looks like, okay, the reserve GUI where you can, you can do a lot of things as a marketer, got capability rather than coding, which is where I believe a lot of I, I happen to stumble across something called Lang Flow, which is part of the Lang chain. And I realized like Langford requires environment to run. Is there any way that you can run langflow on AWS where if you wanted to build something in conjunction with Bedrock for agents.
+
+Speaker B: Yeah, yeah, yeah, definitely, definitely. I mean so you could think of, you know, like, you know, Lang Flow, State LangChain, Llama Index, right. That we're using for this. They're Actually very, they're very similar and that and Lang Graph. Right, that's another one. But this is it is that to your point is you have to, you have to have a container or to run that orchestration, right? You have to have a runtime and part of the value that's being provided by Bedrock is that it's providing that runtime for you all part of the fully managed service so that you don't have to manage that. You know that that's being managed for you automatically. And, and you also get resilience for that. Right? So that when. So that's where you know it's actually as part of its value. I mean obviously you know, as you have the same thing etc. Etc. But so absolutely we have, you know, there are customers who of AWS who will be using LangChain, LangFlow, Lang Graph, Llama Index, etc. And what will be, is similar to what we've done here is that lightly that's developed in, in Python that that may be running yet, you know, likely that would run on, you know, might be running well ultimate that's going to, you know, it's not running on Lambda because you, you might run that on Lambda, but that's not going to be the most, you know, not going to be particularly cost effective or performant. So it's more likely, you know, kind of like one of the EKs or, or sort of variants where that's running there and then you're taking advantage. You know that's like a virtual machine, right?
+
+Speaker D: You need, you do need like a virtual machine or you just need.
+
+Speaker B: That's right. Yeah, yeah, because you need a virtual machine to run that orchestration. Exactly. And then, then the challenge is as soon as you have that, it's like, okay, and then what if that virtual machine goes down, what happens to my session, etc. Etc. So this is where you got some extra attention. So, so that's where having, having it as a managed service is actually quite a benefit that you don't have to deal with any of that pain. And particularly then as we get into multi agent architectures again you've got that whole thing that you've got even you know, dealing with that resilience. So that, that's where you know, kind of recommend that really for, you know, might be different. You know, like when you get to Adobe scale, it's, it's different. Right. But for most people in the program, the right thing for them to do be doing is to be using something like, you know, Bedrock, the equivalence on Azure etc. Where, where that is is that orchestration is being managed and fully supported so you don't have to deal with that and that you'd only break out for most people if for some reason that orchestration isn't doing exactly what they need. And you know, one last point on that is it was announced at Re Invent so it's a relatively new piece. Is that there's different types of orchestration that you can actually do with your agent. I didn't get into it in class because it's, it's fairly subtle. I think people need to understand the, you know, the fundamentals first and get rolling. But there are options to essentially change the orchestration that's happening within an individual agent and then when you go to multi agent orchestration there are opportunities there as well for different orchestration strategies. So these are all things for you to explore after the course as you kind of get in there. But yeah. So there you go.
+
+Speaker D: Thank you. One thing I can say is it's going to be very fascinating journey. You are always going to learn there's nothing new and not going to stop.
+
+Speaker B: That's right, yeah. It's going to keep on moving, right? Exactly, yeah. There's going to be a lot of new stuff and some of it's not going to be that good. You know, like we'll try it out and then. Then there'll be these things that come and can't come along occasionally that really shake things up. Exactly, yeah.
+
+Speaker D: Well, as long as generate value.
+
+Speaker B: Exactly, exactly. So yeah. So any. Any other questions? This morning.
+
+Speaker F: Toby, I came across with this Amazon Q Is this very similar? For me it is a new. Is it very. Quite similar to the IBM Q
+
+Speaker B: that
+
+Speaker F: you put the messages or the apps,
+
+Speaker B: what you call
+
+Speaker F: small instructive messages that can run on its own on in a first in first out fashion.
+
+Speaker B: No, no, yeah, it's quite different. Quite different. So yeah, I mean what it is is. It is Amazon Q. They're basically two. Two main flavors of Amazon Q.1 is. But think of it as. It's. It's a generative AI powered tool tooling for. That's essentially for specific purposes, let's say so that. So Amazon Q developer has incur includes code completion. You know like if you're familiar with GitHub Copilot, it has the same capability, very similar capability to GitHub Copilot so that the tooling will work and help you code as a coding companion in intellij VS code etc. Etc. That also will give you, it'll actually give you solution architecture advice as well for AWS and that it's also marketed to large organized. Well, yeah, to software companies and such that they can actually bring in their own code and their own APIs and then have it start making recommendations on its own API. So to help speed up their developers and if their customers also are using their APIs, it can help their customers improve their, you know, kind of ease of use. So that's Amazon Q developer. So basically it's development tooling, leveraging, generative AI, right. Because basically a lot of the code assist capabilities are generative AI based. So that's one side and then there's Amazon Q for Business which what they're doing there is, it's a fully managed, one of the things, it's a fully managed rag solution. So what we, what we were doing in the last couple of classes, it's got that. So basically organizations can just bring their documents or hook up certain services and it will start taking care of that. And it provides a user interface, you know, so yeah, you've got the whole user interface plus security controls. So it could be that people in this department can see these documents on retrieval, augmented generation. These other people can, can see a different set. So basically these are, it's, it's another application that can be used for solving business problems. So, so for, let's say for a typical, you know, for, yeah, for a typical small, medium sized business, Amazon Q for business might provide a lot of value for them in terms of they could just, you know, the documents that they have, they start putting, having that integrated with it. They can query those documents, they can do certain things. There are, there's also, they're actually created a small sort of agent, you know, a simplified agent development tool to do small repetitive tasks. So that's there as well. It's, it's an interesting, you know, I, I don't generally pay much attention to it because it's a bit too simple for my, for my particular, my customers right now. So I generally work with, I generally work with customers like more like Adobe and such like that, so that they're, they're looking to build platforms and build multiple solutions for their customers. Right. But that there's, there's reasonable value there and depending upon who you're talking with, it may, that may actually be the easy button for your customer. It's like, hey, this is all you need. This actually solves a large part of their problem, you know, or of their challenges that it kind of Comes back to that build versus buy again. Right. We can get, we can sometimes get too excited about building when there's often things out there that are, you know, may be able to meet those needs. And so I think it's something to pay attention to both in terms of one, it might be useful, you know, like say Amazon Q for Business might be useful for your customers at some point in time and sure enough you don't want to be building something that's already covered adequately by that. I think that sort of tooling as well, and again, you know, Azure, OpenAI, etc. Have similar tooling is that it kind of shows you a bit where the market's going. I see it as, you know, I don't, I don't think that there's amazing features there. It's not mind blowing or anything. But the point is it's that slow progression of growth that there is a little bit of an, of an app store site mentality for developing simple agents as I was mentioning and such. And that there is retrieval, augmented generation fully built into that, that guardrails built into that and integration with different backend stores such that you can hook it up directly to Salesforce, you know, to, to GitHub, I guess or you know, or to. Yeah, various. Various other services. That kind of. What was I really thinking of? I was kind of thinking like Jira and stuff like that. You can hook that up SharePoint sites. So anyway, so yeah, that's what that technology is and yeah, it is another tool in the toolbox and something to be aware of.
+
+Speaker F: It is easy to get overwhelmed with too many tools in AWS and absolutely I feel I get lost like you keep reading one by the time something new tool is there which might do something similar but difficult to understand what right and wrong.
+
+Speaker B: Absolutely. But it is a challenge. But that's partly what gives us a job. Right. If you're confused, your customers are even more confused and that, you know, hopefully you can bridge that gap. Right. And yeah, I mean it is a challenge because all these tools keep on changing too. Right. It's like the, the capabilities of Amazon Q for Business, for instance. You know, I expect them to be adding to that quarter on quarter more and more capabilities. In fact, actually I'm funny enough there's. I may go to a training right after this. Like there's, there's a training on that, a live training that I, I just might go to after this. I was kind of just trying to decide whether I'd go that or go on a bike Ride. But that's, you know, one of the. It's easier for me to keep up with things, but in the sense that it's part of my job. But there is so much going on that it is. It can be very hard to. To keep up with everything. Which, which kind of comes back to why I can't say at the beginning of the course. People have to specialize, you know, it's like specialize on where you're serving your customer. So if your customer is, you know, kind of normal, you know, regular businesses and such like that, you know, they're looking to improve office efficiency in normal ways. You know, something like Amazon Q for business is something you should really know about. If your customers say is in image processing, you know, Amazon Q, it's okay. I don't really need to know about it. It's just, just the same way you don't need to know about the, the, you know too much about the internals of Deep seq. So, yeah, you have, you have to choose based upon. Yeah. That lens. Because there really is this. There's too much. No, no one can know at all. Yeah, yeah. Yeah. Any other questions this morning? So almost finish my coffee here. Quiet. Or I guess I know it's not the morning with you because still it's only 7:45 with me, but. Yeah. So, yeah, you're kind of quite bunched today. What's, what's going on that's making everyone so quiet?
+
+Speaker A: I'm just getting a deep. Seek to do everything for me now.
+
+Speaker B: Yeah, I know. I mean, that's, there's been a flurry of activity around that, as you can imagine. Yeah, that's, that's been one of the things just this week. Yeah. Yeah. It's only Wednesday, but yeah, we've been, yeah. You know, that, that, that set off a couple of alarms, as you can imagine, because a lot of our customers are like, hey, do you support this? Do you support this? Do you support.
+
+Speaker A: Yeah.
+
+Speaker B: And it's like, you know, thing is, is you can actually run that. You can run that on Sagemaker right now and you can run that on. You can. Because one of the things is they, they distilled that down to a couple, a couple of the distillations they've done onto Llama models.
+
+Speaker A: Yeah.
+
+Speaker B: And that. You can import Llama models into bedrock. So you can, so it's, you know, so it's a bit of a, you know, like, let's say, you know, someone like yourself, Nick, you know, like, if you, if you've got your models loaded on your Mac at home. It probably take you, you know, maybe, you know, kind of all depends how experienced you are with moving. Moving, you know, kind of larger objects around on. On aws. But probably, you know, two or three hours, you could get that running on. Yeah. Bedrock. I'm not sure what the cost would be at that time once you got it running, so probably more than. More than what it's worth. And I guess you can likely get it working on your. On your Mac. Yes, pretty easily.
+
+Speaker A: Okay, I'm gonna have to drop Toby, so have a good afternoon.
+
+Speaker B: Speak soon.
+
+Speaker A: Bye.
+
+Speaker B: Bye.
+
+Speaker C: Take care.

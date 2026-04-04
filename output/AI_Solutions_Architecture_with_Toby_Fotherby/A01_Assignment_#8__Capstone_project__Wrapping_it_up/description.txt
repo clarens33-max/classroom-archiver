@@ -1,0 +1,12 @@
+The scenario overview: 
+Your customer has asked you to develop a POC for the Retrieval Augmented Generation (RAG) solution outline that you shared in Capstone Part 1. 
+As with Capstone Part 2, imagine that they have given you a sample set of documents for development and test purposes. For this task, use the a small set of documents that are meaningful to you or your real-life customer somehow.
+
+Your customer wants a best-in-class RAG solution and want you to explore and systematically evaluate options to provide the best solution for their data.
+
+Having tuned you data retrieval pipeline and established an objective measure of accuracy, you will now concentrate on generating high quality answer for your customers data. This requires experimenting with different LLMs, and prompts, and systematically evaluating the answers generated. This enables you to tune the configuration to deliver the accurate results. Further, this allows you to have deeper discussions with your customers on their quality goals and next steps.
+
+Your deliverable will be a short, structured, write-up of the results of your experimentation for each aspect noted above. Specifics for the write-up are included in the Capstone 3 notebook that is published on the course Github folder.
+
+Due date: 1st March, 11:59 pm GMT
+Grade: 20 points

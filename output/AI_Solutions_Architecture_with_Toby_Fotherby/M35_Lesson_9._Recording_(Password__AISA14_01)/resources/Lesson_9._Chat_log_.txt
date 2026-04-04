@@ -1,0 +1,31 @@
+00:31:55	Samira Khodai:	Many companies request for "Documentation" in this lifecycle. Is Documentation going to be after Monitoring stage?
+00:36:38	Ivan Georgiev:	I’ve joined late, why we jumped to Lesson 11?
+00:38:49	terrance thomas:	I think we’re on lesson 9.
+00:41:45	Ivan Georgiev:	Lesson 9 slides are not the same, and Toby is sharing Lesson 11
+00:44:35	terrance thomas:	Yeah looks like the wrong slide deck was shared
+00:44:54	Jordan Smith - elvtr:	Replying to "Lesson 9 slides are ..."
+
+Hi Ivan, I will get this updated through the classroom here :)
+00:48:27	Dimitri Yiannakis:	probably agile because of continuous improvement- also because we dont know the solution before we start and the iterative nature - again agile
+00:50:13	Ivan Georgiev:	Reacted to "Hi Ivan, 
+I will get..." with 👍
+00:53:31	Damian Piesse:	What’s the exact title of the book again?
+00:53:59	Vinoth Asaithambi:	Replying to "What’s the exact tit..."
+
+https://www.amazon.co.uk/Machine-Learning-System-Design-Interview/dp/1736049127
+00:53:59	terrance thomas:	Machine Learning system design interview
+00:54:07	Damian Piesse:	Reacted to "Machine Learning sys..." with 👍
+00:54:16	Ismail Mayat:	https://www.amazon.co.uk/dp/1736049127?ref=ppx_yo2ov_dt_b_fed_asin_title
+00:55:28	michaelstewart:	isbn 9781736049129
+01:02:04	Jordan Smith - elvtr:	Replying to "Lesson 9 slides are ..."
+
+Slide deck should now be updated, apologies here for this!
+01:02:20	Jordan Smith - elvtr:	Replying to "Lesson 9 slides are ..."
+
+https://classroom.google.com/c/NzI4NTU0ODgxMjg5/m/NzI4NTU0ODgxMzkw/details
+01:05:53	Dimitri Yiannakis:	Maybe two POCs! 🙂
+01:11:03	Luis Aveiro:	Reacted to "Slide deck should ..." with 👍
+01:19:21	Ismail Mayat:	Reminds me of c4 https://c4model.com/
+01:20:07	Adrien Biencourt:	Reacted to "Reminds me of c4 htt..." with 👍
+01:21:46	Samira Khodai:	Reacted to "Reminds me of c4 htt..." with 👍
+01:25:11	Jakub Korczowski:	Reacted to "Reminds me of c4 htt..." with 👍

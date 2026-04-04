@@ -1,0 +1,8 @@
+External resources
+============================================================
+
+Prompt engineering techniques and best practices: Learn by doing with Anthropic’s Claude 3 on Amazon Bedrock | Artificial Intelligence  →  https://aws.amazon.com/blogs/machine-learning/prompt-engineering-techniques-and-best-practices-learn-by-doing-with-anthropics-claude-3-on-amazon-bedrock/
+Prompt engineering overview - Claude API Docs  →  https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview#how-to-prompt-engineer
+Documentation - Claude API Docs  →  https://docs.anthropic.com/en/home
+Amazon Bedrock – Build genAI applications and agents at production scale – AWS  →  https://aws.amazon.com/bedrock/
+Just a moment...  →  https://platform.openai.com/docs/overview

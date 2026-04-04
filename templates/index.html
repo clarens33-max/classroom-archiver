@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+{% block title %}{{ course_name }} — Overview{% endblock %}
+
+{% block content %}
+<div class="d-flex align-items-start justify-content-between mb-4 flex-wrap gap-2">
+  <div>
+    <h1 class="page-heading">{{ course_name }}</h1>
+    <p class="page-subtitle">Archived course materials — {{ lessons|length }} lessons · {{ office_hours|length }} office hours sessions</p>
+  </div>
+</div>
+
+<!-- Stats row -->
+{% set transcript_count = lessons | selectattr('transcripts') | list | length %}
+{% set slides_count = lessons | selectattr('slides_pdf') | list | length %}
+{% set assignment_count = lessons | selectattr('assignment') | list | length %}
+<div class="row g-3 mb-4">
+  <div class="col-6 col-md-3">
+    <div class="card p-3 text-center">
+      <div style="font-size:1.6rem;font-weight:700;color:#1d4ed8">{{ lessons|length }}</div>
+      <div style="font-size:0.75rem;color:#64748b;font-weight:600">Lessons</div>
+    </div>
+  </div>
+  <div class="col-6 col-md-3">
+    <div class="card p-3 text-center">
+      <div style="font-size:1.6rem;font-weight:700;color:#059669">{{ slides_count }}</div>
+      <div style="font-size:0.75rem;color:#64748b;font-weight:600">Slide Decks</div>
+    </div>
+  </div>
+  <div class="col-6 col-md-3">
+    <div class="card p-3 text-center">
+      <div style="font-size:1.6rem;font-weight:700;color:#7c3aed">{{ transcript_count }}</div>
+      <div style="font-size:0.75rem;color:#64748b;font-weight:600">Transcripts</div>
+    </div>
+  </div>
+  <div class="col-6 col-md-3">
+    <div class="card p-3 text-center">
+      <div style="font-size:1.6rem;font-weight:700;color:#d97706">{{ assignment_count }}</div>
+      <div style="font-size:0.75rem;color:#64748b;font-weight:600">Assignments</div>
+    </div>
+  </div>
+</div>
+
+<!-- Lesson grid -->
+<h2 style="font-size:1rem;font-weight:700;color:#374151;margin-bottom:0.75rem;text-transform:uppercase;letter-spacing:0.05em">Lessons</h2>
+<div class="row g-3 mb-5">
+  {% for les in lessons %}
+  <div class="col-12 col-sm-6 col-lg-4">
+    <a href="{{ url_for('lesson', num=les.number) }}" class="lesson-card">
+      <div class="lesson-num-badge">
+        {% if les.number == 0 %}Welcome{% else %}Lesson {{ les.number }}{% endif %}
+      </div>
+      <div class="lesson-title">{{ les.subtitle or les.display_title }}</div>
+      <div class="d-flex flex-wrap gap-1">
+        {% if les.slides_pdf %}
+        <span class="pill has"><i class="bi bi-file-earmark-slides"></i> Slides</span>
+        {% endif %}
+        {% if les.transcripts %}
+        <span class="pill has"><i class="bi bi-mic"></i> Transcript</span>
+        {% endif %}
+        {% if les.resource_files %}
+        <span class="pill has"><i class="bi bi-folder"></i> Resources</span>
+        {% endif %}
+        {% if les.resource_links %}
+        <span class="pill has"><i class="bi bi-link-45deg"></i> Links</span>
+        {% endif %}
+        {% if les.assignment %}
+        <span class="pill has"><i class="bi bi-pencil-square"></i> Assignment</span>
+        {% endif %}
+      </div>
+    </a>
+  </div>
+  {% endfor %}
+</div>
+
+<!-- Quick links to other sections -->
+<div class="row g-3">
+  <div class="col-12 col-md-6">
+    <a href="{{ url_for('office_hours') }}" class="lesson-card" style="border-color:#d1fae5">
+      <div class="lesson-num-badge" style="color:#059669">Office Hours</div>
+      <div class="lesson-title">{{ office_hours|length }} recorded sessions</div>
+      <p style="font-size:0.78rem;color:#6b7280;margin:0">Q&amp;A recordings with transcripts and concept maps</p>
+    </a>
+  </div>
+  <div class="col-12 col-md-6">
+    <a href="{{ url_for('special_materials') }}" class="lesson-card" style="border-color:#e0e7ff">
+      <div class="lesson-num-badge" style="color:#4f46e5">Special Materials</div>
+      <div class="lesson-title">Course programme, FAQ &amp; more</div>
+      <p style="font-size:0.78rem;color:#6b7280;margin:0">Pre-course resources, welcome materials, course programme</p>
+    </a>
+  </div>
+</div>
+{% endblock %}

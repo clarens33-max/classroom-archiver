@@ -1,0 +1,8 @@
+External resources
+============================================================
+
+Introduction to model evaluation for fairness  |  Vertex AI  |  Google Cloud Documentation  →  https://cloud.google.com/vertex-ai/docs/evaluation/intro-evaluation-fairness
+Think | IBM  →  https://www.ibm.com/think/topics/shedding-light-on-ai-bias-with-real-world-examples
+Fairness: Evaluating for bias  |  Machine Learning  |  Google for Developers  →  https://developers.google.com/machine-learning/crash-course/fairness/evaluating-for-bias
+Understanding Bias and Fairness in AI Systems | Towards Data Science  →  https://towardsdatascience.com/understanding-bias-and-fairness-in-ai-systems-6f7fbfe267f3?gi=93054e1c4dd9
+Model Bias - MLOps Dictionary | Hopsworks  →  https://www.hopsworks.ai/dictionary/model-bias

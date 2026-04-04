@@ -1,0 +1,52 @@
+# Claude Code local settings
+.claude/
+
+# Playwright browser session
+.playwright_session/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Google OAuth credentials — never commit these
+credentials.json
+token.json
+gdrive_token.json
+
+# Audio / video — not served by the portal
+output/**/*.mp3
+output/**/*.m4a
+output/**/*.wav
+output/**/*.aac
+output/**/*.ogg
+output/**/*.webm
+output/**/*.mp4
+
+# Binary course files — served via Google Drive (see gdrive_map.json)
+# Only .txt files (transcripts, descriptions) stay in git
+output/**/*.pdf
+output/**/*.png
+output/**/*.pptx
+output/**/*.ppt
+output/**/*.xlsx
+output/**/*.xls
+output/**/*.docx
+output/**/*.doc
+
+# Incomplete downloads
+output/**/*.part
+output/**/*.ytdl
+
+# Logs and temp
+logs/
+downloads/
+*.log

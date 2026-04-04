@@ -1,0 +1,55 @@
+00:16:30	michaelstewart:	Can this system take data from a db search directly?
+00:17:03	Nick Haddock:	Panda?
+00:18:06	Ánfer Chávez C.:	Replying to "Panda?"
+
+Panda is the python library for data manipulation
+00:18:18	michaelstewart:	Panda is reading the data on this example I think… so yes, I was just wondering in terms of gathering different data seta?
+00:18:33	Nick Haddock:	Reacted to "Panda is the python ..." with 👍
+00:20:31	Luis Aveiro:	https://www.giskard.ai/glossary/independent-and-identically-distributed-data-iid
+00:20:37	Samira Khodai:	Replying to "Panda?"
+
+it's pandas
+00:21:20	Samira Khodai:	Replying to "Panda?"
+
+@Ánfer Chávez C. https://pandas.pydata.org/docs/
+00:21:38	Nick Haddock:	Reacted to "@Ánfer Chávez C. htt..." with 👍
+00:22:01	michaelstewart:	Reacted to "@Ánfer Chávez C. htt..." with 👍
+00:38:12	David Parsons:	Reacted to "@Ánfer Chávez C. htt..." with ❤️
+00:38:32	David Parsons:	Replying to "Panda?"
+
+@Samira Khodai This is really helpful, thank you 😃
+00:39:22	Sri Gorlla:	Just wondering on how long does it take to build this notebook from scratch for a ML expert?
+00:41:32	Samira Khodai:	Reacted to "@Samira Khodai This ..." with 🙂
+00:49:13	Samira Khodai:	Replying to "Can this system take..."
+
+I guess we can connect db with AWS with boto3
+00:52:19	Samira Khodai:	Replying to "Can this system take..."
+
+but you have to stablish the connection: example here: import pymysql # Database connection details host = 'your-db-endpoint.rds.amazonaws.com' port = 3306 username = 'your-username' password = 'your-password' database = 'your-database'
+00:53:39	Frank:	Clean up for Sagemaker notebook instance resources: https://docs.aws.amazon.com/sagemaker/latest/dg/ex1-cleanup.html
+00:54:02	Luis Aveiro:	Reacted to "Clean up for Sagem..." with 👍
+01:02:57	paul.mills:	I chucked the question into a LLM and it said we more data to make a meaningful prediction !
+01:03:12	terrance thomas:	Reacted to "I chucked the questi..." with 👍
+01:03:40	Samira Khodai:	Reacted to "I chucked the questi..." with 👍
+01:03:42	paul.mills:	The best approach remains to acquire the necessary data. The current data is insufficient for meaningful prediction.
+01:06:21	paul.mills:	I have to look after my kids and will review the video from this point on wards.
+01:06:34	Jordan Smith - elvtr:	Reacted to "I have to look after..." with ⭐
+01:06:45	Nick Haddock:	Reacted to "I have to look after..." with 👍
+01:07:11	Samira Khodai:	Reacted to "I have to look after..." with 👍
+01:07:46	Ivan Georgiev:	Reacted to "@Ánfer Chávez C. htt..." with 👍
+01:08:40	Ivan Georgiev:	Reacted to "Clean up for Sagemak..." with 👍
+01:19:41	Ivan Georgiev:	ChatGPT suggested 
+Random Forest Regression
+01:19:54	Nasser:	Reacted to "ChatGPT suggested 
+R..." with 😂
+01:20:27	David Parsons:	Posting a question in here because we haven't long left - To use a recommendation engine, where metadata, etc is required, does the prepared dataset need to be flattened (i.e. singular & pre-processed) or can we use a structured data model (with keys defining relationships between datasets, etc)
+01:26:59	Ismail Mayat:	Circa 1997 doing my masters in computing we wrote a Mickey Mouse backpropogation neural network using Eiffel
+01:27:12	Nasser:	Reacted to "Circa 1997 doing my ..." with 👏
+01:27:24	Samira Khodai:	Reacted to "Circa 1997 doing my ..." with 👍
+01:27:50	Ivan Georgiev:	Reacted to "Circa 1997 doing my ..." with 👍
+01:28:24	Vinoth Asaithambi:	Reacted to "Circa 1997 doing my ..." with 👏
+01:29:00	Ánfer Chávez C.:	One way of thinking about the weights is like you're digging holes in plain surface, so when you throw a ball in it (the input, prompt), the ball would fall easily into the hole (the desired output)
+01:29:21	Nasser:	Reacted to "One way of thinking ..." with 👍
+01:30:00	Damian Piesse:	Reacted to "One way of thinking ..." with 👍
+01:33:34	Shilpa:	Reacted to "Circa 1997 doing my ..." with 👍
+01:35:43	Cynthia Lai:	have to go but thank you

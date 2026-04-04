@@ -1,0 +1,8 @@
+Using a series of 10 notebooks, you’ll get hands-on experience of with the fundamental good practices for prompt engineering.
+
+To complete the assignment, answer 5 or more of the assignment questions that are embedded in the notebooks.
+
+There are additional assignment questions for those who want to get more experience.
+
+Due date: January 14th, 11:59 pm GMT
+Grade: 10 points

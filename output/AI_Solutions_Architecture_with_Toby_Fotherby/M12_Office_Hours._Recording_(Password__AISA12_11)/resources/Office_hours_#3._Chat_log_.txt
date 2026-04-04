@@ -1,0 +1,17 @@
+00:03:59	michaelstewart:	https://scikit-learn.org/stable/
+00:04:20	Nick Haddock:	Reacted to "https://scikit-learn..." with 👍
+00:05:09	Dimitri Yiannakis:	Replying to "https://scikit-learn..."
+
+Thanks!
+00:05:32	surjeet_singh:	Reacted to "https://scikit-learn..." with 👍
+00:21:41	michaelstewart:	https://quizlet.com/gb/977150893/ai-solution-architect-flash-cards/?i=3g1dg&x=1jqt
+00:22:02	Nick Haddock:	Reacted to "https://quizlet.com/..." with 👍
+00:31:24	Ivan Georgiev:	Reacted to "https://quizlet.com/..." with 👍
+00:43:17	Nick Haddock:	Going to have to fly - see you all tomorrow
+00:46:04	ivanodwyer:	Need to drop also - thanks again all
+00:52:30	Nishant Pithia:	I need to drop for another call. Thank you!
+00:54:33	michaelstewart:	It doesn’t take an AI model to realise that the more difficult it is to turn things off the more money the cloud company makes….
+00:57:09	michaelstewart:	Its an open at the top of the page (top ribbon)
+00:57:59	Damian Piesse:	Bye for now…thanks for your help today
+01:01:08	Dimitri Yiannakis:	which kernel do I use to run notebooks?
+01:01:20	Dimitri Yiannakis:	conda_python3?

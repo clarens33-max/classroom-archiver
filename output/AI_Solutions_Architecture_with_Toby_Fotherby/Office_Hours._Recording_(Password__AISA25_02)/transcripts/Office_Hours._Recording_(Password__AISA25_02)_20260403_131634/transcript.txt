@@ -1,0 +1,214 @@
+# Office Hours. Recording (Password: AISA25/02)
+# Source: https://player.vimeo.com/video/1060500037
+
+Speaker A: Let's, you know, the idea of this session is really just to help with any aspects that you might have related to the capstone that's left. So maybe, yeah, raise, raise your hand if you have a question related to the capstone. And I see some of you, I think you've actually on the call, you've already completed your capstone. So I say, you know, let's, let's have people who haven't complete the capstone ask first. So. Uche. I see your hand is raised.
+
+Speaker B: Hi.
+
+Speaker A: Hey, how you doing?
+
+Speaker C: Can you hear me?
+
+Speaker A: Yes, yes.
+
+Speaker C: So, yeah, I, I, I'm struggling with the Capstone 3.
+
+Speaker A: Yeah.
+
+Speaker C: And I have gotten up to task three, I believe, and I just didn't understand where you need to, I don't know if I should share my screen, if that would be better.
+
+Speaker A: Yeah, sure. Yeah, by all means do. Yeah, very quickly. Yeah, Yep. And then, yeah, while you're doing that, maybe if other people, if they have questions, you know, kind of like think, think about what your question is. Kind of get, try and get it nice and concise so we can quickly answer it. But yeah, okay, so we're on Capstone 3 and then you're, and then. Yeah, which one are you having a question about?
+
+Speaker C: So these are some Task three.
+
+Speaker A: Okay. Yeah.
+
+Speaker C: To update the alternative, alternative prompt to better match the topic of your. Yes, I have an alternative prompt.
+
+Speaker D: Okay.
+
+Speaker C: In the body of the code up here. I don't see where to put it. The only place I see where you can change is in here.
+
+Speaker A: Yeah, yeah, yeah, look, okay, so just pause there. Just stop there. And I'm looking at your screen. Okay, so what actually follows here, right when this, what this actually does is around just where you are, is you see where this line which has the 129 associated with it, that will actually update the prompt. Okay, so you see that query engine update prompt and it says prompt template key. And this what it's going to do, that will actually update to the prompt based on know it's expecting the new value to be new text QA prompt string. Right. So that is actually going to update that. Right. Then the following line shows an example of running that I'm just getting kicked out. Hold on just one second. Yeah, can we, give me one second.
+
+Speaker D: Okay.
+
+Speaker A: Okay. Yep, I'm back. Okay. Right, so, so the thing is, is consider that your query engine here is, is what's, what you'll be using. Right? So you know, you think of this in terms of, you know, essentially this is a class, then you're updating the value, the prompt value for that particular class. And now once you've run that, right, then the, the, the line following that, like where it says 1, 3, 0, is an example of when the prompt has been updated and you'll see that there's a different prompt there. Yes. Right. And so now at that point you can then go and rerun your tests and see what the difference is. Now before we go away from this though, you'll see that the example that I have in here, this was, this is an example I wrote that is applicable to the content that I have. Right? So I would expect you to change this value. Likely you're one, you're not an export book editor, etc, but change the value that's in the box that's currently highlighted. 1, 2, 8. Change the value of the prompt to better equate with the objectives of your content and the voice that you want to give to your, to your, to your rag application. So you'll do that once you've updated this, then you can go up above here and then rerun your tests and you'll see a different set of results.
+
+Speaker C: So, so, so, so when, when we update this, are you saying that we go back to the very beginning and we run the whole notebook again?
+
+Speaker A: You don't, you don't have to run the whole notebook, but you, you will go back to, you will go back above, right? It won't be all the way to the beginning, but it will be around where you run the test cases. Okay. And frankly, what I would expect you to do, because this is more about learning. So just, just pause there a second is maybe you'd run some of the, you're not going to go, you don't need to create a new vector index. You don't need to do any of that, right? It would be a good idea for you to experiment with a few queries once you've updated that prompt to see what the change is. Right. And just do that manually and just, you know, experiment a bit. Like maybe you would use some of those ones where I have the, hey, test this again for its correctness. Okay, so you'll have to scroll down. You'll scroll down. But where we've got the individual tests for testing things like for correctness, for accuracy, whatever it is, is you test those again such that you'll get your prompt roughly correct. Right? And then once you have it roughly when you feel like, oh, this is pretty good, then you're right. You see where I see where you got the faithfulness Right. Is you can change which you. If you rerun this with your new prompt, you'll get a different output and different results. So you're understanding the impact of your prompt. Okay.
+
+Speaker C: Okay.
+
+Speaker A: And then once you've got it to the point that it's actually looking pretty good, then you'll come down to here.
+
+Speaker D: Yep.
+
+Speaker A: You're going in the right direction actually. Yet do you be up. Stop, stop, stop, stop, stop. Is this is where you go up a bit here, up a bit and this right to above this cell with the pink in it. Right. So here we go. So this is what you'll be running again, where you will be creating. Right. Like cell one two one you will be creating. Let me just have a look at this. Yeah. This will run the new evaluation with your query engine. So you'll have updated your query engine with the new prompt and then you can rerun your evaluation and then see the results. Okay. So that's how it works.
+
+Speaker C: Okay. So okay. My confusion was that if we are updating this in here, does it affect the original code? I wasn't sure if it does. So.
+
+Speaker A: Okay, go ahead. Great, great, great. But yeah, I understand. But yeah, let's see. So yeah, just because of the interests of time and I know I kind of started late. Let's see. I think, yeah, that, that, that's great though. Yeah. And I understand your question. It looks like you're on a great track there. Uche. And you're on, on the track for success. So that's, that's good news. Thank you. Yeah, well done, well done. So let's see who, who's who's next. Yep, go ahead.
+
+Speaker E: I, I already put those questions in the chat box though.
+
+Speaker A: Well, now you're on screen so why don't you tell me. Yeah, you can talk it.
+
+Speaker E: The questions are not related to Capstone but that question maybe would have asked in the past couple of times. But this one final check when lot of. Especially in the financial industry the data is in house on premise and when we want to train LLM how to ensure just very similar to the Salesforce, how to ensure in AWS that data sensitive data does not go outside. But still we develop the effective, efficient.
+
+Speaker A: Yeah, yeah, look, I'm going to answer these very briefly. The goal of today is simply to answer Capstone questions. So I'm going to answer this in 30 seconds because this is outside the realm of what we said we'd do today. All right. So in terms of looking at in house sensitive data, what you should be looking at broadly is what is around. Data governance for analytics will help you guide you towards what you should be doing for LLMs. But also you can Google search this and you know you can, you can also search it on ChatGPT. Hey, I'm developing an LLM and I want to manage my sensitive data. What do I do? That's the kind of direction you need to go there. Can you continue to reach out to elevator technical support? Well, the Discord is going to be. Discord channel is going to be open for, for quite a while.
+
+Speaker F: Right.
+
+Speaker A: The team's created that the class is using that. You'll be able to use that. So just consider that, yes, you'll be able to use Discord for a while. I think Jordan, maybe you can share on this chat or something how long will keep the Discord alive after the class finishes. But I imagine it's some period of time. And then lastly you wouldn't if you want to have. Yeah, thank you, Jordan. One year. So that's a good amount of time. Right. And again, that gives you a chance for the community to get together. And I'd say another thing going back to your question too is ask the community or your question, number one is ask the community on Discord that you have here on zero budget. What you should do is you don't set the budget for zero because that's really is too low. But you can, you can create an alarm to give you notification if it's above say $5 or if it's going to trend towards greater than $20 by the end of the month. Again, if you do a Google, you know, do Google search on that or use Amazon Q for you know like the Amazon Q associated with the in the Amazon console. You can ask it, hey, how do I set budget, budget, limit notifications and it will do it for you. Okay. Yeah, thank you. Great, great. So, okay, so who's next? And let's make it a question about the capstone.
+
+Speaker G: I can go?
+
+Speaker A: Sure.
+
+Speaker B: I think you're ahead of me, Dimitri. So yeah, please.
+
+Speaker A: Okay, great. Yeah, quick question.
+
+Speaker G: So are precision and correctness scores related or correlated? So like if we want to improve the correctness of the, the correctness score, would we increase, would we try to increase the precision and then by increasing precision would we decrease the number of retriever documents?
+
+Speaker A: Okay, so so here you're talking about in caps. Are you talking capstone three particularly where you're trying to increase your correctness? Is that what you're talking about?
+
+Speaker G: Yeah, yeah.
+
+Speaker A: So also one of the things is, you know so very. Again I'll keep this brief, right Is that what happens is you're onto something where that, you know, ideally we'd only return truly relevant documents from the retriever, right from what we were doing in Capstone 2 that we would limit that to just the very best and that to the extent that we bring back documents that have noise in them, for instance, you know, that aren't particularly helpful, that can sometimes lead to the output being less correct. Right in that because it's just noise, it may get put in there one of the things. But on the retrieval side, the way in which we would kind of make this one of the next steps in making things better which not doing it as part of the capstone but you would add a re ranker to the flow. And I didn't include that because I felt people already had enough work. But what that will do is you can have your retriever say bring back five results and then the re ranker will rank those five results based upon the question. So it's doing a post basically it's got that set and it will say hey, given this question which, which of these five, which is the what is the best order for these five? So it'll actually then look at it that way and then it will then you can actually then say pick the top two or top three out of that and that helps with your correctness and that that's, that's what. That would be the next step in this journey. So actually that's a bit that's a gift to people about as well. I think in the Last question of Capstone 3 It's like hey, what's one of the things that you would do to make this better is you would add a re ranker to this overall piece. So that that would help there another way in which you help with the correctness can be, you know, but yeah, definitely it's retriever based right? Because if you don't have the good, good retrieved content you're not going to be that correct. But the other aspect is improving the prompt. So what just where we were looking at with on Uche's screen there, when you're fine tuning that prompt you can say make this more concise only focus on the, only you know, really focus on the, you know, you can tell the LLM to yeah be concise to focus on the specific question that's an asked by the customer and to really make sure the answer is correct given the information that's there. And that may tighten it up as well. So but you know, this is where we're in the last, you know, we're in the last, you know, kind of 5% type thing of trying to squeeze some more correctness out of it by.
+
+Speaker G: Or asking the LLM to think before it responds.
+
+Speaker A: Yeah, I mean it's some, some of it is to, you could also, you could put it in those terms is, is one way of doing it. But yeah, and the point is, is if you were asking it to, you know, asking it to think as it responds is optional. Asking it to, let's say you were asking it to think before it responds, but you'd be asking it to think about something before it responds, not just to think. Right. It's like, I want, you know, you are an expert in this domain and this is where one of the things is actually having it be an expert in the domain related to your documents. And you're also an expert at, you know, maybe you're an expert at handling customer queries. So, you know, think carefully and produce a concise answer that is right for your customer's question and that will help drive out that accuracy. And again, also another thing which I'd put in that prompt is, hey, if you're not sure, say you don't know. Right. And even though that's, you know, we'd much rather get a binary right of I don't know and let's output that than outputting junk. And this is where business wise, you'd be much happier that, with that, that you're, let's say that you'd actually start factoring those out.
+
+Speaker H: Right.
+
+Speaker A: That, hey, we're, we know this produces in one every 10 responses it says it doesn't know. Okay, we'll take that out. But with the nine responses that it responds positively, the answers are highly accurate. That's much better than having 10 responses and one of them's kind of bad in it. One in ten. You see what I'm saying? So this then moves it into that business domain of what are you going to do? Great, thank you. Yeah, so, yeah, but yeah, good stuff. Great, great, great. So, yeah, who's next?
+
+Speaker B: I think, yeah, I think I'm next.
+
+Speaker A: Oh yeah, Paul. Yeah, yeah, please, go ahead.
+
+Speaker B: So mine is on the Capstone 3, which I think I might have pulled myself into a bit of a rabbit hole. So I'm, I've not even started answering the questions. I'm trying to run all of the cells. Do I have to run all of the cells successfully? Because I run some of them. I see maybe like the Llama Index Retriever as created successfully and they're going to future sales and it's giving you some errors. And I keep getting these hugging face tokenizer errors. And yeah, I've tried to use charge and everything to solve it, but I'm like, do I need to run everything or are there something I can just ignore and go straight to the real business?
+
+Speaker A: I'm very surprised that you're getting hugging face tokenization errors. It suggests that your model that you're using isn't a bedrock model. You know, you're not using the models which we have that, that are set up for the notebook for some reason. And so, you know, so is, is that the case that you're not. That you, you know, it's fine for you to choose different models, but if you choose, you know, like a hugging face model or an OpenAI model, but if you do that, you're, you're on your own at that point, right? You know, it's like, hey, get it working first of all with the bedrock ones and then learn how to tie in different models. So my question to you, Col, are you. Did you set up a hugging face model or something like you.
+
+Speaker B: Yeah, and this might say I might have gone into a bit of a rabbit hole. So I got into one of those code at the top and I couldn't resolve it. So I went into chat GPT and was given different options of how to run it. And that's why I tried to do.
+
+Speaker A: So, Cole, what I'd suggest you do is get Capstone 3 start from scratch with Capstone 3 download, you know, get a new, get a new fresh copy of Capstone 3 from, from GitHub and start running through that, right? It works right? You know, like we've got lots and lots of people in the program. It works right? So you step through that and just start again. I think, you know, quite, quite possibly you've done something which has then made it, you know, something that you did to, to fix something or improve something. It's just not working. So just go and get a fresh copy, right? And, and you know, this was why as well as, you know, like job number one, like assignment one on Capstone three is run the notebook. Run the notebook and just with the data that I have provided and get that baseline, right? And then number two is you just add your own data and then update the embeddings model, et cetera, et cetera, to what you did with Capstone 2. You should be able to do those things very straightforwardly and then Number three is changing the, you know, and then getting your numbers. So if you did Capstone 2 successfully, you should be able to get to step two on Capstone 3, no problem at all. Right.
+
+Speaker C: Okay.
+
+Speaker B: I figured that was the case. I think I might have just done a bit of too much igbit and it's thrown me into different.
+
+Speaker A: Yeah, exactly. You really, you know, you can actually do this assignment without going out and doing, you know, without everything. All the code that you need is in the assignment here that you don't have to write a single line of code.
+
+Speaker B: So when I do run the code from, from beginning, kind of like run all the codes. If it feels like any red error cells, do I just ignore that or do I try and fix it?
+
+Speaker A: You know, I, you, you shouldn't really be getting any errors. You know, you might see something on the PIP installs as. As that occasionally happens. But you know, that's one thing. You'll get those pink, those pink lines related to throttling and stuff. Right. But you can, you can ignore the throttling ones. You shouldn't really be getting any. I don't recall getting any failures through any of the content. If you do put it, put it onto Discord and ask. And ask the team on, you know, us, the, the community on Discord. All right. But it takes, Start. Start back at the original, with the original Capstone 3 document. As I say, you really should be able to do number one, that, that will work and you know, et cetera, et cetera. Yeah. So give that a try. Yeah, lots of people have succeeded already and you know, maybe the problem that you saw already. Yeah. That they'll have encountered too. Okay. Okay. Yeah, hang tight. Yeah, it'll work out. Yeah. Okay, great, great. And then Eddie, I think. Yeah. You're next
+
+Speaker I: question. You talked about the RE ranker. Can I also input a field for that with a code to try to use that as well in.
+
+Speaker A: Well, so I, I think I put it as an option. Right. I put an option at the, you know, if you've done everything for Capstone 3, I think I put in there at the, you know, as. As some of the options that you can do is add a RE ranker. And if you have a look at, you know, likely you would add an LLM RE ranker. That would be the easiest way to do it there because there are different RE ranking models, but you could likely add an LLM RE ranker. What you'd be actually doing is you'd be adding that to the query engine again. This is one of these things where it's only a couple of lines of code, but it needs to be, you know, it needs to be the right two lines of code, and then you'll just. Then you'll rerun it. So by all means, give that a try if you have the time. Yeah, go ahead.
+
+Speaker I: Last question. Can I use the same data set I used for Capstone 2?
+
+Speaker A: I would encourage you to do that. Yeah, I'd like you to do it. So the idea is the first step is to do it with the dataset app provided in part. This is to help you, Cole, and everyone else that it's like, hey, it works, right? As you do that. Pass. It should all work. You know, it's kind of almost like a system test, but it's just like, hey, baseline that with. With the one with the content that I've provided. Then you add your data. Right. Which is much more. Right. And then when you add your data, then ideally you'll bring in the changes that you made in Capstone 2 so that you might be like, yep, I want to use this embeddings model. I want to use this ingestion pipeline so that you'll bring those things in. And now that's your rag model. And then you will then improve it. Then you'll baseline that. This is the idea. Then you baseline that. Okay, how's my accuracy? And then you go and make the couple of changes to improve it further to get it that bit better. Yeah, that's the goal there.
+
+Speaker I: Okay, sure, thanks.
+
+Speaker A: Yeah, thanks. Yeah, good luck with that. I think you'll do just fine. So, yeah. Any other Questions related to Capstone 2? 3 1. I see. Stan, you're on here. I think I seem to recall marking your work. You did very, very well. Well done. So, Stan, if you get a chance, maybe you can give people a hand on discord. But, yeah, you really knocked it out of the park in terms of what you were doing. Okay. Okay, I will. I will take a look here.
+
+Speaker E: I was.
+
+Speaker A: I was on a trip.
+
+Speaker E: I came back yesterday, so.
+
+Speaker A: Oh, okay. Good stuff. But, yeah, I'll take a look here. Yeah, but, yeah, you know, and I think, yeah, I was pleased I. I rewrote this assignment for. For this cohort. Like the first cohort we did, it was the instructions weren't as clear and people had. And there was much more coding work. And so I redid this one. And actually, yeah, Stan, I think, yeah, yours was maybe one of the first I marked. And yeah, it's looking very good. So it Informed me that at least I'd given the instructions well enough that someone could succeed. And so. Yeah, well done. Okay. But, yeah, thanks. Yeah. So, anyone else with questions? Yeah, I think, yeah, go ahead.
+
+Speaker D: One question is on the, on this context. So I'm, I'm catching up on all the assignments. I have not been able to follow all the deadlines, but I'm catching up now.
+
+Speaker A: And
+
+Speaker D: assignments one, the capstone three, which I am targeting this week. And there was assignment four, I think, which was optional.
+
+Speaker A: So. Yeah, yeah, yeah. Then do. Yeah, focus on Capstone 3 then, you know, just so you get the full set of marks and such.
+
+Speaker D: Right, perfect. And is it like first. That first March is. Absolutely. Is a hard deadline or second March is fine. I mean, because that's a weekend I would probably complete everything. Like second. Would that work or.
+
+Speaker A: Yes, yes. Second March is fine, too. Okay. So. Yeah, exactly. I mean, it's a good question. I say for everyone here, you know, it's like, let's say, you know, you can imagine how it is, is we've got to put it, you know, in the end, it's an arbitrary deadline. But, you know, I was, you know, between us, I was a little surprised. It was, it was the Saturday night rather than the Sunday night. Right. It's like, hey, you know what? People are pushed for time give you Sunday to, To get that done. And so, so yeah, just that, yeah, let's say much, much too end of day is. Is a fine deadline.
+
+Speaker D: Thank you. And I have one more. Sorry.
+
+Speaker A: Yeah, go ahead.
+
+Speaker D: So this is one problem that I'm facing. I don't mean in my organization as well. So we're all experimenting with AI or LLMs and rags and everything. But the question or innovations is one thing which is very much, you know, very much required right now. So the question that, I mean the ask is about the security or what kind of agreement. I mean, the organization is not able to trust and how do I give them the confidence that this is. The data is not shared. In fact, we also don't know whether LLM is using the data for any training or any private data is getting shared. How do I take care of this security aspect or give the confidence to the leadership team?
+
+Speaker A: Sure. Okay. Well, I mean, I'll, I'll answer that briefly because it's not really to do with the project. Right. Look broadly, what happens is I deal with these questions all the time in the sense that people are asking that of bedrock. Right. I mean, and actually, I think what I'd. What I'd Say you do is if you have a look at, you know, let's say and become clear in a minute, if you have a look about like hey, is my data private on Bedrock, right? If I'm using Bedrock LLM, is my data saved? Is any of my data being used? Is all of the answers that you'll get back are the kind of answers that you would give your customer if they were using something like Bedrock, right? So what happens is none of the data's, you know, and, but it's important that you understand of the service that you're using. So different services will have different terms of service. Like for instance, if you're using Groq, heaven knows what they do with your data, right? They probably take your data, etc. Etc. But if you're using, if you're using AWS Bedrock, none of your data, none of the data that you use is saved by the system, it's stateless, etc. Etc. Right? One of. And then with, if you were using Azure or Google I would, you know, like Google Vertex and their setup or Azure Cloud, you'll, you'll see something similar and they'll have, they'll be saying that because no organization wants to share, no, no corporation wants to share their data arbitrarily, right with these companies. But there's lots of information about that for some company and by and large we manage this with VPCs. Like you can keep your data within your own VPC, your virtual private cloud, as you're calling Bedrock, as you're calling to do your inference. If you're doing that on aws, that would be one way of doing it. If you're hosting your own model, you can have VPC between your model and between your cloud and it running in the SageMaker service. So that there are all these capabilities. I do talk about it, I think, you know, I think we actually talked about this in office hours on and off throughout the course. But broadly all of these things can be managed and that, yeah generally that all the commercial models but you need to, you need to look as you use them. But the commercial platforms aren't taking anyone's data and using them to train the model because they, no one will use them but you do. But as an, as an AI solution architect, it's your responsible once responsibility to do some research and bring that information to your, to your organization, right to your customers so that they know. But ultimately your customers legal need to look at that document, you know, things like the EULAs, etc. Etc. And say I'm okay with this. Right. We're engineers, we're not legal. So that's the answer there. But yeah, so it is relatively. The good news is there are answers out there and there are good answers which say your data will be protected, but you've got to do the legwork, you've got to bring that all together. Okay, great. Any questions on the Capstone project? Yes, Ivan? Yeah, yeah. How are you doing?
+
+Speaker H: Yeah, good, good. It's on the Capstone project, but it's not just technical. I just wanted to ask if you want to extend it. So what I'm doing is sort of a customer service. Request, so looking into the documents, answering the questions for the customer service. So my question is, if I want to extend it to look at the orders, how should it really extend the project?
+
+Speaker A: Are you saying like maybe you've got a SQL database you want to look up as well? Is that what you're saying?
+
+Speaker C: Yeah.
+
+Speaker A: Okay. Yeah. So there's a couple of options there, right? So, and this is common question by the way. And you know, so one of the things is if you were using the Bedrock service, right, the Amazon Bedrock Knowledge Basis service, they actually have support for what they called structured query as well. And so if you've got say a well formed schema, relational schema, your data is running in a relational database, that it will actually do the natural language to SQL lookup for you. So as part of the Amazon Bedrock Knowledge Base service. So in the spirit of using the biggest tools you can, that would be a good way to go in a sense in that scenario, right? If your customer's running on AWS or they're comfortable with your using that, that would be the easy button of writing the least possible code, right. And that there'll be similar things on Azure, Google, et cetera, right? So you've got that high level tooling. If you're writing this yourself from scratch. Let's go to the other end of the spectrum. You'll have your RAG system, you'll have your RAG solution and you'll have your natural language to SQL solution and that you'll have a front end, right? And natural language SQL, it will take in the input query, it will create SQL for that, you'll run that SQL against the database, you'll bring back the results and give them to your customer. So that's a whole different. And that would typically be a different, you know, it's a pipeline, but it's a different pipeline and that you'll have a front end on top of that, you know, Basically a gateway, an application gateway in front of those two, which will basically get your customers request, you know, or it will, before you give your question to the RAG system or to the SQL or the SQL system is it will look at the query and go, hey, is this query valid for my application? You know, is this about horse racing or is this about stuff to do with my company? Yep, it's stuff to do with my company. Is this a question that could be answered by the rag? Take it by the rag. Is this a question that I can answer with SQL? Well then I'll go ahead and do that. Okay. And that potentially that front end could be an agent. If the SQL queries you're bringing back are small, that could be an agent. If the SQL result sets you bring back big, then you get into a different world. But yeah, so we can't go into that too much. But that's kind of how that works.
+
+Speaker H: Okay, thank you.
+
+Speaker A: You're welcome. You're welcome. Eddie, I see a hand raised again. Oh yeah, but you're on, you're on mute.
+
+Speaker C: Sorry.
+
+Speaker A: Really fast question.
+
+Speaker I: How do you integrate our real time data with this RAG model? That's.
+
+Speaker A: Yeah, yeah. And you can do it, right? It's not really intended by and large for most use cases. The intention isn't that the data is real time, that this is more like slow moving data, typically the case and that you keep fast moving data in your relational databases and you're looking that up, but you can do real time data. And actually again, you know, you can either do that yourself, that as data comes in, you'll index that, you know, that you can actually index that, put it into, put it into your vector store and hey, it's there already. And again, actually bedrock Knowledge bases added that capability to do that. So you can even have that as a fully managed service with bedrock knowledge basis so you don't have to do it or you can do it yourself. And that would be the case that if there's. But primarily you're thinking RAG is you're looking up content. But let's say, you know, it could be that you have an RFP system or something like that and you're Getting lots of RFPs all the time and you want them to get indexed as soon as they come in. Yep, sure. You know, or some other thing. Absolutely, you could do that, right? It could be you want to index your trouble tickets all the time because when people have a problem, lots of people have the same problem. Right. So this actually be a good use case. People are coming in, you're getting the transcripts of the problems and you very quickly do the rag for that so that your people in the front lines can get that information. So yeah, definitely you can do that. It's. And it's. Yeah, it just is a very quick real time load of your vector index store instead of batch. Great, great. So Nasser. Yeah, you're welcome. Yeah, Nasser. Yeah, you're next. And then Arthur. Oh, hi.
+
+Speaker G: Sorry. I've done the assignment. I've done Assignment 4 or 3, whatever it is, Capstone 3 wherever it is.
+
+Speaker A: Great.
+
+Speaker G: But I've got, I, I created documents live through chat GBT that were all technical documents but left the source documents in that, that was part of the assignment, you know, from just a text document. So say for example, if I'm in real life just related to the, in addition to the questions you've got, I've got different sources like a wiki, text documents, technical documents, write ups, etc.
+
+Speaker A: Yeah. Does.
+
+Speaker G: Do you just create just. Do you just pull in all the documents into one area, one pipeline or do you sort of like do a pipeline for each different type of subject?
+
+Speaker A: Right, right, right. And typically, typically like the best practice will be to have a slightly different pipeline for your different content because the way in which you'll want to chunk it, et cetera, will be different. So just like you know, like your bug reports look different than your technical documentation so I would tend to have those as different. But now going back to the first part of your question though, what's also quite common is that you'll have a landing zone for all the content that you're going to, that you're going to save into your, that you're going to index, that you can reference back so that it might be that you have your wiki, you have your treble ticket system, you've got your, you know, you've got some, you know, you've got something else as well. Yeah. Let's say you've got your trouble tickets and then maybe you've got your bug tracking. Whatever is that what would likely happen is you'd have an extract happening from those, you know, on a periodic basis that are maybe all saving that to, to you know, specific places in storage, you know, like such that it's ready to be indexed and it's, it's basically as the safe place ongoing so that when you, when you want to refer back to the original document or if you want to re index it, it's all there. Right, but broadly, yeah, different pipeline per, per data. All Right.
+
+Speaker G: So I've got one final question. In our organization, times is always tight and it's, it's our main problem with getting people hold of people to do certain exercises. What happens, how big an exercise is usually data cleansing or making the documents that you've got. Do you have to clean up data or does it normally. Do rags normally know the difference between somebody's personal notes versus the technical solution within the document?
+
+Speaker A: Yeah, yeah. I mean, you know, so it really, it really varies, right. I mean, generally, I try, you know, generally what we try with these systems is, is to minimize the data cleansing because that can really slow things down. But if, if there is content in there that shouldn't be in there, you want to weed that out. You know, if, if it's going to confuse the issue, if it's going to confuse, you know, and produce poor results, well, then, then you'd want to clean that. But, but. Yeah, that'd be terrific. Great. And then. Arthur? Yeah. I think this will have to be the last question because I actually need to get to a meeting.
+
+Speaker G: Okay.
+
+Speaker F: So can I make the questions?
+
+Speaker A: Yeah.
+
+Speaker F: By the way, amazing. Course, it's so clear. I didn't have most any understanding and I think I grew a lot in terms of knowledge about AI. Thank you very much. So the, the first question I have is about quotas, right. So I've tried to interface with the Amazon bedrock via APIs, and one thing I face sometimes is I hit like quota limits is like I try to access the API way too often.
+
+Speaker A: Yeah.
+
+Speaker F: What do you think about it?
+
+Speaker A: Yeah, it's frustrating, right? I mean, like, what you'll see is, you know, you probably what you saw with the Capstone project is, at least with the Llama Index is it's, it's, you know, it's getting throttled, but it's, you know, the code that's already there for Llama Index at least is dealing with the throttling. So it's not failing on you completely right now. One of the things is that I expect the throttling to really reduce this year. Like we're expecting our capacity limits to increase quite a bit so that you'll see a lot less throttling, you know, as, as you continue to develop, you know, for. In a month or two months, that that throttling will go down. But so another thing is, is depending upon the models which you're using, the amount of throttling you'll see will reduce. So oftentimes that, but, you know, so the factors which you'll be Getting today for your throttling is how big the prompts that you're using. The bigger the prompt, the more throttling you're going to get. Because some of the throttling relates on your token throughput. So your token input and your token output, that's one of the factors. Another factor related to your throttling is the model that you're using. And some models are getting throttled more and some less. Some of that has to do with capacity issues. Some of the Amazon Nova models are getting less throttling and they're actually very good models. But you'll be using those in the US currently if you're just doing some experimentation. The anthropic models tend to be a little less throttled as well. So they would be a couple I'd go to. But this will improve over the course of this year. What happens is when customers go into production they might be using provision capacity, which is a capability that we have so that you can buy provision capacity and then you don't get throttled on that. Right. You only get throttling on the on demand capacity. This is where as well is you can deploy your own models to SageMaker for instance and do that or equally. You know, maybe you're experimenting, maybe you're using Ollama and you're running your own models locally and you know so many different ways but, but yeah, primarily you'll get the throttling both with, you know, with Bedrock, with Azure, with Google. You know how it goes. It's like so many people are using the system and it's been hard for them to keep up, to keep up with the capacity. But there is expectation that will change over the next month or so.
+
+Speaker F: Thank you very much. And the last question would be so for example, we have multiple customers and we want to make sure that RAG only accesses information about a specific customer. Would you use metadata to achieve this or like have like database columns to indicate which customers we're having?
+
+Speaker A: You know, generally, I mean generally we have different accounts even for different customers, you know, so I don't know which, you know, like your business model but like typically because customer data is so sensitive is we may have a different, you know, the. And again, you know, I work for aws so it's a bit different. My customers will have different accounts and so they're completely separate. There's no risk of that going across. But now sure enough, you know, you might what I would do if I was supporting multiple customers in the same setup, I would be using different indexes, you know, so different vector stores for different customers might be, might be one way of doing it. So they're completely different namespaces. If your customers get, if that. If there's any intermingling of those data sources, they will go crazy. They will not be customers anymore. Right. So what you would typically do. Yeah is for sure you know, you. But you know and I know like you can put so much data in S3 bucket, but like so at a minimum they're different paths in their S3 bucket. If you were using some, something like OpenSearch Serverless, they would be different indexes. But that, you know, so it is similar to a bit to what you might do with databases. But typically you're talking about whole namespaces separation based. But where, where it's saved both, you know, on say your storage and also when you're indexing it, et cetera. Because yeah, you know, they, you got to assume data sensitivity is, is high.
+
+Speaker F: Okay, so for example, so you would suggest then to create multiple instances of like a PGvector database, for instance for each customer.
+
+Speaker A: Yeah, yeah, yeah, like so. Yeah, different index, right. So for instance, it might be this just in the same way that you have one, you might have one database server and a database, and you know, a database schema for each customer and that each database schema, right. Set of tables is different for each customer, etc. Etc. Then in the vector world it would be that you have, you might have your vector database server and that you'll have a different index for different customers so that the data is not stored in the same index. You definitely would not want to do that. Okay, that would be the minimum separation.
+
+Speaker F: Thank you very much.
+
+Speaker C: Sorry, just a quick one. Just on this last topic we're talking about about separating indexes for various customers now. Okay, that's, that's fine. But say you have the same user interface and customers log in. How would the model know which the model won't?
+
+Speaker A: The model won't know is that you'll have information about that that customer is a different customer and that based on that customer you are going to be using, you're going to be specifying which index is hooked up. Unfortunately, uche I can't get into it because I'm already late for a work meeting. Okay. So I'm sorry guys, you know, I didn't mean to be late today, but unfortunately I'm already overtime for my day job. It's like 10:15 here and I had a meeting at 10, so I gotta go. But right. Catch you around. And great questions today. All right, good. Good luck with finishing your capstone. I'll look out, and I'll be marking your work soon. All right, take care.

@@ -1,0 +1,38 @@
+00:02:44	Jordan Smith - elvtr:	Welcome back everyone 😁
+00:03:26	Luis Aveiro:	Reacted to "Welcome back every..." with 👍
+00:03:26	Nishant Pithia:	Reacted to "Welcome back everyon..." with ❤️
+00:04:13	Jakub Korczowski:	Reacted to "Welcome back everyon..." with 👋
+00:07:01	Jamie:	Reacted to "Welcome back everyon..." with 👋
+00:09:04	Nishant Pithia:	Did delete the domain and logged out. It is charging for storage. I was charged $33 yesterday
+00:09:12	terrance thomas:	I forgot to turn off my notebook. Oops.
+00:10:02	Ismail Mayat:	Reacted to "I forgot to turn off..." with 😢
+00:13:09	Jakub Korczowski:	if you want to clean up your environment completely, please see "endpoint configurations", not only "endpoints" in the left sidebar of the AWS console (under Inference), I had some leftovers there after removing endpoints and notebooks
+00:13:54	Nick Haddock:	Reacted to "if you want to clean..." with 👍
+00:14:06	Luis Aveiro:	Reacted to "if you want to cle..." with 👍
+00:14:09	Ivan Georgiev:	You can see what’s running in SageMaker AI dashboard
+00:14:30	Luis Aveiro:	Reacted to "You can see what’..." with 👍
+00:14:37	terrance thomas:	Reacted to "You can see what’s r..." with 👍
+00:14:39	terrance thomas:	Reacted to "if you want to clean..." with 👍
+00:14:40	Jakub Korczowski:	Reacted to "You can see what’s r..." with 👍
+00:16:05	Nishant Pithia:	Remember to check the region, I had by mistake two regions and was getting charged from Stockholm region. I thought I shut down all but I was wrong
+00:16:22	Nishant Pithia:	Replying to "You can see what’s r..."
+
+This is for EU west only
+00:16:35	Senthil:	Reacted to "Remember to check th..." with 👍
+00:18:37	Nick Haddock:	Reacted to "Remember to check th..." with 👍
+00:19:01	Nick Haddock:	Replying to "Remember to check th..."
+
+Same here, but managed to jump on it before Xmas.
+00:19:32	Nishant Pithia:	Reacted to "Same here, but manag..." with 😃
+00:19:38	Nishant Pithia:	Replying to "Remember to check th..."
+
+Lucky you 🙂
+00:23:52	Nishant Pithia:	Stack overflow is old school now 😄
+00:25:55	Ismail Mayat:	Reacted to "Stack overflow is ol..." with 😂
+00:27:52	Adrien Biencourt:	Reacted to "Stack overflow is ol..." with 😂
+00:28:36	Jamie:	Reacted to "Stack overflow is ol..." with 😂
+00:30:49	Samira Khodai:	Reacted to "Stack overflow is ol..." with 😂
+00:38:13	Surjeet Singh:	Reacted to "Stack overflow is ol..." with 😎
+00:59:58	Nick Haddock:	Reacted to "Lucky you 🙂" with 😃
+01:00:15	Nick Haddock:	Reacted to "Stack overflow is ol..." with 👍
+01:27:19	Chaitanya Kuppa:	Reacted to "Stack overflow is ol..." with 😂

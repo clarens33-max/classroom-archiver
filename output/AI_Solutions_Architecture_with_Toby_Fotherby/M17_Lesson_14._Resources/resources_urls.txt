@@ -1,0 +1,5 @@
+External resources
+============================================================
+
+AWS Well-Architected - Build secure, efficient cloud applications  →  https://aws.amazon.com/architecture/well-architected/?wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc&wa-guidance-whitepapers.sort-by=item.additionalFields.sortDate&wa-guidance-whitepapers.sort-order=desc
+Machine Learning Lens - AWS Well-Architected Framework - Machine Learning Lens  →  https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/machine-learning-lens.html

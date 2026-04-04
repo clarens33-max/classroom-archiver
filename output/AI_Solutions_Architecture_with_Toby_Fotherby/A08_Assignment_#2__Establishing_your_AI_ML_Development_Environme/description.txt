@@ -1,0 +1,18 @@
+Objective
+Develop a robust and scalable AI solutions architecture by setting up an AWS cloud environment from scratch, configuring essential AI/ML services, and validating the setup to support various AI-driven projects and applications effectively.
+
+Instructions
+Setting up your Development Environment
+Follow the steps shown in today’s lab to set up your own development environment for the class.
+Create an AWS account
+Configure your AWS account
+Launch an EC2 instance
+Install required software
+Set up development tools
+Verify the setup
+Shutdown and cleanup
+At the end of the setup and test process, remember to shut down your notebook instance so that you do not waste your free tier credits.
+Submission
+Submit your test notebook after you have run all the cells to get credit for the assignment
+Due date: December 5, 11:59 pm GMT
+Grade: 10 points

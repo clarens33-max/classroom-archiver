@@ -1,0 +1,36 @@
+00:01:45	Jordan Smith - elvtr:	Welcome everyone! I will just check now where Toby is 🙂
+00:02:00	terrance thomas:	Reacted to "Welcome everyone! 
+I..." with 👍
+00:16:20	Ismail Mayat:	Im a big fan on excalidraw
+00:16:34	Ismail Mayat:	https://excalidraw.com/
+00:16:40	Nick Haddock:	Reacted to "https://excalidraw.c..." with 👍
+00:19:47	Samira Khodai:	Reacted to "https://excalidraw.c..." with 👍
+00:23:08	Samira Khodai:	Replying to "https://excalidraw.c..."
+
+I was looking for a tool like this. Thanks for sharing.
+00:23:44	Ismail Mayat:	Replying to "https://excalidraw.c..."
+
+Marry it up with https://obsidian.md/
+00:24:13	Ismail Mayat:	Replying to "https://excalidraw.c..."
+
+You can start to build up mindmaps and inc exaclidraw into it
+00:24:25	Surjeet Singh:	https://app.diagrams.net/  DrawIO is another one which is free and industry scale.
+00:24:26	Samira Khodai:	Reacted to "You can start to bui..." with 👍
+00:24:42	Surjeet Singh:	Reacted to "You can start to bui..." with 👍
+00:24:47	Surjeet Singh:	Reacted to "https://excalidraw.c..." with 👍
+00:25:52	Kole Olagbaiye:	Reacted to "https://app.diagrams..." with 👍🏼
+00:25:54	Adrien Biencourt:	Reacted to "https://app.diagrams..." with 👍🏼
+00:26:59	Nick Haddock:	Reacted to "https://app.diagrams..." with 👍
+00:27:16	Samira Khodai:	Reacted to "https://app.diagrams..." with 👍
+00:28:01	Nishant Pithia:	Reacted to "https://app.diagrams..." with 👍
+00:34:13	Ismail Mayat:	@Fawzi https://aws.amazon.com/government-education/worldwide/uk/national-security-and-defence/?wwps-cards.sort-by=item.additionalFields.sortDate&wwps-cards.sort-order=desc
+00:34:18	Damian Piesse:	You can install open source AI locally via pinokio.computer
+00:35:06	Fawzi:	@Ismail Mayat Thanks a lot I will check it
+00:35:30	Adrien Biencourt:	Wouldn't AWS output be the solution for this? https://aws.amazon.com/outposts/
+00:35:41	davidpage:	The UK Government has a Cloud First policy : https://www.gov.uk/government/publications/cloud-guide-for-the-public-sector/cloud-guide-for-the-public-sector#the-cloud-first-policy
+00:35:45	Ismail Mayat:	Point being is uber secure for MOD and so if good enough for them
+00:35:53	Ismail Mayat:	Reacted to "The UK Government ha..." with 👍
+00:50:09	Senthil Kumar:	Apologies I have to drop. Will follow the recorded session.
+01:18:12	davidpage:	Again, if you are UK based, then the NCSC is the go to resource for guidance https://www.ncsc.gov.uk/collection/cloud
+01:18:28	Ismail Mayat:	Reacted to "Again, if you are UK..." with 👍
+01:20:00	Thaddeus Okafor:	Reacted to "https://excalidraw.c..." with 👍

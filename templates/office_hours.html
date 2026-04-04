@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% block title %}Office Hours — {{ course_name }}{% endblock %}
+
+{% block content %}
+<div class="mb-4">
+  <h1 class="page-heading">Office Hours</h1>
+  <p class="page-subtitle">{{ office_hours|length }} recorded sessions with Q&amp;A</p>
+</div>
+
+{% if not office_hours %}
+<div class="text-center py-5" style="color:#94a3b8">
+  <i class="bi bi-camera-video-off" style="font-size:2.5rem"></i>
+  <p class="mt-2">No office hours recordings found.</p>
+</div>
+{% endif %}
+
+<div class="d-flex flex-column gap-3">
+{% for oh in office_hours %}
+<div class="card">
+  <div class="card-header d-flex align-items-center justify-content-between">
+    <span><i class="bi bi-camera-video me-2 text-primary"></i>{{ oh.title }}</span>
+    <span style="font-size:0.72rem;color:#94a3b8">#{{ loop.index }}</span>
+  </div>
+  <div class="card-body">
+
+    {% if oh.transcripts %}
+    {% set t = oh.transcripts[0] %}
+    <div class="d-flex flex-wrap gap-2 mb-3">
+      {% if t.summary_pdf %}
+      <a href="{{ url_for('serve_file', rel=t.summary_pdf) }}" target="_blank" class="btn btn-sm btn-outline-primary">
+        <i class="bi bi-file-earmark-text me-1"></i>Summary PDF
+      </a>
+      <a href="{{ url_for('download_file', rel=t.summary_pdf) }}" class="btn btn-sm btn-primary">
+        <i class="bi bi-download me-1"></i>Download Summary
+      </a>
+      {% endif %}
+      {% if t.transcript %}
+      <a href="{{ url_for('view_transcript', rel=t.transcript) }}" target="_blank" class="btn btn-sm btn-outline-secondary">
+        <i class="bi bi-card-text me-1"></i>View Transcript
+      </a>
+      <a href="{{ url_for('download_file', rel=t.transcript) }}" class="btn btn-sm btn-outline-secondary">
+        <i class="bi bi-download me-1"></i>.txt
+      </a>
+      {% endif %}
+    </div>
+
+    {% if t.concept_map %}
+    <div class="mb-3">
+      <div style="font-size:0.72rem;font-weight:600;color:#64748b;margin-bottom:0.4rem">CONCEPT MAP</div>
+      <a href="{{ url_for('serve_file', rel=t.concept_map) }}" target="_blank">
+        <img src="{{ url_for('serve_file', rel=t.concept_map) }}" alt="Concept map"
+             class="concept-map-img" style="max-height:220px">
+      </a>
+    </div>
+    {% endif %}
+    {% else %}
+    <p style="font-size:0.82rem;color:#94a3b8;margin:0">Transcript not yet generated.</p>
+    {% endif %}
+
+    {% if oh.links %}
+    <div class="mt-2">
+      <div style="font-size:0.72rem;font-weight:600;color:#64748b;margin-bottom:0.4rem">LINKS</div>
+      {% for link in oh.links %}
+      <a href="{{ link.url }}" target="_blank" rel="noopener" class="link-row">
+        <i class="bi bi-box-arrow-up-right"></i> {{ link.title }}
+      </a>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+  </div>
+</div>
+{% endfor %}
+</div>
+{% endblock %}
