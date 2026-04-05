@@ -1,0 +1,76 @@
+00:03:42	TimAbbott:	Will be on Camera shortly.
+00:21:35	Ian Curran:	I've been using premio to build apps (which uses claude) and it is using a lot more tokens
+00:24:39	TimAbbott:	One way to limit this is change the way you do prompting and do not have long conversations/chats with heavy attachment usage.
+00:24:51	Darren Lewis:	Reacted to "One way to limit thi..." with 👆
+00:25:13	Tony:	Reacted to "One way to limit thi..." with 👍
+00:26:05	Tariq Ali:	One of the things I've noticed while experimenting with OpenClaw was the "thinking" level of each model, I was able to set low, med, high, and the higher the thinking model, the quicker it would burn tokens.
+00:26:50	Tariq Ali:	Openrouter is a service that has a feature to route to the best roi for each available model.
+00:27:01	Nataliia Snitko:	I use claude code and force choose the model based on specifics of the task
+00:27:12	Tariq Ali:	Reacted to "I use claude code and force choose the model based on specifics of the task" with 👍🏽
+00:27:18	Sowmya Ramamurthy:	Reacted to "Openrouter is a se..." with 👍
+00:28:13	Tariq Ali:	Using a different "cheaper" model for specific low effort tasks (background, routine maintenance agents, etc.) is a way to mitigate costs
+00:28:26	Nataliia Snitko:	Reacted to "Using a different "c..." with 💯
+00:28:27	TimAbbott:	Reacted to "Openrouter is a service that has a feature to route to the best roi for each available model." with 👍
+00:28:36	Ian Curran:	Reacted to "One way to limit thi..." with 👍
+00:28:48	Elena:	Reacted to "Using a different ..." with 👍
+00:28:54	Elena:	Reacted to "Openrouter is a se..." with 👍
+00:29:36	Tariq Ali:	Reacted to "One way to limit this is change the way you do prompting and do not have long conversations/chats with heavy attachment usage." with 👍🏽
+00:29:36	TimAbbott:	Reacted to "Using a different "cheaper" model for specific low effort tasks (background, routine maintenance agents, etc.) is a way to mitigate costs" with 👍
+00:30:42	TimAbbott:	Replying to "Using a different "cheaper" model for specific low effort tasks (background, routine maintenance agents, etc.) is a way to mitigate costs"
+
+We often do the initial prompts in Copilot and then then put into a document and feed into Claude to do the heavy coding work. Reduced the costs significantly.
+00:31:32	Tariq Ali:	Reacted to "We often do the initial prompts in Copilot and then then put into a document and feed into Claude to do the heavy coding work. Reduced the costs significantly." with 👍🏽
+00:31:45	Tony:	Reacted to "We often do the init..." with 👍🏽
+00:31:48	Sowmya Ramamurthy:	Reacted to "We often do the in..." with 👍
+00:33:29	Elena:	Reacted to "We often do the in..." with 👍
+00:33:52	Tariq Ali:	Replying to "Using a different "c..."
+
+@TimAbbott That's a great approach
+00:43:00	Pierre Naggar:	Can we have some examples of use cases that apply to each model?
+00:45:01	Tariq Ali:	Replying to "Can we have some exa..."
+
+MLOps fits use cases like fraud detection, churn prediction, demand forecasting, and predictive maintenance. 
+
+LLMOps fits things like enterprise search, customer support copilots, document summarization, and contract or policy Q&A. 
+
+GenAIOps is broader and fits multi-step agent workflows like claims handling, sales proposal generation, onboarding assistants, or service operations where generation, orchestration, and human review all need to work together.
+00:46:09	Pierre Naggar:	Replying to "Can we have some exa..."
+
+Where does coding fit here?
+00:48:04	Tariq Ali:	Replying to "Can we have some exa..."
+
+@Pierre Naggar 
+Coding can fit across all three: 
+In MLOps, it is the core of model development and pipelines. 
+
+In LLMOps, it shows up more in orchestration, prompts, retrieval, evals, and guardrails. 
+
+In GenAIOps, coding is still important, but more of the value shifts to workflow design, integration, governance, and human oversight around AI-generated output.
+00:49:10	Pierre Naggar:	Reacted to "@Pierre Naggar 
+Codi..." with 👍
+00:49:41	Elena:	What is the skillset required to configure such automated approach for GenAIOps solutions in comparison to standard DevOps? Asking more from a perspective, where to look for such talent. What are the pre-requisites and rough cost of putting such structures in place?
+00:49:58	Sowmya Ramamurthy:	Reacted to "What is the skills..." with 👍
+00:51:38	Connie Flude:	Sorry - kids are being tricky this evening! Going to have to run out
+00:51:48	Tariq Ali:	Reacted to "Sorry - kids are being tricky this evening! Going to have to run out" with 👍🏽
+00:52:51	Tariq Ali:	Replying to "What is the skillset..."
+
+GenAIOps usually needs a blend of DevOps, platform, ML/data engineering, and LLM app skills. The main difference from standard DevOps is the added need for evals, tracing, guardrails, retrieval quality, and human oversight. Most companies should look for a mixed team rather than one perfect hire, and start with strong cloud, CI/CD, observability, and data foundations before scaling.
+00:52:51	Sam Costelloe:	Reacted to "One of the things I'..." with 🙌
+00:52:55	Sam Costelloe:	Reacted to "Openrouter is a serv..." with 👍
+00:53:02	Sam Costelloe:	Reacted to "Using a different "c..." with 💯
+00:53:12	Ian Curran:	Apologies I may drop off as I'm on a train!
+00:53:18	Gule Sheikh:	https://docs.google.com/document/d/1NPD2H63GiJqclE6Gg-RiyNEQARM514Rs/edit?usp=sharing&ouid=115179863750527832625&rtpof=true&sd=true
+01:20:58	Nataliia Snitko:	brb
+01:21:53	Elena:	Reacted to "GenAIOps usually n..." with 👍
+01:32:57	Nataliia Snitko:	I’m sorry I need to drop. Thank you very much Gule and Tariq!
+01:33:05	Darren Lewis:	Same, thanks both
+01:33:50	Alex:	https://github.com/karpathy/llm-council
+01:34:25	Elena:	Reacted to "https://github.com..." with 👍
+01:50:07	Davidson Davidson:	It’s an interesting intersection around skills for junior teammates. Critical thinking and building the understanding and we will have to evolve how we expose or train the missing exposure to real-life experiences (work/personal). Thinking of how this applies…Blink, by Malcolm Gladwell.
+01:50:19	TimAbbott:	Reacted to "It’s an interesting intersection around skills for junior teammates. Critical thinking and building the understanding and we will have to evolve how we expose or train the missing exposure to real-life experiences (work/personal). Thinking of how this applies…Blink, by Malcolm Gladwell." with 👍
+01:50:22	Elena:	Reacted to "It’s an interesti..." with 👍
+01:50:26	Tariq Ali:	Reacted to "It’s an interesting intersection around skills for junior teammates. Critical thinking and building the understanding and we will have to evolve how we expose or train the missing exposure to real-life experiences (work/personal). Thinking of how this applies…Blink, by Malcolm Gladwell." with 👍🏽
+01:52:54	Alex:	Thanks, need to drop
+01:53:47	Sam Costelloe:	Cheers all
+01:53:51	Davidson Davidson:	Reacted to "Cheers all" with ❤️
+01:54:12	TimAbbott:	This is the prompt we use for Software evaluations. Please review this tool - OneTrust. Id like you to explore and summarise but not limited to the following... What is the solution used for? What is the security features and certifications of the tool? Where does this tool fit into our existing solutions?  What are the core capabilities? Has there been any concerns raised about this solution?  How should the solution be deployed? What are the cost models for this solution? What are the key competitors to this solution? Give me an overall summary  Id like this in a document that can be exported to word. For the pricing and competitors id like this presented in a table that summaries the areas being evaluated.

@@ -1,0 +1,84 @@
+00:13:38	josef:	As you said, OpenAi is valuable for many companies. Do you think this will suffer now due to the deal with the ministry of defense? Sounds to me like it gets even more unusable on a company level in Europe now...
+00:15:13	josef:	Not Being first to market is kind of apples motto nowadays, right? 🙂
+00:15:26	Abhay Sharma:	could we please change the presentation mode? Difficult to read slides
+00:15:46	Pierre Naggar  www.brightpro.ai:	How do you reconcile Top Down and Bottom Up different priorities and what should be the role of CAIO in prioritising use cases?
+00:17:43	Tariq Ali:	Replying to "As you said, OpenAi ..."
+
+Hi Josef, if you're referrring to the deal OpenAI took over Anthropic with the US Dept of War, in my opinion it really is about their ethical red-lines and more of a political move, the long term contract and impact could be significant for both.  Something we'll need to watch and see how it turns out.  The public reaction seems to have be in favor of Anthropic.
+00:18:42	Nataliia Snitko:	Reacted to "could we please chan..." with ➕
+00:18:45	Nataliia Snitko:	Replying to "could we please chan..."
+
+You can zoom in on the screen
+00:18:55	josef:	Reacted to "Hi Josef, if you're ..." with 👍
+00:19:01	Jordan Smith - elvtr:	Replying to "could we please chan..."
+
+Hi @Abhay Sharma 🙂 This setting in zoom may help to view the slides better
+00:19:16	Abhay Sharma:	Reacted to "You can zoom in on..." with 👍
+00:19:31	Nataliia Snitko:	Reacted to "Hi @Abhay Sharma 🙂 ..." with 🔥
+00:19:33	josef:	Is the graph really correct? Looks like the icons are in the wrong sectors. Or my brain is to scrambled today...
+00:20:09	josef:	Replying to "As you said, OpenAi ..."
+
+Thanks. Yes I also think at the moment lot of support for anthropic and people being very sceptic of OpenAI. At least in Europe....
+00:21:57	Jordan Smith - elvtr:	Lesson 4: Pre-Lesson Resources: https://classroom.google.com/c/NzkzMTcyMTU3NjYw/m/NzkzMTcyMTU3NzQ2/details
+00:22:06	Glenn Quadros:	Replying to "As you said, OpenAi ..."
+
+Do we have the hand out for this class already?
+00:22:27	Tariq Ali:	Replying to "How do you reconcile..."
+
+Reconciling top-down and bottom-up priorities is basically the classic “strategy vs. reality” argument. Top-down brings direction, risk control, and funding. Bottom-up brings truth, operational pain, and adoption.
+00:22:49	Tariq Ali:	Reacted to "Thanks. Yes I also t..." with 👍🏽
+00:30:54	Wendell La Fortune:	Replying to "How do you reconcile..."
+
+It depends what type of connections you want, whether it is unidirectional or bi directional
+00:31:11	Tariq Ali:	Reacted to "It depends what type..." with 👍🏽
+00:33:45	Tariq Ali:	Replying to "How do you reconcile..."
+
+The CAIO role, portfolio owner and referee, not necessarily the loudest opinion. Define decision rules, governance, and risks.
+00:34:06	Daniel Sorensen:	Have you ever considered the RICE methodology for evaluating use case candidates?
+
+(Reach x Impact x Confidence) / Effort
+00:34:35	Pierre Naggar  www.brightpro.ai:	Replying to "How do you reconcile..."
+
+Thanks
+00:34:59	Tariq Ali:	Reacted to "Thanks" with 👍🏽
+00:35:05	Daniel Sorensen:	I think the elements on the screen could map to those RICE variables, but would not be exhaustive
+00:36:25	Glenn Quadros:	Presumably not just how much work, but different work that adds more value to the company and to themselves
+00:37:43	Tariq Ali:	Replying to "I think the elements..."
+
+RICE is a solid, lightweight way to rank candidates, and it maps well to AI use cases, RICE is a great backbone for prioritization, then adding risk and reuse makes it more complete for CAIO portfolios.
+00:38:36	Daniel Sorensen:	Reacted to "RICE is a solid, l..." with 👍
+00:40:45	Daniel Sorensen:	Replying to "I think the elemen..."
+
+Excellent point to layer in risk. As for reuse/repeatability, I wonder if that would be an element of Reach - a use case could be only valuable to one LOB or span across all LOBs in a given org - i.e., wider reach
+00:41:05	Nataliia Snitko:	Replying to "https://classroom.go..."
+
+What doc is it? Can’t find it in the folder
+00:42:08	Nataliia Snitko:	Replying to "https://classroom.go..."
+
+Ok thumbnail is different, thanks
+00:42:15	Jordan Smith - elvtr:	Reacted to "Ok thumbnail is diff..." with ⭐
+01:14:37	Jordan Smith - elvtr:	Assignment 2 through the google classroom, with template: https://classroom.google.com/c/NzkzMTcyMTU3NjYw/a/NzkzMTcyMTU3NzQx/details
+01:14:46	Tariq Ali:	Reacted to "Excellent point to l..." with 👍🏽
+01:15:17	Ian Curran:	Apologies I have to drop off
+01:16:18	TonyLotta:	apologies - have to drop  off too - have a good day/evening
+01:17:15	Adam Young:	Have to drop, thank you everyone - lovely to meet the chaps in the breakout room!
+01:21:41	Tariq Ali:	Replying to "I think the elements..."
+
+Reuse can be part of Reach if Reach includes cross-LOB footprint. But reuse has two types: Outcome reach: how many LOBs benefit from the use case; Platform reuse: reusable assets created that lower future effort
+01:22:22	Abhay Sharma:	thanks everyone, need to drop off
+01:22:58	Tariq Ali:	Reacted to "Thanks" with 👍🏽
+01:23:27	Glenn Quadros:	Cost and opportunity - the T shape lawyer is good for the Legal Industry
+01:25:49	Scott Quinn:	Thanks all. Great class!
+01:34:13	Sam Costelloe:	Need to drop. Thanks Gule for a great class
+01:40:34	Glenn Quadros:	Apologies I need to drop.
+01:43:43	Nataliia Snitko:	Fujifilm started as consumer film makers and pivoted into medical film pioneers once digital cameras disrupted the market
+01:44:04	Tariq Ali:	Reacted to "Fujifilm started as ..." with 👍🏽
+01:44:41	Nataliia Snitko:	It requires organisational ambidexterity to be able to innovate and run the core business at the same time. That’s why not many survive
+01:46:06	Wendell La Fortune:	Got to drop off now, good night.
+01:46:15	Nataliia Snitko:	Thanks for the class, Gule. Enjoyed group work! Need to drop
+01:59:20	Pierre Naggar  www.brightpro.ai:	Back in the days it was swim or sink
+02:00:08	Daniel Sorensen:	Reacted to "Reuse can be part ..." with ❤️
+02:00:23	TimAbbott:	This has been brilliant. Thanks.
+02:00:29	Tariq Ali:	Reacted to "This has been brilli..." with 👍🏽
+02:01:22	Alex M:	thanks
+02:01:28	Pierre Naggar  www.brightpro.ai:	thanks

@@ -1,0 +1,43 @@
+00:22:44	Wendell La Fortune:	Depends on what algorithm is being used
+00:23:29	Wendell La Fortune:	Supervised, unsupervised learning etc
+00:26:51	Pierre Naggar:	If you develop your own model but want to protect your IP, how do you handle transparency and explainability.
+00:27:42	Jamal Ellis:	Any idea if something like the model card will become a standard part of releasing models to the world via policy? Similar to labels on food products?
+00:34:05	Pierre Naggar:	That’s been a common practice in call centres for ages.
+00:35:09	Connie Flude:	What would be best practice in terms of a call centre from an ethical AI poverty?
+00:36:05	Wendell La Fortune:	Carbon management is key
+00:36:29	Jamal Ellis:	I've seen more lately about water usage!
+00:37:04	Wendell La Fortune:	These huge servers takes a lot of water to cool
+00:39:11	Ewa:	It's amazing how significant CO2 footprint is of popular LLMs, I didn't know this
+00:40:43	Glenn Quadros:	Me too - staggering
+00:48:24	TimAbbott:	More than GDPR fine
+00:48:49	Gule Sheikh:	Reacted to "More than GDPR fine" with 👍
+00:49:40	Glenn Quadros:	https://www.sciencedirect.com/science/article/pii/S2666389925002788?utm_source=chatgpt.com
+00:50:34	Pierre Naggar:	Reacted to "https://www.scienced..." with 👍
+00:51:14	Ewa:	Reacted to "https://www.scienced..." with 👍
+00:53:40	Anna Bethke:	One of the best comprehensive resources I have found is All Tech is Human. They have newsletters, job boards, events (both in person and virtual), as well as additional courses and blogs. https://alltechishuman.org/
+00:53:50	Anna Bethke:	My favorite tool which I mentioned is Deon and its a checklist of steps one can take in order to integrate ethical AI into a project - this is specifically written for data science projects but is easily adaptable to other types of projects as well. https://deon.drivendata.org/
+00:54:00	Tariq Ali:	Reacted to "One of the best comp..." with 👍🏽
+00:54:05	Tariq Ali:	Reacted to "My favorite tool whi..." with 👍🏽
+00:54:08	Anna Bethke:	And wrt to frameworks: Many organizations utilize NIST's AI Risk Management Framework https://www.nist.gov/itl/ai-risk-management-framework, though I find Microsoft's Framework a bit easier to follow https://www.microsoft.com/en-us/ai/principles-and-approach
+00:54:25	Tariq Ali:	Reacted to "And wrt to framework..." with 👍🏽
+00:56:54	TimAbbott:	Reacted to "And wrt to framework..." with 👍🏽
+00:56:55	TimAbbott:	Reacted to "My favorite tool whi..." with 👍🏽
+00:57:02	TimAbbott:	Reacted to "One of the best comp..." with 👍🏽
+00:58:00	Sharold Palmer:	Reacted to "And wrt to framework..." with 👍🏽
+00:59:08	Sharold Palmer:	Replying to "And wrt to framework..."
+
+Thanks, do you also have the link to the mapped regulation tool?
+01:00:33	Michael Nourollahi:	Replying to "And wrt to framework..."
+
+@Sharold Palmer https://www.techieray.com/GlobalAIRegulationTracker
+01:02:17	Davidson Davidson:	Thank you, @Anna Bethke  + @Gule Sheikh . Great class! Dropping for a client call. Will follow up with the recording.
+01:05:03	Sharold Palmer:	Reacted to "@Sharold Palmer http..." with 👍🏾
+01:23:00	Safal Mukhia:	Thank you. I have to drop.
+01:23:10	Scott Quinn:	thank you. great topics today!
+01:24:01	Wendell La Fortune:	Got to drop off now, thank you.. good night.
+01:27:44	Jamal Ellis:	Thank you I need to drop as well. Great discussion today.
+01:29:24	Glenn Quadros:	Thank you, great session. Need to drop of.
+01:44:01	Sharold Palmer:	https://commission.europa.eu/topics/business-and-industry/doing-business-eu/sustainability-due-diligence-responsible-business/corporate-sustainability-due-diligence_en  If useful - some cross other with topic and another directive heading down the EU pipe
+01:47:33	TimAbbott:	Brilliant class and presentation. Thankyou
+01:47:40	Ewa:	thank you, super topic 👍
+01:50:39	TimAbbott:	Thanks

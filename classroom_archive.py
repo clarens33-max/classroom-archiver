@@ -375,6 +375,11 @@ def main():
 
     base_dir = Path(OUTPUT_DIR) / safe_name(course_title)
     base_dir.mkdir(parents=True, exist_ok=True)
+
+    # Load existing queue so re-runs don't lose previously found videos
+    q_path = base_dir / "_vimeo_queue.json"
+    existing_queue = json.loads(q_path.read_text(encoding="utf-8")) if q_path.exists() else []
+    existing_urls  = {e["url"] for e in existing_queue}
     vimeo_queue = []
 
     # Fetch topics (used as lesson labels)
@@ -406,7 +411,7 @@ def main():
         print(f"  📁 {lesson_dir.name}")
 
         desc = mat.get("description", "")
-        if desc:
+        if desc and not (lesson_dir / "description.txt").exists():
             (lesson_dir / "description.txt").write_text(desc, encoding="utf-8")
 
         process_attachments(
@@ -435,7 +440,7 @@ def main():
         print(f"  📁 {lesson_dir.name}")
 
         desc = cw.get("description", "")
-        if desc:
+        if desc and not (lesson_dir / "description.txt").exists():
             (lesson_dir / "description.txt").write_text(desc, encoding="utf-8")
 
         process_attachments(
@@ -445,14 +450,18 @@ def main():
             extra_text=desc,
         )
 
-    # ── Save Vimeo queue ──────────────────────────────────────────────────────
-    if vimeo_queue:
-        q_path = base_dir / "_vimeo_queue.json"
+    # ── Save Vimeo queue (merge with existing, deduplicate by URL) ───────────
+    new_videos = [v for v in vimeo_queue if v["url"] not in existing_urls]
+    merged_queue = existing_queue + new_videos
+    if merged_queue:
         q_path.write_text(
-            json.dumps(vimeo_queue, indent=2, ensure_ascii=False),
+            json.dumps(merged_queue, indent=2, ensure_ascii=False),
             encoding="utf-8"
         )
-        print(f"\n🎬 {len(vimeo_queue)} Vimeo video(s) queued → {q_path}")
+        if new_videos:
+            print(f"\n🎬 {len(new_videos)} new video(s) added → {q_path} ({len(merged_queue)} total)")
+        else:
+            print(f"\n🎬 No new videos found ({len(merged_queue)} already queued)")
         print("   Run classroom_transcribe.py next.")
     else:
         print("\nℹ️  No Vimeo videos found.")

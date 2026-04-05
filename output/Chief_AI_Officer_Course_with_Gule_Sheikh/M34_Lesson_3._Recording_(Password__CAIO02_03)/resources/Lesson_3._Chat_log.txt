@@ -1,0 +1,100 @@
+00:03:16	josef:	Hi 🙂 shall we leave or is it fine to stay?
+00:03:59	Gule Sheikh:	Yes of course you can stay
+00:04:04	Gule Sheikh:	We are staring in 5 mins
+00:04:25	josef:	Perfect 🙂 thanks did not want to disturb 🙂
+00:13:23	Sowmya Ramamurthy:	I am unwell, sorry wont be able to share camera. Thanks.
+00:13:53	Jordan Smith - elvtr:	Reacted to "I am unwell, sorry w..." with 🙏🏼
+00:16:57	Nataliia Snitko:	Reacted to "I am unwell, sorry w..." with 💊
+00:25:51	Tariq Ali:	@Abhay Sharma  SLMs are smaller, faster, and cheaper, so they work well for focused tasks and environments with limited compute. LLMs are larger, more powerful, and better at handling complex reasoning, broader knowledge, and more flexible conversations. The basic tradeoff is efficiency versus capability.The best approach is a mix: use SLMs for simple, high-volume tasks and LLMs for harder, high-value work.
+00:27:29	Abhay Sharma:	Replying to "@Abhay Sharma  SLM..."
+
+Thanks Tariq - this segregation based on High-Volume vs High-Value, would be good to understand what does that actually mean - like some real use cases on how different companies are using both
+00:27:44	Abhay Sharma:	Reacted to "@Abhay Sharma  SLM..." with 👍
+00:28:57	Sowmya Ramamurthy:	Is it the number of tokens allowed ?
+00:30:10	hania:	Replying to "Is it the number of ..."
+
+No it’s simply the cost per 1M token
+00:30:49	Pierre Naggar  www.brightpro.ai:	What does “Input” refer to?
+00:31:24	Rahul Kulkarni:	Prompt inputs vs prompt responses I guess
+00:31:29	Tariq Ali:	Replying to "@Abhay Sharma  SLMs ..."
+
+There aren't many real world examples, but one of the most visible is Apple Intelligence, uses on-device models for privacy-sensitive and offline tasks, and it can escalate to larger server-based models through Private Cloud Compute for more complex requests.
+00:31:42	Safal Mukhia:	Replying to "What does “Input” re..."
+
+Input tokens - how many 'words' (a token is generally 0.75 length of a word) is provided by the user for the request. 'Output' will be how much the model generates in total.
+00:31:44	hania:	Replying to "What does “Input” re..."
+
+Data the AI would process (like understanding your prompt and data).
+00:31:57	Pierre Naggar  www.brightpro.ai:	Ok thanks - I didn’t know there was a cost associated with a prompt input.
+00:32:12	josef:	Replying to "What does “Input” re..."
+
+Yes, it is prompt input and AI model output. You pay both
+00:32:54	Tariq Ali:	Reacted to "Input tokens - how m..." with 👍🏽
+00:33:11	josef:	Replying to "Ok thanks - I didn’t..."
+
+Probably because also the input is taking a lot of computing power ;) I played around with open claw and it only supports models which have at least 16k input token capacity because the prompts OC generates are sooooo large 😄
+00:33:22	Wendell La Fortune:	Do you all have a summary of the key findings of the Carnegie Mellon Study on ROI for Open Source models? To benchmark real-world financial trade-offs between self-hosting and commercial Api's.
+00:33:28	Sharold Palmer:	Did you say this study is from December? I wonder also about manus.ai which was recently acquired by meta and is there a difference in the cost text vs images and videos etc?
+00:34:28	Gule Sheikh:	https://arxiv.org/html/2509.18101v1
+00:37:16	Abhay Sharma:	Replying to "Do you all have a ..."
+
+I don't have this, could you please share Wendell?
+00:39:21	hania:	Replying to "@Abhay Sharma  SLMs ..."
+
+I also read that while LLMs are prone to hallucinations -  SLMs, being specialised on smaller, focused datasets, tend to have more restricted, domain-specific, and sometimes more controllable hallucinations. SLMs are increasingly used as detectors to mitigate hallucinations in large LLM systems, like in the legal field to select caselaw accurately.
+00:39:34	Pierre Naggar  www.brightpro.ai:	The API model is the one where you are using one of the commercial LLMs, right?
+00:39:46	Wendell La Fortune:	Replying to "Do you all have a su..."
+
+Sorry, was asking Gule et al. If they don't I can look it up or extract it from the study. And then share it.
+00:40:10	Tariq Ali:	Reacted to "I also read that whi..." with 👍🏽
+00:41:00	Tariq Ali:	Replying to "Do you all have a su..."
+
+Carnegie Mellon’s analysis suggests self-hosting open-source models can beat commercial APIs economically, but mainly for sustained high-volume workloads or where privacy and data sovereignty matter. Small and mid-sized open models offer the strongest ROI case, while large self-hosted models are much harder to justify financially against aggressively priced commercial APIs.
+00:41:53	Tariq Ali:	Replying to "Do you all have a su..."
+
+@Abhay Sharma https://arxiv.org/html/2509.18101v1
+00:44:40	Tariq Ali:	Replying to "Do you all have a su..."
+
+Commercial APIs are mostly variable OpEx with low upfront risk. Self-hosting shifts spend to CapEx plus ongoing OpEx. The analysis suggests break-even can be fast for small models, moderate for mid-sized models, and long for large models, but only if usage is high enough and full enterprise operating costs are accounted for.
+00:45:10	Abhay Sharma:	Since "tokens" are the basic unit for costing, everything (text, image, video) etc. gets converted into number of tokens. A high quality image is ~756 tokens, a text word is about 0.75 tokens, etc....these vary considerably depending on chosen LLM as well on the actual content - as a result, AI FinOps seems very critical now from a CAIO's perspective
+00:47:38	Tariq Ali:	Reacted to "Since "tokens" are t..." with 👍🏽
+00:47:42	Wendell La Fortune:	Replying to "Do you all have a su..."
+
+I shy away from using APIs  and webhooks too much and just use multiple MCPs and more often  MCP Servers now.
+00:47:44	Alex M:	https://llm-stats.com/benchmarks
+00:48:13	Abhay Sharma:	Reacted to "There aren't many ..." with 👍
+00:48:15	Abhay Sharma:	Reacted to "I also read that w..." with 👍
+00:49:03	Tariq Ali:	Replying to "Do you all have a su..."
+
+@Wendell La Fortune That's a valid approach
+01:02:54	Wendell La Fortune:	They are more concerned with AI vanity projects.
+01:10:30	Wendell La Fortune:	Human in the Loop
+01:14:11	Wendell La Fortune:	I wonder if SbD is even thought of or embedded when these implementations  are being developed. I am seeing quite a few of LLM and Agentic attacks popping up now.
+01:19:45	Rahul Kulkarni:	@Abhay Sharma - Is your question more about Financial ROI (AI Value) if the underlying process is already optimised ?
+01:20:43	Nataliia Snitko:	Sorry, need to switch to the client meeting. Thanks Gule!
+01:22:31	Tariq Ali:	@Abhay Sharma  C-suite usage is often very practical: drafting communications, summarizing meetings, research, preparing speeches, and setting “AI-first” operating policies, with some companies also using AI for leadership workflow rehearsal and large-scale customer operations.
+01:23:33	Abhay Sharma:	Replying to "@Abhay Sharma - Is..."
+
+Yes - like are there industrialised use cases where AI Value comes from highly contextual decision making. E.g. Like a 10 Year Business Plan might have 100s of assumptions (that cut across business workflows) and Senior Leadership Needs to monitor, dig deep into changes, and idenfity RCA and link back to impact on the plan/changes required etc....So far I am only reached is thinking like an AI Business Assistant (PromptQL type) suitable for Senior Leadership to use
+01:24:18	Tariq Ali:	Replying to "@Abhay Sharma  C-sui..."
+
+Dara Khosrowshahi, CEO, Uber
+Described internal use of an “AI clone” version of him used by teams to rehearse and improve presentations before meeting with him, illustrating executive-adjacent AI use in leadership workflows https://www.businessinsider.com/uber-employees-use-ai-clone-ceo-prepare-meetings-presentations-2026-2?utm_source=chatgpt.com
+01:25:15	Abhay Sharma:	Replying to "@Abhay Sharma  C-s..."
+
+Maybe C-Suite - 1, because that's where the heavy lifting happens to build the strategic options, run number simulations/assumptions, etc. before they are presented to C-Suite
+01:27:49	Tariq Ali:	Replying to "@Abhay Sharma  C-sui..."
+
+@Abhay Sharma  and @Connie Flude Prototyping and proof of concept models help in the decision making process.
+01:28:14	Abhay Sharma:	Reacted to "Dara Khosrowshahi,..." with 👏
+01:29:48	Wendell La Fortune:	Replying to "@Abhay Sharma  C-sui..."
+
+It is possible to build intelligent workflow automations to solve almost all these issues enumerated above. Its all about whiteboarding same and ingesting the intelligence at the proper data inflection points, testing and iterating as you go along for correctness.
+01:30:20	Tariq Ali:	Reacted to "It is possible to bu..." with 👍🏽
+01:30:25	Wendell La Fortune:	Replying to "@Abhay Sharma  C-sui..."
+
+And agents/multi agents systems as well.
+01:32:55	Abhay Sharma:	apologies but need to drop off - thanks everyone
+01:33:20	Connie Flude:	Thanks Gule/Tariq - I’ve also got to drop off
+01:34:11	Wendell La Fortune:	Apologies, need to drop off. Well done Gule & Tariq, good night.
+01:37:07	Safal Mukhia:	Thank you.

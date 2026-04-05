@@ -26,11 +26,13 @@ from playwright.sync_api import sync_playwright
 
 # ── CONFIG ────────────────────────────────────────────────────────────────────
 
-COURSE_DIR  = Path("output/AI_Solutions_Architecture_with_Toby_Fotherby")
 SESSION_DIR = Path(".playwright_session")   # persisted login lives here
 VIEWPORT    = {"width": 1440, "height": 900}
 
-# File IDs extracted from the 403 errors during classroom_archive.py
+AISA_DIR = Path("output/AI_Solutions_Architecture_with_Toby_Fotherby")
+CAIO_DIR = Path("output/Chief_AI_Officer_Course_with_Gule_Sheikh")
+
+# ── AI Solutions Architecture slides ─────────────────────────────────────────
 SLIDES = [
     {"folder": "M75_Welcome_Lesson._Slides",  "file_id": "1NLVkzNiGTXVbVceNKC3kHnXjRRnAUgJR", "name": "0. Welcome Lesson"},
     {"folder": "M71_Lesson_1._Slides",        "file_id": "1Y_p6wbRzbnmHppiQKRfq32FC6wLq9U_b", "name": "Lesson 1. AI Solutions Architecture"},
@@ -49,6 +51,24 @@ SLIDES = [
     {"folder": "M18_Lesson_14._Slides",       "file_id": "1wJH6q7bq0mFStdVc1JzYJVL8vVI3LJHl", "name": "Lesson 14. Reliability Performance Efficiency and Cost Optimisation"},
     {"folder": "M10_Lesson_15._Slides",       "file_id": "1nbI6R41pXhSa9g9CyZvZuy88YKouLxo7", "name": "Lesson 15. Ethics Bias and Model Evaluation"},
     {"folder": "M05_Lesson_16._Slides",       "file_id": "1DGi3LX3XiN_Cr2Z0ZXtO4u7xB4qm3Aqh", "name": "Lesson 16. Trends and Career Outlook"},
+]
+
+# ── Chief AI Officer slides ───────────────────────────────────────────────────
+CAIO_SLIDES = [
+    {"folder": "M46_Welcome_Lesson._Slides",  "file_id": "10QrZTxAHhh-8iVwlgY4ddkZeKo5iBQ0X", "name": "00 Welcome Lesson"},
+    {"folder": "M43_Lesson_1._Slides",        "file_id": "1zjFCtUNAcQZ4_rL9KKse0PHVMIjyxxv5", "name": "01 The CAIOs Role in Business Transformation"},
+    {"folder": "M39_Lesson_2._Slides",        "file_id": "1fdeKfx7ecb3E5FLo276iXaiTy5Zx7_Sk", "name": "02 Building a Strategic AI Vision"},
+    {"folder": "M35_Lesson_3._Slides",        "file_id": "1f3EGVGC_D-FgglEIS-lGwq63mvYeuoq2", "name": "03 Evaluating Emerging AI Technologies"},
+    {"folder": "M32_Lesson_4._Slides",        "file_id": "1fzkMwX77wcZ7oEXS4oVya_6TZlgn36Z5", "name": "04 Use Case to Scalable Roadmap"},
+    {"folder": "M27_Lesson_5._Slides",        "file_id": "1jMPEmLWqDm9-kyPUSh1c_ZAtgnMXox8f", "name": "05 Advising the C-Suite Communicating AI Value"},
+    {"folder": "M23_Lesson_6._Slides",        "file_id": "1sa2JI7CwrFhnlFmj2M1QQ05b3uJjVJ_F", "name": "06 Leading Cross-Functional AI Teams"},
+    {"folder": "M18_Lesson_7._Slides",        "file_id": "1WH8l_AllCrXBPjQO3EtTjR4AHG8hbDJn", "name": "07 Scaling AI Adoption Across Functions"},
+    {"folder": "M09_Lesson_8._Slides",        "file_id": "1wg45BTfLyfNwGVLNK0IiRIqq5JFapzX0", "name": "08 AI Governance and Regulatory Frameworks"},
+    {"folder": "M09_Lesson_8._Slides",        "file_id": "1Be6vyadU84WTcs9X8qK9nIeVVs1kRcZK", "name": "08 Guest Speaker Slides - Anna Bethke"},
+    {"folder": "M12_Lesson_9._Slides",        "file_id": "1g4lhel9fuP2K2vZryN9rvBH5J1698d49", "name": "09 Responsible AI and Trust by Design"},
+    {"folder": "M08_Lesson_10._Slides",       "file_id": "1DwEo0Jm1VPsFBC3SlS8h_NaOyadiIBDe", "name": "10 Data Readiness and AI Integration"},
+    {"folder": "M05_Lesson_11._Slides",       "file_id": "1vtrXNqFE_2z5cdubz6jqO047fVx6icYa", "name": "11 AI Procurement and Partner Ecosystem Strategy"},
+    {"folder": "M02_Lesson_12._Slides",       "file_id": "1Olk5DDnHzYE6Tuyh6-1mVyR3t0iPIjk1", "name": "12 Managing the AI Lifecycle MLOps LLMOps and GenAIOps"},
 ]
 
 # ── HELPERS ───────────────────────────────────────────────────────────────────
@@ -306,9 +326,20 @@ def main():
 
         print("✅ Logged in. Starting capture…\n")
 
-        print("── Slide decks ──────────────────────────────")
+        print("── AI Solutions Architecture slides ──────────")
         for deck in SLIDES:
-            folder  = COURSE_DIR / deck["folder"]
+            folder  = AISA_DIR / deck["folder"]
+            name    = deck["name"]
+            file_id = deck["file_id"]
+            print(f"\n📊 {name}")
+            try:
+                screenshot_deck(page, file_id, folder, name, pause_for_zoom=True)
+            except Exception as e:
+                print(f"  ❌ Failed: {e}")
+
+        print("\n── Chief AI Officer slides ───────────────────")
+        for deck in CAIO_SLIDES:
+            folder  = CAIO_DIR / deck["folder"]
             name    = deck["name"]
             file_id = deck["file_id"]
             print(f"\n📊 {name}")
@@ -319,7 +350,7 @@ def main():
 
         print("\n── Assignment Google Docs ────────────────────")
         for doc in ASSIGNMENT_DOCS:
-            folder  = COURSE_DIR / doc["folder"]
+            folder  = AISA_DIR / doc["folder"]
             name    = doc["name"]
             file_id = doc["file_id"]
             print(f"\n📝 {name}")

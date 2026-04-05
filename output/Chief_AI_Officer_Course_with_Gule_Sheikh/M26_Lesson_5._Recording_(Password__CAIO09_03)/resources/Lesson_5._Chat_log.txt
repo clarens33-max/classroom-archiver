@@ -1,0 +1,48 @@
+00:15:34	Connie Flude:	Interested in how you can make the case when you’re external and don’t necessarily have sight of all those considerations
+00:18:19	Tariq Ali:	Replying to "Interested in how yo..."
+
+The key is to avoid false certainty. Frame the recommendation around business outcomes, make assumptions and tradeoffs explicit, quantify value and risk where you can, and clearly call out what internal context is still needed to validate the path forward.
+00:22:51	Connie Flude:	How important is it in the CAIO role to have engineering/development working alongside to be able to achieve existential AI transformation? e.g. if you’re just creating the structure from a strategic/business model transformation that doesn’t consider the technical difficulty of bringing legacy systems on that journey that is ultimately a failure, surely?  When is the right moment to bring in the technical expertise?
+00:24:20	Wendell La Fortune:	Yes, sources
+00:25:15	Tariq Ali:	Replying to "How important is it ..."
+
+A CAIO cannot operate as strategy only. Technical leaders should be involved from the start, because AI transformation depends on data readiness, legacy integration, security, architecture, and operational feasibility. If those realities are ignored early, the strategy may look strong on paper but fail in execution. The CAIO’s role is to align business ambition with technical reality so the roadmap is both strategic and actually deliverable.
+00:27:25	Connie Flude:	sorry - so many questions this evening! These narratives are all narratives that work at the board level but don’t necessarily connect to the employee or customer proposition in reality. How important is it to a) challenge some of these narratives to provide a more holistic value proposition for the business and b) where do these feel hollow from a transformation perspective - e.g. “Ai gives more space for high value work” doesn’t necessarily sell employees on the need to change what they do/risk redundancy. If its all framed in “efficiency” does that go far enough to communicate human value
+00:30:42	Tariq Ali:	Replying to "sorry - so many ques..."
+
+Board-level messages like efficiency, productivity, and capacity are necessary, but they're not enough on their own. If the story stays at “AI creates space for higher value work,” many employees will hear “my job is being reduced,” not “my work is being improved.” A stronger narrative has to connect business value with human value by being honest about what will change, what support people will get, what work becomes more meaningful, and how customer outcomes actually improve. Otherwise the message can feel hollow, even if the strategy is sound.
+00:31:05	Daniel Sorensen:	How do you think about the optimal organizational alignment for a CAIO role? And does that answer vary by company size, industry, etc.? I tend to think that, at least in large companies, a CAIO should report to the CEO/COO/CFO, or, even better, be combined with the CDO role. The CTO should be a partner, not a superior, and not combined with the CAIO role. Thoughts?
+00:32:44	Connie Flude:	Replying to "sorry - so many ques..."
+
+Thanks Tariq
+00:33:11	Tariq Ali:	Reacted to "Thanks Tariq" with 👍🏽
+00:36:56	Tariq Ali:	Replying to "How do you think abo..."
+
+I think that is the right direction. In larger organizations, the CAIO usually needs enough authority and neutrality to work across business units, data, technology, risk, legal, and operations, so reporting into the CEO, COO, or sometimes CFO can make more sense than sitting under the CTO. The CTO should be a critical partner, but if the CAIO is buried inside technology, the role can get narrowed into tooling and implementation instead of enterprise transformation. In some companies, combining CAIO and CDO can work well because AI value is dependent on data governance, ownership, and operating model discipline. The right structure does vary by size and industry though,  in smaller firms, combining roles may be practical, while in highly regulated industries the CAIO often needs especially strong alignment with risk, compliance, and business leadership, not just engineering.
+00:41:20	Daniel Sorensen:	Reacted to "I think that is th..." with 👍
+00:41:31	Ewa:	Replying to "How do you think abo..."
+
+I think key stakeholder alignment is key to de-risk early project valuations
+00:41:36	Daniel Sorensen:	Replying to "How do you think a..."
+
+Thank you, Tariq!
+00:41:43	Tariq Ali:	Reacted to "Thank you, Tariq!" with 👍🏽
+00:42:52	Tariq Ali:	Replying to "How do you think abo..."
+
+@Ewa Yes, exactly. Early stakeholder alignment helps de-risk valuation by surfacing hidden assumptions, clarifying success criteria, and exposing operational or technical constraints before too much confidence gets baked into the business case.
+00:42:57	Tariq Ali:	Reacted to "I think key stakehol..." with 👍🏽
+00:47:40	Ewa:	Reacted to "@Ewa Yes, exactly. E..." with 👍
+00:50:12	Wendell La Fortune:	Sorry have to drop off now for another appt, hope to be back before end.
+00:53:45	Connie Flude:	Sorry also have to jump off
+01:26:22	Abhay Sharma:	My own opinion is that most organisation don't yet know what that "high‑value work" is. But AI adoptions at scale may effectively translate into an ‘upskill or move‑up’ or "move out" model for employees. Deep contextual expertise will be the strongest safeguard for anyone who can adapt to roles focused on human oversight, model supervision, or training and improvement of AI systems. Ultimately, the transition is likely to shift many employees toward more senior, judgment‑driven positions. But redundancies will be unavoidable
+01:27:58	Jamal Ellis:	Thank you!
+01:43:05	TimAbbott:	I need to drop. Thankyou. great session. 👏
+01:45:35	Alex M:	Just one request — we spent some time trying to understand what exactly we need to do for the class assignment (pitches), so it would be great to discuss it before we split into groups. Maybe we could also look at an example.
+01:46:12	josef:	Just to be sure: at the moment we have two assignments, right? #3 is not out right now?
+01:48:02	Tariq Ali:	Reacted to "Just one request — w..." with 👍🏽
+01:48:51	Tariq Ali:	Replying to "Just to be sure: at ..."
+
+Correct, Assignment 2 is due Mar 11, Assignments won't overlap.
+01:48:55	Tariq Ali:	Reacted to "Just to be sure: at ..." with 👍🏽
+01:49:01	josef:	Reacted to "Correct, Assignment ..." with 👍
+01:51:19	Davidson Davidson:	Reacted to "Correct, Assignment ..." with 👍
