@@ -6,7 +6,7 @@
 <!-- Breadcrumb -->
 <nav aria-label="breadcrumb" style="margin-bottom:1rem">
   <ol class="breadcrumb" style="font-size:0.8rem">
-    <li class="breadcrumb-item"><a href="{{ url_for('index') }}">Lessons</a></li>
+    <li class="breadcrumb-item"><a href="{{ url_for('course_index', slug=slug) }}">Lessons</a></li>
     <li class="breadcrumb-item active">{{ lesson.display_title }}</li>
   </ol>
 </nav>
@@ -28,12 +28,12 @@
       {% endif %}
     {% endfor %}
     {% if ns.prev %}
-    <a href="{{ url_for('lesson', num=ns.prev.number) }}" class="btn btn-sm btn-outline-secondary">
+    <a href="{{ url_for('course_lesson', slug=slug, num=ns.prev.number) }}" class="btn btn-sm btn-outline-secondary">
       <i class="bi bi-arrow-left"></i> {{ ns.prev.display_title }}
     </a>
     {% endif %}
     {% if ns.next %}
-    <a href="{{ url_for('lesson', num=ns.next.number) }}" class="btn btn-sm btn-outline-secondary">
+    <a href="{{ url_for('course_lesson', slug=slug, num=ns.next.number) }}" class="btn btn-sm btn-outline-secondary">
       {{ ns.next.display_title }} <i class="bi bi-arrow-right"></i>
     </a>
     {% endif %}
@@ -203,7 +203,7 @@
           if (s.startsWith('#')) return '<div class="tr-meta">' + escHtml(s) + '</div>';
           var m = s.match(/^(Speaker\s+\w+):\s*(.*)/);
           if (m) {
-            var spk = m[1].trim().toUpperCase() === 'SPEAKER A' ? 'Toby Fotherby' : m[1];
+            var spk = m[1].trim().toUpperCase() === 'SPEAKER A' ? '{{ instructor }}' : m[1];
             return '<div class="tr-turn"><span class="tr-speaker">' + escHtml(spk) + '</span><span class="tr-text">' + escHtml(m[2]) + '</span></div>';
           }
           return '<div class="tr-line">' + escHtml(s) + '</div>';

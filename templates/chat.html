@@ -321,7 +321,7 @@
     let accumulated = '';
 
     try {
-      const res = await fetch('/chat/stream', {
+      const res = await fetch('/{{ slug }}/chat/stream', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ messages: history }),

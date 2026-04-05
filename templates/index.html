@@ -65,7 +65,7 @@
 <div class="row g-3 mb-5">
   {% for les in lessons %}
   <div class="col-12 col-sm-6 col-lg-4">
-    <a href="{{ url_for('lesson', num=les.number) }}" class="lesson-card">
+    <a href="{{ url_for('course_lesson', slug=slug, num=les.number) }}" class="lesson-card">
       <div class="lesson-num-badge">
         {% if les.number == 0 %}Welcome{% else %}Lesson {{ les.number }}{% endif %}
       </div>
@@ -95,14 +95,14 @@
 <!-- Quick links to other sections -->
 <div class="row g-3">
   <div class="col-12 col-md-6">
-    <a href="{{ url_for('office_hours') }}" class="lesson-card" style="border-color:#d1fae5">
+    <a href="{{ url_for('course_office_hours', slug=slug) }}" class="lesson-card" style="border-color:#d1fae5">
       <div class="lesson-num-badge" style="color:#059669">Office Hours</div>
       <div class="lesson-title">{{ office_hours|length }} recorded sessions</div>
       <p style="font-size:0.78rem;color:#6b7280;margin:0">Q&amp;A recordings with transcripts and concept maps</p>
     </a>
   </div>
   <div class="col-12 col-md-6">
-    <a href="{{ url_for('special_materials') }}" class="lesson-card" style="border-color:#e0e7ff">
+    <a href="{{ url_for('course_special', slug=slug) }}" class="lesson-card" style="border-color:#e0e7ff">
       <div class="lesson-num-badge" style="color:#4f46e5">Special Materials</div>
       <div class="lesson-title">Course programme, FAQ &amp; more</div>
       <p style="font-size:0.78rem;color:#6b7280;margin:0">Pre-course resources, welcome materials, course programme</p>

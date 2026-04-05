@@ -313,16 +313,19 @@
 <!-- Sidebar -->
 <nav id="sidebar">
   <div class="sidebar-brand">
+    <a href="{{ url_for('index') }}" style="display:flex;align-items:center;gap:0.4rem;color:#475569;font-size:0.7rem;text-decoration:none;margin-bottom:0.6rem">
+      <i class="bi bi-arrow-left" style="font-size:0.65rem"></i> All Courses
+    </a>
     <div class="course-title">{{ course_name }}</div>
-    <div class="course-sub">Course Archive</div>
+    {% if course_subtitle %}<div class="course-sub">{{ course_subtitle }}</div>{% endif %}
   </div>
 
   <div class="sidebar-section">
     <div class="sidebar-section-label">Overview</div>
-    <a href="{{ url_for('index') }}" class="sidebar-link {% if request.endpoint == 'index' %}active{% endif %}">
+    <a href="{{ url_for('course_index', slug=slug) }}" class="sidebar-link {% if request.endpoint == 'course_index' %}active{% endif %}">
       <i class="bi bi-grid-3x3-gap"></i> All Lessons
     </a>
-    <a href="{{ url_for('chat') }}" class="sidebar-link {% if request.endpoint == 'chat' %}active{% endif %}">
+    <a href="{{ url_for('course_chat', slug=slug) }}" class="sidebar-link {% if request.endpoint == 'course_chat' %}active{% endif %}">
       <i class="bi bi-stars"></i> AI Chat
     </a>
   </div>
@@ -330,8 +333,8 @@
   <div class="sidebar-section">
     <div class="sidebar-section-label">Lessons</div>
     {% for les in lessons %}
-    <a href="{{ url_for('lesson', num=les.number) }}"
-       class="sidebar-link {% if request.endpoint == 'lesson' and request.view_args.num == les.number %}active{% endif %}">
+    <a href="{{ url_for('course_lesson', slug=slug, num=les.number) }}"
+       class="sidebar-link {% if request.endpoint == 'course_lesson' and request.view_args.get('num') == les.number %}active{% endif %}">
       <span class="lesson-num">{% if les.number == 0 %}W{% else %}{{ les.number }}{% endif %}</span>
       <span class="text-truncate">{{ les.subtitle or les.display_title }}</span>
       {% if les.transcripts %}<span class="badge-dot" title="Transcript available"></span>{% endif %}
@@ -341,11 +344,11 @@
 
   <div class="sidebar-section">
     <div class="sidebar-section-label">Other</div>
-    <a href="{{ url_for('office_hours') }}" class="sidebar-link {% if request.endpoint == 'office_hours' %}active{% endif %}">
+    <a href="{{ url_for('course_office_hours', slug=slug) }}" class="sidebar-link {% if request.endpoint == 'course_office_hours' %}active{% endif %}">
       <i class="bi bi-camera-video"></i> Office Hours
       <span class="ms-auto badge bg-secondary" style="font-size:0.65rem">{{ office_hours|length }}</span>
     </a>
-    <a href="{{ url_for('special_materials') }}" class="sidebar-link {% if request.endpoint == 'special_materials' %}active{% endif %}">
+    <a href="{{ url_for('course_special', slug=slug) }}" class="sidebar-link {% if request.endpoint == 'course_special' %}active{% endif %}">
       <i class="bi bi-folder2-open"></i> Special Materials
     </a>
   </div>
