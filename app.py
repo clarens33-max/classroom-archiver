@@ -26,6 +26,7 @@ AUDIO_EXTS = {".mp3", ".mp4", ".m4a", ".wav", ".aac", ".ogg", ".webm"}
 
 COURSE_CONFIGS = {
     "AI_Solutions_Architecture": {
+        "slug": "AISA",
         "display_name": "AI Solutions Architecture",
         "subtitle": "with Toby Fotherby",
         "instructor": "Toby Fotherby",
@@ -36,6 +37,7 @@ COURSE_CONFIGS = {
         "description": "16-lesson programme covering AI solution architecture, from ML fundamentals to deploying production GenAI systems.",
     },
     "Chief_AI_Officer": {
+        "slug": "CAIO",
         "display_name": "Chief AI Officer",
         "subtitle": "with Gule Sheikh",
         "instructor": "Gule Sheikh",
@@ -47,6 +49,9 @@ COURSE_CONFIGS = {
     },
 }
 
+# short slug → folder keyword (built from COURSE_CONFIGS)
+SLUG_TO_KEY = {cfg["slug"]: key for key, cfg in COURSE_CONFIGS.items()}
+
 EXCLUDED_DOMAINS = {"zoom.us", "vimeo.com", "player.vimeo.com"}
 
 
@@ -55,6 +60,7 @@ def get_course_config(folder_name):
         if key in folder_name:
             return cfg
     return {
+        "slug": folder_name,
         "display_name": nice_name(folder_name),
         "subtitle": "",
         "instructor": "Instructor",
@@ -64,6 +70,19 @@ def get_course_config(folder_name):
         "icon": "bi-book",
         "description": "",
     }
+
+
+def slug_to_course_dir(slug):
+    """Resolve a short slug (AISA/CAIO) or full folder name to a course Path."""
+    key = SLUG_TO_KEY.get(slug.upper())
+    if key:
+        # find the output folder whose name contains the key
+        for d in get_all_course_dirs():
+            if key in d.name:
+                return d
+    # fallback: treat slug as literal folder name
+    d = OUTPUT_DIR / slug
+    return d if d.is_dir() else None
 
 
 # ── Template filter: format transcript text into HTML speaker turns ───────────
@@ -488,11 +507,13 @@ _cache = {}  # slug → data dict
 
 
 def get_course_data(slug):
+    slug = slug.upper() if slug.upper() in SLUG_TO_KEY else slug
     if slug not in _cache:
-        course_dir = OUTPUT_DIR / slug
-        if not course_dir.is_dir():
+        course_dir = slug_to_course_dir(slug)
+        if not course_dir:
             return None
-        config = get_course_config(slug)
+        config = get_course_config(course_dir.name)
+        config = dict(config, slug=slug)  # ensure short slug propagates
         _cache[slug] = build_data(course_dir, config)
     return _cache[slug]
 
@@ -511,11 +532,12 @@ def _tokenize(text):
 
 
 def build_rag_index(slug):
+    slug = slug.upper() if slug.upper() in SLUG_TO_KEY else slug
     if slug in _rag_indices:
         return _rag_indices[slug]
 
-    course_dir = OUTPUT_DIR / slug
-    if not course_dir.is_dir():
+    course_dir = slug_to_course_dir(slug)
+    if not course_dir:
         _rag_indices[slug] = None
         return None
 
@@ -596,11 +618,11 @@ def index():
     """Course picker — landing page."""
     courses = []
     for course_dir in get_all_course_dirs():
-        slug = course_dir.name
+        config = get_course_config(course_dir.name)
+        slug = config.get("slug", course_dir.name)
         data = get_course_data(slug)
         if not data:
             continue
-        config = get_course_config(slug)
         courses.append({
             "slug": slug,
             "display_name": config["display_name"],
