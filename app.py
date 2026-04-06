@@ -42,7 +42,7 @@ COURSE_CONFIGS = {
         "subtitle": "with Gule Sheikh",
         "instructor": "Gule Sheikh",
         "exercises_repo": None,
-        "assignment_to_lesson": {},
+        "assignment_to_lesson": {1: 2, 2: 4, 3: 8, 4: 10},
         "color": "#7c3aed",
         "icon": "bi-person-badge",
         "description": "Strategic AI leadership programme for executives driving AI transformation across organisations.",
