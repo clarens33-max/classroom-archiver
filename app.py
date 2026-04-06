@@ -478,7 +478,7 @@ def build_data(course_dir, config):
     assignment_to_lesson = config.get("assignment_to_lesson", {})
     lesson_by_num = {les["number"]: les for les in sorted_lessons}
     for a in assignments:
-        m = re.search(r"#\s*(\d+)", a["title"])
+        m = re.search(r"[Aa]ssignment\s*#?\s*(\d+)", a["title"])
         lesson_num = assignment_to_lesson.get(int(m.group(1))) if m else None
         if lesson_num and lesson_num in lesson_by_num:
             lesson_by_num[lesson_num]["assignment"] = a
