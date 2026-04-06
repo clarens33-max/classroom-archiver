@@ -57,7 +57,7 @@ SCOPES = [
     "https://www.googleapis.com/auth/classroom.coursework.me.readonly",
     "https://www.googleapis.com/auth/classroom.courseworkmaterials.readonly",
     "https://www.googleapis.com/auth/classroom.announcements.readonly",
-    "https://www.googleapis.com/auth/drive.readonly",
+    "https://www.googleapis.com/auth/drive",
 ]
 
 # Matches vimeo.com and player.vimeo.com URLs
@@ -220,40 +220,50 @@ EXPORT_MAP = {
 }
 
 def download_drive_file(drive_svc, file_id, file_name, mime_type, out_dir):
+    """Returns True on success, False if the file is inaccessible via API."""
     out_dir.mkdir(parents=True, exist_ok=True)
     if mime_type in EXPORT_MAP:
         export_mime, ext = EXPORT_MAP[mime_type]
         dest = out_dir / (safe_name(file_name) + ext)
+        if dest.exists():
+            print(f"      ⏭️  Exists: {dest.name}")
+            return True
         try:
             req = drive_svc.files().export_media(
                 fileId=file_id, mimeType=export_mime
             )
-        except Exception as e:
-            print(f"      ❌ Export failed for {file_name}: {e}")
-            return
+            buf = io.BytesIO()
+            dl  = MediaIoBaseDownload(buf, req)
+            done = False
+            while not done:
+                _, done = dl.next_chunk()
+            dest.write_bytes(buf.getvalue())
+            print(f"      💾 {dest.name}")
+            return True
+        except Exception:
+            return False  # caller will handle the fallback
     else:
         dest = out_dir / safe_name(file_name)
+        if dest.exists():
+            print(f"      ⏭️  Exists: {dest.name}")
+            return True
         try:
             req = drive_svc.files().get_media(fileId=file_id)
         except Exception as e:
             print(f"      ❌ Download failed for {file_name}: {e}")
-            return
-
-    if dest.exists():
-        print(f"      ⏭️  Exists: {dest.name}")
-        return
-
-    buf = io.BytesIO()
-    dl  = MediaIoBaseDownload(buf, req)
-    done = False
-    try:
-        while not done:
-            _, done = dl.next_chunk()
-    except Exception as e:
-        print(f"      ❌ Download failed for {file_name}: {e}")
-        return
-    dest.write_bytes(buf.getvalue())
-    print(f"      💾 {dest.name}")
+            return False
+        buf = io.BytesIO()
+        dl  = MediaIoBaseDownload(buf, req)
+        done = False
+        try:
+            while not done:
+                _, done = dl.next_chunk()
+        except Exception as e:
+            print(f"      ❌ Download failed for {file_name}: {e}")
+            return False
+        dest.write_bytes(buf.getvalue())
+        print(f"      💾 {dest.name}")
+        return True
 
 
 # ── ATTACHMENT PROCESSOR ──────────────────────────────────────────────────────
@@ -282,14 +292,17 @@ def process_attachments(attachments, lesson_dir, slides_svc, drive_svc,
         })
         print(f"      🎬 Vimeo queued: {url}  (pwd: {password or 'none'})")
 
+    manual_downloads = []  # (file_name, url) for files inaccessible via API
+
     for att in attachments:
         if "driveFile" in att:
             # Normalise the nested structure
             df = att["driveFile"]
             if "driveFile" in df:
                 df = df["driveFile"]
-            file_id   = df.get("id", "")
-            file_name = df.get("title", file_id)
+            file_id       = df.get("id", "")
+            file_name     = df.get("title", file_id)
+            alternate_url = df.get("alternateLink", f"https://drive.google.com/file/d/{file_id}")
             if not file_id:
                 continue
             try:
@@ -301,6 +314,7 @@ def process_attachments(attachments, lesson_dir, slides_svc, drive_svc,
             except Exception:
                 mime = ""
 
+            ok = True
             if mime == "application/vnd.google-apps.presentation":
                 export_slides(slides_svc, creds, file_id, file_name, lesson_dir)
             elif mime == "":
@@ -310,19 +324,55 @@ def process_attachments(attachments, lesson_dir, slides_svc, drive_svc,
                     pres = slides_svc.presentations().get(presentationId=file_id).execute()
                     export_slides(slides_svc, creds, file_id, file_name, lesson_dir)
                 except Exception:
-                    # Not a Slides file — try exporting as PDF (Google Docs, etc.)
                     print(f"      ↩️  Not a Slides file, trying PDF export...")
-                    download_drive_file(drive_svc, file_id, file_name,
-                                        "application/vnd.google-apps.document", resources_dir)
+                    ok = download_drive_file(drive_svc, file_id, file_name,
+                                             "application/vnd.google-apps.document", resources_dir)
             else:
-                download_drive_file(drive_svc, file_id, file_name, mime, resources_dir)
+                ok = download_drive_file(drive_svc, file_id, file_name, mime, resources_dir)
+
+            if not ok:
+                print(f"      🔗 Inaccessible via API — saved to manual_download_needed.txt")
+                manual_downloads.append((file_name, alternate_url))
 
         elif "link" in att:
             url   = att["link"].get("url", "")
             title = att["link"].get("title", url)
             # Vimeo already handled above via text scan — skip duplicates
-            if not VIMEO_RE.search(url):
-                external_urls.append(f"{title}  →  {url}")
+            if VIMEO_RE.search(url):
+                pass  # already queued above
+            else:
+                # Detect Google Workspace URLs and download via Drive API
+                gdoc_match = re.search(
+                    r"docs\.google\.com/(?:document|spreadsheets|presentation|drawings)/d/([a-zA-Z0-9_-]+)",
+                    url,
+                )
+                if gdoc_match:
+                    file_id = gdoc_match.group(1)
+                    # Determine mime type from URL path
+                    if "/document/" in url:
+                        mime = "application/vnd.google-apps.document"
+                    elif "/spreadsheets/" in url:
+                        mime = "application/vnd.google-apps.spreadsheet"
+                    elif "/presentation/" in url:
+                        mime = "application/vnd.google-apps.presentation"
+                    elif "/drawings/" in url:
+                        mime = "application/vnd.google-apps.drawing"
+                    else:
+                        mime = "application/vnd.google-apps.document"
+                    try:
+                        meta = drive_svc.files().get(
+                            fileId=file_id, fields="name"
+                        ).execute()
+                        file_name = meta.get("name", title)
+                    except Exception:
+                        file_name = title
+                    print(f"      📄 Google Doc (link): {file_name}")
+                    if mime == "application/vnd.google-apps.presentation":
+                        export_slides(slides_svc, creds, file_id, file_name, lesson_dir)
+                    else:
+                        download_drive_file(drive_svc, file_id, file_name, mime, resources_dir)
+                else:
+                    external_urls.append(f"{title}  →  {url}")
 
         elif "youtubeVideo" in att:
             yv  = att["youtubeVideo"]
@@ -343,6 +393,15 @@ def process_attachments(attachments, lesson_dir, slides_svc, drive_svc,
             f.write("External resources\n" + "=" * 60 + "\n\n")
             f.write("\n".join(external_urls))
         print(f"      📋 {len(external_urls)} external URLs → resources_urls.txt")
+
+    if manual_downloads:
+        manual_file = lesson_dir / "manual_download_needed.txt"
+        with open(manual_file, "w", encoding="utf-8") as f:
+            f.write("Files inaccessible via API — open each URL in your browser to download or copy\n")
+            f.write("=" * 70 + "\n\n")
+            for fname, url in manual_downloads:
+                f.write(f"{fname}\n  → {url}\n\n")
+        print(f"      📎 {len(manual_downloads)} file(s) need manual download → manual_download_needed.txt")
 
 
 # ── MAIN ──────────────────────────────────────────────────────────────────────
