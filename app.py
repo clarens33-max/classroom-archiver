@@ -31,6 +31,7 @@ COURSE_CONFIGS = {
         "subtitle": "with Toby Fotherby",
         "instructor": "Toby Fotherby",
         "exercises_repo": "https://github.com/clarens33-max/elvtr-ai-solution-architect",
+        "notebooklm_url": "https://notebooklm.google.com/notebook/06267860-45a2-4fc3-91e5-1277cf175396",
         "assignment_to_lesson": {1: 1, 2: 2, 3: 3, 4: 5, 5: 7, 6: 9, 7: 12, 8: 14},
         "color": "#1d4ed8",
         "icon": "bi-diagram-3",
@@ -42,6 +43,7 @@ COURSE_CONFIGS = {
         "subtitle": "with Gule Sheikh",
         "instructor": "Gule Sheikh",
         "exercises_repo": None,
+        "notebooklm_url": "https://notebooklm.google.com/notebook/adfecd54-ec5b-4549-bd05-fddb6195db1c",
         "assignment_to_lesson": {1: 2, 2: 4, 3: 8, 4: 10},
         "color": "#7c3aed",
         "icon": "bi-person-badge",
@@ -500,6 +502,7 @@ def build_data(course_dir, config):
         "office_hours": office_hours_items,
         "special": special,
         "exercises_repo": config.get("exercises_repo"),
+        "notebooklm_url": config.get("notebooklm_url"),
     }
 
 

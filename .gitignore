@@ -46,6 +46,9 @@ output/**/*.doc
 output/**/*.part
 output/**/*.ytdl
 
+# NotebookLM source files — local only, uploaded manually
+notebooklm/
+
 # Logs and temp
 logs/
 downloads/

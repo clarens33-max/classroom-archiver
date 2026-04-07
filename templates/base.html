@@ -351,6 +351,12 @@
     <a href="{{ url_for('course_special', slug=slug) }}" class="sidebar-link {% if request.endpoint == 'course_special' %}active{% endif %}">
       <i class="bi bi-folder2-open"></i> Special Materials
     </a>
+    {% if notebooklm_url %}
+    <a href="{{ notebooklm_url }}" target="_blank" rel="noopener" class="sidebar-link">
+      <i class="bi bi-chat-dots"></i> NotebookLM
+      <i class="bi bi-box-arrow-up-right ms-auto" style="font-size:0.65rem;color:#475569"></i>
+    </a>
+    {% endif %}
   </div>
 </nav>
 
