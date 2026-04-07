@@ -10,6 +10,7 @@
 </div>
 
 <!-- Exercises repo banner -->
+{% if exercises_repo %}
 <div class="card mb-4" style="border-left:4px solid #1d4ed8;background:#eff6ff;">
   <div class="card-body py-3 d-flex align-items-center justify-content-between flex-wrap gap-3">
     <div>
@@ -28,6 +29,7 @@
     </a>
   </div>
 </div>
+{% endif %}
 
 <!-- Stats row -->
 {% set transcript_count = lessons | selectattr('transcripts') | list | length %}
