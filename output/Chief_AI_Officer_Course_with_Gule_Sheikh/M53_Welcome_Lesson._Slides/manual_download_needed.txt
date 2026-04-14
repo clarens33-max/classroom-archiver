@@ -1,0 +1,6 @@
+Files inaccessible via API — open each URL in your browser to download or copy
+======================================================================
+
+00_Welcome Lesson.pdf
+  → https://drive.google.com/file/d/10QrZTxAHhh-8iVwlgY4ddkZeKo5iBQ0X/view?usp=drive_web
+

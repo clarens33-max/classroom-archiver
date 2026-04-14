@@ -1,0 +1,4 @@
+Description: Using the use case and sourcing strategy you developed in Assignment #2, build your production-readiness plan. This assignment asks you to think like a CAIO preparing to take an AI initiative from controlled pilot to enterprise-scale deployment. Outline what the pilot looks like, define the success metrics that justify advancement, and critically specify the kill criteria that would stop the project before it scales.
+
+Due date: 27th March, 11:59 pm GMT
+Grade: 20 points

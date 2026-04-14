@@ -1,0 +1,6 @@
+Files inaccessible via API — open each URL in your browser to download or copy
+======================================================================
+
+[Template] Assignment #2: Use Case Plan Implementation
+  → https://docs.google.com/document/d/1qGcHbuVzudDK7WzSkPLX1__X4o5lkXmHqn48jet1UQM/edit?usp=drive_web
+

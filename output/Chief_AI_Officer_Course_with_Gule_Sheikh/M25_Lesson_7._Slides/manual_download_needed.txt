@@ -1,0 +1,6 @@
+Files inaccessible via API — open each URL in your browser to download or copy
+======================================================================
+
+07_Scaling AI Adoption Across Functions.pdf
+  → https://drive.google.com/file/d/1WH8l_AllCrXBPjQO3EtTjR4AHG8hbDJn/view?usp=drive_web
+

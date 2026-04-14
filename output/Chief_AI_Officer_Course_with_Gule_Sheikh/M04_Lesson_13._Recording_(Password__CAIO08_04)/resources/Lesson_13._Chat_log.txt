@@ -1,0 +1,43 @@
+00:04:02	Davidson:	Hi, I'm transcribing this call with my Tactiq AI Extension. https://tactiq.io/r/transcribing
+00:09:28	Glenn Quadros:	Huge focus at Unilever.
+00:10:08	Wendell La Fortune:	Sorry, have to drop off at 6:30..v important client call.
+00:14:03	Glenn Quadros:	Is this mostly for public companies or both private and public.
+00:15:22	Tariq Ali:	Replying to "Is this mostly for p..."
+
+Both. Public companies feel it first because of investor pressure and formal reporting, but the same issues apply to private companies too, especially if they have enterprise customers, regulated operations, or want to avoid reputational and operational risk. The difference is usually the level of scrutiny, not the relevance.
+00:16:19	Glenn Quadros:	Reacted to "Both. Public compani..." with 👍
+00:19:56	Pierre Naggar:	Are there any studies showing that AI will create new jobs over the coming years and if so which ones and in what areas?
+00:26:04	Tariq Ali:	Replying to "Are there any studie..."
+
+Yes, recent studies do suggest AI will create new jobs, but the bigger effect is likely job transformation rather than simple replacement. The main growth areas are AI/ML, data, software, cybersecurity, and also newer roles around AI governance, risk, compliance, and human oversight.
+
+A quick google search brought a couple of interesting studies: 
+
+https://www.weforum.org/publications/the-future-of-jobs-report-2025/in-full/introduction-the-global-labour-market-landscape-in-2025/ 
+
+https://www.ilo.org/publications/generative-ai-and-jobs-2025-update
+00:26:50	Pierre Naggar:	Reacted to "Yes, recent studies ..." with 👍
+00:29:14	Wendell La Fortune:	Yes Claude is a beast if you don't know what you are doing. You can use different versions for different purposes. Opus 4.5/6 eats your money if you not paying attention..smh
+00:29:36	Tariq Ali:	Reacted to "Yes Claude is a beast if you don't know what you are doing. You can use different versions for different purposes. Opus 4.5/6 eats your money if you not paying attention..smh" with 👍🏽
+00:30:11	Wendell La Fortune:	Yes
+00:35:53	Pierre Naggar:	I have been using Claude to compile a report from a bunch of interviews that I have held recently and the number of times I have had to correct him was quite shocking which from an efficiency standpoint is terrible.  I ended up exporting the file and editing it myself.
+00:39:25	Wendell La Fortune:	Have to drop off now..great topic, will catch up early tom.
+00:42:59	Alex M:	have to drop earlier today, thanks for the great topic
+00:45:11	Darren Lewis:	I also have to drop now, apologies. Thanks all, @Gule Sheikh, @Tariq Ali
+00:45:49	Rahul Kulkarni:	I will need to drop-off shortly - apologies.
+00:47:27	Tony:	Interesting topic - Unfortunately need to drop off thanks @Gule Sheikh @Tariq Ali
+00:48:02	Ewa Drobek:	is this also called remote sensing?
+00:48:04	TimAbbott:	Good point in literacy. We have observed lower token use when training employees to better prompt helping them to get the to the right outputs quicker. Especially in Claude
+00:48:40	Tariq Ali:	Reacted to "Good point in literacy. We have observed lower token use when training employees to better prompt helping them to get the to the right outputs quicker. Especially in Claude" with 👍🏽
+00:48:58	Davidson:	I have a client call and need to drop. Love this topic. Thank you!
+00:50:22	Glenn Quadros:	Unfortunately, I also need to drop off - thank you for a great session.
+00:50:34	Jordan Smith - elvtr:	https://classroom.google.com/c/NzkzMTcyMTU3NjYw/m/ODE5MjczMTI3MTIx/details
+00:50:37	Tariq Ali:	Replying to "is this also called ..."
+
+Yes, in that context, “earth observation” is closely related to remote sensing. Remote sensing is usually the technical method of collecting data from satellites, drones, or sensors, while earth observation is the broader use of that data for monitoring environmental conditions and ESG-related impacts.
+00:50:38	Pierre Naggar:	Need to drop early today. Great session. Thank you
+00:52:31	Jordan Smith - elvtr:	https://classroom.google.com/c/NzkzMTcyMTU3NjYw/m/ODE5MjczMTI3MTIx/details
+01:37:13	Michael Nourollahi:	late for another call, thanks all
+01:42:58	TimAbbott:	I will need to drop in a minute.
+01:44:58	Ewa Drobek:	thank you for the class, super interesting topic
+01:45:41	Tariq Ali:	Sorry I have to drop as well

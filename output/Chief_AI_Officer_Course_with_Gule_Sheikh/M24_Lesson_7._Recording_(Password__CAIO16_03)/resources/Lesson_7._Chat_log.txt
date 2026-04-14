@@ -1,0 +1,88 @@
+00:31:28	Abhay Sharma:	How can we adapt the AI Scaling Playbook for
+a) mid-sized companies (employee count upto 250)
+b) customer facing solution
+00:33:00	Wendell La Fortune:	UAT/Stress testing
+00:33:27	Tariq Ali:	Replying to "How can we adapt the..."
+
+For a mid-sized company, simplify the playbook and focus on a few high-value use cases, a lighter governance model, and one shared platform rather than a lot of specialized teams. For a customer facing solution, I’d keep the same phases but put more weight on UX, trust, support, and risk controls early, because external adoption is less forgiving than internal rollout
+00:33:42	Wendell La Fortune:	That's where capacity modelling comes in
+00:33:58	Tariq Ali:	Reacted to "UAT/Stress testing" with 👍🏽
+00:34:01	Tariq Ali:	Reacted to "That's where capacit..." with 👍🏽
+00:34:57	hania:	What will be the impact of AI on (SaFe) Agile/Scrum delivery as we know it, in your opinion? I feel like vibe coding will lead to a significant emphasis on experimentation and that the role of the tech teams may be shifting a bit.
+00:35:16	Simon Nigh:	Reacted to "What will be the imp..." with 👍
+00:35:20	Elena:	Reacted to "What will be the imp..." with 👍
+00:36:15	Sowmya Ramamurthy:	Replying to "How can we adapt t..."
+
+Would it also be fair to evaluate in the POC mode, where we use AI tools to get something working quickly, while we have a parallel stream working on full production system. Would this kind of things be part of playbook ?.
+00:36:16	Tariq Ali:	Replying to "What will be the imp..."
+
+AI will likely make Agile more experimental and faster, with less time spent on routine build work. The shift for tech teams is toward validation, integration, governance, and deciding which experiments are worth scaling.
+00:36:19	Tariq Ali:	Reacted to "What will be the imp..." with 👍🏽
+00:38:16	Tariq Ali:	Replying to "How can we adapt the..."
+
+@Sowmya Ramamurthy Yes, that is a sensible approach. A fast POC track can help prove value and get user feedback, while a parallel production track focuses on hardening the solution around governance, support, monitoring, and operational readiness. That fits the playbook well, as long as the POC is treated as a learning stage and not for production just because it works quickly.
+00:38:30	Wendell La Fortune:	You control experimentation via tightly controlled sprints and a tightly defined definition of done during those agile sprints.
+00:38:49	Sowmya Ramamurthy:	Reacted to "@Sowmya Ramamurthy..." with 👍
+00:39:08	Courtney Albert:	Also knowing that certain keywords will trigger a negative vs. positive response
+00:40:05	Tariq Ali:	Replying to "You control experime..."
+
+That helps, but probably is not enough on its own. In AI work, experimentation also needs guardrails around data use, model quality, risk, and evaluation criteria, because something can meet sprint delivery goals and still not be safe or scalable in production.
+00:40:09	Tariq Ali:	Reacted to "You control experime..." with 👍🏽
+00:40:19	Abhay Sharma:	On gaining feedback, are there suggestive tool that capture:
+a) User Feedback into a system to review, analyse and then move toa Product Backlog
+b) Drifts/Hallucinations into a system to review, analyse and the put into a backlog for re-training
+c) Prediction Accuracy into a system to review, analyse and put into a backlog for improvement
+Lastly - any suggestive Product Management Tools to manage the whole delivery cycle
+00:40:42	Sowmya Ramamurthy:	Replying to "How can we adapt t..."
+
+Thanks. We currently have one such Agentic development being done for a customer. Its hard to strike the balance interms of setting expectations with customer, as they start thinking its almost live product. As part of this role, how do we get the communication clear ? where does it fall.
+00:41:26	Tariq Ali:	Reacted to "Also knowing that ce..." with 👍🏽
+00:41:57	Tariq Ali:	Replying to "Also knowing that ce..."
+
+Yes, and that is exactly why evaluation matters. If small wording changes can swing the output, the team needs quick standards, test cases, and clear acceptance criteria so the system is not behaving well only under ideal phrasing.
+00:43:06	Tariq Ali:	Replying to "How can we adapt the..."
+
+@Sowmya Ramamurthy That usually needs to be owned jointly by product, delivery, and the executive sponsor. The key is to label it very clearly as a pilot or POC, define what is and is not production-ready, and keep repeating that message in demos, status updates, and success criteria so the customer does not confuse early promise with operational readiness.
+00:47:03	Tariq Ali:	Replying to "On gaining feedback,..."
+
+Yes, split it into two layers: an AI observability layer for feedback, hallucinations, drift, and accuracy, and a product layer for prioritization and delivery. Tools like Langfuse, Humanloop, or Arize can support the first part, and Jira Product Discovery, or Linear  can manage the backlog and delivery flow.
+00:48:50	Sowmya Ramamurthy:	Reacted to "@Sowmya Ramamurthy..." with 👍
+01:02:00	Simon Nigh:	Replying to "How can we adapt the..."
+
+Safe Software - Form and Flow are good enterprise platform that helps support AI integration and workflow automations in a no code low code environment
+01:02:15	Jamal Ellis:	Replying to "On gaining feedback,..."
+
+Sorry, I will need to drop for a project meeting. Will review the recording and materials. Thank you.
+01:02:45	Tariq Ali:	Reacted to "Safe Software - Form..." with 👍🏽
+01:02:46	Davidson Davidson:	Very cool, thanks for sharing. 🫶
+01:03:27	Tariq Ali:	Great job @Pierre Naggar, thank you!
+01:03:30	Tariq Ali:	Reacted to "Very cool, thanks fo..." with 👍🏽
+01:03:36	Simon Nigh:	Reacted to "Great job @Pierre Na..." with 👍🏻
+01:03:45	Elena:	Reacted to "Great job @Pierre Na..." with 👍🏻
+01:03:58	Gule Sheikh:	Excellent
+01:04:06	Tariq Ali:	Reacted to "Excellent" with 👍🏽
+01:04:20	TimAbbott:	Reacted to "Great job @Pierre Na..." with 👍
+01:04:58	Jordan Smith - elvtr:	https://classroom.google.com/c/NzkzMTcyMTU3NjYw/m/NzkzMTcyMTU3NzYy/details
+01:08:58	Wendell La Fortune:	80/20 rule
+01:09:04	Tariq Ali:	Reacted to "80/20 rule" with 👍🏽
+01:15:17	Abhay Sharma:	Reacted to "Yes, split it into..." with 👍
+01:19:01	Alex M:	Reacted to "_008 Pepsico Case.pdf" with 👍
+01:23:25	Abhay Sharma:	apologies but need to drop off, thanks
+01:25:17	Elena:	When looking at AI adoption across the company, there maybe smaller tactical use cases and much larger initiatives. Is there any recommendation on what is the right balance of handling both, as small tactical things give the momentum & excitement, but at the same time the biggest impact may sit in the bigger initiatives. Also, what is the optimum number of initiatives to keep in flight without losing focus?
+01:26:47	Safal Mukhia:	Need to drop. Thank you
+01:28:07	Ewa:	Sorry need to go. Thank you for today
+01:30:17	TimAbbott:	We did this through literacy training and follow it up every 3 months. Its mandatory for everyone to complete,. Literacy training is a requirement under the EU AI act so a good opportunity to drive this.
+01:31:47	Tariq Ali:	Reacted to "We did this through ..." with 👍🏽
+01:31:51	Wendell La Fortune:	Need to drop off now..good night.
+01:32:02	TimAbbott:	One other thing to do if you haven't is make sure your Acceptable Use Agreement is up to date and reflects AI usage.
+01:33:13	Simon Nigh:	Thanks everyone - really useful session and discussions and thanks @Pierre Naggar for sharing your experience.
+01:33:49	Sowmya Ramamurthy:	Thanks @Pierre Naggar for the presentation. It was insightful.
+01:34:20	Simon Jones:	Thanks all - need to drop
+01:38:37	Tariq Ali:	Reacted to "One other thing to d..." with 👍🏽
+01:42:40	Elena:	Thanks @TimAbbott, very insightful
+01:52:47	Tariq Ali:	Reacted to "Thanks @TimAbbott, v..." with 👍🏽
+02:01:01	Nataliia Snitko:	Apologies I need to drop. Many thanks Gule, Pierre and the team!
+02:02:25	Tony:	Apologies - need to jump on another call- Thanks all - very insightful
+02:02:30	Sam Costelloe:	Need to drop. Great session
+02:03:33	TimAbbott:	Thankyou all.
+02:03:40	Alan:	great session, thank you

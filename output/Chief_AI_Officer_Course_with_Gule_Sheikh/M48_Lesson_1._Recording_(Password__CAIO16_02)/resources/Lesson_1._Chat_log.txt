@@ -1,0 +1,104 @@
+00:06:44	Jordan Smith - elvtr:	Welcome all 🥳
+00:06:46	TimAbbott:	Just sorting it my end.
+00:07:13	Scott Quinn:	Hi All, I am a bit under the weather and so will have my camera off today, but will have it on going forward :)
+00:07:28	Gule Sheikh:	Reacted to "Hi All, I am a bit u..." with 👍
+00:07:36	Gule Sheikh:	Reacted to "Just sorting it my e..." with 👍
+00:07:39	Nataliia Snitko:	Reacted to "Hi All, I am a bit u..." with 💊
+00:07:47	Connie Flude:	I’ve also been in meetings all afternoon and not eaten lunch (!!) so am going to have camera off while I eat something
+00:09:08	Wendell La Fortune:	I have bandwidth issues out here in the UK countryside...
+00:12:51	Jordan Smith - elvtr:	Here is the Discord community server joining link:https://discord.gg/Nh2ygyQU
+00:14:25	Connie Flude:	@Jordan Smith - elvtr  How much time are we expected to devote to each assignment?
+00:17:14	Jordan Smith - elvtr:	Hi Connie @Connie Flude 🙂 
+So each assignment varies with timeframe to what is needed for completing it. However on average for standard assignments it is 1-3 hours. 
+Course projects can usually expect a little more input as they are higher weighted with points.
+00:18:09	Mo Abdelkhalek:	Where can I find the MIT study?
+00:19:07	Andrew Rook:	Reacted to "Where can I find the..." with 👍
+00:19:52	Simon Nigh:	Reacted to "Where can I find the..." with 👍
+00:20:01	Michael Nourollahi:	Replying to "Where can I find the..."
+
+https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf
+00:20:13	Sam Costelloe:	Reacted to "https://mlq.ai/media..." with 👍
+00:20:15	Nataliia Snitko:	Reacted to "https://mlq.ai/media..." with 👍
+00:20:36	Elena:	Reacted to "https://mlq.ai/media..." with 👍
+00:21:26	Mo Abdelkhalek:	Replying to "Where can I find the..."
+
+Thank you, when and where was it shared?
+00:21:41	Michael Nourollahi:	Replying to "Where can I find the..."
+
+I googled it and found it just now
+00:21:51	Mo Abdelkhalek:	Reacted to "I googled it and fou..." with 👍🏽
+00:47:45	TimAbbott:	Replying to "Where can I find the..."
+
+Less than 10%
+00:49:22	Simon Nigh:	Reacted to "Less than 10%" with 👍
+00:49:56	Abhay Sharma:	It would be good to see if there is a white paper (business case) for a CAIO role that can help position the role (especially in regulated, legacy industries)
+00:53:39	Adam Young:	Reacted to "https://mlq.ai/media..." with 👍
+00:53:43	Rebecca Huddart:	Reacted to "It would be good to ..." with 👍
+00:53:46	Ivanna:	Reacted to "It would be good to ..." with 👍
+01:00:13	Adam Young:	Reacted to "It would be good to ..." with 👍
+01:01:04	Wendell La Fortune:	For instance OpenAI spent 3 billion to train ChatGPT
+01:05:19	Wendell La Fortune:	NIST RMF
+01:06:02	TimAbbott:	ISO42001
+01:07:48	Darren Lewis:	Reacted to "ISO42001" with 👆
+01:07:52	Darren Lewis:	Reacted to "NIST RMF" with 👆
+01:17:18	Alex M:	https://www.pwc.com/gx/en/issues/c-suite-insights/ceo-survey.html
+01:18:16	Elena:	Reacted to " https://www.pwc.com..." with 👍
+01:18:40	Adam Young:	Reacted to " https://www.pwc.com..." with 👍
+01:18:52	Adam Young:	Reacted to "ISO42001" with 👍
+01:19:40	Alex M:	Reacted to "ISO42001" with 👍
+01:20:07	Simon Jones:	Data Quality!
+01:20:27	Ian Curran:	All of them
+01:20:29	Nataliia Snitko:	Resistance to change was the most significant challenge
+01:20:49	Abdulelelah Mohsen:	Resistance from developers to use  coding agent
+01:20:53	Pierre Naggar  www.brightpro.ai:	Data readiness is also a major one
+01:20:57	Elena:	Resistance to change often comes from an extra pressure to get this change through and people not having space to embrace it
+01:21:38	Simon Nigh:	Most of the organisation don’t understand what the art of the possible is - treated like another IT application that they don’t know how to use!
+01:21:54	Olena Svyrydenko:	Reacted to "Most of the organisa..." with 👍
+01:22:12	Olena Svyrydenko:	Reacted to "Resistance to change..." with 👍
+01:22:27	Sharold Palmer:	Reacted to "Resistance to change..." with 👍
+01:22:46	Sharold Palmer:	Reacted to "Data readiness is al..." with 👍🏾
+01:22:55	Abhay Sharma:	Because there is no clear answer to "Why to use AI?", I dont think mid-sized companies are getting chance to even move to experience the other challenges (DQ, Governance)...but still AI Adoption has happened through ChatBots and CoPilots because they get sold as part of "Large Corporate License Agreements" and employee just start using it as best
+01:23:18	Simon Nigh:	Reacted to "Because there is no ..." with 👍
+01:23:30	Abhay Sharma:	Reacted to "Data readiness is ..." with 👍🏾
+01:24:08	hania:	@Jordan Smith - elvtr  @Gule Sheikh  I’ve added my questions in the Q&A but please let me know if you’d rather have us add them in the chat instead
+01:24:30	Ian Curran:	Reacted to "Because there is no ..." with 👍
+01:25:06	Nataliia Snitko:	Replying to "Resistance to change..."
+
+What about leadership? On one hand, there’s ambition to innovate and move forward. On the other, a strong track record creates pressure to protect what’s already working. That “tyranny of success” can quietly make leadership more cautious and risk-averse, even when they intellectually support transformation
+01:25:48	Adam Young:	Replying to "Resistance to change..."
+
+👍
+01:25:56	Simon Nigh:	Replying to "Because there is no ..."
+
+Often a push from the IT Dept to keep up with the CEO’s demand - “what are we doing about AI “ - with no clear strategic plan on what value the business wants AI to unlock.
+01:26:35	Abhay Sharma:	Reacted to "Often a push from ..." with 👍
+01:26:52	Jordan Smith - elvtr:	Replying to "@Jordan Smith - elvt..."
+
+Hi @hania 🙂 Questions in the Q&A are best for sure, just to remove any chance of these getting lost in the chat. But just to note these will answered more towards the end submitted here 🙌🏼
+01:28:29	hania:	Replying to "@Jordan Smith - elvt..."
+
+Thanks. I’m fine with them being answered towards the end. Just wanted to check they will not be left out as I posted one in the last session that didn’t get picked up.
+01:28:37	Abhay Sharma:	Replying to "Because there is n..."
+
+That's where I think the first "cultural" change should be C-Suite/ExCo "hands on" learning about AI. Accenture has actually done that by training their 300+ MD/Senior MDs
+01:30:47	Jamal Ellis:	Thank you. Need to drop for another meeting!
+01:31:11	Simon Nigh:	Reacted to "That's where I think..." with 👏
+01:32:33	Simon Nigh:	Replying to "Because there is no ..."
+
+Totally agree - unfortunately there is still a mentality that it’s a young person’s role to understand new technology rather than being a leader, learning and developing a strategy for the business.
+01:32:39	Nataliia Snitko:	Reacted to "That's where I think..." with 👏
+01:37:10	Adam Young:	Reacted to "That's where I think..." with 👏
+01:45:53	Abhay Sharma:	Apologies, need to drop off
+01:54:04	Adam Young:	Thanks, all!
+01:54:28	Gule Sheikh:	Replying to "@Jordan Smith - elvt..."
+
+I can’t see Q&Q?
+01:54:51	SowmyaSridhar:	Thanks everyone.  Its great learning from each other.
+01:55:03	Glenn Quadros:	Thank you, great session -
+01:55:04	Wendell La Fortune:	Need to drop...good night all, thanks Gule
+01:55:27	Jordan Smith - elvtr:	It would be good to see if there is a white paper (business case) for a CAIO role that can help position the role (especially in Energy or Utilities sector, and maybe around mid-sized companies)
+01:55:35	Jordan Smith - elvtr:	Regarding the “vanity metrics” like the number of initiatives deployed, how can one do to mitigate the risk of a CAIO becoming essentially a Head of Product that’s under constant pressure to deliver new initiatives and commit to a roadmap prematurally, at the expense of overseeing other components like governance?
+01:55:46	Jordan Smith - elvtr:	Can you elaborate on what model maintenance and drift detection mean and entail?
+01:56:38	SowmyaSridhar:	It will be good to see a SAAS business use case for Retail domain.
+01:57:13	Pierre Naggar  www.brightpro.ai:	Thank you very much Gule
+01:57:28	Sharold Palmer:	Thank you Gule. Good night all.

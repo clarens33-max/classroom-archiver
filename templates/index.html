@@ -96,14 +96,21 @@
 
 <!-- Quick links to other sections -->
 <div class="row g-3">
-  <div class="col-12 col-md-6">
+  <div class="col-12 col-md-4">
     <a href="{{ url_for('course_office_hours', slug=slug) }}" class="lesson-card" style="border-color:#d1fae5">
       <div class="lesson-num-badge" style="color:#059669">Office Hours</div>
       <div class="lesson-title">{{ office_hours|length }} recorded sessions</div>
       <p style="font-size:0.78rem;color:#6b7280;margin:0">Q&amp;A recordings with transcripts and concept maps</p>
     </a>
   </div>
-  <div class="col-12 col-md-6">
+  <div class="col-12 col-md-4">
+    <a href="{{ url_for('course_assignments', slug=slug) }}" class="lesson-card" style="border-color:#fef9c3">
+      <div class="lesson-num-badge" style="color:#d97706">Assignments</div>
+      <div class="lesson-title">{{ assignments|length }} assignments</div>
+      <p style="font-size:0.78rem;color:#6b7280;margin:0">Assignment briefs and downloadable templates</p>
+    </a>
+  </div>
+  <div class="col-12 col-md-4">
     <a href="{{ url_for('course_special', slug=slug) }}" class="lesson-card" style="border-color:#e0e7ff">
       <div class="lesson-num-badge" style="color:#4f46e5">Special Materials</div>
       <div class="lesson-title">Course programme, FAQ &amp; more</div>

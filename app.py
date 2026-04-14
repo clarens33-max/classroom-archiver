@@ -500,6 +500,7 @@ def build_data(course_dir, config):
         "instructor": config.get("instructor", ""),
         "lessons": sorted_lessons,
         "office_hours": office_hours_items,
+        "assignments": assignments,
         "special": special,
         "exercises_repo": config.get("exercises_repo"),
         "notebooklm_url": config.get("notebooklm_url"),
@@ -675,6 +676,14 @@ def course_special(slug):
     if not data:
         abort(404)
     return render_template("special.html", **data)
+
+
+@app.route("/<slug>/assignments")
+def course_assignments(slug):
+    data = get_course_data(slug)
+    if not data:
+        abort(404)
+    return render_template("assignments.html", **data)
 
 
 @app.route("/<slug>/chat")

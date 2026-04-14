@@ -1,0 +1,44 @@
+00:06:18	TimAbbott:	Will be on screen shortly. Just have some activity around me.
+00:20:24	hania:	What are the typical issues that a data readiness program needs to solve?
+00:26:20	Simon Nigh:	Question:What is the team size needed for a modern enterprise data team supporting circa 1500 people to achieve this?
+00:47:21	Sam Costelloe:	That's THE question. All the teams I have built end up at least 10. 1 engineering manager, 1 product manager. 1 platform, 3 engineers, 2 analysts, 1 ML engineer, 1 data scientist. This gives you a team that can do it all and be a self managing team
+00:48:05	hania:	Do you have a matrix or framework to facilate the decision to go with one or another charge-back model or cost attribution model?
+00:48:24	Simon Nigh:	Reacted to "That's THE question...." with 👍🏻
+00:49:51	Pierre Naggar:	CRM data is particularly bad
+00:49:52	Simon Nigh:	Replying to "Question:What is the..."
+
+Thanks Currently running at about 50% of that
+00:50:12	Sam Costelloe:	Reacted to "CRM data is particul..." with 👆
+00:52:03	TimAbbott:	Replying to "Do you have a matrix..."
+
+We are charging back usage to divisions based on specific use, however we charge a project/agent fee for agents and applications from the AI team to help spread costs when doing something that supports the whole group or multiple divisions. That way we are building an R&D fund for innovation time
+00:52:45	Pierre Naggar:	Reacted to "We are charging back..." with 👍
+00:53:46	hania:	Reacted to "We are charging back..." with 👍
+00:55:33	Sam Costelloe:	Reacted to "Thanks Currently run..." with 👍
+00:59:25	TimAbbott:	Reacted to "CRM data is particul..." with 👍
+01:02:30	Alex M:	sorry, need to drop, have a call with client. super interesting case study. thank you
+01:10:10	Sam Costelloe:	Replying to "Question:What is the..."
+
+It's hard work to build and grow a data team. The route I have found to justify a team has always been showing demand. AI infinitives are massively helping
+01:15:09	Jamal Ellis:	working on it :D
+01:17:05	Wendell La Fortune:	Submission deadline is March 25th??
+01:21:04	Troy Abruzzo:	☠️
+01:21:10	Jamal Ellis:	Reacted to "☠️" with 😂
+01:21:57	Sam Costelloe:	Reacted to "☠️" with 😂
+01:22:48	Jordan Smith - elvtr:	Yes 13th 🙂
+01:23:53	Jamal Ellis:	Time to drop for my next one. Thanks!
+01:24:42	Wendell La Fortune:	Have to drop off now...good night
+01:24:48	Scott Quinn:	always goes down 🤣
+01:25:03	Darren Lewis:	Replying to "always goes down 🤣"
+
+This ^
+01:29:54	Scott Quinn:	News is typically owned by national orgs and not local any more. To get local news, you need something like NextDoor or the Citizen app
+01:30:05	Scott Quinn:	at least in the US
+01:30:08	Gule Sheikh:	Reacted to "at least in the US" with 👍
+01:30:42	hania:	Reacted to "News is typically ow..." with 👍
+01:31:13	Simon Nigh:	If you were on Google - it’s probably clever and rapid marketing -
+01:33:30	Simon Nigh:	Got to drop off  - good session - thanks
+01:33:31	hania:	I must drop off. thanks for today’s lesson.
+01:33:43	Scott Quinn:	I have to drop too. thanks all!
+01:37:18	TimAbbott:	Interesting Stat article here. https://www.forbes.com/sites/rachelwells/2026/03/23/users-quit-chatgpt-for-claude-in-1487-surge-heres-how-work-changes/
+01:52:44	Gule Sheikh:	https://x.com/cryptopunk7213/status/2032826128306470987?s=46

@@ -1,0 +1,9 @@
+Files inaccessible via API — open each URL in your browser to download or copy
+======================================================================
+
+AI Maturity Handout.pdf
+  → https://drive.google.com/file/d/1D0cnkfnzdORJ_Qrm3uxpMEEUS9H6W2Fc/view?usp=drive_web
+
+AI_Capabilities_KPIs.docx.pdf
+  → https://drive.google.com/file/d/1Zbcbou7l5s9Jcoz0WYjIIEPLRdom-JIB/view?usp=drive_web
+

@@ -110,7 +110,7 @@ Respond ONLY with valid JSON (no markdown fences, no preamble):
 }}
 
 TRANSCRIPT:
-{transcript[:12000]}"""
+{transcript}"""
 
     resp = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY).messages.create(
         model="claude-opus-4-6",

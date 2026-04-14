@@ -1,0 +1,104 @@
+00:24:41	Wendell La Fortune:	It also eats strategy for breakfast ):
+00:26:21	Nataliia Snitko:	Reacted to "It also eats strateg..." with 😁
+00:28:00	Wendell La Fortune:	Not  entirely exact. A company in China is definitely much different than a company in Jamaica for ex. So ethnicity/national culture factors does/can indeed play a role.
+00:28:18	Tariq Ali:	Reacted to "Not  entirely exact...." with 👍🏽
+00:31:59	Wendell La Fortune:	Insprational
+00:32:21	Carly Lamb:	High Emotional Intelligence
+00:32:27	sarah:	Creates a safe space - needs to be completely trustworthy
+00:32:39	Wendell La Fortune:	Leads from the front
+00:32:56	Connie Flude:	Listens and offers support and honest reflection
+00:33:13	Ewa:	strong values, looking after his team and unlocking personal growth for others
+00:33:37	Connie Flude:	There’s something about being adaptive
+00:34:07	Wendell La Fortune:	People usually often times stay in jobs because of good leaders
+00:36:44	Wendell La Fortune:	Employee retention churn is very important as well. Research has shown it costs about 3 to 5 times more to replace an employee than to keep them.
+00:37:44	Wendell La Fortune:	So very true Gule
+00:46:58	Sam Costelloe:	Ego strength is a key quality in a good leader
+00:48:57	Connie Flude:	Why would the centre of excellence create a bottleneck?
+00:50:16	Ewa:	Hybrid sounds great. is this the best practice?
+00:50:48	TimAbbott:	Would it not be possible to start with a COE and then go Hybrid.
+00:51:43	TimAbbott:	It settles the governance and processes and then the squads adopt and ramp up delivery
+00:52:38	Abhay Sharma:	Replying to "Hybrid sounds grea..."
+
+Depends on the maturity of the capabilities....in the purely Data Op Models at the start, you can't federate just the governance because maturity within federated teams doesn't exist. Starting with COE has been best, but as maturity improves move to Hybrid. The purely squads model in my experience doesn't work very well because leads to disparate policies, ways of working, etc.
+00:52:39	Tariq Ali:	Replying to "Why would the centre..."
+
+A CoE can create a bottleneck when too much decision-making and delivery sit with one central team. That can slow execution, create long queues, and leave business units waiting instead of building their own capability.
+00:52:58	Pierre Naggar:	Reacted to "It settles the gover..." with 👍
+00:53:31	Tariq Ali:	Reacted to "Depends on the matur..." with 👍🏽
+00:53:33	Ewa:	Reacted to "Depends on the matur..." with 👍
+00:54:00	Tariq Ali:	Replying to "Hybrid sounds great...."
+
+Hybrid is often the strongest model, but not as a blanket best practice. It tends to work best when you need both central governance and business-unit speed, while earlier-stage organizations may benefit more from a CoE first and more mature ones may lean further into squads. The right answer depends on culture, AI maturity, and how much coordination the business can realistically handle.
+00:54:07	Nataliia Snitko:	What about composition of CoE? If this is the same long-tenure leadership doing things in the old way or stalling the progress - risk failing transformation
+00:54:43	Ewa:	Replying to "Hybrid sounds great...."
+
+makes sense, thanks Takiq
+00:54:52	Tariq Ali:	Replying to "Would it not be poss..."
+
+Yes, absolutely. That is often the practical path, start with a CoE to set standards, governance, and early capability, then move toward a hybrid model as adoption grows and business units are ready to take on more ownership.
+00:55:00	Tariq Ali:	Reacted to "makes sense, thanks ..." with 👍🏽
+00:55:03	Abhay Sharma:	I agree, have seen the things adopted like that only....its the question of maturity of organisation - starting with COE ensures controlled innovation and then starts creating squads and then steps back focusing on new capabilities introductions and guard rails
+00:55:21	Tariq Ali:	Reacted to "It settles the gover..." with 👍🏽
+00:55:46	Tariq Ali:	Reacted to "I agree, have seen t..." with 👍🏽
+00:55:59	Tony:	Reacted to "I agree, have seen t..." with 👍🏽
+00:56:34	Pierre Naggar:	Who does the AI/technical team shown in the other slide report into?
+00:57:57	Abhay Sharma:	Replying to "Would it not be po..."
+
+But another key consideration is the geographical breadth of the organisation - If a multi national (especially if different continents) these decisions becomes some what political and cultural alignment - Lastly there are cost implications as well - Like putting some teams in India to reduce data engineering costs might work better
+00:58:03	Tariq Ali:	Replying to "Would it not be poss..."
+
+@Pierre Naggar Usually that team should not sit off on its own. In a hybrid model, the central AI or technical team often reports into a shared enterprise function such as the CAIO, CDO, CTO, or COO structure, while working closely with business-unit teams. The key point is less the exact line on the org chart and more that they have enough authority to set standards, support delivery, and not get buried as just another IT sub-team.
+00:58:09	Rahul Kulkarni:	Do you have an example blueprint of what a CoE would have? The technical execution would still be done by ML engineers etc in isolation ?
+00:58:32	Tariq Ali:	Reacted to "But another key cons..." with 👍🏽
+01:02:16	Tariq Ali:	Replying to "Do you have an examp..."
+
+A CoE should set standards, governance, priorities, and enablement, not own every build. Technical execution works best through cross-functional teams, so ML engineers are not operating in isolation from the business, data, or product side.
+01:02:55	Tariq Ali:	Replying to "What about compositi..."
+
+I believe Gule answered this live, please let me know if you need further clarification.
+01:08:14	Wendell La Fortune:	Sine wave
+01:09:11	Abhay Sharma:	apologies need to drop off early
+01:09:13	Nataliia Snitko:	Replying to "What about compositi..."
+
+I was more about a tyranny of success that creates resistance on leadership layer where CoE needs to unite
+01:12:48	Michael Nourollahi:	Need to drop early for a client call thank you
+01:14:43	Pierre Naggar:	It starts with their teams - if AI is going to impact any of them, expect pushback.
+01:14:45	Connie Flude:	Bottom up listening exercises.
+01:14:55	Sharold Palmer:	Reacted to "Bottom up listening ..." with 👍🏾
+01:15:00	Tariq Ali:	Reacted to "Bottom up listening ..." with 👍🏽
+01:15:02	Nataliia Snitko:	Reacted to "Bottom up listening ..." with 👍🏽
+01:15:41	Sam Costelloe:	https://www.anthropic.com/research/labor-market-impacts
+01:15:46	Sharold Palmer:	Anonymous staff surveys
+01:15:49	Connie Flude:	I also think you need to take employees on the change journey and that starts with transparency but also framing that gives them a stake in the transformation process
+01:16:07	Connie Flude:	e.g. code sign which helps them see the benefits
+01:16:07	Sam Costelloe:	Reacted to "Bottom up listening ..." with 👍
+01:16:21	Tariq Ali:	@Nataliia Snitko to get feedback from quiet resistance requires active listening, and inclusion, recognizing and reaching out to individuals to give them a voice and build trust.
+01:16:30	Tariq Ali:	Reacted to "I also think you nee..." with 👍🏽
+01:16:49	Connie Flude:	Replying to "e.g. code sign which..."
+
+co-design*
+01:16:54	Connie Flude:	Reacted to "@Nataliia Snitko to ..." with 👍
+01:16:56	Tariq Ali:	Replying to "I also think you nee..."
+
+Exactly, transparancy and inclusion.
+01:17:11	Tariq Ali:	Reacted to "e.g. code sign which..." with 👍🏽
+01:17:37	Tariq Ali:	Reacted to "Anonymous staff surv..." with 👍🏽
+01:17:49	Tariq Ali:	Reacted to "It starts with their..." with 👍🏽
+01:18:19	Nataliia Snitko:	Replying to "@Nataliia Snitko to ..."
+
+Thanks, Tariq. It would be easier in smaller than bigger companies, I assume.
+01:18:38	Tariq Ali:	Reacted to "Thanks, Tariq. It wo..." with 👍🏽
+01:20:05	Tariq Ali:	Replying to "@Nataliia Snitko to ..."
+
+Yes, it is usually easier in smaller companies because the relationships are closer and resistance is easier to spot. In larger organizations, you need the same listening and trust-building approach, but it has to be more deliberate and structured across layers, not just handled through informal conversations.
+01:25:07	Tariq Ali:	Replying to "What about compositi..."
+
+@Nataliia Snitko that is a real risk. A CoE can fail if it is led by people whose past success is tied to protecting the old model, because they may unintentionally turn governance into resistance. In that case, the CoE needs a mix of institutional knowledge and change oriented leaders who are focused on adoption, business outcomes, and cross-functional progress, not just control.
+01:26:35	Nataliia Snitko:	Reacted to "@Nataliia Snitko tha..." with 👍
+01:34:58	Tariq Ali:	Some people need to "see it" to believe it.
+01:35:41	Alex:	Reacted to "Some people need to ..." with 👍
+01:44:52	Tariq Ali:	@Ewa after addressing AI fears, if introducing AI still leads to job losses, you will need to maintain the narrative through honesty. If AI adoption does lead to job loss, the message cannot stay at “this is only about freeing people for higher-value work” because people will stop trusting it. The stronger narrative is that AI creates business value, but leadership also has a responsibility to be transparent about workforce impact, support reskilling where possible, and handle change in a way that is fair and credible.
+01:45:02	Safal Mukhia:	Need to drop. Thank you.
+01:46:04	Wendell La Fortune:	Need to drop off now, thanks Gule and Tariq, great presentation as usual, good night.
+01:51:35	Connie Flude:	I think the bit left unanswered is how you gain enough visibility of the current state across a large organisation to be able to understand how you can create a cohesive shared infrastructure to overcome fragmentation. Its how you make enough visible to be able to create understanding to decide on what the core infrastructure can be
+01:53:52	Connie Flude:	I’m going to have to run off! Thank you so much Gule and Tariq

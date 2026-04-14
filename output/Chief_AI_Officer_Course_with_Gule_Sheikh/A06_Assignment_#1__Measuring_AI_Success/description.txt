@@ -1,0 +1,4 @@
+Description: Select an organization that you currently work in, or that is interesting to you. Consider the stated organisational strategy and undertake a SWOT, PESTLE and Porters 5 Forces. Map the organisation’s business objectives with AI capabilities, and define the core KPI’s to measure AI success.
+
+Due date: 2nd March, 11:59 pm GMT
+Grade: 20 points

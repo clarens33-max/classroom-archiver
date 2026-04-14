@@ -1,0 +1,6 @@
+Files inaccessible via API — open each URL in your browser to download or copy
+======================================================================
+
+10_Data Readiness & AI Integration.pdf
+  → https://drive.google.com/file/d/1DwEo0Jm1VPsFBC3SlS8h_NaOyadiIBDe/view?usp=drive_web
+

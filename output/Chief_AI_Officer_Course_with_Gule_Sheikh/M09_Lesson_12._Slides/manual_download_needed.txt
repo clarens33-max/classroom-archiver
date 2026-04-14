@@ -1,0 +1,6 @@
+Files inaccessible via API — open each URL in your browser to download or copy
+======================================================================
+
+12_Managing the AI Lifecycle - MLOps, LLMOps & GenAIOps.pdf
+  → https://drive.google.com/file/d/1Olk5DDnHzYE6Tuyh6-1mVyR3t0iPIjk1/view?usp=drive_web
+
