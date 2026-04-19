@@ -1,6 +1,0 @@
-Description: From assignment 1, pick one of the business objectives and plan for implementation. Consider: 
-
-Buy or Build or Hybrid
-Outline risks, development & operational considerations, and anticipated ROI.
-Due date: 11th March, 11:59 pm GMT
-Grade: 20 points

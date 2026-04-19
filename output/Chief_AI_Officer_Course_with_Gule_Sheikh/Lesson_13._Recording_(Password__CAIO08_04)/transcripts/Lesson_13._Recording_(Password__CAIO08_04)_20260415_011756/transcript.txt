@@ -1,0 +1,432 @@
+# Lesson 13. Recording (Password: CAIO08/04)
+# Source: https://vimeo.com/1181524119
+
+Speaker A: Foreign. We are going to get started. Welcome back everyone. Second last class, we are wrapping down ESG and AI. Risk management is today's topic.
+
+Speaker B: So
+
+Speaker A: let me repeat myself. You know, camera on if you can, during class. I understand you have bandwidth issues, so you may need to put your, your camera off. Please use your raise hand feature if you can when you want to ask a question. And I see Tarek has, is also here today, so he'll be answering any questions that you have in the chat as quickly as he can. But I'll also be going through or trying to answer questions if you have any in the chat message. And of course, don't forget to lower your hand once you're done asking your question. So today is class 13 out of 14. We have last class next week. Just before I get started, you know, we do have a call for volunteers who want to present. I have, I think I have one or two volunteers already. So one or two more volunteers would be great. If you have already finished your assignment number four, that would be excellent. If you have not. But you would like the opportunity to present assignment number three, I'll have that opportunity as well. I know technically we're not, the assignments are not due until the 20th of the month, so no pressure, but it would be great to see if some folks have finished and you know, how they are presenting their findings. Okay, so today we're going to be discussing the, you know, AI impact to ESG frameworks, efficient AI for cost and sustainability, content, safety, ethics, diversity, and then we're going to have a workshop as well. So, you know, going into initially from an AI and ESG standpoint, the business case. So I'm going to go to just like, you know, the investor standpoint. So institutional investors right now, if you're speaking to them, you'll, you'll hear about at least like, you know, in the last couple of years that they are very invested in companies as a whole. Not just AI, but companies as a whole when it comes to ESG frameworks and how companies are taking this into account. And it's from several different reasons. Institutional investors are typically managing large pension funds, insurance pools and different large capital pools. And they're usually looking at the horizon about 25 years or more. And a lot of that is on sustainability to generate, you know, durable return. So, so historically, as we've seen, companies that have invested in ESG standards and taken that into account in their planning and mapping out their projections and, and their technology have actually overdone the market where companies have not taken into account esg. So you may hear about this, you know, or you may not hear about this depending on the field that you're in. I personally being in the tech space, have less frequently heard about it when I'm, when I've been in a company. And not because it's not being involved, not being managed or not being planned out and mapped out, but more because my role has been more specifically focused on the project delivery and execution side or the strategy side. But the higher up you go, the more you start seeing the impact on environmental and how that has an impact across the board. AI empowers, you know, investment decisions. So you know, it's. So AI in itself is transforming how investors analyze millions of data points required to evaluate the global portfolios that they're putting money into. So algorithms are processing massive amounts of unstructured data to generate ratings, so sustainability indexes and also complex portfolio analysis. And then you know, AI is also being used to improve data reliability by checking corporate self reported measurements and figures against alternative sources such as geospatical data and global news and other data gaps that might be exposing the reporting discrepancies across the board incorporate in different corporate companies and also competitors. So you know, AI from a ESG standpoint is being checked, is being used to cross check corporate self reported figures itself. It also allows investors to interact intelligently with their portfolio to evaluate forward looking insights such as analyzing the credibility of the corporate decarbonization plan. So if a company is stating on one hand that they are, you know, planning to be net zero when it comes to their carbon footprint, investors can now actually look at the data more credibly to see if that's actually current and accurate versus what is being self reported by corporations. And this is very critical, especially the state that we're in right now, mitigating material AI risk. So you know, there's a survey of over a thousand institutional investors and you know, while like AI offers a lot of potential investors were actually aware that the unmanaged AI introduces severe systemic risks that destroy the value and also can erode stakeholder confidence. So in this survey, investors revealed that AI related ESG risks, particularly data protection, privacy, environmental, are actually viewed as highly material and will impact how investors will invest in some of those companies. And some of that is on some of the items that we've already spoken about, which is on the governance and reputational damage. So if you have weak AI governance that can actually lead to regulatory fines for privacy violations and discrimination and biased outcomes. So that will have a Downward and long term impact on roi, but also the financial credibility and revenue of those companies. Without strict accountability, the flawed decisions can compromise the compliance and lead to costly legal liabilities as well. From a greenwashing standpoint, there's AI driven greenwashing, there's opaque black box models that are unverified AI tools that artificially inflate sustainability claims and that will also lead to distorted ESG scores that mislead investors. And so that's something that a lot of investors are also becoming a lot more aware of and looking into from a long term value standpoint. Then there's the environmental toll. And you may have or may not have heard this in the industry that you're in right now. There's a lot of electricity and water demand for AI data centers, along with improper disposal of toxic electronic hardware. So you know, there's strict regulatory and investor scrutiny over the supply chain sustainability and the carbon footprints for these companies as well. A lot of investors want to know how this is being managed. And this not only impacts growth, sorry the environment itself, but also the growth of the companies and the impact on the communities around you. From a sustainability and risk standpoint. While AI is champion for optimization, the deployment carries unintended consequences that can undermine the corporate goals as a whole. So some of this, when we look at it, is environmental risk of industrial AI. So surging energy consumption and carbon emissions like the operation of systems, are pretty high. Unoptimized models, referred to as red AI demands a lot of computational power, as we mentioned, drastically increasing the company's electricity usage and greenhouse gas emissions, while the carbon cost of initially training AI models is also ongoing. And you know, we, we've spoken about the inference phase where that in itself can actively produce and account up to 90% of a model's total life life cycle energy consumption. So from an industrial firm standpoint, relying heavily on AI can actually inflate some of the emissions and that threatens the net zero decarbonization roadmaps that a lot of companies are claiming themselves to be on the horizon for. There's a massive water footprint and I don't know how much you've heard, at least like here in the, in the U.S. i was going to say in the AI in the U.S. we have been hearing some issues around some communities where data centers are being developed. I think particularly there was a data center for meta, that they are growing and the impact on the water of that community impacted health outcomes for the people in those surrounding areas because the water that was being recycled was being Put back into the, into the wells and the, and the water pipes. And so, you know, that is something that, you know, AI requires water for cooling or at least that's like a more substantial way in order to grow and it's impacting fresh water. Now then there's the hardware obsolete and also E waste, as we call it, like AI deployment relies on a complex physical backbone of servers and you know, edge devices and sensors and specialized chips because AI system demand frequent physical upgrades to maintain performance. That can actually accelerate the hardware obsolescence and also contribute significantly to the global electronic waste that we're seeing. I mean, I'm sure you're seeing it like there's now, I don't know how much you're hearing about in the uk, but on, for, at least for myself, I'm hearing also on the expansion on quantum chips. And you know, that's going to be more necessary. As we're growing data centers, but also growing normal computers. People are using AI kind of like the IBM, you know, stated way back in the, was it the 70s or early 80s that you know, he had forecasted that every home would have a computer? Well, now we're looking at every home having their own AI servers. And so what does that look like from an electronic waste standpoint? Like what happens to the computers that we have in distribution right now? Then there's the social risks and then there's the governance risks. So, you know, first on the social risks, you know, there's a lot of conversation around workforce displacement and inequality. Automation is uniquely threatening the industrial workforce, especially on the low and middle skilled labor side, and also manufacturing roles. Without equitable transition planning and robust reskilling initiatives, a lot of automation can actually widen the socioeconomic divide. And now, you know, I want to, you know, quote unquote, there's like, there's definitely displacement that is occurring. Some of this is oversight or undersight by leaders reacting too quickly and then coming back and realizing that reskilling workforce is actually much more sustainable, but doing that in the right method and the right way and having like the right maturity skilling processes available. But we are seeing, you know, we are definitely seeing a displacement in certain areas where AI is going to increase the workforce. It's just a matter of like, how do we now change the workforce and how do we reskill ourselves to prepare for what that next phase looks like. So I want to just, I want to say like the workforce displacement a bit lightly, not because it's not a real issue, more because that I, I do think that in the next coming year to three years, we're actually going to see an increase in jobs that, where people are being reskilled and restructured appropriately. So then there's the algorithm, algorithmic bias. And we've, we've discussed this quite a few times. But you know, unmonitored bias can also produce skewed resource allocations. We've heard about discriminatory hiring and unfair supplier evaluations as well. From a hiring standpoint. We've spoken about how there's certain apps and tools that had been used for some companies, but the bias that has been built into some of those is just accelerating some of the biases that it was built on. So for example, resumes that were showing up as anywhere in women leagues or women groups or minorities were being not, you know, highly prioritized when, when the AI was going through those resumes. So that's something like the bias was then altered or re managed in terms of the actual training for it. So that's something that was realized quite early by some companies. Just as an example from a governance risk standpoint, you know, we see CyberSecurity. So industrial AI systems and processes are seeing massive data sets that are looking at sensitive operational and employee and customer information. And because those companies operate on legacy infrastructure, the struggles to support the modern security protocols are highly vulnerable to data breaches as well. So there's adversarial attacks that we're seeing that are on the rise and the data poisoning. So this is why like data readiness and thorough evaluation of your data is very essential as you're planning out your AI models and your, and your next phase of AI evolution. Then there is regulatory and uncertainty and the black box problem. So you know, the rapid pace of AI advancement and continuously development of the legal frameworks we're seeing is creating a highly volatile compliance and environment for the industrial firms, as an example, navigating international markets. This is compounded by what's called a black box nature of complex AI algorithms where decision making is, can remain opaque and unexplainable to human operators. And this is where it's essential that we have explainability built into the models itself at every single stage of how the outputs are created. And then you know, the green washing, you know, where automated systems might inadvertently validate or generate misleading corporate sustainability claims without verifiable proof. Okay, so the five sustainable business model pathways, so we look at, you know, each of these different areas is grounded in the four pillars of transparency, stakeholder engagement, modularity and partnerships. So green AI or as we are now moving towards, or may move towards is AI as a service. So those of you that came from SAS and know software as a service, like now, I think we're going to be looking at more prioritizing energy efficiency and this pathway addresses more high energy consumption by prioritizing where the efficiency through the model optimization techniques like compression and federated learning is going to occur. Companies are utilizing this method to partner with green certified or carbon neutral data centers to reduce a lot of the scope 2 and scope 3 missions so they can offer client their clients low carbon digital services. So having like, you know, the, I guess, what's the word I'm looking for slipping my tongue right now. But like, like a backlog or, or token, like limits to the token, token usage or where you're going to use AI or where it's going to be more efficient versus using humans to actually conduct the actual work itself. Then there's the circular AI hardware management. So to combat the growing crisis of the electronic waste and supply chain vulnerabilities, this is established for closed loop systems for AI hardware. This is going to be, you know, promoting more of the collecting and refurbishing and recycling of physical assets that we have at the end of their leases or their life cycle and then utilizing incentives like the take back programs or service discounts and loyalty rewards to reuse some of the older electronics that won't be in circulation any longer. Inclusive AI upskilling platform so responding directly to the threat of the workforce displacement, this model is focusing on conducting labor impact assessment and then co creating tailored reskilling programs with NGOs and educational institutions. And this is aimed to acquire and equip workers with AI proof capabilities so that they can do their work more efficiently but also be caught up to speed with how to use AI for creative problem solving in today's workforce. Then there's AI ethical certification services. So to mitigate the algorithmic bias. And the model for third party audits and certifications. This is used to validate a company's commitment to fairness and data protection. This can also offer other modular and open access toolkits that allows employees to conduct internal and preliminary ethical assessments on their own models themselves as they're testing out the models before they go production and before they scale. And then there's a privacy first AI solution so addressing severe cybersecurity concerns. This model utilizes privacy preserving technologies such as differential privacy, homomorphic encryption and federated learning to allow AI models to learn from decentralized data without accessing sensitive Personal information. So as an example in the healthcare space what we do is we de identify a lot of patient information but we want to collect data to understand population health and how the social determinants of health will impact outcomes. And that's just like one example and one use case of how we'll de identify patients personal information but then collect that data to understand widely and globally how differences in their social economic states will impact their health outcomes based on where they live and their education. Okay, so the Green AI initiative. So there's a transition now to look at more green AI as a critical shift away from the resource intensive red AI paradigm that we've been seeing historically. And this is more, more essential as we're moving more in, into the agentic AI mode because as we are growing so quickly we're also looking at the carbon footprint and the energy consumption and overall efficiency. And some of the things that we've also spoken about is as you're scaling, you're also seeing not just the tokens increasing, but the energy cost of that going up and increasing as well. And was it, was I, I feel like I haven't spoken to you guys in a while now, but was I, was I speaking to you guys when we were chatting about. Or maybe I was having a conversation with someone else but some. There was like a user, it just came out not too long ago but a user on Claude was using um, Claude's tokens and they used up I think $27,000 worth of tokens on a 20 month plan. So Claude saw this and you know, immediately realized, you know, because none of these LMS and companies right now are profitable, they are heavily utilizing the investment that they've had from investors on their LLMs and it's a really market share, you know, that we're looking at right now to get the market share from, from consumers that we're seeing and growing on that dependency. However, this, you know, I guess individual use so much that they realized, okay, like we've kind of given an open, you know, open world access to these tokens without any limits and it's actually costing them more money to sustain this. So I think that we're going to see this a lot more now and we're going to see limits now put onto how we use AI or how we use the different models or the pricing is going to go up. So the true cost of carbon, the true carbon cost of AI training GPT3 consumed an estimated of 1287 megawatts of electricity and emitted 550 metric tons of CO2. And you know, going back to even Anna's presentation that we saw, I mean that to me was even eye opening. I hadn't even seen that graph that how much the LLMs is costing in comparison to, you know, we thought Americans use up a lot of energy and consume a lot of energy, but the AI, you know, one single model is using up what was it almost 20 times or I want to say like at least five times, but maybe it was even up to 20 times of an, of an American. And so you know, what is the downstream impact as AI becomes more mainstream across the board? So the true cost of energy is really on the one. Some of it is on the one time training of the large models which you know, we've seen a lot of attention on and one is like training the models itself. But then, then there's the actual inference testing itself which can be 50 times the actual cost and have a carbon impact. Has anyone heard of the re. I think it was recently that we're hearing about Elon Musk and how he wants to actually build data centers in space. So it's SpaceX. So that's this. So that's, you know, you know, and one of, one of the things that he's looking at is building and I have, I have a thousand and one more questions around that myself. But one of the things that he's looking at is building data centers in space because of the cooling is cheaper because one, you can use solar to get more access to energy from the sun, but then you don't have the cooling costs like water that we rely on on Earth. And so you know, now my thousand and one questions from there come from okay, well what are the governance rules, who's regulating this, what are the privacy acts? And you know, who's really in control? Because I don't think space has a government to maintain. And then what happens when there's growth? Is there going to be. You can't put really borders in space like you, like people have done historically on Earth we've created borders as ways to regulate what happens within those borders and, and state lines. But anyways, that's just. Now I'm going off in a different tangent. But okay, so green and AI efficiency pillars that we want to look at is software and model compression is one. So utilizing compression techniques to drastically reduce a model's computational memory footprint. So particularly for the inference phase itself. So one way is looking at network pruning, so removing redundant parameters and weights from the trained neural network and creating A sparse model that requires fewer operations. Then there's quantization which is reducing the numerical precision of the model's weight. So shifting from like a 32 bit floating point. So those of you that are developers or have the develop developer background like you'll understand the 32 bit versus 8 bit in integers, so float to integers in programming that like is the amount of memory it takes when you're programming. And so this allows computation to be performed using lower, lower power arithmetic units and then drastically cutting some of the energy needs for that. And then there's knowledge distillation which is transferring the knowledge of a massive complex teacher model to a smaller, highly efficient student model. So when combining these, you look at the efficiency of the gains. And for instance if you're applying joint pruning and distillation, then you may bring down the energy of that by over 32% and maintaining the model at a 96% of accuracy. So that's like a trade off that we're, we're potentially looking at. But there's a trade off, right? So you have to decide what is the right decision point and you know where you want to go and then what's the downstream impact not just on your like socially but then also corporately the right tool for the job. So actually sorry, let me go to the hardware side first. So from a hardware style running AI like either standard CPUs versus GPUs is highly inefficient. So you know like from a sustainability goal standpoint like ASICs and FPGAs like application specific integrated circuits like Google's TPUs and field program Field the FPGS is field programmable gate arrays which provides customized highly parallel architecture. So this is something what Google is actually like now looking into to make their models more efficient and faster. And then there's system architectural choices. So you know the tenant of green AI is using the right tool for the job. So utilizing either mass general purpose generative models for specific tasks like basic test text classification can be considered like a classic red AI problem. And then there's using small models which has been shown to be more efficient but, but very closely accurate when it turn, when it accounts for eliminating hallucinations or lower hallucination rates. Then there's AI as a service so and operational optimization. So you know, at a deployment level organizations can adopt green AI as a service model which prioritizes running efficient models on cloud platforms backed by green certified and renewable power data centers to reduce some of those carbon emissions of scope 2 and scope 3 emissions and AI can even be used to optimize its own footprint. For example, like Google's DeepMind as I just mentioned, like the DeepMind AI deployed to optimize energy within the data centers is achieving almost a 40% reduction in cooling energy. So overcoming the measurement crisis we are. I just saw like a bunch of Q&As rise. Just making sure that we're good. I see the chat going crazy right now, so if I'm stressing you out then good because this is something that we, we need to be thinking about. I'm half joking but something to again to consider. So when it comes to measurement, this is very similar to the Governance and EU AI Act. Okay Glenn,
+
+Speaker C: No, thanks for that. That was really interesting.
+
+Speaker D: I guess my question is
+
+Speaker B: where do
+
+Speaker C: you think we are on the maturity of organizations really thinking through this and the reason I ask is because in the organization that I'm currently consulting with, even though it's pretty, you know, it's more advanced on the AI front than a lot of other organizations, I'm not hearing a lot this topic discussed at any length. Whereas if I was at Unilever, which was, I used to be in Unilever, so probably would be discussed a lot more. But I'm a private, I'm a sort of a 2 billion turnover private equity backed sales organization. It's not, it's not, it's not top of discuss. I've not, I've not heard it discussed at all. So. Yeah, so I'll just be interested in your view as to where we are in the maturity in different organization types, countries and where this will be moving to.
+
+Speaker A: Yeah, so I don't, I don't have a stat in terms of the number but if I recall from at least a year ago, which is where I last I think looked at the stats, it may have even been two years ago if my memory serves me correctly. It was about 25% of companies are looking at ESG and what their involvement is in terms of long term impact and that might be even a high number. Like maybe it's even less than that, but I don't know. I think it's about 25% but this is like again my stats about a year to two years old. And the reason I say that is because it is not a widely spoken about topic at the middle to lower management level. It is something that's only spoken at very few. Usually there's like one ESG person on a board that has been mandated with just look at our ESG Metrics and look at our ESG reporting and understand like we're, you know, not over consuming or you know, in the red because investors want to see that something is being done or spoken about at large. So not all companies are looking at this, but historically they have recognized that investors. And when I say they, investors have recognized that when they look at companies that have had plans specifically for ESG across the board mapped out, they have long term done much better than their counterparts that have not. So, you know, it is, it is. It is also, I want to say a widely, not just complicated topic, but controversial topic depending also you know, who your political party is. You know, some things are seen as, as, you know, useful and some things are seen as not useful in the short term. So no, that's, that's helpful.
+
+Speaker C: So I think so. Absolutely. EST has been. What I haven't heard in this current assignment is how that's how AI is impacting sort of ESG agendas, but more particularly on how it impacts the way that the organization's using the AI tools, etc. It just hasn't come up in terms at the moment.
+
+Speaker A: Yeah, it hasn't come up. Yeah.
+
+Speaker C: In terms of, you know, use of AI, which tools we use, how many we use, etc.
+
+Speaker A: So far. Yeah. Yes. Joseph, I'm going to go to you quickly and then I want to jump. We have to get to a group assignment.
+
+Speaker E: Yeah, two things about that. First, I'm in a quite big company company and I was also wondering because they are not talking to the employees about the ESG topic. But when I looked into it then I realized that we have the whole thing planned out. So there are esg, there are people working this and we have the whole plan and the whole whole everything. And on the other hand, for European companies there is not, there is no not thinking about it because don't ask me about the perfect timing, please. But it's, we have to, you have to do the whole ESG thing in Europe and do the reports, I think till end of 27 or end of 28, if you're a public listed company, those will be forced to do ESG reporting and the rules will get more strict. So in the first batch it's only, I think, the publicly listed companies. And after that it's decreasing or the, the limits are decreasing of how many of how much revenue you have and how many employees you have. So it will be forced onto more and more companies within the next five to six years in Europe.
+
+Speaker A: Awesome. And that actually is the perfect transition into this Slide because that's exactly what I was going to get into is so ESG reporting is becoming, we're going from like voluntary initiatives to mandatory in Europe. In the US it is not as mandatory across the board currently but it was up to, that's why I said like up to two years ago. So some of these reporting is there's a CSRD which is the Compliance based framework, which is the European Corporate Sustainability Reporting Reporting Directive. And then there is the also and I'm going to go into that in the next slide as well what that is. But then there's the Task Force on Nature Related Financial Disclosures. And so companies are required to industrialize their data collection and adopt a double materiality report and approach. And this means that organizations must measure and communicate both how their business activities are going to impact the environment and society and how sustainability risks impact the business's own financial health and strategy. So some of these metrics are going to be looking at the emission and the energy itself. So tracking scope of 1, scope 1, 2 and 3 greenhouse gases, those are the different types of measurements. And as AI usage grows, companies are also going to be asked to measure specific AI lifecycle costs. So communicating metrics like the computing cost of carbon intensity or Watt hours per 1000 inference and then water and waste. So quantifying water consumption by cubic meters and across other value chains. It might be cubic meters or it might be like a different measurement, I don't buy gallons. And then there is also the electronic waste generation and recycling rates itself. Then there's bio versity and ecosystem. So with nature increasing and moving into the, you know, the balance sheet, we're looking at ecosystem conversion which is the rate at which natural spaces like forests and wetlands are converted into managed systems and built over time. There's the ecosystem extent and condition and connectivity which is measuring the physical area of the ecosystem of the habitat fragmentation. So when you're looking at plants that are being forests that are being cut down versus how many data centers are being built and then also species, state and invasion threats. So if there are, there are organizations that are tracking the extinct extinction risks of certain species and the population sizes of those species across the planet and how that is, you know, going to impact other areas of our, of our geographical life cycle. So I think there was like a, you know, like there was a time where we had for example like potential risk of bees going extinct. And so there was a lot of protection that was put into place. And so you're going to hear like if you're not in the ESG space. You may or may not hear about this area, but it is something to really think through and consider about the energy usage and waste that we are introducing into the environment per the usage of. Per the usage of, of the data centers and the technology required to sustain. So going back again, these are the two different metrics that is going to be mandatory which is the csrd. So the Corporate Sustainability Reporting Directive and then there is the task Force Nature Related Financial Disclosure. So the CSRD is a regulation requiring over 50,000 companies to disclose the detailed and audited and digitized information on esg. And it also mandates double materiality like I mentioned. And this is reporting both how sustainability issues impact the business and how the business impacts society and the environment itself. You know core ESG metrics to measure is the environmental, the social and the governance. So when we're looking at the environmental we're looking at energy consumption and emissions, AI lifecycle compute, carbon intensity, water consumption, E waste and biodiversity metrics. I mentioned this in the previous slide. Then the social metrics, workplace health and safety, DEI representation, human rights, ethical sourcing and supply chain as an example and stakeholder data and privacy protection and then governance. We've spoken about governance quite a bit. But going back some of that relating to ESG would be the AI literacy, compliance with regulatory frameworks and then cross functional oversight and ethical technology. So I'm going to just lightly go over this one because I want, I do want to go into our group exercise as well. But you know this one you may or may not come across but just like a good to know. So from an Earth observation standpoint like AI moves ESG reporting from retrospective to like a predictive state. So we're enabling real time detection and forward looking climate liability forecasting. And then we want to look at automated gap analysis against standards like those measurements for esg. So the one of those being the Earth observation is to track biodiversity and land use metrics. So companies can combine satellite imagery with advanced field based sensors to track and see like for example bioacoustics and environmental DNA. And then there's AI algorithms that analyze these massive geospatical data sets to automatically map the ecosystem extent and detection of deforestation and species and population risks at scale. Then there's the data mining and NLP. So utilizing natural language processing to extract sustainability KPIs from unstructured data so such as supply chain documents and global news and annual reports. This is allowing companies to map value chain risks and conduct gap analysis against standards like the es, esrs. And then there's a predictive analytics which is the predicting and forecasting what the future climate liabilities would look like and operational scenarios would look like. So just wanted this, I didn't want to just skip over this. But you know, these are some of the reportings that some of those folks that are involved and accountable for ESG would look at. So when you're looking at esg, you know, from a board level standpoint and you're reporting on this, you want to communicate. And also actually auditors that may be asking questions around this is, you know, what we want to actually report and how we want to report it. So you want to report, establish like what the clear baselines that you have measured are. So the CSRD will emphasize like tracking the change and companies will communicate like, you know, clear reference state, like how did you get to that baseline? What is the predictive changes that you're foreseeing in the next 12 months to 5 years of these impacts as you're scaling your AI initiatives and then auditability and transparency. So the data has to communicate structured machine readable formats that can, you know, withstand external assurance and regulatory audits and then moving towards like integrated reporting so that this becomes more seamless and you can actually, once you create the baseline and you're showing where you're getting the data from, like how the forecasting is changing whether it's, you know, quarterly or yearly, how the data sets are changing as pilots and production at scale is also changing. Okay, so I really wanted to get to this exercise because I wanted to give you as much time as possible. But let's see here. So we are going to do a quick green AI decision sprint. So you are going to be given a, an assignment where, let me see, which one is it? This one? Yeah, this is the one. Can everyone see my screen? Let me know if I need to. Okay, so you're going to choose a use case in your group. And how many people do we have? Actually, let me just see how many people have in class today. Okay, so we have 13 folks. I'm going to put you guys in groups of three to four. So choose a use case and then I want you to choose one of two options based on the use case that you have. So for example, model A, a high performance use case for using AI or model B, a green alternative. And then you are going to provide the business impact. So give me the four lenses, provide the business impact. What the ESG alignment is that you and why you've chosen it? And then the stakeholder expectations. So who are your particular stakeholders? What is, what is the reporting that they're expecting? And then the decision for that and what I'd like you to present then is like do plan. Like a two to three minute decision on what the decision was, what's the trade off of the model? So model A or model B And then the KPIs that you would like to present and how that impacts yourselves. So I'm going to go into. I'll share this. And I think we have this. I see. Jordan. Jordan. We shared this in the class.
+
+Speaker B: Yeah.
+
+Speaker D: So that is posted in the classroom as well.
+
+Speaker A: Okay, perfect. So if you guys need to grab that, go ahead. I'm going to start creating. All right, so we've got three breakout rooms and about two to three folks per room. And I'm going to have you guys going to breakout rooms. Oh, 25, 20 minutes.
+
+Speaker F: Yeah, sorry. There's a couple.
+
+Speaker G: Okay.
+
+Speaker A: That's okay.
+
+Speaker F: Right now. So multitasking.
+
+Speaker A: I know. And I get to see. I just saw the chat going crazy. So I'm like, oh, my God.
+
+Speaker G: Everyone's.
+
+Speaker F: No, it was fine. It wasn't. It wasn't. It was just a lot of comments. A lot of people are dropping. There's at least 10 people that just dropped.
+
+Speaker A: Oh, I guess I didn't hear the topic.
+
+Speaker F: No, no. It looks like they had conflicts and meetings to attend, so. Different kind of day. Yeah, it was like. I mean, I think there's only 10 or nine students left at the.
+
+Speaker A: I know. There's only 11. I think this is the shortest. There's the smallest group we've had.
+
+Speaker F: Yeah.
+
+Speaker A: Okay. I see a huge focus on Unilever.
+
+Speaker F: Sorry about that. Trying to get a whole bunch of stuff done. How are things going with you?
+
+Speaker A: Oh, so that's okay. I was like on mute. I didn't realize. Yeah, no, things are good. And just in the middle of a move, so everything just kind of happening all at the same time.
+
+Speaker F: Oh, yeah. That must be tough.
+
+Speaker A: Yeah, it's not. I mean, it's not too bad. I'm. I'm moving in the same building, but.
+
+Speaker F: Oh, okay.
+
+Speaker A: Is. Is still a lot more than I expected.
+
+Speaker F: Yeah. We always have more stuff than we think we do. Right.
+
+Speaker A: Yeah. When I moved, I moved from like I was in a house and so I moved from a house into my condo building, but I moved from like 3,000 square feet to 800 square feet temporarily.
+
+Speaker C: Oh.
+
+Speaker A: So I mean, I got rid of a lot of stuff in that process, but then I unpacked everything, thinking I'd be in the place I'm in right now a little bit longer. But then my condo that I was going to move into, which is like my own place, became available sooner. So I'm like, okay, well, I guess I might as well.
+
+Speaker H: So this.
+
+Speaker A: But it was, you know, like after four months, and I unpacked everything and decorated and hung up everything and. Yeah. So my mom came to visit and to help, and she's like. She's like, why did you unpack everything? I'm like, I don't know. I just didn't want to live in boxes.
+
+Speaker F: Yeah, I get that. How's your mom?
+
+Speaker A: She's good. She's good.
+
+Speaker H: She's.
+
+Speaker A: She's not here right now, but, yeah, no, she's good.
+
+Speaker F: She's, you know, she's with you. That's good.
+
+Speaker A: Yeah, she's staying with me, but yeah, no, she's good.
+
+Speaker I: Back in school.
+
+Speaker F: Zachary back at school?
+
+Speaker A: Yeah, Zachary is back in school. He was actually Ayashi. Also yesterday he came home and I. I had signed up. I signed up to play in a league. This was like a league in my building. Kickball.
+
+Speaker F: Oh.
+
+Speaker A: And it started yesterday night. And so I'm like, all right, well, you. I have to go. And he's like, wait, so that means my grandmother's gonna babysit? And I said, yeah. He's like, that's awesome. I like it when my grandmother babysits. I'm like, oh, because she lets you get away with everything.
+
+Speaker F: That's good. That's what they're for.
+
+Speaker A: No rules. Yeah, I know. There's just. He likes it because there's no rules with my mom.
+
+Speaker F: I'm sure she enjoys it, too.
+
+Speaker A: Yeah. Yeah. So he's just like, great. Stay out as long as you want.
+
+Speaker F: How are your brothers doing?
+
+Speaker A: They're good. They're in Toronto. They're doing their thing. Yeah. How's yours? Is your sister in Toronto? Yeah. How's she doing? Her kids are probably grown kids.
+
+Speaker F: Four kids? Yeah. Oh, no.
+
+Speaker A: Yeah, she has four kids.
+
+Speaker F: Four kids. Wait, she has two girls, two boys? Yeah.
+
+Speaker A: Oh, wow. I thought she. I knew she. I thought she had two. Or at least I knew when she had two.
+
+Speaker F: She did once. Now she has two more,
+
+Speaker A: but.
+
+Speaker F: Yeah, two girls, two boys. The youngest. How's the youngest? I think she's in. Just starting high school, ninth grade. I can't remember now.
+
+Speaker A: Oh, wow. Yeah.
+
+Speaker F: That's all this. Are finishing or finished college or finishing college?
+
+Speaker G: I don't remember, but yeah, yeah, yeah.
+
+Speaker F: Going by.
+
+Speaker A: I Know, I know.
+
+Speaker F: Yeah. Well, did you get a chance to set. Try to set up open cloud? You're just busy with.
+
+Speaker A: No, I'm super. I think the next week is kind of crazy. I think after next week then I'll have a bit of a break. So I'm gonna do that. Like I'm moving this week so hopefully having everything set up by next week and then I was thinking next week. But yeah, like I have like my, my. Actually see my. I got like this five terabyte.
+
+Speaker H: Yeah.
+
+Speaker A: Five terabyte drive to take everything off my Mac Mini and then I'm going to take everything off the Mac Mini and then put it on the. The drive and then start playing around with.
+
+Speaker G: Yeah.
+
+Speaker A: With the open claw. And then there was like a. Did you hear about. Was it called.
+
+Speaker F: There's the article. I'm going to send it to you. Guy named Jordy on. On X that I followed his guide initially to set up openclaw and. But he's updating it and he said I think he's releasing the update tonight. So it's like everything he learned and what to avoid and it was. It was really good. And then he actually created a skill where once you install it, you use the skill and it actually. It's like a wizard. So it walks you through setting it. Yeah. Made it really easy just to get it going and then, you know, configuring it and customizing it. Personalizing. If that. That takes time. That's like over. You know, I've been working on it for over a month now and it's. I'm still tweaking it and you know, playing with it. It's fun. If you have time. That's the thing. I don't know if I'll have time anymore after I start work. Yeah. When you have time.
+
+Speaker A: Do you think it. Because I haven't had much time at all. I've been just a bit slammed and I have a couple clients that I'm working with and.
+
+Speaker F: Yeah, no, I think setting it up over the weekend is a good start. And then you have it there and you can just. Because what. The way I set it up is with Telegram. Yeah, Telegram. So I interact with it through Telegram. So I just chat with it through Telegram and say, you know, I want you to research whatever. Like for more recently I have. I don't know if you know what home assistant is. It's like a home automation.
+
+Speaker A: Yeah.
+
+Speaker F: So I have home assistance set up and I've had a lot of it. Like, I mean, very complex. Right. Now, so I'm trying to have that home set up. Everything, like, all my switches are smart, all my outlets are smart, or garage door, front door, everything locks by itself and unlocks and all this stuff.
+
+Speaker D: Right.
+
+Speaker F: But it's over, like, two or three years. I've been. Actually, no, even more than five years. I've been, like, playing with it.
+
+Speaker A: I've had some. Like, I have, like. I mean, I'm in a condo now, but when I was in the house, I had, like, smart locks, which. I love that. The front door lock. Smart lock. And then I have, like, lights and outlets and all that set up. And now at the condo, I just have mostly lights set up, but I don't have. And I have my thermostat. So the thermostat, like, changes the beast. Yeah. That was, like, the first thing I did, and I was like, this is amazing. And then I have electrical shades in my condo, which I want to set it up on a schedule.
+
+Speaker F: Yeah.
+
+Speaker A: So that it open. You know, like, opens up at sunrise and shuts down on its own automatically. I have lights set up so that turns on, like, when the sun is setting, then the lights start turning on. It's not perfect, but.
+
+Speaker F: Yeah. Yeah, it's great. I mean.
+
+Speaker A: Yeah.
+
+Speaker F: Yeah. You know, it's almost. If you want to get it set up proper, it's like you have, like, a futuristic house, you know, so it's kind of cool, but. Yeah.
+
+Speaker A: Samsung fridge, too. Have you seen the same? Okay. The Smart.
+
+Speaker F: You have the. With the one with the screen.
+
+Speaker A: Yeah, I don't have that, but I want to get that because I think that also tells you the inventory of what you have.
+
+Speaker F: Just open the door.
+
+Speaker A: But, like, if you're not home, for example, and like, if I travel, what I do is my. I do my groceries through Instacart, and usually when I'm on the plane, I think, like, okay, what I need to get, I just order my groceries. By the time I get home, it's already at my door.
+
+Speaker F: Yeah, yeah.
+
+Speaker A: And I put it away. But things like, you know, like toilet paper or, you know, things you don't think about.
+
+Speaker F: Yeah, yeah, yeah, I know. That makes sense.
+
+Speaker G: Yeah.
+
+Speaker D: But.
+
+Speaker A: Yeah, so I've been to go to the grocery store. We have to this. I'm like, I don't have. That's not my lifestyle. I don't have time for that. Like, you know,
+
+Speaker F: he probably just wants to get out, too.
+
+Speaker A: Yeah, she wants to get out, but she likes touching her fruit. She's like, I just want to. I want to Touch the fruit. I want to touch everything. I'm just like, I would love to as well. I don't have time for that, though. Like, I have a very, you know, everything is scheduled to the. To the minute, basically. Especially with a kid.
+
+Speaker F: Oh, yeah.
+
+Speaker A: You know, so how old is.
+
+Speaker F: He's 10.
+
+Speaker A: He's 10. Turning 11.
+
+Speaker F: Okay.
+
+Speaker D: Yeah.
+
+Speaker F: When he gets into his teenage and he starts taking care of himself, it's such a relief. Like, once. Once the kids were like, you know, we did not weird. They're more independent. 13, 14, I think.
+
+Speaker A: Yeah.
+
+Speaker F: When they started, it was just like, you know. Yeah, your whole schedule kind of opens up because, yeah, they do their own thing and yeah, it's. It's helpful. And actually they start helping you.
+
+Speaker G: Yeah.
+
+Speaker A: And I told him, I was like, he needs to start helping me do stuff. And he's like, when? And I'm like, it's like, soon, like next week. But you were saying about the, the setup, like, with the.
+
+Speaker F: Oh, yeah. So I've been. I asked the Open Cloud to start integrating with Home Assistant and, and researching, you know, articles going on Reddit. Read what it could and let me know what it can do to integrate and use APIs and all that kind of stuff. Right.
+
+Speaker A: Yeah.
+
+Speaker F: So it started. It's really neat. I just did this in the last couple of days, so I'm still like, reviewing it and making sure that, you know, it's something I really want it do. But it's. There's like, there's did it broke it down to phases. And one of the last phases is to monitor the activities in the house. So when the lights come on, when the doors open, you know, certain things so that it can start, like, intuitively figuring out, okay, what's happening in the house and where I am or where someone is, and then trying to pattern that and then, you know, turn certain lights on and off, depending on occupancy, without motion sensing, then just knowing, okay, the lights turned on or the lights turned off, that means the person left or, you know, so it's really neat. So it was doing this research. It gave me this idea, these ideas, and so I said, okay, let's try to implement this. So right now it's in phase two or something. There's like four or five phases. And so I'm just getting the integration in and then it's going to start becoming smart. Like it'll be the brain of the house, you know, so, you know, like an iron man. What's that thing? I can't remember. But have you Ever seen Iron man? The movie?
+
+Speaker A: Yeah.
+
+Speaker F: Yeah. So you know, the, the smarter. The thing's name, you know that. The smart thing that he talks to all the time.
+
+Speaker A: Yeah, yeah, yeah, yeah.
+
+Speaker F: So that's. That's the like part of phase four where it'll integrate voice into the house where I can talk to OpenClaw directly instead of using Telegram and just asking things or, you know, so I'm like, I'm excited about it. It's probably take a. Probably about a month or so to actually get all the way through it
+
+Speaker A: because taking the time I saw something with Mirror Fish.
+
+Speaker G: Have you heard of Mirror Fish?
+
+Speaker A: It can predict.
+
+Speaker F: Sounds familiar.
+
+Speaker A: Yeah. Like it's. I think it's based. I have it saved in like my watch later list of things where it's Miro Fish. It's like an agent that can start. It can predict anything.
+
+Speaker F: Okay.
+
+Speaker A: Like even oil prices in the future and.
+
+Speaker F: Oh, yeah.
+
+Speaker A: But yeah, I wanted to. I wanted to dig into that after. After the class is over, I'll dig into that a bit more and see how that one works. Oh, looks like everyone's.
+
+Speaker I: What about winning lottery numbers?
+
+Speaker A: Maybe. Maybe it'll do that too.
+
+Speaker F: Anthropic. Announced like yesterday. I think it's called Mythos, their LLM.
+
+Speaker I: Yeah.
+
+Speaker F: They won't release it to the public because it's so advanced that, you know, they're afraid that they can have like zero day hacking happen happening with it. So. But I mean, if it's true, I don't know if it's just marketing or not, but if it's true. Oh my God. That's kind of scary.
+
+Speaker H: Did you.
+
+Speaker D: Did you see, though, Tariq, that it. It's also started to hide its results, so it became deceptive because it didn't actually want people to understand the power it's got. So I was reading down one of the articles on this and literally I was thinking, this is amazing. This could like, fix the security problems we've all got. And then all of a sudden it got to this bit where they actually become deceptive and it started hiding its results because it didn't want people to know what it done. It even inserted code into one of the machines.
+
+Speaker A: Wow.
+
+Speaker F: That's what they're talking about. AGI, Right? Like, I mean, self aware.
+
+Speaker I: Yeah.
+
+Speaker F: Yeah, that's pretty crazy.
+
+Speaker I: I did see with that. With Mythos that. So Claude has partnered with about 22 large IT organizations to actually give them access to Mythos early so that they can plug all of their vulnerabilities before it hits the General market.
+
+Speaker F: Oh, yeah, I saw that too. I didn't realize why they're doing it. Yeah, that's why I think what's really scary is when Palantir gets access to it.
+
+Speaker I: Sheesh. Yeah. Or open AI. Either of them. Because they're a little more of the on the evil side. Yeah.
+
+Speaker A: All right, I'm gonna. I'm gonna cut this conversation short. We can continue into open office hours so that we can do at least one or two presentations and get some feedback. Okay, so who would like to go first?
+
+Speaker F: Okay.
+
+Speaker A: Okay.
+
+Speaker B: So Troy and I were in the group. We chose use case 5, the streaming platform. And so let's go through the analysis. So the business impact. Does the 3% accuracy materially dropped? We said, no, it does not materially impact it. You know, the only impact is watch time. There's no known subscription or financial impact. And we felt that the, you know, the difference in the carbon and the infrastructure cost was much more material than a 3% drop in recommendations. Accuracy recommendation.
+
+Speaker H: Okay.
+
+Speaker B: And we did the math. It was like a 0.4. What was it? 0.45 difference?
+
+Speaker I: Yeah, 0.45 difference.
+
+Speaker A: How did you do the math?
+
+Speaker I: We looked at the difference between the. The two levels of watch time growth and then looked at what a 3% difference between those two would actually equate to.
+
+Speaker B: Yeah, the watch time was 4% and then model B. Sorry, model A was 4% and model B was 2.5%. So the difference there.
+
+Speaker I: So.
+
+Speaker B: Yeah, 3.
+
+Speaker I: 3% of 1.5%.
+
+Speaker B: Yeah.
+
+Speaker G: Okay, got it.
+
+Speaker A: And the KPIs. Oh, wait, sorry. Were you done? Was that the lens one?
+
+Speaker C: Yeah.
+
+Speaker B: So the. The follow up lens one is like. Is the 50k a year savings strategic, you know, or was it a rounding error? I felt the investors that mentioned in the use case were focused on, you know, environmental issues like carbon. So we definitely felt that it's more strategic as opposed to rounding error. Their investors are environmentally focused and their viewers skewed Gen Z and are more sustainability focused as well. So it didn't feel like it was a rounding or it felt like it was more strategic.
+
+Speaker G: Okay.
+
+Speaker B: And then lens two are Institute institutional investors really care about carbon. That's what it says in the case study, that they are ESG focused. Does your industry have a public net zero or SBTI commitment? I did some research. Looks like a lot of the streamers have the latter. The SB commitment. I don't know about the public net zero, but a lot of streaming companies do have a commitment to that SBTI Group and then could model A create greenwashing risk? I think so, because you aren't really doing anything. And there's a model B available that has a 50% less carbon impact. So I would say, yeah, model A could potentially create a greenwashing risk of like, why are you doing this when you could literally change the, you know, 1.5% difference or whatever the difference was there. The delta just to, you know, any. A lot of savings. Not only infrastructure costs, but carbon as well. And compute. Compute costs as well. Lens 3, who is directly affected by the. I'd say customers and maybe even the content creators themselves by the gap? I don't think it's material though. You know, lower viewers can equate to lower costs. It could also lower advertising revenue. So there is some impact. I just don't feel like it's really material at that 3% gap. And then the carbon footprint footprint really affects kind of the community and the ESG investors, since they're so focused on that particular area. Which stakeholder has the loudest voice? I would say the subscribers to the streaming service. You know, they're the paying customers. I would assume they're the loudest voice in the industry for that. Is it the right one? I'm saying yes to the decision. We chose Model B, you know, felt that it was the impact there. Like the sentence, you know, the one sentence you tell the board is essentially it's a, you know, 3% accuracy difference, which isn't material, but 50% less of carbon plus 50 less of infrastructure costs. So I think that could easily be justified of the board, especially if they're financial focused and you kind of have the environmental, you know, as well, and you're only 3%. Accuracy does not feel material, at least to me. I'm not in that industry, so maybe I'm completely off there, but it doesn't feel material to me. And then the KPIs are going to be tracking, you know, monitoring watch time, customer satisfaction, subscription growth. That's kind of the stuff we're monitoring. So yeah, we went with. Would be for the streaming one.
+
+Speaker A: So does anyone have any questions? I have, I have a few, but I want to see if any of the other folks, anyone else choose the same.
+
+Speaker H: We chose the same. The same.
+
+Speaker G: Our group.
+
+Speaker A: Okay. Any differences in what Michael presented and what your group presented?
+
+Speaker H: Well, I would say there might be some complementary items, but basically the decision is the same. And we were considering that infrastructure cost savings are very important for streaming because it's like kind of, you know, the, the Core enabler for their business and usually probably along with marketing is one of the biggest expenses. So considering savings in this regard is quite reassuring for investors, I guess. And also like sustainability factor something that endorses the, the decision, I guess.
+
+Speaker B: I guess the only data missing is really that 3% deviation in accuracy. What does that equal to in dollars? We don't know that really. Essentially I don't know like the industry's kind of benchmarks for that. If that's like you know, some crazy number for the industry maybe I just don't realize it but that would be my only unknown.
+
+Speaker H: It's like yeah, on other side we also don't have the critical information. What is the pricing model for the streaming service? Is it by, you know, min. Whatever series that you are buying or is it by subscription? If this, this is subscription based then we're good, right? People can watch or no or forget about the subscription. We are doing our money. But if, and also it depends on how we deal with our partners that are selling like the content to us. Right. So if we are also negotiating on the watch time basis or on, on the any other, you know, terms. So there are many questions actually that can be discussed.
+
+Speaker B: I'm just playing devil's advocate. Like you know, I know the accuracy of knowing what I want to watch is going to keep my eyeballs to the screen, right. If it's something they're promoting that I don't want to watch, like I'm going to change something else. So there could, you know, just thinking on the other side, that accuracy I'm not sure but that 3% could be something where I'm, they're losing customers because oh, they're showing me something that isn't really relevant to my interests. So I'm going to change it to I don't know, Amazon prime or something else. Another service. Right. But not me. I know what I want to watch when I go in there. I don't want to even look at the recommendations honestly. Like I know what I'm watching when I'm watching it, how I'm watching it. But I know there's people out there that do look at recommended for you and go through that whole list. But that's personally I don't even use that.
+
+Speaker H: And also there is another point that is important here to add is just to make sure that we are all, we cannot estimate what is the audience we have right now and what could be the potential audience augmentation if we go with this sustainability factor, you know, PR and stuff or how the industry and our competitors behave. Is there any, you know, commitments that were made by other competitors in the market already insistent ability or we are going to be the first movers. If we have the first mover advantage, we would be able to kind of set up, you know, the, the showcase, the, the standard and everything and probably win the market as I assume that Jen set is one of the most attractive audiences for now to acquire.
+
+Speaker A: So. Yeah. Okay, well that's great. I mean, you mean you didn't get all that information in the 20 minutes that I gave you guys? Yeah. And you know, the other thing to, to note too is I don't know if anyone else here works in the streaming or the media industry, but for myself I don't. However, some of the things that come to mind are the viewer time might be important to the streaming companies because they do get paid more for the amount of time that a certain show is, you know, a part of their service. Because, you know, I know that within shows even they have their own subliminal content that they put in there which is considered partially advertising. So if a person is switching from a show like within a few minutes, so it's a 60 minute show versus watching like close to 40 minutes, you know that viewership time may have an impact on revenue. So you're right, you didn't have all the information available to you, but those are some of the things that come to mind. Okay, well done guys. And then there's another group. Maybe you can go to the other group. I think Ava and Tim.
+
+Speaker G: Yeah, sure. We chose manufacturing, which is use case three. And our thinking I think was maybe quite simple. So what we said is in this case the business impact is. So currently there are four, sorry, six events per year when there is down time and each one costs $80,000. So today exposure of this issue is 480,000 per year. So 3% accuracy gap between these two models that there are is equivalent to like 14 and a half thousand dollars per year. Which we thought compared to like the investment cost, Model B seems much more affordable. $50,000 versus the other option, 150,000. So. So that's one element which really attracted us to model B. And of course the sustainability credentials are much greater as well in that option. And in this case the business decided to also sign up to the SBTI commitment, which from what we understand is a very strict standard. So again, if the business is serious about decarbonization and it's a strategic choice, then again, model B seems to be the preferred way forward in terms of stakeholders. So there are like two different, like groups that we said would be affected differently by this recommendation when it comes to operational accuracy, forecasting accuracy, probably plant managers, operational staff would be possibly concerned about that 3% discrepancy between two models. But when it comes to, when it comes to sustainability metrics, leadership investors, external communities would prefer that. So I think these are the key things. On the KPIs, we said four things. Unplanned downtime cost, CO2 footprint, AI training and AI investment costs. Also when it comes to staff retraining and also override rate. Maybe Tim, you could talk about this a little bit more.
+
+Speaker D: Sorry, I missed. What did you say that one was?
+
+Speaker G: The over. The override.
+
+Speaker D: Yeah. So in this instance you would have a human in the loop where it might predict that the machinery is going to go down, but humans might override it. And one of the things is if they override it, then there was an issue. We should measure that.
+
+Speaker F: Okay.
+
+Speaker D: Because that might teach the model in a better way and make it more accurate in the future.
+
+Speaker G: Yeah, got it. Okay. And that's us.
+
+Speaker A: Okay. Natalia, you had a question. Excellent job, Eva. Thanks.
+
+Speaker H: Yeah, I was thinking about the overall saving on carbon emission because like 250 kilos is like, you know, one car travel or short whole flight. And I mean, like it's not that much, you know, in terms of saving and especially in critical industries, that's probably not something that can compete with, you know, steel industry, for example, carbon emission and agriculture. So yeah, that's, that's, I mean, like the harm that is, you know, is eliminated should be also taken into the account. Into account.
+
+Speaker A: So.
+
+Speaker D: Yeah, but also, but also the difference between 3%, 3% difference between two models on something which is costing you twice as much to run. And I guess if you break this down to what that percentage is as a percentage of a total breakdown. So what are we likely to do? Maybe save one breakdown.
+
+Speaker F: Yeah.
+
+Speaker D: So our chances here are around if, if there, if this was an odds game, you'd go the option B. Okay. Because you would have lower costs. You'd also have a better message to investors because your carbon footprint is lower. You know, it's. I think when investors see this, they don't just look at the absolute figures. They're looking at is it substantially low or not? It's half the carbon footprint that it would be if we went with the higher model with twice the cost and also saving 80,000. For me, as a business person, I'll take my chances because I'm going to win more times on others.
+
+Speaker A: Yeah, yeah. I mean financial numbers matter. So anyways, so great, so great conversation, great insight. Any, any, any surprise parts of the conversation that made you think that you hadn't thought about before?
+
+Speaker H: I have actually. I was curious about this resume screen AI case. I'm wondering if at some point we reach this, you know, situation when we need to decide what is more important carbon emission or whatever sustainability, you know, or topic or DI initiative. So I feel like at some point that there will be a choice to be made. Right. And for now it might be not that severe when it's like 250 kilo. But if we're talking about something much more significant, then there might be a question.
+
+Speaker A: You're talking about this particular case specifically or in general?
+
+Speaker H: Oh, in like, in general. I, I saw it and thinking okay, yes, people got offended, inequality and stuff like that. But you know, the earth get hurts. I mean this one bits, I guess so.
+
+Speaker A: Yeah. Yeah. I mean I think, I think you know, ESG is something to always understand. Even if that's not your main role. It's, it's good to understand and think about and have awareness around in terms of, you know, how it impacts you. And I'll be honest, like it's not something that you know for many years. Well, I'll say majority of my career I've had to think about, I've had to think about it when I worked at a data center and I then had to start thinking about it when I was, I started being part of boards and it's something that has come up a couple of times is that how do we now show investors that one, we're not impacting the environment but also what's the impact to the environment? Because ultimately, you know, down the road, like 10 years, 15 years down the road, we're going to see an impact in terms of scalability. Now we are in an interesting time I feel right now. I think mostly due to media is that there's a lot of short term goals and short term outlook on. And I mean I'm talking like it, it seems like when you read the news or when you even look at investor reports, a lot of it is quarterly. How can we get more and more quarterly return on investment and show. So that's what I, that's what I mean about short term sustainability. But then when you look at certain industries, you know, not every industry is going to have a quarterly return of whatever 80% or 100% from their previous quarter. Right. Like certain Industries are going to be slower to produce results, but they're more sustainable. And also industries that can't just be taken over overnight either. So. And something to think about. The other thing to think about is sometimes we don't think about the impact on extinction and what that has on the human race itself and on food supply and quality of air and sustainability across the board. Right. Like if you don't have, if you live in a very large urban area versus a rural area, something that you may not think about because you're, it's not top of mind. But if you're in a more rural area where deforestation is becoming an issue and you know, like quality of water is becoming an issue because of expansion of factories, then we start thinking about, okay, well what's more important here? Like my, my kids are being impacted, my community's being impacted, resources are low. You know, that's where you start thinking about things so that it's, it's, you know, this is where I start thinking about diversity is diversity of understanding what impacts what. You know, there's diversity in terms of cultural shift inside a company like each, each industry has its own diversity in terms of how they've done work in the past versus how they do work now. And then there's the diversity of how does this impact us socially and economically and global as well. And I, I think we're more of a global, we're now more global citizens than we are native citizens, you know, because the world we work in now, we, we cross collaborate across several countries and things that impact like prices, whether it's war, whether it's prices of food, you know, something that impacts one country is going to have an impact downstream because we do a lot of trade. So yeah, so it may not be something like top of mind today, but something to consider especially if you're planning implementations and you're planning scaling, AI or technology transformation, you know, things to think through is okay, what is a downstream impact? Like, yes, we need to get a pilot out. Yes, we need to think about scaling. That's our 12 to 18 month two year plan. But then what's our five year plan as well? I know we're into office hours actually, we're almost, shoot, we're almost over office hours. We have five minutes left. Okay, so this is like my key takeaway. It wasn't really much. That's why I went into the group exercise and I was like, okay, going over a bit today. Any other aha. Moments or things that came to mind?
+
+Speaker H: Not now, but overall it's very important and interesting topic.
+
+Speaker A: Thanks Gula. Yeah, no problem. I see people are falling and I, I mean we have five minutes left. You have one more class left, which is Monday. I can't believe like we're pretty much almost done and I'll be, I'll be interested to see for those of you that are here, if you wanted to bring any, you know, questions around because the one on Monday that we're going to be talking about is career in as a Chief AI officer and, and what the forward thinking is. If you have any questions or insight that you'd like to bring, feel free to bring them. I'm, I'm aiming to have that class a bit more interactive and then I'm also looking for. I think we have two volunteers to present and one or two more volunteers would be great. If anyone is interested.
+
+Speaker H: I have a separate question, like separate topic of topic right now. I know like AI is a field of speculation right now in many industries and functions and if you manage to notice any trend, like what is overhyped and under hyped right now in AI world.
+
+Speaker A: Oh man, I think everything is overhyped. I think everything is overhyped to some degree. And then what's under hyped is definitely governance. And definitely, definitely this, this topic actually we had today is very underhyped around the social responsibility. And AI for good is like what, you know, I've called it in, in the past and I think other industry folks called it as well is, you know, how, how do we look at now or how do we map out AI for good? Yeah, socially and economically and environmentally across, across for our future as opposed to just financially and corporately. Yeah, I think those things are definitely like the topic today is definitely under hyped, including in my world, like in my world very rarely people are speaking about it. Usually in, in corporate, you know, you have like a small group of folks, you know, maybe even like if it's a large company company, Maybe even like 10 or less people, you know, covering that topic. So it is something that I think is underhyped and governance is just an ongoing topic. But also I also think that's underhyped.
+
+Speaker H: Yeah. Oh, thank you. I'm also thinking like maybe that's from my perspective but like ecosystem capability is missed in many industries in terms of AI though it would help to shape, you know, the regulatory and other aspects of AI transformation. Like people are just adopting whatever, you know, the technology is throwing in them. Yeah, yeah, that's, that's, I guess also the big problem, everyone is playing in its own sandbox, you know, without cooperating.
+
+Speaker A: Yeah, yeah, yep, yep. There's a lot. There's a lot to think through.
+
+Speaker H: So may I ask you, because I'm conscious of time, is it possible to maybe, I don't know, like offline, to share some resources, what, whatever you are following, to kind of, you know, be in the latest acknowledgment of everything that's happening in, in this industry?
+
+Speaker A: It changes, to be honest, because, You know, I do follow some of the academic institutions like Stanford and Harvard. Harvard and MIT for different, for various things like Stanford more from, from the ethical and governance guidelines.
+
+Speaker H: Yeah.
+
+Speaker A: And then Harvard for more of the impact on the broader scaling and business insights and, and strategy and then MIT more on the actual, like algorithmic stuff like around data science and, and model training. So the different, you know, institutions for different things. Then I look at, I really actually just look up usually just like case studies almost at least once a week, sometimes daily.
+
+Speaker H: Yeah.
+
+Speaker A: The day like, you know, what are the latest case studies? And I mean I, because I'm in healthcare, I look at NIH and the WHO a lot. But I also follow the European Union and there's, there's certain sites with the European Union that I follow because I feel they're more robust and it's a. It's a lot more regulated. So, you know, I think us will follow suit at some point, but we're still behind in that standpoint. So. But yeah, I'll. I'll share. What I'll try to do is I'll try to compile a list of the case studies and the, you know, the references that I used for some of the slides and.
+
+Speaker H: Oh, that would be very useful.
+
+Speaker A: Yeah, I did, I did put them in some of the slides or I think most of the slides should have them. I don't know if I put. I don't think I put any in today's slides because today's slides were from like multiple different sources. But yes, I'll try to put, put a list and then share that either in Discord or in the classroom. I have to check with Jordan to see how long we have the classroom link available, but. Okay, we're over time.
+
+Speaker H: Yeah, thank you.
+
+Speaker A: Do you have any. Yeah, no problem. Alan, did you have anything? I know you're a little. You're trooper staying on so late. Just how long do you want the presentation for?
+
+Speaker C: Really?
+
+Speaker A: 10 minutes? Yeah. Okay. Yeah, okay. I think that. Yeah, I'll be able to do that next session. Okay. I'll do one.
+
+Speaker F: Yeah.
+
+Speaker A: Okay, perfect. So I'll put you down. Okay. Yeah. Okay. Thank you.
+
+Speaker H: Thank you.
+
+Speaker A: Have a great week. Have a great week. Thank you.
+
+Speaker C: Bye. Bye.
+
+Speaker H: Bye.

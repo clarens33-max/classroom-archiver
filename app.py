@@ -45,6 +45,7 @@ COURSE_CONFIGS = {
         "exercises_repo": None,
         "notebooklm_url": "https://notebooklm.google.com/notebook/adfecd54-ec5b-4549-bd05-fddb6195db1c",
         "assignment_to_lesson": {1: 2, 2: 4, 3: 8, 4: 10},
+        "lesson_subtitles": {13: "13 AI and ESG Frameworks", 14: "14 CAIO Role and Course Wrap Up"},
         "color": "#7c3aed",
         "icon": "bi-person-badge",
         "description": "Strategic AI leadership programme for executives driving AI transformation across organisations.",
@@ -466,6 +467,11 @@ def build_data(course_dir, config):
                 lessons[lesson_num]["number"] = lesson_num
                 lessons[lesson_num]["resource_files"].append(file_entry)
             continue
+
+    # Apply manual subtitle overrides (for lessons whose slides weren't downloadable)
+    for num, sub in config.get("lesson_subtitles", {}).items():
+        if not lessons[num]["subtitle"]:
+            lessons[num]["subtitle"] = sub
 
     # Sort and label
     sorted_lessons = sorted(

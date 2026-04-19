@@ -1,6 +1,0 @@
-Description: Develop a comprehensive AI Adoption Plan that bridges the gap between high-level business strategy and technical execution. You can choose between an Executive Slide Deck for boardroom persuasion or a Strategic White Paper for deep-dive governance, ensuring your proposal addresses ethical risk, scalability, and measurable ROI.
-
-Select either the Google Slides template for an Executive Deck or the Google Docs template for a Strategic White Paper. Only one format is required for submission; choose the medium that best aligns with your proposed communication strategy.  
-
-Due date: 20th April, 11:59 pm BST
-Grade: 40 points
