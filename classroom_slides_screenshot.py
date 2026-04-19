@@ -69,6 +69,8 @@ CAIO_SLIDES = [
     {"folder": "M08_Lesson_10._Slides",       "file_id": "1DwEo0Jm1VPsFBC3SlS8h_NaOyadiIBDe", "name": "10 Data Readiness and AI Integration"},
     {"folder": "M05_Lesson_11._Slides",       "file_id": "1vtrXNqFE_2z5cdubz6jqO047fVx6icYa", "name": "11 AI Procurement and Partner Ecosystem Strategy"},
     {"folder": "M02_Lesson_12._Slides",       "file_id": "1Olk5DDnHzYE6Tuyh6-1mVyR3t0iPIjk1", "name": "12 Managing the AI Lifecycle MLOps LLMOps and GenAIOps"},
+    {"folder": "M05_Lesson_13._Slides",       "file_id": "13YTzcHF0zbfgDeXyi7IdlZmJQkbeSJCz", "name": "13 ESG and AI Risk Management"},
+    {"folder": "M02_Lesson_14._Slides",       "file_id": "1DKAyIb6N8rNAdKawtOr6Wp4U7YP1Skyu", "name": "14 Navigating the CAIO Career Path"},
 ]
 
 # ── HELPERS ───────────────────────────────────────────────────────────────────
