@@ -328,16 +328,9 @@ def main():
 
         print("✅ Logged in. Starting capture…\n")
 
-        print("── AI Solutions Architecture slides ──────────")
-        for deck in SLIDES:
-            folder  = AISA_DIR / deck["folder"]
-            name    = deck["name"]
-            file_id = deck["file_id"]
-            print(f"\n📊 {name}")
-            try:
-                screenshot_deck(page, file_id, folder, name, pause_for_zoom=True)
-            except Exception as e:
-                print(f"  ❌ Failed: {e}")
+        # AISA course is no longer accessible — skip
+        # print("── AI Solutions Architecture slides ──────────")
+        # for deck in SLIDES: ...
 
         print("\n── Chief AI Officer slides ───────────────────")
         for deck in CAIO_SLIDES:
@@ -350,16 +343,9 @@ def main():
             except Exception as e:
                 print(f"  ❌ Failed: {e}")
 
-        print("\n── Assignment Google Docs ────────────────────")
-        for doc in ASSIGNMENT_DOCS:
-            folder  = AISA_DIR / doc["folder"]
-            name    = doc["name"]
-            file_id = doc["file_id"]
-            print(f"\n📝 {name}")
-            try:
-                save_doc_as_pdf(page, file_id, folder, name)
-            except Exception as e:
-                print(f"  ❌ Failed: {e}")
+        # AISA assignment docs are no longer accessible — skip
+        # print("\n── Assignment Google Docs ────────────────────")
+        # for doc in ASSIGNMENT_DOCS: ...
 
         ctx.close()
 
